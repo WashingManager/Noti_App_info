@@ -1,7 +1,7 @@
 {
   "name": "earthquake-data-updater",
   "version": "1.0.0",
-  "type": "module", // ES 모듈 사용 설정
+  "type": "module",
   "scripts": {
     "start": "node update-earthquake-data.js"
   },
