@@ -1,0 +1,25 @@
+name: Update Earthquake Data
+on:
+  schedule:
+    - cron: '*/10 * * * *' # 10분마다 (UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - run: npm install
+      - run: npm install cheerio node-fetch puppeteer # 필요한 경우 puppeteer 추가
+      - run: node update-earthquake-data.js
+      - run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add earthquake-data.json
+          git diff --staged --quiet || (git commit -m "Update earthquake-data.json" && git push)
