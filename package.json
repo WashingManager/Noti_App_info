@@ -1,9 +1,10 @@
 {
-  "name": "earthquake-data-updater",
+  "name": "data-updater",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node update-earthquake-data.js"
+    "update-earthquake": "node update-earthquake-data.js",
+    "update-indices": "node update-indices-data.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
