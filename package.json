@@ -1,10 +1,13 @@
 {
+  "name": "earthquake-data-updater",
+  "version": "1.0.0",
+  "type": "module", // ES 모듈 사용 설정
+  "scripts": {
+    "start": "node update-earthquake-data.js"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "node-fetch": "^3.3.2",
     "puppeteer": "^22.0.0"
-  },
-  "scripts": {
-    "start": "node update-earthquake-data.js"
   }
 }
