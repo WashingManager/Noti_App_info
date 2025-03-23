@@ -1,7 +1,7 @@
-import fetch from 'node-fetch';
 import { writeFileSync } from 'fs';
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
+const puppeteer = require('puppeteer');
 const cheerio = require('cheerio');
 
 async function updateEarthquakeData() {
