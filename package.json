@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "update-earthquake": "node update-earthquake-data.js",
-    "update-indices": "node update-indices-data.js"
+    "update-indices": "node update-indices-data.js",
+    "update-air-quality": "node update-air-quality-data.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
