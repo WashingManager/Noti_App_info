@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: List files for debugging
+        run: ls -la
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -18,6 +20,12 @@ jobs:
         run: npm install
       - name: Run update script
         run: npm run update-aws
+      - name: Upload debug file if exists
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: debug-html
+          path: debug.html
       - name: Commit changes
         run: |
           git config --local user.email "action@github.com"
