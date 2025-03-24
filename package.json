@@ -6,7 +6,7 @@
     "update-earthquake": "node update-earthquake-data.js",
     "update-indices": "node update-indices-data.js",
     "update-air-quality": "node update-air-quality-data.js",
-    "update-korea-air-quality": "node update-korea-air-quality-data.js",
+    "update-korea-air-quality": "node update-korea-air-quality-data.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
