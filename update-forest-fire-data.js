@@ -2,7 +2,10 @@ import puppeteer from 'puppeteer';
 import { writeFileSync } from 'fs';
 
 async function updateForestFireData() {
-  const browser = await puppeteer.launch({ headless: true });
+  const browser = await puppeteer.launch({
+    headless: true,
+    args: ['--no-sandbox', '--disable-setuid-sandbox'] // 이 부분 추가
+  });
   const page = await browser.newPage();
 
   try {
