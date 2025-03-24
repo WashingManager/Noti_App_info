@@ -31,11 +31,12 @@ async function updateForestFireData() {
       };
     });
 
-    // 2. 발생 정보 (sub1.do, 3페이지) + URL 추출
+    // 2. 발생 정보 (sub1.do, 최대 3페이지)
     await page.goto('https://fd.forest.go.kr/ffas/pubConn/movePage/sub1.do', { waitUntil: 'networkidle2' });
-    await delay(2000); // 페이지 로딩 대기
+    await delay(3000); // 페이지 로딩 대기 증가
     const fireList = [];
     for (let i = 1; i <= 3; i++) {
+      console.log(`Processing fire list page ${i}`);
       const pageData = await page.evaluate(() => {
         return Array.from(document.querySelectorAll('#fireListWrap tbody tr')).map(row => ({
           startTime: row.cells[0]?.textContent || '',
@@ -43,36 +44,48 @@ async function updateForestFireData() {
           location: row.cells[2]?.textContent || '',
           status: row.cells[3]?.textContent || '',
           level: row.cells[4]?.textContent || '',
-          hasButton: !!row.querySelector('button.img') // 버튼 존재 여부 확인
+          hasButton: !!row.querySelector('button.img')
         }));
       });
 
-      // 각 행의 버튼 클릭 후 URL 추출
+      // URL 추출
       for (let j = 0; j < pageData.length; j++) {
         if (pageData[j].hasButton) {
+          console.log(`Extracting URL for fire list row ${j + 1} on page ${i}`);
           await page.click(`#fireListWrap tbody tr:nth-child(${j + 1}) button.img`);
-          await delay(2000); // 상세 페이지 로딩 대기
-          pageData[j].detailUrl = page.url(); // 이동된 URL 저장
-          await page.goBack(); // 이전 페이지로 돌아감
-          await delay(2000);
+          await delay(3000);
+          pageData[j].detailUrl = page.url();
+          await page.goBack();
+          await delay(3000);
         } else {
-          pageData[j].detailUrl = '-'; // 버튼이 없는 경우
+          pageData[j].detailUrl = '-';
         }
-        delete pageData[j].hasButton; // 임시 속성 제거
+        delete pageData[j].hasButton;
       }
 
       fireList.push(...pageData);
+
+      // 다음 페이지 버튼 확인 후 클릭
       if (i < 3) {
-        await page.click(`.paging a[alt="${i + 1}페이지"]`);
-        await delay(2000); // 페이지 로딩 대기
+        const nextPageSelector = `.paging a[alt="${i + 1}페이지"]`;
+        const nextPageExists = await page.$(nextPageSelector) !== null;
+        if (nextPageExists) {
+          console.log(`Navigating to fire list page ${i + 1}`);
+          await page.click(nextPageSelector);
+          await delay(3000);
+        } else {
+          console.log(`No more pages found after page ${i}`);
+          break; // 다음 페이지가 없으면 루프 종료
+        }
       }
     }
 
-    // 3. 자원 투입 내역 (sub2.do, 3페이지) + URL 추출
+    // 3. 자원 투입 내역 (sub2.do, 최대 3페이지)
     await page.goto('https://fd.forest.go.kr/ffas/pubConn/movePage/sub2.do', { waitUntil: 'networkidle2' });
-    await delay(2000);
+    await delay(3000);
     const resourceList = [];
     for (let i = 1; i <= 3; i++) {
+      console.log(`Processing resource list page ${i}`);
       const pageData = await page.evaluate(() => {
         return Array.from(document.querySelectorAll('#fireExtHistWrap tbody tr')).map(row => ({
           id: row.cells[0]?.textContent || '',
@@ -81,28 +94,39 @@ async function updateForestFireData() {
           endTime: row.cells[3]?.textContent || '',
           resources: row.cells[4]?.textContent || '',
           level: row.cells[5]?.textContent || '',
-          hasButton: !!row.querySelector('button.img') // 버튼 존재 여부 확인
+          hasButton: !!row.querySelector('button.img')
         }));
       });
 
-      // 각 행의 버튼 클릭 후 URL 추출
+      // URL 추출
       for (let j = 0; j < pageData.length; j++) {
         if (pageData[j].hasButton) {
+          console.log(`Extracting URL for resource list row ${j + 1} on page ${i}`);
           await page.click(`#fireExtHistWrap tbody tr:nth-child(${j + 1}) button.img`);
-          await delay(2000); // 상세 페이지 로딩 대기
-          pageData[j].detailUrl = page.url(); // 이동된 URL 저장
-          await page.goBack(); // 이전 페이지로 돌아감
-          await delay(2000);
+          await delay(3000);
+          pageData[j].detailUrl = page.url();
+          await page.goBack();
+          await delay(3000);
         } else {
-          pageData[j].detailUrl = '-'; // 버튼이 없는 경우
+          pageData[j].detailUrl = '-';
         }
-        delete pageData[j].hasButton; // 임시 속성 제거
+        delete pageData[j].hasButton;
       }
 
       resourceList.push(...pageData);
+
+      // 다음 페이지 버튼 확인 후 클릭
       if (i < 3) {
-        await page.click(`.paging a[art="${i + 1}페이지"]`);
-        await delay(2000);
+        const nextPageSelector = `.paging a[alt="${i + 1}페이지"]`; // sub2.do에서도 alt 사용으로 가정
+        const nextPageExists = await page.$(nextPageSelector) !== null;
+        if (nextPageExists) {
+          console.log(`Navigating to resource list page ${i + 1}`);
+          await page.click(nextPageSelector);
+          await delay(3000);
+        } else {
+          console.log(`No more pages found after page ${i}`);
+          break;
+        }
       }
     }
 
