@@ -30,10 +30,16 @@ async function updateKoreaAirQualityData() {
             console.log(`Fetching data for itemCode: ${itemCode}`);
             await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
 
-            // 테이블 로드 대기
-            await page.waitForSelector('#sidoTable', { timeout: 60000 });
+            // 테이블과 데이터가 로드될 때까지 대기
+            await page.waitForFunction(
+                () => {
+                    const row = document.querySelector('#sidoTable tr:first-child');
+                    return row && row.querySelectorAll('td').length > 0;
+                },
+                { timeout: 90000 } // 최대 90초 대기
+            );
 
-            // 시간평균 행 데이터 추출 (첫 번째 행)
+            // 시간평균 행 데이터 추출
             const categoryData = await page.evaluate((cities) => {
                 const row = document.querySelector('#sidoTable tr:first-child'); // 시간평균 행
                 const cells = Array.from(row.querySelectorAll('td'));
