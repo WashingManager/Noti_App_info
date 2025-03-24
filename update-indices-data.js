@@ -5,18 +5,22 @@ const puppeteer = require('puppeteer');
 
 async function fetchTabData(page, tabId) {
     await page.click(`button[data-test-tab-id="${tabId}"]`);
-    await page.waitForSelector('.datatable-v2_body__8TXQk', { timeout: 10000 }); // 테이블 로드 대기
+    await page.waitForSelector('.datatable-v2_body__8TXQk', { timeout: 10000 });
 
     const data = await page.evaluate(() => {
         const rows = Array.from(document.querySelectorAll('.datatable-v2_body__8TXQk tr'));
         return rows.map(row => {
             const cells = row.querySelectorAll('td');
-            const nameCell = cells[1]; // 종목명 셀
-            const timeCell = cells[cells.length - 1]; // 시간 셀 (마지막 열)
+            const nameCell = cells[1];
+            const timeCell = cells[cells.length - 1];
 
-            // 국기 정보 추출
+            // 국기 URL 생성 (FlagCDN 사용)
             const flagElement = nameCell.querySelector('span[class^="flag_flag"]');
-            const country = flagElement ? flagElement.getAttribute('aria-label') : '';
+            let flagUrl = '';
+            if (flagElement) {
+                const countryCode = flagElement.getAttribute('data-test')?.replace('flag-', '').toLowerCase() || '';
+                flagUrl = countryCode ? `https://flagcdn.com/16x12/${countryCode}.png` : '';
+            }
 
             // 시장 상태 추출
             const clockElement = timeCell.querySelector('svg');
@@ -31,10 +35,10 @@ async function fetchTabData(page, tabId) {
             return {
                 name: nameCell.querySelector('a')?.textContent.trim() || '',
                 link: nameCell.querySelector('a')?.href || '',
-                country: country, // 국기 정보 추가
-                values: Array.from(cells).slice(2, -1).map(cell => cell.textContent.trim()), // 시간 열 제외한 값
-                time: timeCell.querySelector('time')?.textContent.trim() || '', // 시간 정보
-                marketStatus: marketStatus // 시장 상태 추가
+                flagUrl: flagUrl, // FlagCDN 기반 국기 URL
+                values: Array.from(cells).slice(2, -1).map(cell => cell.textContent.trim()),
+                time: timeCell.querySelector('time')?.textContent.trim() || '',
+                marketStatus: marketStatus
             };
         });
     });
