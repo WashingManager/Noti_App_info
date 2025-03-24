@@ -20,5 +20,6 @@ jobs:
       - run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
+          git pull origin main --rebase # 원격 변경사항 병합
           git add korea-air-quality-data.json
           git diff --staged --quiet || (git commit -m "Update korea-air-quality-data.json" && git push)
