@@ -4,10 +4,13 @@ const require = createRequire(import.meta.url);
 const puppeteer = require('puppeteer');
 
 async function updateKoreaAirQualityData() {
+    let browser;
     try {
-        const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+        browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] });
         const page = await browser.newPage();
-        await page.goto('https://airkorea.or.kr/web/', { waitUntil: 'networkidle2', timeout: 60000 });
+        
+        // 타임아웃 증가 및 대기 조건 완화
+        await page.goto('https://airkorea.or.kr/web/', { waitUntil: 'domcontentloaded', timeout: 120000 });
 
         const categories = {
             'KHAI': 'tab1warnIngAreaKHAI',
@@ -21,18 +24,23 @@ async function updateKoreaAirQualityData() {
 
         const data = {};
         for (const [key, divId] of Object.entries(categories)) {
-            await page.select('#itemBox2', key); // 드롭다운 선택
-            await page.waitForFunction((id) => document.querySelector(`#${id}`)?.children.length > 0, { timeout: 30000 }, divId);
+            try {
+                await page.select('#itemBox2', key);
+                await page.waitForFunction((id) => document.querySelector(`#${id}`)?.children.length > 0, { timeout: 30000 }, divId);
 
-            const categoryData = await page.evaluate((id) => {
-                const buttons = Array.from(document.querySelectorAll(`#${id} button`));
-                return buttons.map(button => ({
-                    city: button.textContent.split(/[\d.]+/)[0].trim(),
-                    value: button.querySelector('span')?.textContent.trim() || ''
-                }));
-            }, divId);
+                const categoryData = await page.evaluate((id) => {
+                    const buttons = Array.from(document.querySelectorAll(`#${id} button`));
+                    return buttons.map(button => ({
+                        city: button.textContent.split(/[\d.]+/)[0].trim(),
+                        value: button.querySelector('span')?.textContent.trim() || ''
+                    }));
+                }, divId);
 
-            data[key] = categoryData;
+                data[key] = categoryData;
+            } catch (error) {
+                console.error(`카테고리 ${key} 처리 실패:`, error.message);
+                data[key] = [{ city: '오류', value: error.message }];
+            }
         }
 
         writeFileSync(
@@ -43,7 +51,6 @@ async function updateKoreaAirQualityData() {
             }, null, 2)
         );
         console.log('korea-air-quality-data.json 업데이트 성공');
-        await browser.close();
     } catch (error) {
         console.error('업데이트 실패:', error.message);
         writeFileSync(
@@ -53,6 +60,8 @@ async function updateKoreaAirQualityData() {
                 lastUpdate: new Date().toISOString()
             }, null, 2)
         );
+    } finally {
+        if (browser) await browser.close();
     }
 }
 
