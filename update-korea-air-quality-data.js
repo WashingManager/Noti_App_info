@@ -3,63 +3,48 @@ import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const puppeteer = require('puppeteer');
 
-// 대기 함수 정의
-const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
 async function updateKoreaAirQualityData() {
     let browser;
     try {
         browser = await puppeteer.launch({
             headless: true,
             args: ['--no-sandbox', '--disable-setuid-sandbox'],
-            protocolTimeout: 240000 // 프로토콜 타임아웃 4분으로 증가
+            protocolTimeout: 180000 // 3분 타임아웃
         });
         const page = await browser.newPage();
-        
-        await page.goto('https://airkorea.or.kr/web/', { waitUntil: 'domcontentloaded', timeout: 180000 });
-        await delay(10000); // 초기 로딩 대기 (10초)
 
         const categories = {
-            'KHAI': 'tab1warnIngAreaKHAI',
-            '10008': 'tab1warnIngArea10008', // 초미세먼지 (PM-2.5)
-            '10007': 'tab1warnIngArea10007', // 미세먼지 (PM-10)
-            '10003': 'tab1warnIngArea10003', // 오존
-            '10006': 'tab1warnIngArea10006', // 이산화질소
-            '10002': 'tab1warnIngArea10002', // 일산화탄소
-            '10001': 'tab1warnIngArea10001'  // 아황산가스
+            '10008': 102, // PM-2.5
+            '10007': 103, // PM-10
+            '10003': 104, // 오존
+            '10006': 105, // 이산화질소
+            '10002': 106, // 일산화탄소
+            '10001': 107  // 아황산가스
         };
 
+        const cities = ['전국', '서울', '부산', '대구', '인천', '광주', '대전', '울산', '경기', '강원', '충북', '충남', '전북', '전남', '경북', '경남', '제주', '세종'];
         const data = {};
-        for (const [key, divId] of Object.entries(categories)) {
-            try {
-                console.log(`Processing category: ${key}`);
-                await page.select('#itemBox2', key);
-                await delay(5000); // 드롭다운 변경 후 AJAX 대기 (5초)
 
-                // AJAX 로드로 인해 데이터가 업데이트될 때까지 대기
-                await page.waitForFunction(
-                    (id) => {
-                        const div = document.querySelector(`#${id}`);
-                        return div && div.querySelectorAll('button').length > 0 && div.querySelector('button span');
-                    },
-                    { timeout: 120000 }, // 최대 2분 대기
-                    divId
-                );
+        for (const [itemCode, menuNo] of Object.entries(categories)) {
+            const url = `https://www.airkorea.or.kr/web/sidoQualityCompare?itemCode=${itemCode}&pMENU_NO=${menuNo}`;
+            console.log(`Fetching data for itemCode: ${itemCode}`);
+            await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
 
-                const categoryData = await page.evaluate((id) => {
-                    const buttons = Array.from(document.querySelectorAll(`#${id} button`));
-                    return buttons.map(button => ({
-                        city: button.textContent.split(/[\d.]+/)[0].trim(),
-                        value: button.querySelector('span')?.textContent.trim() || ''
-                    }));
-                }, divId);
+            // 테이블 로드 대기
+            await page.waitForSelector('#sidoTable', { timeout: 60000 });
 
-                data[key] = categoryData;
-                console.log(`Successfully processed category: ${key}`);
-            } catch (error) {
-                console.error(`카테고리 ${key} 처리 실패:`, error.message);
-                data[key] = [{ city: '오류', value: error.message }];
-            }
+            // 시간평균 행 데이터 추출 (첫 번째 행)
+            const categoryData = await page.evaluate((cities) => {
+                const row = document.querySelector('#sidoTable tr:first-child'); // 시간평균 행
+                const cells = Array.from(row.querySelectorAll('td'));
+                return cities.map((city, index) => ({
+                    city,
+                    value: cells[index]?.textContent.trim() || '-'
+                }));
+            }, cities);
+
+            data[itemCode] = categoryData;
+            console.log(`Successfully fetched data for itemCode: ${itemCode}`);
         }
 
         writeFileSync(
