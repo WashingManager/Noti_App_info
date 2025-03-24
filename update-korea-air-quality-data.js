@@ -12,12 +12,12 @@ async function updateKoreaAirQualityData() {
         browser = await puppeteer.launch({
             headless: true,
             args: ['--no-sandbox', '--disable-setuid-sandbox'],
-            protocolTimeout: 120000 // 프로토콜 타임아웃 2분으로 증가
+            protocolTimeout: 240000 // 프로토콜 타임아웃 4분으로 증가
         });
         const page = await browser.newPage();
         
-        await page.goto('https://airkorea.or.kr/web/', { waitUntil: 'domcontentloaded', timeout: 120000 });
-        await delay(5000); // 초기 로딩 대기 (5초)
+        await page.goto('https://airkorea.or.kr/web/', { waitUntil: 'domcontentloaded', timeout: 180000 });
+        await delay(10000); // 초기 로딩 대기 (10초)
 
         const categories = {
             'KHAI': 'tab1warnIngAreaKHAI',
@@ -32,9 +32,19 @@ async function updateKoreaAirQualityData() {
         const data = {};
         for (const [key, divId] of Object.entries(categories)) {
             try {
+                console.log(`Processing category: ${key}`);
                 await page.select('#itemBox2', key);
-                await delay(3000); // 드롭다운 변경 후 데이터 로딩 대기 (3초)
-                await page.waitForFunction((id) => document.querySelector(`#${id}`)?.children.length > 0, { timeout: 60000 }, divId);
+                await delay(5000); // 드롭다운 변경 후 AJAX 대기 (5초)
+
+                // AJAX 로드로 인해 데이터가 업데이트될 때까지 대기
+                await page.waitForFunction(
+                    (id) => {
+                        const div = document.querySelector(`#${id}`);
+                        return div && div.querySelectorAll('button').length > 0 && div.querySelector('button span');
+                    },
+                    { timeout: 120000 }, // 최대 2분 대기
+                    divId
+                );
 
                 const categoryData = await page.evaluate((id) => {
                     const buttons = Array.from(document.querySelectorAll(`#${id} button`));
@@ -45,6 +55,7 @@ async function updateKoreaAirQualityData() {
                 }, divId);
 
                 data[key] = categoryData;
+                console.log(`Successfully processed category: ${key}`);
             } catch (error) {
                 console.error(`카테고리 ${key} 처리 실패:`, error.message);
                 data[key] = [{ city: '오류', value: error.message }];
