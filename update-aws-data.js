@@ -6,7 +6,6 @@ async function fetchAWSData(stnId) {
     const page = await browser.newPage();
     await page.goto('https://www.weather.go.kr/plus/land/current/aws_table_popup.jsp', { waitUntil: 'networkidle2' });
     
-    // stn_select 호출 시뮬레이션
     await page.evaluate((stn) => parent.parent.menu.stn_select(stn), stnId);
     await page.waitForSelector('table table', { timeout: 10000 });
 
