@@ -12,6 +12,16 @@ async function updateForestFireData() {
   const page = await browser.newPage();
 
   try {
+    // 네트워크 요청 추적 설정
+    await page.setRequestInterception(true);
+    let detailUrl = null;
+    page.on('request', request => {
+      if (request.url().includes('pubConn') && !request.url().includes('sub1.do') && !request.url().includes('sub2.do')) {
+        detailUrl = request.url(); // 상세 페이지로 보이는 URL 캡처
+      }
+      request.continue();
+    });
+
     // 1. 메인 페이지
     await page.goto('https://fd.forest.go.kr/ffas/pubConn/movePage/main.do', { waitUntil: 'networkidle2' });
     const mainData = await page.evaluate(() => {
@@ -33,7 +43,7 @@ async function updateForestFireData() {
 
     // 2. 발생 정보 (sub1.do, 최대 3페이지)
     await page.goto('https://fd.forest.go.kr/ffas/pubConn/movePage/sub1.do', { waitUntil: 'networkidle2' });
-    await delay(3000); // 페이지 로딩 대기 증가
+    await delay(3000);
     const fireList = [];
     for (let i = 1; i <= 3; i++) {
       console.log(`Processing fire list page ${i}`);
@@ -52,9 +62,10 @@ async function updateForestFireData() {
       for (let j = 0; j < pageData.length; j++) {
         if (pageData[j].hasButton) {
           console.log(`Extracting URL for fire list row ${j + 1} on page ${i}`);
+          detailUrl = null; // 초기화
           await page.click(`#fireListWrap tbody tr:nth-child(${j + 1}) button.img`);
-          await delay(3000);
-          pageData[j].detailUrl = page.url();
+          await delay(3000); // 네트워크 요청 대기
+          pageData[j].detailUrl = detailUrl || (await page.url()); // 네트워크 요청이 없으면 현재 URL 사용
           await page.goBack();
           await delay(3000);
         } else {
@@ -65,7 +76,6 @@ async function updateForestFireData() {
 
       fireList.push(...pageData);
 
-      // 다음 페이지 버튼 확인 후 클릭
       if (i < 3) {
         const nextPageSelector = `.paging a[alt="${i + 1}페이지"]`;
         const nextPageExists = await page.$(nextPageSelector) !== null;
@@ -75,7 +85,7 @@ async function updateForestFireData() {
           await delay(3000);
         } else {
           console.log(`No more pages found after page ${i}`);
-          break; // 다음 페이지가 없으면 루프 종료
+          break;
         }
       }
     }
@@ -104,7 +114,7 @@ async function updateForestFireData() {
           console.log(`Extracting URL for resource list row ${j + 1} on page ${i}`);
           await page.click(`#fireExtHistWrap tbody tr:nth-child(${j + 1}) button.img`);
           await delay(3000);
-          pageData[j].detailUrl = page.url();
+          pageData[j].detailUrl = detailUrl || (await page.url());
           await page.goBack();
           await delay(3000);
         } else {
@@ -115,9 +125,8 @@ async function updateForestFireData() {
 
       resourceList.push(...pageData);
 
-      // 다음 페이지 버튼 확인 후 클릭
       if (i < 3) {
-        const nextPageSelector = `.paging a[alt="${i + 1}페이지"]`; // sub2.do에서도 alt 사용으로 가정
+        const nextPageSelector = `.paging a[alt="${i + 1}페이지"]`;
         const nextPageExists = await page.$(nextPageSelector) !== null;
         if (nextPageExists) {
           console.log(`Navigating to resource list page ${i + 1}`);
