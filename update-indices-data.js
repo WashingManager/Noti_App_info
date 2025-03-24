@@ -11,10 +11,30 @@ async function fetchTabData(page, tabId) {
         const rows = Array.from(document.querySelectorAll('.datatable-v2_body__8TXQk tr'));
         return rows.map(row => {
             const cells = row.querySelectorAll('td');
+            const nameCell = cells[1]; // 종목명 셀
+            const timeCell = cells[cells.length - 1]; // 시간 셀 (마지막 열)
+
+            // 국기 정보 추출
+            const flagElement = nameCell.querySelector('span[class^="flag_flag"]');
+            const country = flagElement ? flagElement.getAttribute('aria-label') : '';
+
+            // 시장 상태 추출
+            const clockElement = timeCell.querySelector('svg');
+            const marketStatus = clockElement
+                ? clockElement.classList.contains('text-market-open')
+                    ? 'open'
+                    : clockElement.classList.contains('text-market-closed')
+                    ? 'closed'
+                    : 'unknown'
+                : 'unknown';
+
             return {
-                name: cells[1].querySelector('a')?.textContent.trim() || '',
-                link: cells[1].querySelector('a')?.href || '',
-                values: Array.from(cells).slice(2).map(cell => cell.textContent.trim())
+                name: nameCell.querySelector('a')?.textContent.trim() || '',
+                link: nameCell.querySelector('a')?.href || '',
+                country: country, // 국기 정보 추가
+                values: Array.from(cells).slice(2, -1).map(cell => cell.textContent.trim()), // 시간 열 제외한 값
+                time: timeCell.querySelector('time')?.textContent.trim() || '', // 시간 정보
+                marketStatus: marketStatus // 시장 상태 추가
             };
         });
     });
