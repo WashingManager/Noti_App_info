@@ -22,7 +22,7 @@ jobs:
         run: npm run update-aws
       - name: Upload debug file if exists
         if: failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # v3 대신 v4 사용
         with:
           name: debug-html
           path: debug.html
