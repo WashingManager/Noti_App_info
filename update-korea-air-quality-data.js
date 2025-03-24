@@ -3,6 +3,9 @@ import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
 const puppeteer = require('puppeteer');
 
+// 대기 함수 정의
+const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
 async function updateKoreaAirQualityData() {
     let browser;
     try {
@@ -14,7 +17,7 @@ async function updateKoreaAirQualityData() {
         const page = await browser.newPage();
         
         await page.goto('https://airkorea.or.kr/web/', { waitUntil: 'domcontentloaded', timeout: 120000 });
-        await page.waitFor(5000); // 초기 로딩 대기 (5초)
+        await delay(5000); // 초기 로딩 대기 (5초)
 
         const categories = {
             'KHAI': 'tab1warnIngAreaKHAI',
@@ -30,7 +33,7 @@ async function updateKoreaAirQualityData() {
         for (const [key, divId] of Object.entries(categories)) {
             try {
                 await page.select('#itemBox2', key);
-                await page.waitFor(3000); // 드롭다운 변경 후 데이터 로딩 대기 (3초)
+                await delay(3000); // 드롭다운 변경 후 데이터 로딩 대기 (3초)
                 await page.waitForFunction((id) => document.querySelector(`#${id}`)?.children.length > 0, { timeout: 60000 }, divId);
 
                 const categoryData = await page.evaluate((id) => {
