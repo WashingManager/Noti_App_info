@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-03-24T13:06:50.569Z",
+  "timestamp": "2025-03-24T13:24:35.440Z",
   "main": {
     "status": {
       "extinguishing": "5",
-      "completed": "5",
-      "other": "1"
+      "completed": "4",
+      "other": "2"
     },
     "currentFire": {
       "grade": "산불 3단계",
@@ -41,13 +41,6 @@
     }
   },
   "fireList": [
-    {
-      "startTime": "2025-03-24 20:37",
-      "endTime": "2025-03-24 21:46",
-      "location": "강원특별자치도 영월군 무릉도원면",
-      "status": "진화완료",
-      "level": "초기대응"
-    },
     {
       "startTime": "2025-03-24 15:34",
       "endTime": "2025-03-24 16:00",
@@ -248,6 +241,13 @@
       "startTime": "2025-03-22 14:32",
       "endTime": "2025-03-22 16:40",
       "location": "전라남도 보성군 문덕면",
+      "status": "진화완료",
+      "level": "초기대응"
+    },
+    {
+      "startTime": "2025-03-22 14:25",
+      "endTime": "2025-03-22 15:00",
+      "location": "전북특별자치도 남원시 대산면",
       "status": "진화완료",
       "level": "초기대응"
     }
