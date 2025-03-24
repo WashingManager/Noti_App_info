@@ -6,11 +6,15 @@ const puppeteer = require('puppeteer');
 async function updateKoreaAirQualityData() {
     let browser;
     try {
-        browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox', '--disable-setuid-sandbox'] });
+        browser = await puppeteer.launch({
+            headless: true,
+            args: ['--no-sandbox', '--disable-setuid-sandbox'],
+            protocolTimeout: 120000 // 프로토콜 타임아웃 2분으로 증가
+        });
         const page = await browser.newPage();
         
-        // 타임아웃 증가 및 대기 조건 완화
         await page.goto('https://airkorea.or.kr/web/', { waitUntil: 'domcontentloaded', timeout: 120000 });
+        await page.waitForTimeout(5000); // 초기 로딩 대기
 
         const categories = {
             'KHAI': 'tab1warnIngAreaKHAI',
@@ -26,7 +30,8 @@ async function updateKoreaAirQualityData() {
         for (const [key, divId] of Object.entries(categories)) {
             try {
                 await page.select('#itemBox2', key);
-                await page.waitForFunction((id) => document.querySelector(`#${id}`)?.children.length > 0, { timeout: 30000 }, divId);
+                await page.waitForTimeout(3000); // 드롭다운 변경 후 데이터 로딩 대기
+                await page.waitForFunction((id) => document.querySelector(`#${id}`)?.children.length > 0, { timeout: 60000 }, divId);
 
                 const categoryData = await page.evaluate((id) => {
                     const buttons = Array.from(document.querySelectorAll(`#${id} button`));
