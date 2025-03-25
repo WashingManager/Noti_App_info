@@ -14,12 +14,12 @@ async function fetchTabData(page, tabId) {
             const nameCell = cells[1];
             const timeCell = cells[cells.length - 1];
 
-           // 국기 URL 생성 (FlagCDN 사용)
+            // 국기 URL 생성 (FlagCDN 사용)
             const flagElement = nameCell.querySelector('span[class^="flag_flag"]');
             let flagUrl = '';
             if (flagElement) {
                 let countryCode = flagElement.getAttribute('data-test')?.replace('flag-', '').toLowerCase() || '';
-                // 'tp'를 'tw'로 변경
+                // 'tp'를 'tw'로 강제로 변경 (대만 가권 지수에 대해)
                 if (countryCode === 'tp') {
                     countryCode = 'tw';
                 }
