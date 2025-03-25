@@ -1,8 +1,8 @@
 name: Update Forest Fire Data
 on:
   schedule:
-    - cron: '*/10 * * * *'
-  workflow_dispatch:
+    - cron: '*/10 * * * *' # Runs every 10 minutes
+  workflow_dispatch: # Allows manual triggering
 permissions:
   contents: write
 jobs:
@@ -14,10 +14,10 @@ jobs:
         with:
           node-version: '18'
       - run: npm install
-      - run: npm run update-forest-fire
+      - run: npm run update-forest-fire # Assumes this is the script that runs your Puppeteer code
       - run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
+          git pull origin main --rebase # Pull latest changes and rebase your changes on top
           git add forest-fire-data.json
           git diff --staged --quiet || (git commit -m "Update forest fire data" && git push)
-
