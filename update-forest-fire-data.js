@@ -51,13 +51,19 @@ async function updateForestFireData() {
     if (isMaintenance) {
       console.log('Maintenance notice detected');
       jsonData.maintenance = await page.evaluate(() => {
-        const head = document.querySelector('.pop-head')?.innerHTML || '';
-        const box = document.querySelector('.pop-box')?.innerHTML || '';
-        return { head, box };
+        return {
+          title: document.querySelector('.pop-head .copytxt #logo b')?.textContent.trim() || '시스템 개선 작업 안내',
+          message: document.querySelector('.pop-head .copytxt p.bold')?.innerHTML.trim() || '',
+          targetLabel: document.querySelector('.pop-box dl.list:nth-child(1) dt')?.textContent.trim() || '대상',
+          targetValue: document.querySelector('.pop-box dl.list:nth-child(1) dd span')?.textContent.trim() || '산림재해통합관리시스템',
+          scheduleLabel: document.querySelector('.pop-box dl.list:nth-child(2) dt')?.textContent.trim() || '일정',
+          scheduleValue: document.querySelector('.pop-box dl.list:nth-child(2) dd span')?.textContent.trim() || '2025.03.26.(수) 01:50 ~',
+          note: document.querySelector('.pop-box p.ps')?.textContent.trim() || '* 작업에 따라 시간은 다소 변동 될 수 있습니다.'
+        };
       });
       console.log('Maintenance data extracted:', jsonData.maintenance);
     } else {
-      // 정상적인 데이터 크롤링
+      // 정상 데이터 크롤링
       await page.waitForSelector('#cntFireExtinguish', { timeout: 15000 });
       jsonData.main = await page.evaluate(() => {
         return {
@@ -77,7 +83,7 @@ async function updateForestFireData() {
       });
       console.log('Main page data extracted:', jsonData.main);
 
-      // sub1.do 및 sub2.do 크롤링 로직 (기존과 동일)
+      // sub1.do 크롤링 (산불 발생 정보)
       console.log('Loading sub1.do...');
       await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/sub1.do');
       for (let i = 1; i <= 3; i++) {
@@ -120,6 +126,7 @@ async function updateForestFireData() {
         }
       }
 
+      // sub2.do 크롤링 (진화 자원 이력)
       console.log('Loading sub2.do...');
       await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/sub2.do');
       for (let i = 1; i <= 3; i++) {
