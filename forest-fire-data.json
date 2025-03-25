@@ -1,6 +1,15 @@
 {
-  "timestamp": "2025-03-25T17:12:56.245Z",
+  "timestamp": "2025-03-25T17:24:45.004Z",
   "main": {},
   "fireList": [],
-  "resourceList": []
+  "resourceList": [],
+  "maintenance": {
+    "title": "산림청",
+    "message": "&lt;&lt; 산림재해통합관리시스템 서비스 점검안내 &gt;&gt;<br>\n<br>\n보다 안정적인 서비스 제공을 위해 시스템을 점검합니다.<br>\n해당 기간 동안 모든 서비스 이용이 일시적으로 중단되는 점 양해부탁드립니다.",
+    "targetLabel": "대상",
+    "targetValue": "산림재해통합관리시스템",
+    "scheduleLabel": "일정",
+    "scheduleValue": "2025.03.26.(수) 01:50 ~",
+    "note": "* 작업에 따라 시간은 다소 변동 될 수 있습니다."
+  }
 }
