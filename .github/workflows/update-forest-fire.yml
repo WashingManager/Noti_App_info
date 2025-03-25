@@ -19,6 +19,6 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add forest-fire-data.json
-          git pull origin main --rebase  # 원격 변경 사항 가져와 재배치
-          git commit -m "Update forest fire data" || echo "No changes to commit"
+          git commit -m "Stage forest fire data update" || echo "No changes to commit"
+          git pull origin main --rebase
           git push origin main
