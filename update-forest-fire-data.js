@@ -7,7 +7,7 @@ async function gotoWithRetry(page, url, retries = 3) {
   for (let i = 0; i < retries; i++) {
     try {
       await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 120000 });
-      await delay(10000); // 동적 콘텐츠 로드 대기 (10초 이상 걸릴 수 있음)
+      await delay(10000);
       return;
     } catch (e) {
       console.log(`Retry ${i + 1}/${retries} for ${url}: ${e.message}`);
@@ -29,11 +29,11 @@ async function updateForestFireData() {
     timestamp: new Date().toISOString(),
     main: {},
     fireList: [],
-    resourceList: []
+    resourceList: [],
+    maintenance: null // 점검 정보 추가
   };
 
   try {
-    // 네트워크 요청 추적 설정
     await page.setRequestInterception(true);
     let detailUrl = null;
     page.on('request', request => {
@@ -43,11 +43,22 @@ async function updateForestFireData() {
       request.continue();
     });
 
-    // 1. 메인 페이지
     console.log('Loading main page...');
-    try {
-      await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/main.do');
-      await page.waitForSelector('#cntFireExtinguish', { timeout: 15000 }); // 주요 요소 대기
+    await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/main.do');
+
+    // 시스템 점검 여부 확인
+    const isMaintenance = await page.$('.pop-head') !== null;
+    if (isMaintenance) {
+      console.log('Maintenance notice detected');
+      jsonData.maintenance = await page.evaluate(() => {
+        const head = document.querySelector('.pop-head')?.innerHTML || '';
+        const box = document.querySelector('.pop-box')?.innerHTML || '';
+        return { head, box };
+      });
+      console.log('Maintenance data extracted:', jsonData.maintenance);
+    } else {
+      // 정상적인 데이터 크롤링
+      await page.waitForSelector('#cntFireExtinguish', { timeout: 15000 });
       jsonData.main = await page.evaluate(() => {
         return {
           status: {
@@ -65,16 +76,11 @@ async function updateForestFireData() {
         };
       });
       console.log('Main page data extracted:', jsonData.main);
-    } catch (e) {
-      console.error('Main page load failed:', e);
-    }
 
-    // 2. 발생 정보 (sub1.do, 최대 3페이지)
-    console.log('Loading sub1.do...');
-    try {
+      // sub1.do 및 sub2.do 크롤링 로직 (기존과 동일)
+      console.log('Loading sub1.do...');
       await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/sub1.do');
       for (let i = 1; i <= 3; i++) {
-        console.log(`Processing fire list page ${i}`);
         const pageData = await page.evaluate(() => {
           return Array.from(document.querySelectorAll('#fireListWrap tbody tr')).map(row => ({
             startTime: row.cells[0]?.textContent.trim() || '',
@@ -88,7 +94,6 @@ async function updateForestFireData() {
 
         for (let j = 0; j < pageData.length; j++) {
           if (pageData[j].hasButton) {
-            console.log(`Extracting URL for fire list row ${j + 1} on page ${i}`);
             detailUrl = null;
             await page.click(`#fireListWrap tbody tr:nth-child(${j + 1}) button.img`);
             await delay(5000);
@@ -107,25 +112,17 @@ async function updateForestFireData() {
           const nextPageSelector = `.paging a[alt="${i + 1}페이지"]`;
           const nextPageExists = await page.$(nextPageSelector) !== null;
           if (nextPageExists) {
-            console.log(`Navigating to fire list page ${i + 1}`);
             await page.click(nextPageSelector);
             await delay(3000);
           } else {
-            console.log(`No more pages found after page ${i}`);
             break;
           }
         }
       }
-    } catch (e) {
-      console.error('sub1.do processing failed:', e);
-    }
 
-    // 3. 자원 투입 내역 (sub2.do, 최대 3페이지)
-    console.log('Loading sub2.do...');
-    try {
+      console.log('Loading sub2.do...');
       await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/sub2.do');
       for (let i = 1; i <= 3; i++) {
-        console.log(`Processing resource list page ${i}`);
         const pageData = await page.evaluate(() => {
           return Array.from(document.querySelectorAll('#fireExtHistWrap tbody tr')).map(row => ({
             id: row.cells[0]?.textContent.trim() || '',
@@ -140,7 +137,6 @@ async function updateForestFireData() {
 
         for (let j = 0; j < pageData.length; j++) {
           if (pageData[j].hasButton) {
-            console.log(`Extracting URL for resource list row ${j + 1} on page ${i}`);
             detailUrl = null;
             await page.click(`#fireExtHistWrap tbody tr:nth-child(${j + 1}) button.img`);
             await delay(5000);
@@ -159,17 +155,13 @@ async function updateForestFireData() {
           const nextPageSelector = `.paging a[alt="${i + 1}페이지"]`;
           const nextPageExists = await page.$(nextPageSelector) !== null;
           if (nextPageExists) {
-            console.log(`Navigating to resource list page ${i + 1}`);
             await page.click(nextPageSelector);
             await delay(3000);
           } else {
-            console.log(`No more pages found after page ${i}`);
             break;
           }
         }
       }
-    } catch (e) {
-      console.error('sub2.do processing failed:', e);
     }
 
     writeFileSync('forest-fire-data.json', JSON.stringify(jsonData, null, 2));
