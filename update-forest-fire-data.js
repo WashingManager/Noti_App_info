@@ -1,8 +1,21 @@
 import puppeteer from 'puppeteer';
 import { writeFileSync } from 'fs';
 
-// 대기 함수 추가
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+async function gotoWithRetry(page, url, retries = 3) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 120000 });
+      await delay(10000); // 동적 콘텐츠 로드 대기 (10초 이상 걸릴 수 있음)
+      return;
+    } catch (e) {
+      console.log(`Retry ${i + 1}/${retries} for ${url}: ${e.message}`);
+      if (i === retries - 1) throw e;
+      await delay(5000);
+    }
+  }
+}
 
 async function updateForestFireData() {
   const browser = await puppeteer.launch({
@@ -10,9 +23,7 @@ async function updateForestFireData() {
     args: ['--no-sandbox', '--disable-setuid-sandbox']
   });
   const page = await browser.newPage();
-
-  // 타임아웃 설정 (60초로 증가)
-  await page.setDefaultNavigationTimeout(60000);
+  await page.setDefaultNavigationTimeout(120000);
 
   let jsonData = {
     timestamp: new Date().toISOString(),
@@ -35,24 +46,25 @@ async function updateForestFireData() {
     // 1. 메인 페이지
     console.log('Loading main page...');
     try {
-      await page.goto('https://fd.forest.go.kr/ffas/pubConn/movePage/main.do', { waitUntil: 'domcontentloaded' });
+      await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/main.do');
+      await page.waitForSelector('#cntFireExtinguish', { timeout: 15000 }); // 주요 요소 대기
       jsonData.main = await page.evaluate(() => {
         return {
           status: {
-            extinguishing: document.querySelector('#cntFireExtinguish')?.textContent || 'N/A',
-            completed: document.querySelector('#cntFireExceptionEnd')?.textContent || 'N/A',
-            other: document.querySelector('#todayForestFire')?.textContent || 'N/A'
+            extinguishing: document.querySelector('#cntFireExtinguish')?.textContent.trim() || 'N/A',
+            completed: document.querySelector('#cntFireExceptionEnd')?.textContent.trim() || 'N/A',
+            other: document.querySelector('#todayForestFire')?.textContent.trim() || 'N/A'
           },
           currentFire: {
-            grade: document.querySelector('#frfrGrade')?.textContent || 'N/A',
+            grade: document.querySelector('#frfrGrade')?.textContent.trim() || 'N/A',
             details: Array.from(document.querySelectorAll('#forestFireInfoWrap table tbody tr')).map(row => ({
-              label: row.querySelector('th')?.textContent || '',
-              value: row.querySelector('td')?.textContent || ''
+              label: row.querySelector('th')?.textContent.trim() || '',
+              value: row.querySelector('td')?.textContent.trim() || ''
             }))
           }
         };
       });
-      console.log('Main page data extracted');
+      console.log('Main page data extracted:', jsonData.main);
     } catch (e) {
       console.error('Main page load failed:', e);
     }
@@ -60,17 +72,16 @@ async function updateForestFireData() {
     // 2. 발생 정보 (sub1.do, 최대 3페이지)
     console.log('Loading sub1.do...');
     try {
-      await page.goto('https://fd.forest.go.kr/ffas/pubConn/movePage/sub1.do', { waitUntil: 'domcontentloaded' });
-      await delay(3000);
+      await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/sub1.do');
       for (let i = 1; i <= 3; i++) {
         console.log(`Processing fire list page ${i}`);
         const pageData = await page.evaluate(() => {
           return Array.from(document.querySelectorAll('#fireListWrap tbody tr')).map(row => ({
-            startTime: row.cells[0]?.textContent || '',
-            endTime: row.cells[1]?.textContent || '',
-            location: row.cells[2]?.textContent || '',
-            status: row.cells[3]?.textContent || '',
-            level: row.cells[4]?.textContent || '',
+            startTime: row.cells[0]?.textContent.trim() || '',
+            endTime: row.cells[1]?.textContent.trim() || '',
+            location: row.cells[2]?.textContent.trim() || '',
+            status: row.cells[3]?.textContent.trim() || '',
+            level: row.cells[4]?.textContent.trim() || '',
             hasButton: !!row.querySelector('button.img')
           }));
         });
@@ -80,7 +91,7 @@ async function updateForestFireData() {
             console.log(`Extracting URL for fire list row ${j + 1} on page ${i}`);
             detailUrl = null;
             await page.click(`#fireListWrap tbody tr:nth-child(${j + 1}) button.img`);
-            await delay(3000);
+            await delay(5000);
             pageData[j].detailUrl = detailUrl || (await page.url());
             await page.goBack();
             await delay(3000);
@@ -112,18 +123,17 @@ async function updateForestFireData() {
     // 3. 자원 투입 내역 (sub2.do, 최대 3페이지)
     console.log('Loading sub2.do...');
     try {
-      await page.goto('https://fd.forest.go.kr/ffas/pubConn/movePage/sub2.do', { waitUntil: 'domcontentloaded' });
-      await delay(3000);
+      await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/sub2.do');
       for (let i = 1; i <= 3; i++) {
         console.log(`Processing resource list page ${i}`);
         const pageData = await page.evaluate(() => {
           return Array.from(document.querySelectorAll('#fireExtHistWrap tbody tr')).map(row => ({
-            id: row.cells[0]?.textContent || '',
-            location: row.cells[1]?.textContent || '',
-            startTime: row.cells[2]?.textContent || '',
-            endTime: row.cells[3]?.textContent || '',
-            resources: row.cells[4]?.textContent || '',
-            level: row.cells[5]?.textContent || '',
+            id: row.cells[0]?.textContent.trim() || '',
+            location: row.cells[1]?.textContent.trim() || '',
+            startTime: row.cells[2]?.textContent.trim() || '',
+            endTime: row.cells[3]?.textContent.trim() || '',
+            resources: row.cells[4]?.textContent.trim() || '',
+            level: row.cells[5]?.textContent.trim() || '',
             hasButton: !!row.querySelector('button.img')
           }));
         });
@@ -133,7 +143,7 @@ async function updateForestFireData() {
             console.log(`Extracting URL for resource list row ${j + 1} on page ${i}`);
             detailUrl = null;
             await page.click(`#fireExtHistWrap tbody tr:nth-child(${j + 1}) button.img`);
-            await delay(3000);
+            await delay(5000);
             pageData[j].detailUrl = detailUrl || (await page.url());
             await page.goBack();
             await delay(3000);
@@ -162,7 +172,6 @@ async function updateForestFireData() {
       console.error('sub2.do processing failed:', e);
     }
 
-    // JSON 저장
     writeFileSync('forest-fire-data.json', JSON.stringify(jsonData, null, 2));
     console.log('forest-fire-data.json 업데이트 성공');
   } catch (error) {
