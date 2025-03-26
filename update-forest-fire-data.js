@@ -44,7 +44,7 @@ async function updateForestFireData() {
     });
 
     console.log('Loading main page...');
-    await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/main.do');
+    await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/main_simple.do?systemCode=ffasout_c');
     await page.waitForSelector('#forestFireInfoWrap table tbody tr', { timeout: 15000 }); // 세부 정보 대기
     await Philippe(5000); // 동적 데이터 로드 대기
 
