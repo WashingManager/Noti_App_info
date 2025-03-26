@@ -7,7 +7,7 @@ async function fetchTabData(page, tabId) {
     await page.click(`button[data-test-tab-id="${tabId}"]`);
     await page.waitForSelector('.datatable-v2_body__8TXQk', { timeout: 10000 });
 
-    const data = await page.evaluate(() => {
+    const data = await page.evaluate((tabId) => {
         const rows = Array.from(document.querySelectorAll('.datatable-v2_body__8TXQk tr'));
         return rows.map(row => {
             const cells = row.querySelectorAll('td');
@@ -19,33 +19,40 @@ async function fetchTabData(page, tabId) {
             let flagUrl = '';
             if (flagElement) {
                 let countryCode = flagElement.getAttribute('data-test')?.replace('flag-', '').toLowerCase() || '';
-                // 'tp'를 'tw'로 강제로 변경 (대만 가권 지수에 대해)
                 if (countryCode === 'tp') {
                     countryCode = 'tw';
                 }
                 flagUrl = countryCode ? `https://flagcdn.com/16x12/${countryCode}.png` : '';
             }
 
-            // 시장 상태 추출
-            const clockElement = timeCell.querySelector('svg');
-            const marketStatus = clockElement
-                ? clockElement.classList.contains('text-market-open')
-                    ? 'open'
-                    : clockElement.classList.contains('text-market-closed')
-                    ? 'closed'
-                    : 'unknown'
-                : 'unknown';
-
-            return {
+            // 기본 반환 객체
+            const result = {
                 name: nameCell.querySelector('a')?.textContent.trim() || '',
                 link: nameCell.querySelector('a')?.href || '',
-                flagUrl: flagUrl, // FlagCDN 기반 국기 URL
-                values: Array.from(cells).slice(2, -1).map(cell => cell.textContent.trim()),
-                time: timeCell.querySelector('time')?.textContent.trim() || '',
-                marketStatus: marketStatus
+                flagUrl,
+                values: tabId === 0
+                    ? Array.from(cells).slice(2, -1).map(cell => cell.textContent.trim()) // 가격 탭: 마지막 셀 제외
+                    : Array.from(cells).slice(2).map(cell => cell.textContent.trim())   // 성과, 기술 분석 탭: 마지막 셀 포함
             };
+
+            // 가격 탭(tabId === 0)일 때만 time과 marketStatus 추가
+            if (tabId === 0) {
+                const clockElement = timeCell.querySelector('svg');
+                const marketStatus = clockElement
+                    ? clockElement.classList.contains('text-market-open')
+                        ? 'open'
+                        : clockElement.classList.contains('text-market-closed')
+                        ? 'closed'
+                        : 'unknown'
+                    : 'unknown';
+
+                result.time = timeCell.querySelector('time')?.textContent.trim() || '';
+                result.marketStatus = marketStatus;
+            }
+
+            return result;
         });
-    });
+    }, tabId); // tabId를 evaluate 내부로 전달
     return data;
 }
 
