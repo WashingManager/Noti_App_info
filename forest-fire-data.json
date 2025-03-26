@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-03-26T01:17:32.932Z",
+  "timestamp": "2025-03-26T02:39:12.019Z",
   "main": {
     "status": {
       "extinguishing": "4",
-      "completed": "5",
+      "completed": "7",
       "other": "0"
     },
     "currentFire": {
@@ -42,10 +42,18 @@
   },
   "fireList": [
     {
+      "startTime": "2025-03-26 10:21",
+      "endTime": "2025-03-26 10:57",
+      "location": "전북특별자치도 완주군 운주면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
       "startTime": "2025-03-26 10:05",
-      "endTime": "-",
-      "location": "충청북도 영동군 황간면",
-      "status": "진화중",
+      "endTime": "2025-03-26 11:18",
+      "location": "충청북도 영동군 매곡면",
+      "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
     },
@@ -269,14 +277,6 @@
       "startTime": "2025-03-23 11:13",
       "endTime": "2025-03-23 11:24",
       "location": "충청북도 옥천군 동이면",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-03-23 10:42",
-      "endTime": "2025-03-23 11:41",
-      "location": "인천광역시 서구 경서동",
       "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
