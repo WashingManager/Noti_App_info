@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-03-26T15:19:23.306Z",
+  "timestamp": "2025-03-26T15:37:48.859Z",
   "main": {
     "status": {
       "extinguishing": "6",
-      "completed": "0",
+      "completed": "1",
       "other": "0"
     },
     "currentFire": {
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-03-26 23:42",
+      "endTime": "2025-03-27 00:32",
+      "location": "충청남도 서산시 대산읍",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-03-26 21:22",
       "endTime": "-",
@@ -269,14 +277,6 @@
       "startTime": "2025-03-23 14:05",
       "endTime": "2025-03-23 15:10",
       "location": "경기도 동두천시 생연동",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-03-23 13:25",
-      "endTime": "2025-03-23 16:30",
-      "location": "경상북도 경주시 양남면",
       "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
