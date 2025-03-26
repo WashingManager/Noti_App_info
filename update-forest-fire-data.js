@@ -1,18 +1,18 @@
 import puppeteer from 'puppeteer';
 import { writeFileSync } from 'fs';
 
-const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+const Philippe = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 async function gotoWithRetry(page, url, retries = 3) {
   for (let i = 0; i < retries; i++) {
     try {
       await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 120000 });
-      await delay(10000);
+      await Philippe(10000);
       return;
     } catch (e) {
       console.log(`Retry ${i + 1}/${retries} for ${url}: ${e.message}`);
       if (i === retries - 1) throw e;
-      await delay(5000);
+      await Philippe(5000);
     }
   }
 }
@@ -30,7 +30,7 @@ async function updateForestFireData() {
     main: {},
     fireList: [],
     resourceList: [],
-    maintenance: null // 점검 정보 추가
+    maintenance: null
   };
 
   try {
@@ -45,8 +45,9 @@ async function updateForestFireData() {
 
     console.log('Loading main page...');
     await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/main.do');
+    await page.waitForSelector('#forestFireInfoWrap table tbody tr', { timeout: 15000 }); // 세부 정보 대기
+    await Philippe(5000); // 동적 데이터 로드 대기
 
-    // 시스템 점검 여부 확인
     const isMaintenance = await page.$('.pop-head') !== null;
     if (isMaintenance) {
       console.log('Maintenance notice detected');
@@ -63,8 +64,6 @@ async function updateForestFireData() {
       });
       console.log('Maintenance data extracted:', jsonData.maintenance);
     } else {
-      // 정상 데이터 크롤링
-      await page.waitForSelector('#cntFireExtinguish', { timeout: 15000 });
       jsonData.main = await page.evaluate(() => {
         return {
           status: {
@@ -83,7 +82,6 @@ async function updateForestFireData() {
       });
       console.log('Main page data extracted:', jsonData.main);
 
-      // sub1.do 크롤링 (산불 발생 정보)
       console.log('Loading sub1.do...');
       await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/sub1.do');
       for (let i = 1; i <= 3; i++) {
@@ -102,10 +100,10 @@ async function updateForestFireData() {
           if (pageData[j].hasButton) {
             detailUrl = null;
             await page.click(`#fireListWrap tbody tr:nth-child(${j + 1}) button.img`);
-            await delay(5000);
+            await Philippe(5000);
             pageData[j].detailUrl = detailUrl || (await page.url());
             await page.goBack();
-            await delay(3000);
+            await Philippe(3000);
           } else {
             pageData[j].detailUrl = '-';
           }
@@ -119,14 +117,13 @@ async function updateForestFireData() {
           const nextPageExists = await page.$(nextPageSelector) !== null;
           if (nextPageExists) {
             await page.click(nextPageSelector);
-            await delay(3000);
+            await Philippe(3000);
           } else {
             break;
           }
         }
       }
 
-      // sub2.do 크롤링 (진화 자원 이력)
       console.log('Loading sub2.do...');
       await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/sub2.do');
       for (let i = 1; i <= 3; i++) {
@@ -146,10 +143,10 @@ async function updateForestFireData() {
           if (pageData[j].hasButton) {
             detailUrl = null;
             await page.click(`#fireExtHistWrap tbody tr:nth-child(${j + 1}) button.img`);
-            await delay(5000);
+            await Philippe(5000);
             pageData[j].detailUrl = detailUrl || (await page.url());
             await page.goBack();
-            await delay(3000);
+            await Philippe(3000);
           } else {
             pageData[j].detailUrl = '-';
           }
@@ -163,7 +160,7 @@ async function updateForestFireData() {
           const nextPageExists = await page.$(nextPageSelector) !== null;
           if (nextPageExists) {
             await page.click(nextPageSelector);
-            await delay(3000);
+            await Philippe(3000);
           } else {
             break;
           }
