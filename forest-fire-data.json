@@ -1,7 +1,378 @@
 {
-  "timestamp": "2025-03-26T13:55:58.777Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2025-03-26T14:15:12.055Z",
+  "main": {
+    "status": {
+      "extinguishing": "6",
+      "completed": "12",
+      "other": "2"
+    },
+    "currentFire": {
+      "grade": "산불 3단계",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": "경상남도 산청군 시천면 신천리 산 39임"
+        },
+        {
+          "label": "발생일시",
+          "value": "2025년 3월 21일 15시 26분"
+        },
+        {
+          "label": "진화일시",
+          "value": "-"
+        },
+        {
+          "label": "진행상태",
+          "value": "진화중"
+        },
+        {
+          "label": "진화율",
+          "value": "90%"
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "2025-03-26 21:22",
+      "endTime": "-",
+      "location": "전북특별자치도 무주군 부남면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 19:29",
+      "endTime": "-",
+      "location": "대구광역시 대구광역시 달성군",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 15:09",
+      "endTime": "2025-03-26 16:38",
+      "location": "전북특별자치도 순창군 쌍치면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 14:27",
+      "endTime": "2025-03-26 16:36",
+      "location": "경기도 파주시 조리읍",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 13:52",
+      "endTime": "2025-03-26 14:21",
+      "location": "경기도 용인시 기흥구",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 12:48",
+      "endTime": "2025-03-26 13:19",
+      "location": "경기도 양평군 개군면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 12:08",
+      "endTime": "2025-03-26 12:53",
+      "location": "충청남도 부여군 규암면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 10:21",
+      "endTime": "2025-03-26 10:57",
+      "location": "전북특별자치도 완주군 운주면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 10:05",
+      "endTime": "2025-03-26 11:18",
+      "location": "충청북도 영동군 매곡면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 09:06",
+      "endTime": "2025-03-26 09:55",
+      "location": "충청남도 금산군 진산면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 21:22",
+      "endTime": "-",
+      "location": "전북특별자치도 무주군 부남면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 19:29",
+      "endTime": "-",
+      "location": "대구광역시 대구광역시 달성군",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 15:09",
+      "endTime": "2025-03-26 16:38",
+      "location": "전북특별자치도 순창군 쌍치면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 14:27",
+      "endTime": "2025-03-26 16:36",
+      "location": "경기도 파주시 조리읍",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 13:52",
+      "endTime": "2025-03-26 14:21",
+      "location": "경기도 용인시 기흥구",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 12:48",
+      "endTime": "2025-03-26 13:19",
+      "location": "경기도 양평군 개군면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 12:08",
+      "endTime": "2025-03-26 12:53",
+      "location": "충청남도 부여군 규암면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 10:21",
+      "endTime": "2025-03-26 10:57",
+      "location": "전북특별자치도 완주군 운주면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 10:05",
+      "endTime": "2025-03-26 11:18",
+      "location": "충청북도 영동군 매곡면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 09:06",
+      "endTime": "2025-03-26 09:55",
+      "location": "충청남도 금산군 진산면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 03:01",
+      "endTime": "2025-03-26 03:45",
+      "location": "광주광역시 남구 진월동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-25 19:15",
+      "endTime": "2025-03-26 06:00",
+      "location": "경상북도 봉화군 물야면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-25 16:29",
+      "endTime": "2025-03-25 18:15",
+      "location": "경상남도 진주시 수곡면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-25 15:47",
+      "endTime": "2025-03-26 01:44",
+      "location": "경기도 화성시 남양읍",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-25 14:38",
+      "endTime": "2025-03-25 16:11",
+      "location": "충청남도 당진시 순성면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-25 14:14",
+      "endTime": "2025-03-25 17:27",
+      "location": "전북특별자치도 고창군 성내면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-25 14:12",
+      "endTime": "2025-03-25 16:36",
+      "location": "경기도 시흥시 계수동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-25 13:18",
+      "endTime": "2025-03-25 14:04",
+      "location": "경상남도 통영시 용남면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-25 12:32",
+      "endTime": "2025-03-25 13:22",
+      "location": "경상남도 창녕군 대지면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-25 11:54",
+      "endTime": "2025-03-26 08:10",
+      "location": "울산광역시 울주군 언양읍",
+      "status": "진화완료",
+      "level": "2단계",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "1",
+      "location": "경기 용인처인 백암 백암",
+      "startTime": "2025-03-20 15:15",
+      "endTime": "2025-03-20 16:35",
+      "resources": "헬기  1대   인력  37명   장비  14대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "전남 광양 옥곡 선유",
+      "startTime": "2025-03-20 14:49",
+      "endTime": "2025-03-20 18:00",
+      "resources": "헬기  5대   인력  75명   장비  97대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "경남 진해 진례 시례",
+      "startTime": "2025-03-20 14:48",
+      "endTime": "2025-03-20 16:19",
+      "resources": "헬기  3대   인력  121명   장비  226대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "경기 화성 매송 천천",
+      "startTime": "2025-03-20 12:17",
+      "endTime": "2025-03-20 15:40",
+      "resources": "헬기  4대   인력  58명   장비  14대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "충남 태안 안면 중장",
+      "startTime": "2025-03-19 16:00",
+      "endTime": "2025-03-19 18:00",
+      "resources": "헬기  3대   인력  93명   장비  53대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "울산 울주 온양 발양",
+      "startTime": "2025-03-18 11:27",
+      "endTime": "2025-03-18 13:00",
+      "resources": "헬기  1대   인력  121명   장비  71대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "전남 화순 백아 원",
+      "startTime": "2025-03-17 17:29",
+      "endTime": "2025-03-17 18:05",
+      "resources": "헬기  0대   인력  81명   장비  70대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "전남 장성 장성 상오",
+      "startTime": "2025-03-17 16:50",
+      "endTime": "2025-03-17 18:30",
+      "resources": "헬기  3대   인력  107명   장비  68대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "경기 양평 개군 불곡",
+      "startTime": "2025-03-17 15:47",
+      "endTime": "2025-03-17 17:00",
+      "resources": "헬기  1대   인력  77명   장비  16대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "충남 태안 이원 내",
+      "startTime": "2025-03-17 14:23",
+      "endTime": "2025-03-17 17:48",
+      "resources": "헬기  3대   인력  284명   장비  66대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
