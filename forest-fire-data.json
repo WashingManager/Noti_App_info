@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-03-26T03:19:33.168Z",
+  "timestamp": "2025-03-26T03:44:09.497Z",
   "main": {
     "status": {
-      "extinguishing": "4",
+      "extinguishing": "5",
       "completed": "7",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-03-26 12:08",
+      "endTime": "-",
+      "location": "충청남도 부여군 규암면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-03-26 10:21",
       "endTime": "2025-03-26 10:57",
@@ -269,14 +277,6 @@
       "startTime": "2025-03-23 11:43",
       "endTime": "2025-03-23 15:50",
       "location": "경상북도 경산시 남천면",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-03-23 11:13",
-      "endTime": "2025-03-23 11:24",
-      "location": "충청북도 옥천군 동이면",
       "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
