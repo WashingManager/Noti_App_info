@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-03-26T04:16:41.638Z",
+  "timestamp": "2025-03-26T04:36:30.420Z",
   "main": {
     "status": {
-      "extinguishing": "4",
-      "completed": "8",
-      "other": "0"
+      "extinguishing": "N/A",
+      "completed": "N/A",
+      "other": "N/A"
     },
     "currentFire": {
-      "grade": "산불 3단계",
+      "grade": "--",
       "details": [
         {
           "label": "발생지주소",
-          "value": "경상남도 산청군 시천면 신천리 산 39임"
+          "value": ""
         },
         {
           "label": "발생일시",
-          "value": "2025년 3월 21일 15시 26분"
+          "value": ""
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": ""
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": ""
         },
         {
           "label": "진화율",
-          "value": "90%"
+          "value": ""
         },
         {
           "label": "풍향",
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-03-26 12:48",
+      "endTime": "2025-03-26 13:19",
+      "location": "경기도 양평군 개군면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-03-26 12:08",
       "endTime": "2025-03-26 12:53",
@@ -269,14 +277,6 @@
       "startTime": "2025-03-23 11:51",
       "endTime": "2025-03-23 12:12",
       "location": "경기도 가평군 가평읍",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-03-23 11:43",
-      "endTime": "2025-03-23 15:50",
-      "location": "경상북도 경산시 남천면",
       "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
