@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-03-25T23:56:37.997Z",
+  "timestamp": "2025-03-26T01:17:32.932Z",
   "main": {
     "status": {
-      "extinguishing": "N/A",
-      "completed": "N/A",
-      "other": "N/A"
+      "extinguishing": "4",
+      "completed": "5",
+      "other": "0"
     },
     "currentFire": {
-      "grade": "--",
+      "grade": "산불 3단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": ""
+          "value": "경상남도 산청군 시천면 신천리 산 39임"
         },
         {
           "label": "발생일시",
-          "value": ""
+          "value": "2025년 3월 21일 15시 26분"
         },
         {
           "label": "진화일시",
-          "value": ""
+          "value": "-"
         },
         {
           "label": "진행상태",
-          "value": ""
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": ""
+          "value": "90%"
         },
         {
           "label": "풍향",
@@ -41,6 +41,30 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-03-26 10:05",
+      "endTime": "-",
+      "location": "충청북도 영동군 황간면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 09:06",
+      "endTime": "2025-03-26 09:55",
+      "location": "충청남도 금산군 진산면",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-26 03:01",
+      "endTime": "2025-03-26 03:45",
+      "location": "광주광역시 남구 진월동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-03-25 19:15",
       "endTime": "2025-03-26 06:00",
@@ -253,30 +277,6 @@
       "startTime": "2025-03-23 10:42",
       "endTime": "2025-03-23 11:41",
       "location": "인천광역시 서구 경서동",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-03-22 19:28",
-      "endTime": "2025-03-22 21:02",
-      "location": "경상남도 의령군 화정면",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-03-22 18:30",
-      "endTime": "2025-03-22 19:11",
-      "location": "경기도 양평군 단월면",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-03-22 17:56",
-      "endTime": "2025-03-22 18:40",
-      "location": "전북특별자치도 남원시 향교동",
       "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
