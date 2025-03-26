@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-03-26T13:03:01.437Z",
+  "timestamp": "2025-03-26T13:34:54.111Z",
   "main": {
     "status": {
       "extinguishing": "6",
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-03-26 22:20",
+      "endTime": "-",
+      "location": "충청남도 보령시 성주면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-03-26 21:22",
       "endTime": "-",
@@ -269,14 +277,6 @@
       "startTime": "2025-03-23 14:05",
       "endTime": "2025-03-23 15:10",
       "location": "경기도 동두천시 생연동",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-03-23 13:25",
-      "endTime": "2025-03-23 16:30",
-      "location": "경상북도 경주시 양남면",
       "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
