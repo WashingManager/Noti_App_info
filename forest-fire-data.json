@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-03-26T04:56:00.748Z",
+  "timestamp": "2025-03-26T05:15:11.312Z",
   "main": {
     "status": {
-      "extinguishing": "4",
+      "extinguishing": "5",
       "completed": "9",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-03-26 13:52",
+      "endTime": "-",
+      "location": "경기도 용인시 기흥구",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-03-26 12:48",
       "endTime": "2025-03-26 13:19",
@@ -272,14 +280,6 @@
       "status": "진화완료",
       "level": "2단계",
       "detailUrl": "https://fd.forest.go.kr/ffas/pubConn/movePage/sub1.do"
-    },
-    {
-      "startTime": "2025-03-23 11:51",
-      "endTime": "2025-03-23 12:12",
-      "location": "경기도 가평군 가평읍",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
     }
   ],
   "resourceList": [
