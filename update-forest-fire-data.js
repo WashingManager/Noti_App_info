@@ -88,8 +88,8 @@ async function updateForestFireData() {
       
       // 진행 상태를 "전체"로 설정
       console.log('Setting prgrsCodeList to "전체"');
-      await page.select('#prgrsCodeList', ''); // value=""로 설정
-      await Philippe(5000); // 필터 적용 후 데이터 로드 대기
+      await page.select('#prgrsCodeList', '');
+      await Philippe(5000); // 필터 적용 후 대기
       
       for (let i = 1; i <= 3; i++) {
         // 테이블 데이터 추출
@@ -102,7 +102,7 @@ async function updateForestFireData() {
             location: row.cells[2]?.textContent.trim() || '',
             status: row.cells[3]?.textContent.trim() || '',
             level: row.cells[4]?.textContent.trim() || '',
-            hasButton: !!row.querySelector('button.img')
+            hasButton: !!row.querySelector('button.btn1.img')
           }));
         });
       
@@ -111,16 +111,20 @@ async function updateForestFireData() {
         // 각 행 처리
         for (let j = 0; j < pageData.length; j++) {
           if (pageData[j].hasButton) {
-            const buttonSelector = `#fireListWrap tbody tr:nth-child(${j + 1}) button.img`;
+            const buttonSelector = `#fireListWrap tbody tr:nth-child(${j + 1}) button.btn1.img`;
             const buttonExists = await page.$(buttonSelector) !== null;
             if (buttonExists) {
               console.log(`Clicking button on row ${j + 1}`);
-              detailUrl = null;
+              // 버튼 클릭과 네비게이션 완료를 동시에 대기
+              const navigationPromise = page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 10000 });
               await page.click(buttonSelector);
-              await Philippe(5000); // 상세 페이지 로드 대기
-              pageData[j].detailUrl = detailUrl || (await page.url());
+              await navigationPromise; // 페이지 이동 완료 대기
+              const detailUrl = await page.url();
+              console.log(`Detail URL for row ${j + 1}: ${detailUrl}`);
+              pageData[j].detailUrl = detailUrl;
               await page.goBack();
-              await Philippe(3000); // 이전 페이지로 돌아온 후 대기
+              await page.waitForSelector('#fireListWrap tbody tr', { timeout: 10000 }); // 목록 복귀 확인
+              await Philippe(3000);
             } else {
               console.log(`Button not found on row ${j + 1}, skipping`);
               pageData[j].detailUrl = 'Button not found';
@@ -143,7 +147,7 @@ async function updateForestFireData() {
             await Philippe(3000);
           } else {
             console.log(`No more pages after page ${i}`);
-            break; // 다음 페이지가 없으면 루프 종료
+            break;
           }
         }
       }
