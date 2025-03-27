@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-03-27T10:37:14.518Z",
+  "timestamp": "2025-03-27T10:47:54.519Z",
   "main": {
     "status": {
-      "extinguishing": "5",
+      "extinguishing": "6",
       "completed": "3",
       "other": "2"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-03-27 19:14",
+      "endTime": "-",
+      "location": "경기도 파주시 조리읍",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-03-26 21:22",
       "endTime": "-",
