@@ -10,7 +10,8 @@ async function fetchEarthquakeData(url, isDomestic = false) {
     await page.goto(url, { waitUntil: 'networkidle2' });
 
     const allData = [];
-    const baseUrl = 'https://www.weather.go.kr/w/eqk-vol/search/'; // 경로 포함
+    const baseUrl = 'https://www.weather.go.kr/w/eqk-vol/search/';
+    let previousUrl = url; // 이전 URL 추적
 
     const formatLink = (link) => {
         if (!link) return null;
@@ -61,21 +62,36 @@ async function fetchEarthquakeData(url, isDomestic = false) {
         });
 
         // 다음 페이지 링크 확인
-        const nextPageLink = await page.evaluate(() => {
+        const nextPageInfo = await page.evaluate(() => {
             const nextButton = document.querySelector('.cmp-paging .next');
-            if (nextButton && !nextButton.classList.contains('disabled')) {
-                return nextButton.getAttribute('href');
+            if (nextButton) {
+                const href = nextButton.getAttribute('href');
+                const isDisabled = nextButton.classList.contains('disabled') || !href || href === '#';
+                return { href, isDisabled };
             }
-            return null;
+            return { href: null, isDisabled: true };
         });
 
-        if (!nextPageLink) break;
+        // 다음 페이지가 없거나 비활성화 상태면 종료
+        if (nextPageInfo.isDisabled || !nextPageInfo.href) {
+            console.log('No more pages to fetch.');
+            break;
+        }
 
         // 다음 페이지 URL 생성
-        const nextUrl = `${baseUrl}${nextPageLink}`;
-        console.log(`Moving to next page: ${nextUrl}`); // 디버깅용
+        const nextUrl = `${baseUrl}${nextPageInfo.href}`;
+        console.log(`Moving to next page: ${nextUrl}`);
+
+        // 이전 URL과 동일하면 무한 루프 방지
+        if (nextUrl === previousUrl) {
+            console.log('Same URL detected, stopping loop.');
+            break;
+        }
+
+        // 페이지 이동
         try {
             await page.goto(nextUrl, { waitUntil: 'networkidle2', timeout: 30000 });
+            previousUrl = nextUrl; // 이전 URL 업데이트
         } catch (err) {
             console.error(`Failed to navigate to ${nextUrl}: ${err.message}`);
             break;
