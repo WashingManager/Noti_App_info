@@ -85,7 +85,11 @@ async function updateForestFireData() {
       console.log('Loading sub1.do...');
       await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/sub1.do');
       await page.waitForSelector('#fireListWrap tbody tr', { timeout: 15000 }); // 테이블 로드 대기
-      await Philippe(5000); // 추가 대기 시간
+      
+      // 진행 상태를 "전체"로 설정
+      console.log('Setting prgrsCodeList to "전체"');
+      await page.select('#prgrsCodeList', ''); // value=""로 설정
+      await Philippe(5000); // 필터 적용 후 데이터 로드 대기
       
       for (let i = 1; i <= 3; i++) {
         // 테이블 데이터 추출
