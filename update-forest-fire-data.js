@@ -84,9 +84,15 @@ async function updateForestFireData() {
 
       console.log('Loading sub1.do...');
       await gotoWithRetry(page, 'https://fd.forest.go.kr/ffas/pubConn/movePage/sub1.do');
+      await page.waitForSelector('#fireListWrap tbody tr', { timeout: 15000 }); // 테이블 로드 대기
+      await Philippe(5000); // 추가 대기 시간
+      
       for (let i = 1; i <= 3; i++) {
+        // 테이블 데이터 추출
         const pageData = await page.evaluate(() => {
-          return Array.from(document.querySelectorAll('#fireListWrap tbody tr')).map(row => ({
+          const rows = document.querySelectorAll('#fireListWrap tbody tr');
+          if (rows.length === 0) return [];
+          return Array.from(rows).map(row => ({
             startTime: row.cells[0]?.textContent.trim() || '',
             endTime: row.cells[1]?.textContent.trim() || '',
             location: row.cells[2]?.textContent.trim() || '',
@@ -95,31 +101,45 @@ async function updateForestFireData() {
             hasButton: !!row.querySelector('button.img')
           }));
         });
-
+      
+        console.log(`Page ${i} - Found ${pageData.length} rows`);
+      
+        // 각 행 처리
         for (let j = 0; j < pageData.length; j++) {
           if (pageData[j].hasButton) {
-            detailUrl = null;
-            await page.click(`#fireListWrap tbody tr:nth-child(${j + 1}) button.img`);
-            await Philippe(5000);
-            pageData[j].detailUrl = detailUrl || (await page.url());
-            await page.goBack();
-            await Philippe(3000);
+            const buttonSelector = `#fireListWrap tbody tr:nth-child(${j + 1}) button.img`;
+            const buttonExists = await page.$(buttonSelector) !== null;
+            if (buttonExists) {
+              console.log(`Clicking button on row ${j + 1}`);
+              detailUrl = null;
+              await page.click(buttonSelector);
+              await Philippe(5000); // 상세 페이지 로드 대기
+              pageData[j].detailUrl = detailUrl || (await page.url());
+              await page.goBack();
+              await Philippe(3000); // 이전 페이지로 돌아온 후 대기
+            } else {
+              console.log(`Button not found on row ${j + 1}, skipping`);
+              pageData[j].detailUrl = 'Button not found';
+            }
           } else {
             pageData[j].detailUrl = '-';
           }
           delete pageData[j].hasButton;
         }
-
+      
         jsonData.fireList.push(...pageData);
-
+      
+        // 다음 페이지 확인
         if (i < 3) {
           const nextPageSelector = `.paging a[alt="${i + 1}페이지"]`;
           const nextPageExists = await page.$(nextPageSelector) !== null;
           if (nextPageExists) {
+            console.log(`Moving to page ${i + 1}`);
             await page.click(nextPageSelector);
             await Philippe(3000);
           } else {
-            break;
+            console.log(`No more pages after page ${i}`);
+            break; // 다음 페이지가 없으면 루프 종료
           }
         }
       }
