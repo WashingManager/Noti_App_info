@@ -7,6 +7,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: update-data # 동일 그룹 내 작업을 순차적으로 처리
+  cancel-in-progress: false # 진행 중인 작업을 취소하지 않음
+  
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -21,4 +25,4 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add air-quality-data.json
-          git diff --staged --quiet || (git commit -m "Update air-quality-data.json" && git push)
+           git diff --staged --quiet || (git commit -m "Update air-quality-data.json" && git pull origin main --rebase && git push)
