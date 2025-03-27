@@ -8,7 +8,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-data
+  group: update-data-earthquake
   cancel-in-progress: false
 
 jobs:
