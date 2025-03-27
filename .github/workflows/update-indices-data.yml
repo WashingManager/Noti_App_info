@@ -27,4 +27,13 @@ jobs:
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add indices-data.json
-          git diff --staged --quiet || (git commit -m "Update indices-data.json" && git pull origin main --rebase && git push)
+          # unstaged changes를 스태시로 저장
+          git stash push -u
+          # 변경사항이 있으면 커밋
+          git diff --staged --quiet || git commit -m "Update indices-data.json"
+          # 리베이스와 함께 풀
+          git pull origin main --rebase
+          # 스태시된 변경사항 복원 (필요 시)
+          git stash pop || true
+          # 푸시
+          git push origin main
