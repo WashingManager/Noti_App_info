@@ -10,7 +10,7 @@ async function fetchEarthquakeData(url, isDomestic = false) {
     await page.goto(url, { waitUntil: 'networkidle2' });
 
     const allData = [];
-    const baseUrl = 'https://www.weather.go.kr'; // 기본 URL
+    const baseUrl = 'https://www.weather.go.kr';
 
     const formatLink = (link) => {
         if (!link) return null;
@@ -18,6 +18,7 @@ async function fetchEarthquakeData(url, isDomestic = false) {
         return `${baseUrl}${link}`;
     };
 
+    // 페이지네이션 처리 루프
     while (true) {
         const content = await page.content();
         const $ = cheerio.load(content);
@@ -63,23 +64,19 @@ async function fetchEarthquakeData(url, isDomestic = false) {
         // 다음 페이지 링크 확인
         const nextPageLink = await page.evaluate(() => {
             const nextButton = document.querySelector('.cmp-paging .next');
-            if (nextButton && !nextButton.classList.contains('disabled')) {
+            if (nextButton && !nextButton.classList.contains('disabled')) { // 'disabled' 클래스가 없으면 활성화 상태
                 return nextButton.getAttribute('href');
             }
             return null;
         });
 
+        // 다음 페이지가 없으면 루프 종료
         if (!nextPageLink) break;
 
-        // 다음 페이지 URL을 올바르게 구성
-        const nextUrl = nextPageLink.startsWith('http') ? nextPageLink : `${baseUrl}${nextPageLink}`;
-        console.log(`Moving to next page: ${nextUrl}`); // 디버깅용 로그
-        try {
-            await page.goto(nextUrl, { waitUntil: 'networkidle2', timeout: 30000 });
-        } catch (err) {
-            console.error(`Failed to navigate to ${nextUrl}: ${err.message}`);
-            break; // 네비게이션 실패 시 루프 종료
-        }
+        // 다음 페이지로 이동
+        const nextUrl = `${baseUrl}${nextPageLink}`;
+        console.log(`Moving to next page: ${nextUrl}`); // 디버깅용
+        await page.goto(nextUrl, { waitUntil: 'networkidle2', timeout: 30000 });
     }
 
     await browser.close();
