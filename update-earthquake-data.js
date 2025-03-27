@@ -85,8 +85,8 @@ async function fetchRecentEarthquakeData(url) {
 
 async function updateEarthquakeData() {
     try {
-        const domesticUrl = 'https://www.weather.go.kr/w/eqk-vol/search/korea.do?startTm=2025-01-01&endTm=2025-03-23&startSize=2.0';
-        const internationalUrl = 'https://www.weather.go.kr/w/eqk-vol/search/worldwide.do?startTm=2025-01-01&endTm=2025-03-23&startSize=2.0';
+        const domesticUrl = 'https://www.weather.go.kr/w/eqk-vol/search/korea.do';
+        const internationalUrl = 'https://www.weather.go.kr/w/eqk-vol/search/worldwide.do';
         const recentUrl = 'https://www.weather.go.kr/w/eqk-vol/recent-eqk.do';
 
         const domesticData = await fetchEarthquakeData(domesticUrl, true);
