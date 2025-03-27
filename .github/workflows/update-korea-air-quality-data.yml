@@ -4,6 +4,10 @@ on:
     - cron: '*/30 * * * *' # 10분마다 (UTC)
   workflow_dispatch:
 
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
