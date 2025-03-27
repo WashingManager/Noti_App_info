@@ -1,7 +1,8 @@
 name: Update Indices Data
+
 on:
   schedule:
-    - cron: '*/10 * * * *' # 10분마다 (UTC)
+    - cron: '*/10 * * * *' # Every 10 minutes (UTC)
   workflow_dispatch:
 
 permissions:
@@ -16,14 +17,47 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          ref: main
+          fetch-depth: 0  # Gets full history
+
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - run: npm install
-      - run: npm install puppeteer
-      - run: node update-indices-data.js
-      - run: |
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install puppeteer
+        run: npm install puppeteer
+
+      - name: Run update script
+        run: node update-indices-data.js
+
+      - name: Commit and push changes
+        run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
+          
+          # Stage the changes
           git add indices-data.json
-          git diff --staged --quiet || (git commit -m "Update indices-data.json" && git pull origin main --rebase && git push)
+          
+          # Check if there are changes to commit
+          if ! git diff --staged --quiet; then
+            # Stash any unstaged changes
+            git stash push -u
+            
+            # Commit the staged changes
+            git commit -m "Update indices-data.json"
+            
+            # Pull with rebase
+            git pull origin main --rebase
+            
+            # Apply stashed changes if any
+            git stash pop || true
+            
+            # Push to main
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
