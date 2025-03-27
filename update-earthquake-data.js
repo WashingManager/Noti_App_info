@@ -11,7 +11,7 @@ async function fetchEarthquakeData(url, isDomestic = false) {
 
     const allData = [];
     const baseUrl = 'https://www.weather.go.kr/w/eqk-vol/search/';
-    let previousUrl = url; // 이전 URL 추적
+    let currentPage = 1; // 현재 페이지 번호 추적
 
     const formatLink = (link) => {
         if (!link) return null;
@@ -61,37 +61,33 @@ async function fetchEarthquakeData(url, isDomestic = false) {
             }
         });
 
-        // 다음 페이지 링크 확인
-        const nextPageInfo = await page.evaluate(() => {
-            const nextButton = document.querySelector('.cmp-paging .next');
-            if (nextButton) {
-                const href = nextButton.getAttribute('href');
-                const isDisabled = nextButton.classList.contains('disabled') || !href || href === '#';
-                return { href, isDisabled };
+        // 다음 페이지 링크 찾기
+        const nextPageLink = await page.evaluate((currentPage) => {
+            const pageLinks = document.querySelectorAll('.cmp-paging a');
+            for (const link of pageLinks) {
+                const href = link.getAttribute('href');
+                const pageNum = parseInt(link.textContent.trim(), 10);
+                if (pageNum === currentPage + 1 && href) {
+                    return href; // 다음 페이지 번호의 href 반환
+                }
             }
-            return { href: null, isDisabled: true };
-        });
+            return null; // 다음 페이지가 없으면 null
+        }, currentPage);
 
-        // 다음 페이지가 없거나 비활성화 상태면 종료
-        if (nextPageInfo.isDisabled || !nextPageInfo.href) {
+        // 다음 페이지가 없으면 종료
+        if (!nextPageLink) {
             console.log('No more pages to fetch.');
             break;
         }
 
         // 다음 페이지 URL 생성
-        const nextUrl = `${baseUrl}${nextPageInfo.href}`;
+        const nextUrl = `${baseUrl}${nextPageLink}`;
         console.log(`Moving to next page: ${nextUrl}`);
-
-        // 이전 URL과 동일하면 무한 루프 방지
-        if (nextUrl === previousUrl) {
-            console.log('Same URL detected, stopping loop.');
-            break;
-        }
 
         // 페이지 이동
         try {
             await page.goto(nextUrl, { waitUntil: 'networkidle2', timeout: 30000 });
-            previousUrl = nextUrl; // 이전 URL 업데이트
+            currentPage += 1; // 페이지 번호 증가
         } catch (err) {
             console.error(`Failed to navigate to ${nextUrl}: ${err.message}`);
             break;
