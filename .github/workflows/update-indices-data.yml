@@ -1,8 +1,8 @@
-name: Update Indices Data
+name: 인덱스 데이터 업데이트
 
 on:
   schedule:
-    - cron: '*/10 * * * *' # Every 10 minutes (UTC)
+    - cron: '*/10 * * * *' # 매 10분마다 (UTC)
   workflow_dispatch:
 
 permissions:
@@ -19,45 +19,45 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: main
-          fetch-depth: 0  # Gets full history
+          fetch-depth: 0  # 전체 Git 히스토리 가져오기
 
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Install dependencies
+      - name: 의존성 설치
         run: npm install
 
-      - name: Install puppeteer
+      - name: Puppeteer 설치
         run: npm install puppeteer
 
-      - name: Run update script
+      - name: 업데이트 스크립트 실행
         run: node update-indices-data.js
 
-      - name: Commit and push changes
+      - name: 변경사항 커밋 및 푸시
         run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           
-          # Stage the changes
+          # 변경사항 스테이징
           git add indices-data.json
           
-          # Check if there are changes to commit
+          # 커밋할 변경사항이 있는지 확인
           if ! git diff --staged --quiet; then
-            # Stash any unstaged changes
+            # staged 되지 않은 변경사항 스태시
             git stash push -u
             
-            # Commit the staged changes
+            # 스테이징된 변경사항 커밋
             git commit -m "Update indices-data.json"
             
-            # Pull with rebase
+            # 리베이스와 함께 풀
             git pull origin main --rebase
             
-            # Apply stashed changes if any
+            # 스태시된 변경사항 적용
             git stash pop || true
             
-            # Push to main
+            # 메인 브랜치로 푸시
             git push origin main
           else
-            echo "No changes to commit"
+            echo "커밋할 변경사항이 없습니다"
           fi
