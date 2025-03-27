@@ -115,16 +115,25 @@ async function updateForestFireData() {
             const buttonExists = await page.$(buttonSelector) !== null;
             if (buttonExists) {
               console.log(`Clicking button on row ${j + 1}`);
-              // 버튼 클릭과 네비게이션 완료를 동시에 대기
-              const navigationPromise = page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 10000 });
-              await page.click(buttonSelector);
-              await navigationPromise; // 페이지 이동 완료 대기
-              const detailUrl = await page.url();
-              console.log(`Detail URL for row ${j + 1}: ${detailUrl}`);
-              pageData[j].detailUrl = detailUrl;
-              await page.goBack();
-              await page.waitForSelector('#fireListWrap tbody tr', { timeout: 10000 }); // 목록 복귀 확인
-              await Philippe(3000);
+              try {
+                // 팝업 이벤트 감지
+                const popupPromise = new Promise(resolve => page.once('popup', resolve));
+                await page.click(buttonSelector);
+                const popup = await popupPromise; // 팝업 창이 열릴 때까지 대기
+                
+                // 팝업 로드 대기 및 URL 가져오기
+                await popup.waitForSelector('body', { timeout: 15000 }); // 팝업 내용 로드 확인
+                const detailUrl = popup.url();
+                console.log(`Popup URL for row ${j + 1}: ${detailUrl}`);
+                pageData[j].detailUrl = detailUrl;
+      
+                // 팝업 닫기
+                await popup.close();
+                await Philippe(3000); // 원래 페이지로 돌아온 후 대기
+              } catch (error) {
+                console.error(`Failed to handle popup for row ${j + 1}:`, error);
+                pageData[j].detailUrl = 'Popup handling failed';
+              }
             } else {
               console.log(`Button not found on row ${j + 1}, skipping`);
               pageData[j].detailUrl = 'Button not found';
