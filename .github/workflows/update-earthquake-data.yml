@@ -20,10 +20,13 @@ jobs:
         with:
           node-version: '18'
       - run: npm install
-      - run: npm install cheerio node-fetch puppeteer # 필요한 경우 puppeteer 추가
+      - run: npm install cheerio node-fetch puppeteer
       - run: node update-earthquake-data.js
       - run: |
           git config user.name "GitHub Action"
           git config user.email "action@github.com"
           git add earthquake-data.json
-          git diff --staged --quiet || (git commit -m "Update earthquake-data.json" && git pull origin main --rebase && git push)
+          # 변경 사항이 있을 때만 커밋하고, unstaged changes를 강제로 처리
+          git diff --staged --quiet || (git commit -m "Update earthquake-data.json" || git stash && git stash drop)
+          git pull origin main --rebase
+          git push origin main
