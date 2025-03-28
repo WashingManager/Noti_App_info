@@ -1,13 +1,6 @@
-name: Update Korea Air Quality Data
-true:
-  schedule:
-  - cron: 0 4-23/3 * * *
-  workflow_dispatch: null
 concurrency:
   cancel-in-progress: false
   group: update-data
-permissions:
-  contents: write
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -32,3 +25,10 @@ jobs:
         git push
 
         '
+name: Update Korea Air Quality Data
+'on':
+  schedule:
+  - cron: 0 4,16 * * *
+  workflow_dispatch: null
+permissions:
+  contents: write

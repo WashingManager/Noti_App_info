@@ -1,10 +1,3 @@
-name: Update Forest Fire Data
-true:
-  schedule:
-  - cron: 0 2-23/3 * * *
-  workflow_dispatch: null
-permissions:
-  contents: write
 concurrency:
   cancel-in-progress: false
   group: update-data-forest-fire
@@ -31,3 +24,10 @@ jobs:
         git push origin main
 
         '
+name: Update Forest Fire Data
+'on':
+  schedule:
+  - cron: 0 2,14 * * *
+  workflow_dispatch: null
+permissions:
+  contents: write
