@@ -27,7 +27,7 @@ jobs:
 name: Update Forest Fire Data
 'on':
   schedule:
-  - cron: 0 2,14 * * *
+  - cron: 0 1,13 * * *
   workflow_dispatch: null
 permissions:
   contents: write
