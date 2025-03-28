@@ -1,3 +1,10 @@
+name: Update Earthquake Data
+on:
+  schedule:
+    - cron: 0 0,12 * * *
+  workflow_dispatch:
+permissions:
+  contents: write
 concurrency:
   cancel-in-progress: false
   group: update-data-earthquake
@@ -5,33 +12,26 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: '18'
-    - run: npm install
-    - run: npm install cheerio node-fetch puppeteer
-    - run: node update-earthquake-data.js
-    - run: 'git config user.name "GitHub Action"
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - run: npm install
+      - run: npm install cheerio node-fetch puppeteer
+      - run: node update-earthquake-data.js
+      - run: 'git config user.name "GitHub Action"
 
-        git config user.email "action@github.com"
+          git config user.email "action@github.com"
 
-        git add earthquake-data.json
+          git add earthquake-data.json
 
-        git diff --staged --quiet || git commit -m "Update earthquake-data.json"
+          git diff --staged --quiet || git commit -m "Update earthquake-data.json"
 
-        git fetch origin
+          git fetch origin
 
-        git rebase origin/main || echo "Rebase failed: $(git status)"
+          git rebase origin/main || echo "Rebase failed: $(git status)"
 
-        git push origin main || echo "Push failed with exit code: $?"
+          git push origin main || echo "Push failed with exit code: $?"
 
-        '
-      shell: bash
-name: Update Earthquake Data
-'on':
-  schedule:
-  - cron: 0 0,12 * * *
-  workflow_dispatch: null
-permissions:
-  contents: write
+          '
+        shell: bash

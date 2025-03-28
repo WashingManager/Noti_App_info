@@ -1,3 +1,10 @@
+name: Update Korea Air Quality Data
+on:
+  schedule:
+    - cron: 0 0,12 * * *
+  workflow_dispatch:
+permissions:
+  contents: write
 concurrency:
   cancel-in-progress: false
   group: update-data
@@ -5,30 +12,23 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - uses: actions/setup-node@v3
-      with:
-        node-version: '18'
-    - run: npm install
-    - run: npm run update-korea-air-quality
-    - run: 'git config user.name "GitHub Action"
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - run: npm install
+      - run: npm run update-korea-air-quality
+      - run: 'git config user.name "GitHub Action"
 
-        git config user.email "action@github.com"
+          git config user.email "action@github.com"
 
-        git add korea-air-quality-data.json
+          git add korea-air-quality-data.json
 
-        git commit -m "Update korea-air-quality-data.json" || echo "No changes to
-        commit"
+          git commit -m "Update korea-air-quality-data.json" || echo "No changes to
+          commit"
 
-        git pull origin main --rebase
+          git pull origin main --rebase
 
-        git push
+          git push
 
-        '
-name: Update Korea Air Quality Data
-'on':
-  schedule:
-  - cron: 0 0,12 * * *
-  workflow_dispatch: null
-permissions:
-  contents: write
+          '
