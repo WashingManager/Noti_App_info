@@ -1,13 +1,13 @@
 name: Update Indices Data
 on:
   schedule:
-    - cron: 0 3,15 * * *
+    - cron: '0 3,15 * * *'  # 매일 03:00과 15:00에 실행
   workflow_dispatch:
 permissions:
   contents: write
 concurrency:
-  cancel-in-progress: false
   group: update-data
+  cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -19,30 +19,14 @@ jobs:
       - run: npm install
       - run: npm install puppeteer
       - run: node update-indices-data.js
-      - run: 'git config user.name "GitHub Action"
-
+      - name: Check file changes and commit
+        run: |
+          git config user.name "GitHub Action"
           git config user.email "action@github.com"
-
           git add indices-data.json
-
-          # unstaged changes를 스태시로 저장
-
-          git stash push -u
-
-          # 변경사항이 있으면 커밋
-
-          git diff --staged --quiet || git commit -m "Update indices-data.json"
-
-          # 리베이스와 함께 풀
-
-          git pull origin main --rebase
-
-          # 스태시된 변경사항 복원 (필요 시)
-
-          git stash pop || true
-
-          # 푸시
-
-          git push origin main
-
-          '
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update indices-data.json"
+            git push origin main
+          fi
