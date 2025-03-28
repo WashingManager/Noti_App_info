@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-data
+  group: update-data-forest-fire
   cancel-in-progress: false
   
 jobs:
