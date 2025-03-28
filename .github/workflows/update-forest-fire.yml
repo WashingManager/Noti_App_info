@@ -1,7 +1,7 @@
 name: Update Forest Fire Data
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 2-23/3 * * *'
   workflow_dispatch:
 permissions:
   contents: write
