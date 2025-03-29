@@ -1,7 +1,7 @@
 name: Update Earthquake Data
 on:
   schedule:
-    - cron: 10 0 * * *
+    - cron: 2/10 * * * *
   workflow_dispatch:
 permissions:
   contents: write
