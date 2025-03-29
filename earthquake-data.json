@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "17",
+      "time": "2025/03/29 05:37:25",
+      "magnitude": "2.5",
+      "depth": "20",
+      "maxIntensity": "Ⅱ",
+      "latitude": "33.90 N",
+      "longitude": "126.93 E",
+      "location": "전남 여수시 거문도 서남서쪽 38km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250329053725.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250329053725.html"
+    },
+    {
       "number": "16",
       "time": "2025/03/20 16:26:08",
       "magnitude": "2.5",
@@ -194,6 +206,18 @@
     }
   ],
   "international": [
+    {
+      "number": "37",
+      "time": "2025/03/29 02:17:26",
+      "magnitude": "6.6",
+      "depth": "6",
+      "maxIntensity": "",
+      "latitude": "0.72 N",
+      "longitude": "29.76 W",
+      "location": "대서양 중앙 해령",
+      "mapLink": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250329021726.png",
+      "detailLink": null
+    },
     {
       "number": "36",
       "time": "2025/03/28 15:32:04",
@@ -628,12 +652,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 03월 28일 15시 32분 04초",
-    "magnitude": "6.4",
-    "location": "미얀마 만달레이 남남서쪽 32km 지역  (위도: 21.71 N, 경도: 95.97 E)",
-    "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.\n위 지진은 15시 20분경 발생한 미얀마 지진(규모 7.7)의 여진임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250328153204.png"
+    "time": "2025년 03월 29일 05시 37분 25초",
+    "magnitude": "2.5",
+    "location": "",
+    "depth": "최대진도  Ⅱ(전남)",
+    "note": "전남 여수시 거문도 서남서쪽 38km 해역  (위도: 33.90 N, 경도: 126.93 E, ± 1.5km)20 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250329053725.png;jsessionid=OEWtDUDBsP4qsrQrdHGvj4cq6CrRKgTdWDTfiuUc.standalone"
   },
-  "lastUpdate": "2025-03-28T10:48:07.350Z"
+  "lastUpdate": "2025-03-29T02:23:59.426Z"
 }
