@@ -66,19 +66,19 @@
     },
     {
       "rank": "9",
-      "flag": "https://cdn.airvisual.net/flags/indonesia.jpg",
-      "city": "메단, 인도네시아",
-      "link": "https://www.iqair.com/ko/indonesia/north-sumatra/medan",
-      "aqi": "134",
-      "followers": "1.4M"
-    },
-    {
-      "rank": "10",
       "flag": "https://cdn.airvisual.net/flags/kyrgyzstan.jpg",
       "city": "비슈케크, 키르기스스탄",
       "link": "https://www.iqair.com/ko/kyrgyzstan/bishkek/bishkek",
       "aqi": "132",
       "followers": "86.7K"
+    },
+    {
+      "rank": "10",
+      "flag": "https://cdn.airvisual.net/flags/indonesia.jpg",
+      "city": "메단, 인도네시아",
+      "link": "https://www.iqair.com/ko/indonesia/north-sumatra/medan",
+      "aqi": "125",
+      "followers": "1.4M"
     },
     {
       "rank": "11",
@@ -738,14 +738,6 @@
     },
     {
       "rank": "93",
-      "flag": "https://cdn.airvisual.net/flags/czech-republic.jpg",
-      "city": "프라하, 체코공화국",
-      "link": "https://www.iqair.com/ko/czech-republic/praha/prague",
-      "aqi": "33",
-      "followers": "133.7K"
-    },
-    {
-      "rank": "94",
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "광저우시, 중국",
       "link": "https://www.iqair.com/ko/china/guangdong/guangzhou",
@@ -753,7 +745,7 @@
       "followers": "1.7M"
     },
     {
-      "rank": "95",
+      "rank": "94",
       "flag": "https://cdn.airvisual.net/flags/netherlands.jpg",
       "city": "로테르담, 네덜란드",
       "link": "https://www.iqair.com/ko/netherlands/south-holland/rotterdam",
@@ -761,7 +753,7 @@
       "followers": "141.2K"
     },
     {
-      "rank": "96",
+      "rank": "95",
       "flag": "https://cdn.airvisual.net/flags/slovenia.jpg",
       "city": "류블랴나, 슬로베니아",
       "link": "https://www.iqair.com/ko/slovenia/osrednjeslovenska/ljubljana",
@@ -769,12 +761,20 @@
       "followers": "37.6K"
     },
     {
-      "rank": "97",
+      "rank": "96",
       "flag": "https://cdn.airvisual.net/flags/usa.jpg",
       "city": "덴버, 미국",
       "link": "https://www.iqair.com/ko/usa/colorado/denver",
       "aqi": "32",
       "followers": "1.7M"
+    },
+    {
+      "rank": "97",
+      "flag": "https://cdn.airvisual.net/flags/czech-republic.jpg",
+      "city": "프라하, 체코공화국",
+      "link": "https://www.iqair.com/ko/czech-republic/praha/prague",
+      "aqi": "31",
+      "followers": "133.7K"
     },
     {
       "rank": "98",
@@ -993,5 +993,5 @@
       "followers": "1.7M"
     }
   ],
-  "lastUpdate": "Sun, 30 Mar 2025 16:52:20 GMT"
+  "lastUpdate": "Sun, 30 Mar 2025 17:07:44 GMT"
 }
