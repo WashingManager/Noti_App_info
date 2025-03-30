@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-03-30T02:06:30.985Z",
+  "timestamp": "2025-03-30T03:12:43.151Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "0",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-03-30 11:58",
+      "endTime": "-",
+      "location": "경상남도 밀양시 상동면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-03-21 15:26",
       "endTime": "-",
