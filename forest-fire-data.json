@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-03-30T04:51:57.537Z",
+  "timestamp": "2025-03-30T05:14:23.262Z",
   "main": {
     "status": {
       "extinguishing": "2",
@@ -7,23 +7,23 @@
       "other": "0"
     },
     "currentFire": {
-      "grade": "산불 3단계",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": "경상남도 산청군 시천면 신천리 산 39임"
+          "value": "전라남도 순천시 송광면 월산리 산2-3도"
         },
         {
           "label": "발생일시",
-          "value": "2025년 3월 21일 15시 26분"
+          "value": "2025년 3월 30일 11시 35분"
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2025년 3월 30일 13시 20분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "진화완료"
         },
         {
           "label": "진화율",
@@ -41,14 +41,6 @@
     }
   },
   "fireList": [
-    {
-      "startTime": "2025-03-30 12:58",
-      "endTime": "-",
-      "location": "경상남도 고성군 영오면",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
     {
       "startTime": "2025-03-21 15:26",
       "endTime": "-",
