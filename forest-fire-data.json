@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-03-31T07:21:18.982Z",
+  "timestamp": "2025-03-31T07:36:31.562Z",
   "main": {
     "status": {
-      "extinguishing": "0",
-      "completed": "5",
+      "extinguishing": "1",
+      "completed": "4",
       "other": "0"
     },
     "currentFire": {
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-03-31 15:27",
+      "endTime": "2025-03-31 16:12",
+      "location": "경기도 파주시 광탄면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
