@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-03-31T06:37:19.338Z",
+  "timestamp": "2025-03-31T06:54:27.643Z",
   "main": {
     "status": {
-      "extinguishing": "2",
+      "extinguishing": "3",
       "completed": "2",
       "other": "0"
     },
@@ -45,6 +45,14 @@
       "startTime": "2025-03-31 15:27",
       "endTime": "-",
       "location": "경기도 파주시 광탄면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-31 15:26",
+      "endTime": "-",
+      "location": "충청남도 당진시 고대면",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
