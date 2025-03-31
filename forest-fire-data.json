@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-03-31T05:56:22.875Z",
+  "timestamp": "2025-03-31T06:37:19.338Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "1",
+      "extinguishing": "2",
+      "completed": "2",
       "other": "0"
     },
     "currentFire": {
@@ -42,9 +42,17 @@
   },
   "fireList": [
     {
-      "startTime": "2025-03-31 13:52",
+      "startTime": "2025-03-31 15:27",
       "endTime": "-",
-      "location": "경기도 안성시 공도읍",
+      "location": "경기도 파주시 광탄면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-03-31 15:07",
+      "endTime": "-",
+      "location": "대구광역시 남구 봉덕동",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
