@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "18",
+      "time": "2025/03/31 21:19:43",
+      "magnitude": "2.0",
+      "depth": "12",
+      "maxIntensity": "Ⅰ",
+      "latitude": "41.36 N",
+      "longitude": "129.43 E",
+      "location": "북한 함경북도 길주 북쪽 46km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250331211943.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250331211943.html"
+    },
+    {
       "number": "17",
       "time": "2025/03/29 05:37:25",
       "magnitude": "2.5",
@@ -676,12 +688,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 03월 31일 00시 04분 52초",
-    "magnitude": "6.1",
-    "location": "통가 누쿠알로파 동북동쪽 166km 해역  (위도: 20.37 S, 경도: 173.83 W)",
-    "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.\n위 지진은 3월 30일 21시 18분경 발생한 통가 지진(규모 7.3)의 여진임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250331000452.png"
+    "time": "2025년 03월 31일 21시 19분 43초",
+    "magnitude": "2.0",
+    "location": "",
+    "depth": "최대진도  Ⅰ",
+    "note": "북한 함경북도 길주 북쪽 46km 지역  (위도: 41.36 N, 경도: 129.43 E, ± 6.3km)12 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250331211943.png;jsessionid=lFrSJttlOGFxkNP7A6nmnCoskZNAmG0GTu3M8PLS.standalone"
   },
-  "lastUpdate": "2025-03-31T13:15:12.805Z"
+  "lastUpdate": "2025-03-31T13:40:20.713Z"
 }
