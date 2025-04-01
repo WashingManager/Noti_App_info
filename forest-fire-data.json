@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-04-01T02:16:44.978Z",
+  "timestamp": "2025-04-01T03:28:33.059Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "--",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": ""
+          "value": "경기도 화성시 마도면 쌍송리 265-4 임"
         },
         {
           "label": "발생일시",
-          "value": ""
+          "value": "2025년 4월 1일 12시 13분"
         },
         {
           "label": "진화일시",
-          "value": ""
+          "value": "-"
         },
         {
           "label": "진행상태",
-          "value": ""
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": ""
+          "value": "0%"
         },
         {
           "label": "풍향",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-04-01 12:13",
+      "endTime": "-",
+      "location": "경기도 화성시 마도면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
