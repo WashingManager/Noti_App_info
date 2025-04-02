@@ -1,25 +1,25 @@
 {
-  "timestamp": "2025-04-02T14:51:50.320Z",
+  "timestamp": "2025-04-02T15:16:29.482Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "4",
-      "other": "3"
+      "extinguishing": "0",
+      "completed": "1",
+      "other": "0"
     },
     "currentFire": {
       "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": "충청남도 공주시 탄천면 삼각리 87답"
+          "value": "경기도 화성시 매송면 야목리 산56임"
         },
         {
           "label": "발생일시",
-          "value": "2025년 4월 2일 10시 49분"
+          "value": "2025년 4월 2일 23시 21분"
         },
         {
           "label": "진화일시",
-          "value": "2025년 4월 2일 11시 33분"
+          "value": "2025년 4월 3일 0시 1분"
         },
         {
           "label": "진행상태",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-02 23:21",
-      "endTime": "-",
-      "location": "경기도 화성시 매송면",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
