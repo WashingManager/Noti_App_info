@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "19",
+      "time": "2025/04/02 22:47:35",
+      "magnitude": "2.4",
+      "depth": "8",
+      "maxIntensity": "Ⅰ",
+      "latitude": "35.56 N",
+      "longitude": "124.43 E",
+      "location": "전남 신안군 흑산도 북서쪽 134km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250402224735.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250402224735.html"
+    },
+    {
       "number": "18",
       "time": "2025/03/31 21:19:43",
       "magnitude": "2.0",
@@ -700,12 +712,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 04월 02일 09시 29분 22초",
-    "magnitude": "6.4",
-    "location": "태평양-남극 해령  (위도: 57.05 S, 경도: 142.25 W)",
-    "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250402092922.png;jsessionid=V9jlp0tyG21w1BPNdVJdBWjZwH09vixm2QdaKSzl.standalone"
+    "time": "2025년 04월 02일 22시 47분 35초",
+    "magnitude": "2.4",
+    "location": "",
+    "depth": "최대진도  Ⅰ",
+    "note": "전남 신안군 흑산도 북서쪽 134km 해역  (위도: 35.56 N, 경도: 124.43 E, ± 3.6km)8 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250402224735.png;jsessionid=Cvc7smSJy_i4SJGGea8pWZBvvkJ580XYXyG3Vnsx.standalone"
   },
-  "lastUpdate": "2025-04-02T13:48:34.361Z"
+  "lastUpdate": "2025-04-02T13:56:56.218Z"
 }
