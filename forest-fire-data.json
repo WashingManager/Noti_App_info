@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-02T06:22:59.220Z",
+  "timestamp": "2025-04-02T06:46:58.204Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "3",
       "other": "1"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-02 15:41",
+      "endTime": "-",
+      "location": "부산광역시 사상구 엄궁동",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-02 15:10",
       "endTime": "-",
