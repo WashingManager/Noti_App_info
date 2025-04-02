@@ -219,6 +219,18 @@
   ],
   "international": [
     {
+      "number": "40",
+      "time": "2025/04/02 09:29:22",
+      "magnitude": "6.4",
+      "depth": "10",
+      "maxIntensity": "",
+      "latitude": "57.05 S",
+      "longitude": "142.25 W",
+      "location": "태평양-남극 해령",
+      "mapLink": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250402092922.png",
+      "detailLink": null
+    },
+    {
       "number": "39",
       "time": "2025/03/31 00:04:52",
       "magnitude": "6.1",
@@ -688,12 +700,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 03월 31일 21시 19분 43초",
-    "magnitude": "2.0",
-    "location": "",
-    "depth": "최대진도  Ⅰ",
-    "note": "북한 함경북도 길주 북쪽 46km 지역  (위도: 41.36 N, 경도: 129.43 E, ± 6.3km)12 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250331211943.png;jsessionid=fYkliPxiLXywQzxpx3mdOGPE91rsamT1_tlaKHPy.standalone"
+    "time": "2025년 04월 02일 09시 29분 22초",
+    "magnitude": "6.4",
+    "location": "태평양-남극 해령  (위도: 57.05 S, 경도: 142.25 W)",
+    "depth": "10 km",
+    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250402092922.png"
   },
-  "lastUpdate": "2025-04-01T21:49:17.222Z"
+  "lastUpdate": "2025-04-02T03:59:55.136Z"
 }
