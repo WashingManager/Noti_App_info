@@ -231,6 +231,18 @@
   ],
   "international": [
     {
+      "number": "41",
+      "time": "2025/04/02 23:04:00",
+      "magnitude": "6.0",
+      "depth": "40",
+      "maxIntensity": "",
+      "latitude": "31.00 N",
+      "longitude": "131.50 E",
+      "location": "일본 미야자키현 미야자키시 남쪽 102km 해역",
+      "mapLink": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250402230400.png",
+      "detailLink": null
+    },
+    {
       "number": "40",
       "time": "2025/04/02 09:29:22",
       "magnitude": "6.4",
@@ -712,12 +724,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 04월 02일 22시 47분 35초",
-    "magnitude": "2.4",
-    "location": "",
-    "depth": "최대진도  Ⅰ",
-    "note": "전남 신안군 흑산도 북서쪽 134km 해역  (위도: 35.56 N, 경도: 124.43 E, ± 3.6km)8 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250402224735.png;jsessionid=Cvc7smSJy_i4SJGGea8pWZBvvkJ580XYXyG3Vnsx.standalone"
+    "time": "2025년 04월 02일 23시 04분 00초",
+    "magnitude": "6.0",
+    "location": "일본 미야자키현 미야자키시 남쪽 102km 해역  (위도: 31.00 N, 경도: 131.50 E)",
+    "depth": "40 km",
+    "note": "국내 일부지역에서 지진동을 느낄수 있음. 안전에 유의하기 바람.\n위 자료는 일본기상청(JMA) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250402230400.png;jsessionid=Rh26l5sC_7LaFT-KIQ1GzBCBMeDlYJ-WawsUB6Sp.standalone"
   },
-  "lastUpdate": "2025-04-02T13:56:56.218Z"
+  "lastUpdate": "2025-04-02T14:18:05.438Z"
 }
