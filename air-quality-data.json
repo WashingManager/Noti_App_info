@@ -5,7 +5,7 @@
       "flag": "https://cdn.airvisual.net/flags/nepal.jpg",
       "city": "카트만두, 네팔",
       "link": "https://www.iqair.com/ko/nepal/central-region/kathmandu",
-      "aqi": "242",
+      "aqi": "261",
       "followers": "189K"
     },
     {
@@ -123,18 +123,18 @@
     {
       "rank": "16",
       "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "콜카타, 인도",
-      "link": "https://www.iqair.com/ko/india/west-bengal/kolkata",
-      "aqi": "88",
-      "followers": "1.4M"
+      "city": "델리, 인도",
+      "link": "https://www.iqair.com/ko/india/delhi/delhi",
+      "aqi": "89",
+      "followers": "2.8M"
     },
     {
       "rank": "17",
       "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "델리, 인도",
-      "link": "https://www.iqair.com/ko/india/delhi/delhi",
+      "city": "콜카타, 인도",
+      "link": "https://www.iqair.com/ko/india/west-bengal/kolkata",
       "aqi": "88",
-      "followers": "2.8M"
+      "followers": "1.4M"
     },
     {
       "rank": "18",
@@ -382,7 +382,7 @@
       "city": "마닐라, 필리핀",
       "link": "https://www.iqair.com/ko/philippines/ncr/manila",
       "aqi": "61",
-      "followers": "155.8K"
+      "followers": "155.9K"
     },
     {
       "rank": "49",
@@ -509,7 +509,7 @@
       "flag": "https://cdn.airvisual.net/flags/uk.jpg",
       "city": "버밍엄, 영국",
       "link": "https://www.iqair.com/ko/uk/england/birmingham",
-      "aqi": "57",
+      "aqi": "56",
       "followers": "313.2K"
     },
     {
@@ -626,14 +626,6 @@
     },
     {
       "rank": "79",
-      "flag": "https://cdn.airvisual.net/flags/japan.jpg",
-      "city": "고베시, 일본",
-      "link": "https://www.iqair.com/ko/japan/hyogo/kobe",
-      "aqi": "52",
-      "followers": "35.1K"
-    },
-    {
-      "rank": "80",
       "flag": "https://cdn.airvisual.net/flags/netherlands.jpg",
       "city": "로테르담, 네덜란드",
       "link": "https://www.iqair.com/ko/netherlands/south-holland/rotterdam",
@@ -641,7 +633,7 @@
       "followers": "141.3K"
     },
     {
-      "rank": "81",
+      "rank": "80",
       "flag": "https://cdn.airvisual.net/flags/greece.jpg",
       "city": "아테네, 그리스",
       "link": "https://www.iqair.com/ko/greece/attica/athens",
@@ -649,12 +641,20 @@
       "followers": "53.4K"
     },
     {
-      "rank": "82",
+      "rank": "81",
       "flag": "https://cdn.airvisual.net/flags/romania.jpg",
       "city": "부쿠레슈티, 루마니아",
       "link": "https://www.iqair.com/ko/romania/bucuresti/bucharest",
       "aqi": "50",
       "followers": "87.7K"
+    },
+    {
+      "rank": "82",
+      "flag": "https://cdn.airvisual.net/flags/japan.jpg",
+      "city": "고베시, 일본",
+      "link": "https://www.iqair.com/ko/japan/hyogo/kobe",
+      "aqi": "50",
+      "followers": "35.1K"
     },
     {
       "rank": "83",
@@ -722,6 +722,14 @@
     },
     {
       "rank": "91",
+      "flag": "https://cdn.airvisual.net/flags/japan.jpg",
+      "city": "교토시, 일본",
+      "link": "https://www.iqair.com/ko/japan/kyoto/kyoto",
+      "aqi": "42",
+      "followers": "109.3K"
+    },
+    {
+      "rank": "92",
       "flag": "https://cdn.airvisual.net/flags/australia.jpg",
       "city": "멜버른, 호주",
       "link": "https://www.iqair.com/ko/australia/victoria/melbourne",
@@ -729,7 +737,7 @@
       "followers": "389.5K"
     },
     {
-      "rank": "92",
+      "rank": "93",
       "flag": "https://cdn.airvisual.net/flags/malaysia.jpg",
       "city": "쿠칭, 말레이지아",
       "link": "https://www.iqair.com/ko/malaysia/sarawak/kuching",
@@ -737,20 +745,12 @@
       "followers": "52.9K"
     },
     {
-      "rank": "93",
+      "rank": "94",
       "flag": "https://cdn.airvisual.net/flags/italy.jpg",
       "city": "로마, 이탈리아",
       "link": "https://www.iqair.com/ko/italy/latium/rome",
       "aqi": "39",
       "followers": "118.8K"
-    },
-    {
-      "rank": "94",
-      "flag": "https://cdn.airvisual.net/flags/japan.jpg",
-      "city": "교토시, 일본",
-      "link": "https://www.iqair.com/ko/japan/kyoto/kyoto",
-      "aqi": "39",
-      "followers": "109.3K"
     },
     {
       "rank": "95",
@@ -1009,5 +1009,5 @@
       "followers": "33.8K"
     }
   ],
-  "lastUpdate": "Wed, 02 Apr 2025 10:46:34 GMT"
+  "lastUpdate": "Wed, 02 Apr 2025 10:52:53 GMT"
 }
