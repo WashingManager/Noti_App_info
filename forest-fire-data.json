@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-02T05:52:14.715Z",
+  "timestamp": "2025-04-02T06:22:59.220Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "3",
       "other": "1"
     },
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-04-02 15:10",
+      "endTime": "-",
+      "location": "전북특별자치도 완주군 봉동읍",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-04-02 14:47",
+      "endTime": "-",
+      "location": "경상남도 함양군 서하면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
