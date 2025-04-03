@@ -231,6 +231,18 @@
   ],
   "international": [
     {
+      "number": "42",
+      "time": "2025/04/03 23:09:29",
+      "magnitude": "6.8",
+      "depth": "10",
+      "maxIntensity": "",
+      "latitude": "52.49 N",
+      "longitude": "32.10 W",
+      "location": "아이슬란드 레이캬비크 남남서쪽 1421km 해역",
+      "mapLink": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250403230929.png",
+      "detailLink": null
+    },
+    {
       "number": "41",
       "time": "2025/04/02 23:04:00",
       "magnitude": "6.0",
@@ -724,12 +736,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 04월 02일 23시 04분 00초",
-    "magnitude": "6.0",
-    "location": "일본 미야자키현 미야자키시 남쪽 102km 해역  (위도: 31.00 N, 경도: 131.50 E)",
-    "depth": "40 km",
-    "note": "국내 일부지역에서 지진동을 느낄수 있음. 안전에 유의하기 바람.\n위 자료는 일본기상청(JMA) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250402230400.png;jsessionid=pBenEUx-K-jZHxkyeKpjTrYZEfEtor1aCovQR9fr.standalone"
+    "time": "2025년 04월 03일 23시 09분 29초",
+    "magnitude": "6.8",
+    "location": "아이슬란드 레이캬비크 남남서쪽 1421km 해역  (위도: 52.49 N, 경도: 32.10 W)",
+    "depth": "10 km",
+    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250403230929.png;jsessionid=hyzFWksZTB6XcSMr3MuDMwHN17A8Iua71NHrgW66.standalone"
   },
-  "lastUpdate": "2025-04-03T10:58:38.406Z"
+  "lastUpdate": "2025-04-03T17:19:04.466Z"
 }
