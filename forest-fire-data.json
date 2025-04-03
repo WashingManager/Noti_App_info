@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-04-03T05:56:26.485Z",
+  "timestamp": "2025-04-03T06:36:37.026Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "3",
+      "extinguishing": "3",
+      "completed": "4",
       "other": "0"
     },
     "currentFire": {
@@ -42,9 +42,25 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-03 14:40",
+      "startTime": "2025-04-03 15:10",
       "endTime": "-",
-      "location": "강원특별자치도 원주시 소초면",
+      "location": "경기도 파주시 법원읍",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-04-03 15:08",
+      "endTime": "-",
+      "location": "경기도 성남시 분당구",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-04-03 14:55",
+      "endTime": "-",
+      "location": "충청남도 논산시 연산면",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
