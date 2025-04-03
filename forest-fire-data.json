@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-04-03T06:36:37.026Z",
+  "timestamp": "2025-04-03T06:53:34.907Z",
   "main": {
     "status": {
-      "extinguishing": "3",
-      "completed": "4",
-      "other": "0"
+      "extinguishing": "1",
+      "completed": "5",
+      "other": "1"
     },
     "currentFire": {
       "grade": "초기진화단계",
@@ -42,25 +42,9 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-03 15:10",
-      "endTime": "-",
-      "location": "경기도 파주시 법원읍",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
       "startTime": "2025-04-03 15:08",
       "endTime": "-",
       "location": "경기도 성남시 분당구",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-04-03 14:55",
-      "endTime": "-",
-      "location": "충청남도 논산시 연산면",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
