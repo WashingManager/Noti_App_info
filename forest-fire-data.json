@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-02T23:51:47.969Z",
+  "timestamp": "2025-04-03T01:11:41.104Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "1",
       "other": "0"
     },
@@ -11,23 +11,23 @@
       "details": [
         {
           "label": "발생지주소",
-          "value": "경기도 화성시 매송면 야목리 산56임"
+          "value": "경기도 화성시 중동 310임"
         },
         {
           "label": "발생일시",
-          "value": "2025년 4월 2일 23시 21분"
+          "value": "2025년 4월 3일 10시 1분"
         },
         {
           "label": "진화일시",
-          "value": "2025년 4월 3일 0시 1분"
+          "value": "-"
         },
         {
           "label": "진행상태",
-          "value": "진화완료"
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": "100%"
+          "value": "0%"
         },
         {
           "label": "풍향",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-04-03 10:01",
+      "endTime": "-",
+      "location": "경기도 화성시 중동",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
