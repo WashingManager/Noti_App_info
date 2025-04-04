@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-04T07:10:16.760Z",
+  "timestamp": "2025-04-04T07:28:50.640Z",
   "main": {
     "status": {
-      "extinguishing": "2",
+      "extinguishing": "3",
       "completed": "2",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-04 15:52",
+      "endTime": "-",
+      "location": "충청북도 영동군 양산면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-04 14:25",
       "endTime": "-",
