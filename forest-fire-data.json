@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-04T05:38:43.599Z",
+  "timestamp": "2025-04-04T05:52:00.621Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "1",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-04 14:25",
+      "endTime": "-",
+      "location": "전북특별자치도 순창군 쌍치면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-04 11:38",
       "endTime": "-",
