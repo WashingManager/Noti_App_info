@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-04-04T20:51:34.162Z",
+  "timestamp": "2025-04-04T21:13:29.208Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "0",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "초기진화단계",
+      "grade": "--",
       "details": [
         {
           "label": "발생지주소",
-          "value": "강원특별자치도 철원군 근북면 백덕리 산20임"
+          "value": ""
         },
         {
           "label": "발생일시",
-          "value": "2025년 4월 4일 11시 38분"
+          "value": ""
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": ""
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": ""
         },
         {
           "label": "진화율",
-          "value": "0%"
+          "value": ""
         },
         {
           "label": "풍향",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-04 11:38",
-      "endTime": "-",
-      "location": "강원특별자치도 철원군 근북면",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
