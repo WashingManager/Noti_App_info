@@ -5,13 +5,13 @@
       "link": "https://kr.investing.com/indices/kospi",
       "flagUrl": "https://flagcdn.com/16x12/kr.png",
       "values": [
-        "2,446.82",
+        "2,448.05",
         "2,506.71",
         "2,443.35",
-        "-39.88",
-        "-1.60%"
+        "-38.65",
+        "-1.55%"
       ],
-      "time": "12:25:10",
+      "time": "12:50:10",
       "marketStatus": "open"
     },
     {
@@ -19,13 +19,13 @@
       "link": "https://kr.investing.com/indices/kospi-50",
       "flagUrl": "https://flagcdn.com/16x12/kr.png",
       "values": [
-        "2,267.06",
+        "2,265.48",
         "2,325.82",
         "2,261.79",
-        "-44.90",
-        "-1.94%"
+        "-46.48",
+        "-2.01%"
       ],
-      "time": "12:24:40",
+      "time": "12:49:50",
       "marketStatus": "open"
     },
     {
@@ -33,13 +33,13 @@
       "link": "https://kr.investing.com/indices/kosdaq",
       "flagUrl": "https://flagcdn.com/16x12/kr.png",
       "values": [
-        "678.04",
+        "678.83",
         "697.72",
         "676.89",
-        "-5.45",
-        "-0.80%"
+        "-4.66",
+        "-0.68%"
       ],
-      "time": "12:24:50",
+      "time": "12:50:10",
       "marketStatus": "open"
     },
     {
@@ -330,11 +330,11 @@
         "2,859.58",
         "2,972.49",
         "2,853.76",
-        "-66.81",
-        "-2.28%"
+        "0.00",
+        "0.00%"
       ],
       "time": "00:43:59",
-      "marketStatus": "closed"
+      "marketStatus": "open"
     },
     {
       "name": "RTSI 지수",
@@ -425,13 +425,13 @@
       "link": "https://kr.investing.com/indices/japan-ni225",
       "flagUrl": "https://flagcdn.com/16x12/jp.png",
       "values": [
-        "33,760.50",
+        "33,471.00",
         "34,324.50",
-        "33,738.50",
-        "-975.43",
-        "-2.81%"
+        "33,446.50",
+        "-1,264.93",
+        "-3.64%"
       ],
-      "time": "12:27:07",
+      "time": "12:51:27",
       "marketStatus": "open"
     },
     {
@@ -439,13 +439,13 @@
       "link": "https://kr.investing.com/indices/aus-200",
       "flagUrl": "https://flagcdn.com/16x12/au.png",
       "values": [
-        "7,699.30",
+        "7,683.90",
         "7,859.70",
-        "7,687.20",
-        "-160.40",
-        "-2.04%"
+        "7,683.90",
+        "-175.80",
+        "-2.24%"
       ],
-      "time": "12:24:44",
+      "time": "12:49:44",
       "marketStatus": "open"
     },
     {
@@ -502,7 +502,7 @@
         "0.00%"
       ],
       "time": "03/04",
-      "marketStatus": "open"
+      "marketStatus": "closed"
     },
     {
       "name": "항셍",
@@ -537,13 +537,13 @@
       "link": "https://kr.investing.com/indices/thailand-set",
       "flagUrl": "https://flagcdn.com/16x12/th.png",
       "values": [
-        "1,144.59",
+        "1,138.92",
         "1,156.02",
-        "1,143.83",
-        "-17.22",
-        "-1.48%"
+        "1,136.58",
+        "-22.89",
+        "-1.97%"
       ],
-      "time": "12:09:44",
+      "time": "12:35:09",
       "marketStatus": "open"
     },
     {
@@ -565,14 +565,14 @@
       "link": "https://kr.investing.com/indices/s-p-cnx-nifty",
       "flagUrl": "https://flagcdn.com/16x12/in.png",
       "values": [
-        "23,250.10",
-        "23,306.50",
-        "23,145.80",
-        "-82.25",
-        "-0.35%"
+        "23,061.45",
+        "23,214.70",
+        "23,059.30",
+        "-188.65",
+        "-0.81%"
       ],
-      "time": "03/04",
-      "marketStatus": "closed"
+      "time": "12:51:28",
+      "marketStatus": "open"
     },
     {
       "name": "인도 센섹스",
@@ -582,24 +582,24 @@
         "76,295.36",
         "76,493.74",
         "75,807.55",
-        "-322.08",
-        "-0.42%"
+        "0.00",
+        "0.00%"
       ],
       "time": "03/04",
-      "marketStatus": "closed"
+      "marketStatus": "open"
     },
     {
       "name": "VN 30",
       "link": "https://kr.investing.com/indices/vn-30",
       "flagUrl": "https://flagcdn.com/16x12/vn.png",
       "values": [
-        "1,256.12",
+        "1,256.14",
         "1,269.06",
         "1,208.42",
-        "-27.06",
+        "-27.04",
         "-2.11%"
       ],
-      "time": "12:27:04",
+      "time": "12:51:25",
       "marketStatus": "open"
     }
   ],
@@ -609,9 +609,9 @@
       "link": "https://kr.investing.com/indices/kospi",
       "flagUrl": "https://flagcdn.com/16x12/kr.png",
       "values": [
-        "-1.60%",
+        "-1.55%",
         "-4.28%",
-        "-4.28%",
+        "-4.29%",
         "+2.04%",
         "-9.79%",
         "-11.26%"
@@ -622,12 +622,12 @@
       "link": "https://kr.investing.com/indices/kospi-50",
       "flagUrl": "https://flagcdn.com/16x12/kr.png",
       "values": [
-        "-1.94%",
-        "-4.77%",
-        "-2.09%",
-        "+2.60%",
-        "-11.70%",
-        "-9.44%"
+        "-2.01%",
+        "-5.04%",
+        "-2.37%",
+        "+2.31%",
+        "-11.94%",
+        "-9.70%"
       ]
     },
     {
@@ -635,12 +635,12 @@
       "link": "https://kr.investing.com/indices/kosdaq",
       "flagUrl": "https://flagcdn.com/16x12/kr.png",
       "values": [
-        "-0.80%",
-        "-2.24%",
-        "-9.20%",
-        "+0.01%",
-        "-22.25%",
-        "-28.79%"
+        "-0.68%",
+        "-1.92%",
+        "-8.91%",
+        "+0.33%",
+        "-21.99%",
+        "-28.56%"
       ]
     },
     {
@@ -908,7 +908,7 @@
       "link": "https://kr.investing.com/indices/mcx",
       "flagUrl": "https://flagcdn.com/16x12/ru.png",
       "values": [
-        "-2.28%",
+        "0.00%",
         "-5.49%",
         "-12.38%",
         "-0.81%",
@@ -999,12 +999,12 @@
       "link": "https://kr.investing.com/indices/japan-ni225",
       "flagUrl": "https://flagcdn.com/16x12/jp.png",
       "values": [
-        "-2.83%",
-        "-9.02%",
-        "-9.74%",
-        "-15.35%",
-        "-13.39%",
-        "+21.53%"
+        "-3.52%",
+        "-9.70%",
+        "-10.41%",
+        "-15.97%",
+        "-14.03%",
+        "+20.63%"
       ]
     },
     {
@@ -1012,12 +1012,12 @@
       "link": "https://kr.investing.com/indices/aus-200",
       "flagUrl": "https://flagcdn.com/16x12/au.png",
       "values": [
-        "-2.04%",
-        "-3.53%",
-        "-5.41%",
-        "-5.62%",
-        "-0.94%",
-        "+2.29%"
+        "-2.24%",
+        "-3.66%",
+        "-5.55%",
+        "-5.75%",
+        "-1.08%",
+        "+2.15%"
       ]
     },
     {
@@ -1103,12 +1103,12 @@
       "link": "https://kr.investing.com/indices/thailand-set",
       "flagUrl": "https://flagcdn.com/16x12/th.png",
       "values": [
-        "-1.48%",
-        "-2.54%",
-        "-5.08%",
-        "-18.18%",
-        "-16.72%",
-        "-32.66%"
+        "-1.97%",
+        "-3.21%",
+        "-5.73%",
+        "-18.74%",
+        "-17.29%",
+        "-33.12%"
       ]
     },
     {
@@ -1129,12 +1129,12 @@
       "link": "https://kr.investing.com/indices/s-p-cnx-nifty",
       "flagUrl": "https://flagcdn.com/16x12/in.png",
       "values": [
-        "-0.35%",
-        "-1.14%",
-        "+4.09%",
-        "-1.67%",
-        "+3.27%",
-        "+29.47%"
+        "-0.77%",
+        "-1.76%",
+        "+3.43%",
+        "-2.29%",
+        "+2.62%",
+        "+28.66%"
       ]
     },
     {
@@ -1142,7 +1142,7 @@
       "link": "https://kr.investing.com/indices/sensex",
       "flagUrl": "https://flagcdn.com/16x12/in.png",
       "values": [
-        "-0.42%",
+        "0.00%",
         "-1.45%",
         "+3.48%",
         "-2.36%",
@@ -1155,12 +1155,12 @@
       "link": "https://kr.investing.com/indices/vn-30",
       "flagUrl": "https://flagcdn.com/16x12/vn.png",
       "values": [
-        "-2.28%",
-        "-8.73%",
-        "-8.06%",
-        "-6.75%",
-        "-0.30%",
-        "-18.53%"
+        "-2.05%",
+        "-8.37%",
+        "-7.70%",
+        "-6.38%",
+        "+0.09%",
+        "-18.21%"
       ]
     }
   ],
@@ -1503,7 +1503,7 @@
         "적극 매도",
         "적극 매도",
         "적극 매도",
-        "중립"
+        "매도"
       ]
     },
     {
@@ -1610,8 +1610,8 @@
       "link": "https://kr.investing.com/indices/s-p-cnx-nifty",
       "flagUrl": "https://flagcdn.com/16x12/in.png",
       "values": [
-        "매도",
-        "중립",
+        "적극 매도",
+        "적극 매도",
         "중립",
         "매수"
       ]
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-04-04T03:27:09.187Z"
+  "lastUpdate": "2025-04-04T03:51:29.411Z"
 }
