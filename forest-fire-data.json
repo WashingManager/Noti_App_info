@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-06T05:51:49.744Z",
+  "timestamp": "2025-04-06T06:20:32.157Z",
   "main": {
     "status": {
-      "extinguishing": "2",
+      "extinguishing": "3",
       "completed": "1",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-06 15:12",
+      "endTime": "-",
+      "location": "대구광역시 북구 서변동",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-06 14:22",
       "endTime": "-",
