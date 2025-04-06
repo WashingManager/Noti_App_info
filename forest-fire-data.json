@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-04-06T04:40:06.023Z",
+  "timestamp": "2025-04-06T04:54:08.231Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "0",
+      "extinguishing": "0",
+      "completed": "1",
       "other": "0"
     },
     "currentFire": {
@@ -19,15 +19,15 @@
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2025년 4월 6일 13시 44분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "진화완료"
         },
         {
           "label": "진화율",
-          "value": "90%"
+          "value": "100%"
         },
         {
           "label": "풍향",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-06 12:35",
-      "endTime": "-",
-      "location": "충청북도 청주시 상당구",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
