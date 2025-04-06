@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-06T05:36:53.285Z",
+  "timestamp": "2025-04-06T05:51:49.744Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "1",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-06 14:22",
+      "endTime": "-",
+      "location": "전라남도 순천시 상사면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-06 13:48",
       "endTime": "-",
