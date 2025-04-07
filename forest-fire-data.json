@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-07T05:20:02.207Z",
+  "timestamp": "2025-04-07T05:39:30.642Z",
   "main": {
     "status": {
-      "extinguishing": "2",
+      "extinguishing": "3",
       "completed": "2",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-07 14:07",
+      "endTime": "-",
+      "location": "전라남도 무안군 해제면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-07 13:15",
       "endTime": "-",
