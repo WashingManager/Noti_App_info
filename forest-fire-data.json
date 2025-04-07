@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-07T08:56:41.663Z",
+  "timestamp": "2025-04-07T09:29:19.108Z",
   "main": {
     "status": {
-      "extinguishing": "2",
+      "extinguishing": "3",
       "completed": "4",
       "other": "2"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-07 17:56",
+      "endTime": "-",
+      "location": "경상북도 김천시 어모면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-07 16:44",
       "endTime": "-",
