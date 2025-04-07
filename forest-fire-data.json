@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-07T12:41:47.358Z",
+  "timestamp": "2025-04-07T13:17:53.749Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "4",
       "other": "3"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-07 19:28",
+      "endTime": "-",
+      "location": "경기도 남양주시 와부읍",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-07 12:05",
       "endTime": "-",
