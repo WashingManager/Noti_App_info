@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-07T09:44:35.030Z",
+  "timestamp": "2025-04-07T10:11:58.308Z",
   "main": {
     "status": {
-      "extinguishing": "2",
+      "extinguishing": "1",
       "completed": "4",
       "other": "3"
     },
@@ -42,20 +42,12 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-07 16:44",
-      "endTime": "-",
-      "location": "울산광역시 울주군 온양읍",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
       "startTime": "2025-04-07 12:05",
       "endTime": "-",
       "location": "경상남도 하동군 옥종면",
       "status": "진화중",
       "level": "2단계",
-      "detailUrl": "-"
+      "detailUrl": "https://fd.forest.go.kr/ffas/pubConn/publicSttBrdView.do?frfrInfoId=369204"
     }
   ],
   "resourceList": [
