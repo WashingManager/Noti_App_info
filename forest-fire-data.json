@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-04-08T04:31:14.265Z",
+  "timestamp": "2025-04-08T04:48:03.092Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "3",
+      "extinguishing": "0",
+      "completed": "4",
       "other": "1"
     },
     "currentFire": {
@@ -19,11 +19,11 @@
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2025년 4월 8일 10시 0분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "진화완료"
         },
         {
           "label": "진화율",
@@ -42,12 +42,12 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-07 12:05",
-      "endTime": "-",
-      "location": "경상남도 하동군 옥종면",
-      "status": "진화중",
-      "level": "2단계",
-      "detailUrl": "https://fd.forest.go.kr/ffas/pubConn/publicSttBrdView.do?frfrInfoId=369204"
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
     }
   ],
   "resourceList": [
