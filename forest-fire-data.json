@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-08T02:00:24.211Z",
+  "timestamp": "2025-04-08T03:05:32.636Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "3",
       "completed": "0",
       "other": "0"
     },
@@ -41,6 +41,22 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-08 11:52",
+      "endTime": "-",
+      "location": "경상남도 통영시 용남면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-04-08 11:51",
+      "endTime": "-",
+      "location": "경기도 포천시 영중면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-07 12:05",
       "endTime": "-",
