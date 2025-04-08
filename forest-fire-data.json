@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-08T04:48:03.092Z",
+  "timestamp": "2025-04-08T05:10:44.274Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "2",
       "completed": "4",
       "other": "1"
     },
@@ -11,7 +11,7 @@
       "details": [
         {
           "label": "발생지주소",
-          "value": "경상남도 하동군 옥종면 회신리 산4임"
+          "value": "경상남도 하동군 옥종면 회신리 산2임"
         },
         {
           "label": "발생일시",
@@ -19,7 +19,7 @@
         },
         {
           "label": "진화일시",
-          "value": "2025년 4월 8일 10시 0분"
+          "value": "2025년 4월 8일 12시 0분"
         },
         {
           "label": "진행상태",
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-04-08 13:54",
+      "endTime": "-",
+      "location": "경상북도 의성군 춘산면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-04-08 13:45",
+      "endTime": "-",
+      "location": "경상남도 남해군 고현면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
