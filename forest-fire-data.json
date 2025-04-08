@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-04-08T08:55:01.577Z",
+  "timestamp": "2025-04-08T09:28:45.797Z",
   "main": {
     "status": {
       "extinguishing": "3",
-      "completed": "7",
+      "completed": "9",
       "other": "2"
     },
     "currentFire": {
@@ -42,9 +42,17 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-08 17:18",
+      "startTime": "2025-04-08 18:15",
       "endTime": "-",
-      "location": "경기도 가평군 조종면",
+      "location": "경상북도 경산시 하양읍",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-04-08 18:12",
+      "endTime": "-",
+      "location": "강원특별자치도 평창군 진부면",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
@@ -53,14 +61,6 @@
       "startTime": "2025-04-08 16:59",
       "endTime": "-",
       "location": "경기도 포천시 영중면",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-04-08 15:08",
-      "endTime": "-",
-      "location": "충청북도 영동군 영동읍",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
