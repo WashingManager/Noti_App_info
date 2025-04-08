@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-04-08T07:54:55.968Z",
+  "timestamp": "2025-04-08T08:34:29.938Z",
   "main": {
     "status": {
-      "extinguishing": "2",
-      "completed": "6",
+      "extinguishing": "3",
+      "completed": "7",
       "other": "2"
     },
     "currentFire": {
@@ -42,9 +42,17 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-08 15:11",
+      "startTime": "2025-04-08 17:18",
       "endTime": "-",
-      "location": "경상북도 구미시 옥성면",
+      "location": "경기도 가평군 조종면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-04-08 16:59",
+      "endTime": "-",
+      "location": "경기도 포천시 영중면",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
