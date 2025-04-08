@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-04-08T09:44:40.323Z",
+  "timestamp": "2025-04-08T10:11:24.867Z",
   "main": {
     "status": {
-      "extinguishing": "2",
+      "extinguishing": "0",
       "completed": "9",
-      "other": "2"
+      "other": "4"
     },
     "currentFire": {
       "grade": "산불 2단계",
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-08 18:15",
-      "endTime": "-",
-      "location": "경상북도 경산시 하양읍",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-04-08 16:59",
-      "endTime": "-",
-      "location": "경기도 포천시 영중면",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
