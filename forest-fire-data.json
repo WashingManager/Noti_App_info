@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-04-10T22:34:08.375Z",
+  "timestamp": "2025-04-10T22:46:35.423Z",
   "main": {
     "status": {
       "extinguishing": "1",
@@ -27,7 +27,7 @@
         },
         {
           "label": "진화율",
-          "value": "0%"
+          "value": "50%"
         },
         {
           "label": "풍향",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-04-10 17:05",
+      "endTime": "-",
+      "location": "강원특별자치도 고성군 현내면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
