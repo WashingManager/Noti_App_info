@@ -178,14 +178,6 @@
     },
     {
       "rank": "23",
-      "flag": "https://cdn.airvisual.net/flags/israel.jpg",
-      "city": "예루살렘, 이스라엘",
-      "link": "https://www.iqair.com/ko/israel/jerusalem/jerusalem",
-      "aqi": "80",
-      "followers": "68.8K"
-    },
-    {
-      "rank": "24",
       "flag": "https://cdn.airvisual.net/flags/cambodia.jpg",
       "city": "프놈펜, 캄보디아",
       "link": "https://www.iqair.com/ko/cambodia/phnom-penh/phnom-penh",
@@ -193,7 +185,7 @@
       "followers": "589.1K"
     },
     {
-      "rank": "25",
+      "rank": "24",
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "청두시, 중국",
       "link": "https://www.iqair.com/ko/china/sichuan/chengdu",
@@ -201,7 +193,7 @@
       "followers": "2M"
     },
     {
-      "rank": "26",
+      "rank": "25",
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "항저우시, 중국",
       "link": "https://www.iqair.com/ko/china/zhejiang/hangzhou",
@@ -209,12 +201,20 @@
       "followers": "487K"
     },
     {
-      "rank": "27",
+      "rank": "26",
       "flag": "https://cdn.airvisual.net/flags/algeria.jpg",
       "city": "알제, 알제리",
       "link": "https://www.iqair.com/ko/algeria/algiers/algiers",
       "aqi": "77",
       "followers": "39.8K"
+    },
+    {
+      "rank": "27",
+      "flag": "https://cdn.airvisual.net/flags/israel.jpg",
+      "city": "예루살렘, 이스라엘",
+      "link": "https://www.iqair.com/ko/israel/jerusalem/jerusalem",
+      "aqi": "77",
+      "followers": "68.8K"
     },
     {
       "rank": "28",
@@ -466,19 +466,19 @@
     },
     {
       "rank": "59",
+      "flag": "https://cdn.airvisual.net/flags/china.jpg",
+      "city": "선전시, 중국",
+      "link": "https://www.iqair.com/ko/china/guangdong/shenzhen",
+      "aqi": "58",
+      "followers": "523.2K"
+    },
+    {
+      "rank": "60",
       "flag": "https://cdn.airvisual.net/flags/germany.jpg",
       "city": "베를린, 독일",
       "link": "https://www.iqair.com/ko/germany/berlin/berlin",
       "aqi": "58",
       "followers": "299.2K"
-    },
-    {
-      "rank": "60",
-      "flag": "https://cdn.airvisual.net/flags/hong-kong.jpg",
-      "city": "홍콩, 홍콩",
-      "link": "https://www.iqair.com/ko/hong-kong/hong-kong/hong-kong",
-      "aqi": "58",
-      "followers": "857.1K"
     },
     {
       "rank": "61",
@@ -498,11 +498,11 @@
     },
     {
       "rank": "63",
-      "flag": "https://cdn.airvisual.net/flags/china.jpg",
-      "city": "선전시, 중국",
-      "link": "https://www.iqair.com/ko/china/guangdong/shenzhen",
+      "flag": "https://cdn.airvisual.net/flags/hong-kong.jpg",
+      "city": "홍콩, 홍콩",
+      "link": "https://www.iqair.com/ko/hong-kong/hong-kong/hong-kong",
       "aqi": "57",
-      "followers": "523.2K"
+      "followers": "857.1K"
     },
     {
       "rank": "64",
@@ -690,6 +690,14 @@
     },
     {
       "rank": "87",
+      "flag": "https://cdn.airvisual.net/flags/austria.jpg",
+      "city": "빈, 오스트리아",
+      "link": "https://www.iqair.com/ko/austria/vienna/vienna",
+      "aqi": "47",
+      "followers": "195.2K"
+    },
+    {
+      "rank": "88",
       "flag": "https://cdn.airvisual.net/flags/hungary.jpg",
       "city": "부다페스트, 헝가리",
       "link": "https://www.iqair.com/ko/hungary/central-hungary/budapest",
@@ -697,7 +705,7 @@
       "followers": "47.1K"
     },
     {
-      "rank": "88",
+      "rank": "89",
       "flag": "https://cdn.airvisual.net/flags/switzerland.jpg",
       "city": "베른, 스위스",
       "link": "https://www.iqair.com/ko/switzerland/bern/bern",
@@ -705,20 +713,12 @@
       "followers": "108.5K"
     },
     {
-      "rank": "89",
+      "rank": "90",
       "flag": "https://cdn.airvisual.net/flags/greece.jpg",
       "city": "아테네, 그리스",
       "link": "https://www.iqair.com/ko/greece/attica/athens",
       "aqi": "45",
       "followers": "54.2K"
-    },
-    {
-      "rank": "90",
-      "flag": "https://cdn.airvisual.net/flags/austria.jpg",
-      "city": "빈, 오스트리아",
-      "link": "https://www.iqair.com/ko/austria/vienna/vienna",
-      "aqi": "44",
-      "followers": "195.2K"
     },
     {
       "rank": "91",
@@ -1001,5 +1001,5 @@
       "followers": "413.2K"
     }
   ],
-  "lastUpdate": "Fri, 11 Apr 2025 17:36:51 GMT"
+  "lastUpdate": "Fri, 11 Apr 2025 17:44:19 GMT"
 }
