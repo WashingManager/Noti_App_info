@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-11T05:11:29.511Z",
+  "timestamp": "2025-04-11T05:35:57.518Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "2",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-11 14:15",
+      "endTime": "-",
+      "location": "경기도 연천군 왕징면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-10 17:05",
       "endTime": "-",
