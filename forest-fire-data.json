@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-11T05:51:47.344Z",
+  "timestamp": "2025-04-11T06:22:03.839Z",
   "main": {
     "status": {
-      "extinguishing": "2",
+      "extinguishing": "3",
       "completed": "2",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-11 14:47",
+      "endTime": "-",
+      "location": "충청남도 서천군 판교면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-11 14:15",
       "endTime": "-",
