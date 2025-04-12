@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-12T03:54:48.467Z",
+  "timestamp": "2025-04-12T04:30:15.858Z",
   "main": {
     "status": {
-      "extinguishing": "3",
+      "extinguishing": "4",
       "completed": "3",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-12 12:56",
+      "endTime": "-",
+      "location": "서울특별시 관악구 신림동",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-11 15:05",
       "endTime": "-",
