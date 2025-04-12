@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-12T01:57:53.322Z",
+  "timestamp": "2025-04-12T03:04:24.685Z",
   "main": {
     "status": {
-      "extinguishing": "3",
+      "extinguishing": "4",
       "completed": "2",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-12 11:04",
+      "endTime": "-",
+      "location": "경상북도 김천시 부항면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-11 15:05",
       "endTime": "-",
