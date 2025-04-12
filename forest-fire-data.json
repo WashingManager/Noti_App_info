@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-12T14:16:51.098Z",
+  "timestamp": "2025-04-12T14:36:01.148Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "0",
       "completed": "4",
       "other": "0"
     },
@@ -11,23 +11,23 @@
       "details": [
         {
           "label": "발생지주소",
-          "value": "강원특별자치도 고성군 현내면 대강리 산3임"
+          "value": "경상북도 경주시 용강동 산70임"
         },
         {
           "label": "발생일시",
-          "value": "2025년 4월 10일 17시 5분"
+          "value": "2025년 4월 12일 4시 9분"
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2025년 4월 12일 5시 23분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "진화완료"
         },
         {
           "label": "진화율",
-          "value": "50%"
+          "value": "100%"
         },
         {
           "label": "풍향",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-10 17:05",
-      "endTime": "-",
-      "location": "강원특별자치도 고성군 현내면",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
