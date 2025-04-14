@@ -61,11 +61,11 @@
       "link": "https://kr.investing.com/indices/us-spx-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "5,408.32",
+        "5,405.97",
         "5,459.46",
-        "5,357.80",
-        "+44.96",
-        "+0.84%"
+        "5,358.02",
+        "+42.61",
+        "+0.79%"
       ],
       "time": "04:59:59",
       "marketStatus": "closed"
@@ -95,7 +95,7 @@
         "+20.06",
         "+1.08%"
       ],
-      "time": "04:59:59",
+      "time": "14/04",
       "marketStatus": "closed"
     },
     {
@@ -103,14 +103,14 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "31.04",
+        "30.88",
         "35.17",
         "29.75",
-        "-6.52",
-        "-17.36%"
+        "-6.68",
+        "-17.78%"
       ],
-      "time": "05:07:16",
-      "marketStatus": "open"
+      "time": "05:14:46",
+      "marketStatus": "closed"
     },
     {
       "name": "캐나다 S&P/TSX",
@@ -131,13 +131,13 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "129,696",
+        "129,454",
         "129,955",
         "127,683",
-        "+2,013",
-        "+1.58%"
+        "+1,772",
+        "+1.39%"
       ],
-      "time": "04:52:30",
+      "time": "04:58:59",
       "marketStatus": "closed"
     },
     {
@@ -145,13 +145,13 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "52,301.03",
+        "52,391.35",
         "52,814.69",
         "51,553.56",
-        "+802.13",
-        "+1.56%"
+        "+892.45",
+        "+1.73%"
       ],
-      "time": "05:07:52",
+      "time": "05:26:00",
       "marketStatus": "closed"
     },
     {
@@ -334,7 +334,7 @@
         "-0.34%"
       ],
       "time": "00:40:00",
-      "marketStatus": "open"
+      "marketStatus": "closed"
     },
     {
       "name": "RTSI 지수",
@@ -348,7 +348,7 @@
         "+1.15%"
       ],
       "time": "00:40:00",
-      "marketStatus": "open"
+      "marketStatus": "closed"
     },
     {
       "name": "폴란드 WIG 20",
@@ -661,12 +661,12 @@
       "link": "https://kr.investing.com/indices/us-spx-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "+0.84%",
-        "+6.84%",
-        "-4.09%",
-        "-8.05%",
-        "+6.85%",
-        "+23.12%"
+        "+0.79%",
+        "+6.79%",
+        "-4.13%",
+        "-8.09%",
+        "+6.80%",
+        "+23.07%"
       ]
     },
     {
@@ -700,12 +700,12 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "-17.36%",
-        "-33.80%",
-        "+42.86%",
-        "+79.25%",
-        "+61.73%",
-        "+37.00%"
+        "-17.78%",
+        "-34.27%",
+        "+41.85%",
+        "+77.98%",
+        "+60.58%",
+        "+36.04%"
       ]
     },
     {
@@ -726,12 +726,12 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "+1.58%",
-        "+3.23%",
-        "+0.53%",
-        "+7.78%",
-        "+3.43%",
-        "+11.58%"
+        "+1.39%",
+        "+3.08%",
+        "+0.39%",
+        "+7.62%",
+        "+3.29%",
+        "+11.42%"
       ]
     },
     {
@@ -739,12 +739,12 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "+1.56%",
-        "+3.65%",
-        "-0.35%",
-        "+5.63%",
-        "-6.58%",
-        "-3.45%"
+        "+1.73%",
+        "+3.83%",
+        "-0.18%",
+        "+5.81%",
+        "-6.42%",
+        "-3.29%"
       ]
     },
     {
@@ -753,11 +753,11 @@
       "flagUrl": "https://flagcdn.com/16x12/de.png",
       "values": [
         "+2.85%",
-        "+5.65%",
-        "-9.05%",
-        "+5.01%",
-        "+15.98%",
-        "+47.61%"
+        "+5.89%",
+        "-8.84%",
+        "+5.25%",
+        "+16.24%",
+        "+47.95%"
       ]
     },
     {
@@ -1281,7 +1281,7 @@
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
         "적극 매수",
-        "중립",
+        "매수",
         "매수",
         "중립"
       ]
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-04-14T20:29:56.391Z"
+  "lastUpdate": "2025-04-14T20:57:10.922Z"
 }
