@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-04-16T02:03:13.944Z",
+  "timestamp": "2025-04-16T03:10:30.820Z",
   "main": {
     "status": {
       "extinguishing": "0",
@@ -53,6 +53,42 @@
   "resourceList": [
     {
       "id": "1",
+      "location": "전남 광양 진상 황죽",
+      "startTime": "2025-03-21 16:20",
+      "endTime": "2025-03-21 22:11",
+      "resources": "헬기  6대   인력  103명   장비  130대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "전북 임실 임실 성가",
+      "startTime": "2025-03-21 15:09",
+      "endTime": "2025-03-21 19:18",
+      "resources": "헬기  3대   인력  136명   장비  61대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "강원 평창 용평 백옥포",
+      "startTime": "2025-03-21 14:32",
+      "endTime": "2025-03-21 15:52",
+      "resources": "헬기  3대   인력  143명   장비  83대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "대전 동  오",
+      "startTime": "2025-03-21 14:10",
+      "endTime": "2025-03-21 15:00",
+      "resources": "헬기  1대   인력  66명   장비  20대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
       "location": "경기 용인처인 백암 백암",
       "startTime": "2025-03-20 15:15",
       "endTime": "2025-03-20 16:35",
@@ -61,7 +97,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "2",
+      "id": "6",
       "location": "전남 광양 옥곡 선유",
       "startTime": "2025-03-20 14:49",
       "endTime": "2025-03-20 18:00",
@@ -70,7 +106,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "7",
       "location": "경남 진해 진례 시례",
       "startTime": "2025-03-20 14:48",
       "endTime": "2025-03-20 16:19",
@@ -79,7 +115,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "8",
       "location": "경기 화성 매송 천천",
       "startTime": "2025-03-20 12:17",
       "endTime": "2025-03-20 15:40",
@@ -88,7 +124,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "5",
+      "id": "9",
       "location": "충남 태안 안면 중장",
       "startTime": "2025-03-19 16:00",
       "endTime": "2025-03-19 18:00",
@@ -97,47 +133,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "6",
+      "id": "10",
       "location": "울산 울주 온양 발양",
       "startTime": "2025-03-18 11:27",
       "endTime": "2025-03-18 13:00",
       "resources": "헬기  1대   인력  121명   장비  71대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "7",
-      "location": "전남 화순 백아 원",
-      "startTime": "2025-03-17 17:29",
-      "endTime": "2025-03-17 18:05",
-      "resources": "헬기  0대   인력  81명   장비  70대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "8",
-      "location": "전남 장성 장성 상오",
-      "startTime": "2025-03-17 16:50",
-      "endTime": "2025-03-17 18:30",
-      "resources": "헬기  3대   인력  107명   장비  68대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "경기 양평 개군 불곡",
-      "startTime": "2025-03-17 15:47",
-      "endTime": "2025-03-17 17:00",
-      "resources": "헬기  1대   인력  77명   장비  16대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "충남 태안 이원 내",
-      "startTime": "2025-03-17 14:23",
-      "endTime": "2025-03-17 17:48",
-      "resources": "헬기  3대   인력  284명   장비  66대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
