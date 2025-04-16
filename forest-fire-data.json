@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-16T05:51:36.584Z",
+  "timestamp": "2025-04-16T06:21:43.096Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "2",
       "other": "0"
     },
@@ -42,102 +42,102 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-04-16 14:51",
+      "endTime": "-",
+      "location": "경상남도 하동군 금성면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
   "resourceList": [
     {
       "id": "1",
-      "location": "경기 양평 단월 보룡",
-      "startTime": "2025-03-22 18:30",
-      "endTime": "2025-03-22 20:30",
-      "resources": "헬기  1대   인력  104명   장비  25대",
+      "location": "전남 고흥 금산 어전",
+      "startTime": "2025-03-23 15:29",
+      "endTime": "2025-03-23 15:49",
+      "resources": "헬기  0대   인력  55명   장비  8대",
       "level": "-",
       "detailUrl": "-"
     },
     {
       "id": "2",
-      "location": "전북 남원  향교",
-      "startTime": "2025-03-22 17:56",
-      "endTime": "2025-03-22 22:00",
-      "resources": "헬기  1대   인력  199명   장비  169대",
+      "location": "경기 파주  맥금",
+      "startTime": "2025-03-23 14:21",
+      "endTime": "2025-03-23 16:12",
+      "resources": "헬기  1대   인력  56명   장비  15대",
       "level": "-",
       "detailUrl": "-"
     },
     {
       "id": "3",
-      "location": "경북 안동  수상",
-      "startTime": "2025-03-22 17:27",
-      "endTime": "2025-03-22 23:03",
-      "resources": "헬기  0대   인력  107명   장비  16대",
+      "location": "경기 동두천  생연",
+      "startTime": "2025-03-23 14:05",
+      "endTime": "2025-03-23 16:40",
+      "resources": "헬기  2대   인력  78명   장비  35대",
       "level": "-",
       "detailUrl": "-"
     },
     {
       "id": "4",
-      "location": "경북 경주 외동 냉천",
-      "startTime": "2025-03-22 15:42",
-      "endTime": "2025-03-22 17:39",
-      "resources": "헬기  2대   인력  81명   장비  12대",
+      "location": "경북 경주 양남 신대",
+      "startTime": "2025-03-23 13:25",
+      "endTime": "2025-03-23 17:52",
+      "resources": "헬기  3대   인력  111명   장비  10대",
       "level": "-",
       "detailUrl": "-"
     },
     {
       "id": "5",
-      "location": "광주 북  금곡",
-      "startTime": "2025-03-22 15:19",
-      "endTime": "2025-03-22 16:01",
-      "resources": "헬기  0대   인력  46명   장비  27대",
+      "location": "경기 남양주 진접 장현",
+      "startTime": "2025-03-23 13:06",
+      "endTime": "2025-03-23 16:47",
+      "resources": "헬기  4대   인력  118명   장비  11대",
       "level": "-",
       "detailUrl": "-"
     },
     {
       "id": "6",
-      "location": "강원 정선 신동 덕천",
-      "startTime": "2025-03-22 14:54",
-      "endTime": "2025-03-22 19:00",
-      "resources": "헬기  5대   인력  167명   장비  178대",
+      "location": "경기 오산  외삼미",
+      "startTime": "2025-03-23 11:55",
+      "endTime": "2025-03-23 12:16",
+      "resources": "헬기  0대   인력  58명   장비  26대",
       "level": "-",
       "detailUrl": "-"
     },
     {
       "id": "7",
-      "location": "전남 보성 노동 거석",
-      "startTime": "2025-03-22 14:42",
-      "endTime": "2025-03-22 19:11",
-      "resources": "헬기  8대   인력  72명   장비  24대",
+      "location": "충북 옥천 청성 조천",
+      "startTime": "2025-03-23 11:53",
+      "endTime": "2025-03-24 12:00",
+      "resources": "헬기  9대   인력  364명   장비  36대",
       "level": "-",
       "detailUrl": "-"
     },
     {
       "id": "8",
-      "location": "전남 보성 문덕 용암",
-      "startTime": "2025-03-22 14:32",
-      "endTime": "2025-03-22 17:30",
-      "resources": "헬기  2대   인력  54명   장비  29대",
+      "location": "경기 가평 가평 하색",
+      "startTime": "2025-03-23 11:51",
+      "endTime": "2025-03-23 12:43",
+      "resources": "헬기  0대   인력  72명   장비  17대",
       "level": "-",
       "detailUrl": "-"
     },
     {
       "id": "9",
-      "location": "전북 남원 대산 수덕",
-      "startTime": "2025-03-22 14:25",
-      "endTime": "2025-03-22 15:15",
-      "resources": "헬기  1대   인력  184명   장비  100대",
+      "location": "경북 경산 남천 흥산",
+      "startTime": "2025-03-23 11:43",
+      "endTime": "2025-03-23 17:15",
+      "resources": "헬기  5대   인력  432명   장비  203대",
       "level": "-",
       "detailUrl": "-"
     },
     {
       "id": "10",
-      "location": "경기 동두천  상패",
-      "startTime": "2025-03-22 14:18",
-      "endTime": "2025-03-22 16:17",
-      "resources": "헬기  3대   인력  60명   장비  32대",
+      "location": "충북 옥천 동이 남곡",
+      "startTime": "2025-03-23 11:13",
+      "endTime": "2025-03-23 11:59",
+      "resources": "헬기  0대   인력  36명   장비  7대",
       "level": "-",
       "detailUrl": "-"
     }
