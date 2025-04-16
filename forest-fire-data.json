@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-04-15T23:55:01.070Z",
+  "timestamp": "2025-04-16T02:03:13.944Z",
   "main": {
     "status": {
       "extinguishing": "0",
-      "completed": "0",
+      "completed": "1",
       "other": "0"
     },
     "currentFire": {
-      "grade": "--",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": ""
+          "value": "울산광역시 울주군 범서읍 중리 산91-4임"
         },
         {
           "label": "발생일시",
-          "value": ""
+          "value": "2025년 4월 16일 10시 3분"
         },
         {
           "label": "진화일시",
-          "value": ""
+          "value": "2025년 4월 16일 10시 39분"
         },
         {
           "label": "진행상태",
-          "value": ""
+          "value": "진화완료"
         },
         {
           "label": "진화율",
-          "value": ""
+          "value": "100%"
         },
         {
           "label": "풍향",
@@ -57,7 +57,7 @@
       "startTime": "2025-03-20 15:15",
       "endTime": "2025-03-20 16:35",
       "resources": "헬기  1대   인력  37명   장비  14대",
-      "level": "-",
+      "level": "초기 대응",
       "detailUrl": "-"
     },
     {
