@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-04-18T06:44:49.487Z",
+  "timestamp": "2025-04-18T07:10:24.809Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "--",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": ""
+          "value": "경기도 연천군 왕징면 기곡리 산 8임"
         },
         {
           "label": "발생일시",
-          "value": ""
+          "value": "2025년 4월 11일 14시 15분"
         },
         {
           "label": "진화일시",
-          "value": ""
+          "value": "2025년 4월 12일 16시 34분"
         },
         {
           "label": "진행상태",
-          "value": ""
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": ""
+          "value": "100%"
         },
         {
           "label": "풍향",
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-11 14:15",
+      "endTime": "2025-04-12 16:34",
+      "location": "경기도 연천군 왕징면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "산불 발생정보가 없습니다.",
       "endTime": "",
