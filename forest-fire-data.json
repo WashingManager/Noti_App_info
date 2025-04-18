@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-04-18T07:10:24.809Z",
+  "timestamp": "2025-04-18T07:31:05.101Z",
   "main": {
     "status": {
       "extinguishing": "1",
@@ -61,6 +61,78 @@
   "resourceList": [
     {
       "id": "1",
+      "location": "경기 화성 매송 야목",
+      "startTime": "2025-04-02 23:21",
+      "endTime": "2025-04-03 02:00",
+      "resources": "헬기  0대   인력  80명   장비  18대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "부산 사상  엄궁",
+      "startTime": "2025-04-02 15:41",
+      "endTime": "2025-04-02 16:22",
+      "resources": "헬기  3대   인력  143명   장비  36대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "전북 무주 무주 장백",
+      "startTime": "2025-04-02 11:10",
+      "endTime": "2025-04-02 12:40",
+      "resources": "헬기  1대   인력  138명   장비  24대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "충남 공주 탄천 삼각",
+      "startTime": "2025-04-02 10:49",
+      "endTime": "2025-04-02 12:00",
+      "resources": "헬기  2대   인력  104명   장비  16대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "대구 군위 삼국유사 인곡",
+      "startTime": "2025-04-01 16:51",
+      "endTime": "2025-04-01 17:49",
+      "resources": "헬기  5대   인력  169명   장비  236대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "경기 화성 팔탄 월문",
+      "startTime": "2025-04-01 16:24",
+      "endTime": "2025-04-01 17:50",
+      "resources": "헬기  0대   인력  49명   장비  11대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "전북 무주 적상 북창",
+      "startTime": "2025-04-01 15:00",
+      "endTime": "2025-04-01 19:00",
+      "resources": "헬기  8대   인력  249명   장비  40대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "경기 화성 마도 쌍송",
+      "startTime": "2025-04-01 12:13",
+      "endTime": "2025-04-01 15:00",
+      "resources": "헬기  5대   인력  112명   장비  21대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
       "location": "경기 파주 광탄 신산",
       "startTime": "2025-03-31 15:27",
       "endTime": "2025-03-31 16:42",
@@ -69,83 +141,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "2",
+      "id": "10",
       "location": "충남 당진 고대 당진포",
       "startTime": "2025-03-31 15:26",
       "endTime": "2025-03-31 17:00",
       "resources": "헬기  3대   인력  134명   장비  24대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "3",
-      "location": "대구 남  봉덕",
-      "startTime": "2025-03-31 15:08",
-      "endTime": "2025-03-31 16:50",
-      "resources": "헬기  6대   인력  206명   장비  77대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "4",
-      "location": "경기 안성 공도 신두",
-      "startTime": "2025-03-31 13:52",
-      "endTime": "2025-03-31 15:00",
-      "resources": "헬기  1대   인력  60명   장비  14대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "5",
-      "location": "전남 해남 계곡 법곡",
-      "startTime": "2025-03-31 13:30",
-      "endTime": "2025-03-31 15:02",
-      "resources": "헬기  4대   인력  170명   장비  110대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "6",
-      "location": "경기 고양 일산동 사리현",
-      "startTime": "2025-03-30 17:41",
-      "endTime": "2025-03-30 18:47",
-      "resources": "헬기  3대   인력  88명   장비  18대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "7",
-      "location": "전남 순천 송광 월산",
-      "startTime": "2025-03-30 11:35",
-      "endTime": "2025-03-30 17:07",
-      "resources": "헬기  6대   인력  155명   장비  175대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "8",
-      "location": "인천 서  석남",
-      "startTime": "2025-03-29 18:37",
-      "endTime": "2025-03-29 19:14",
-      "resources": "헬기  0대   인력  137명   장비  140대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "경남 고성 개천 용안",
-      "startTime": "2025-03-29 13:32",
-      "endTime": "2025-03-29 18:00",
-      "resources": "헬기  3대   인력  443명   장비  19대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "경기 파주 조리 장곡",
-      "startTime": "2025-03-27 19:14",
-      "endTime": "2025-03-27 21:50",
-      "resources": "헬기  0대   인력  36명   장비  19대",
       "level": "-",
       "detailUrl": "-"
     }
