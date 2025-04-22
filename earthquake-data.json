@@ -255,6 +255,18 @@
   ],
   "international": [
     {
+      "number": "50",
+      "time": "2025/04/22 19:17:13",
+      "magnitude": "6.2",
+      "depth": "118",
+      "maxIntensity": "",
+      "latitude": "4.51 N",
+      "longitude": "127.76 E",
+      "location": "필리핀 민다나오섬 다바오 남동쪽 371km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20250422191713.png",
+      "detailLink": null
+    },
+    {
       "number": "49",
       "time": "2025/04/18 20:19:00",
       "magnitude": "5.0",
@@ -480,18 +492,6 @@
       "longitude": "176.15 W",
       "location": "미국 알래스카 아닥 남남동쪽 84km 해역",
       "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20250321235342.png",
-      "detailLink": null
-    },
-    {
-      "number": "30",
-      "time": "2025/03/21 23:50:51",
-      "magnitude": "6.2",
-      "depth": "10",
-      "maxIntensity": "",
-      "latitude": "7.04 N",
-      "longitude": "82.37 W",
-      "location": "파나마 다비드 남쪽 155km 해역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20250321235051.png",
       "detailLink": null
     },
     {
@@ -735,6 +735,18 @@
       "detailLink": null
     },
     {
+      "number": "10",
+      "time": "2025/01/21 02:42:31",
+      "magnitude": "5.2",
+      "depth": "11",
+      "maxIntensity": "",
+      "latitude": "23.18 N",
+      "longitude": "120.59 E",
+      "location": "대만 자이시 남남동쪽 36km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20250121024231.png",
+      "detailLink": null
+    },
+    {
       "number": "9",
       "time": "2025/01/21 01:17:27",
       "magnitude": "6.4",
@@ -844,12 +856,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 04월 22일 08시 40분 48초",
-    "magnitude": "2.3",
-    "location": "",
-    "depth": "최대진도  Ⅰ",
-    "note": "북한 양강도 풍산 서북서쪽 15km 지역  (위도: 40.86 N, 경도: 127.99 E, ± 4.1km)28 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250422084048.png;jsessionid=GQ84Ap5AAWVGzRTC7c7xotkHh1BuiuQDo1yQd6FI.standalone"
+    "time": "2025년 04월 22일 19시 17분 13초",
+    "magnitude": "6.2",
+    "location": "필리핀 민다나오섬 다바오 남동쪽 371km 해역  (위도: 4.51 N, 경도: 127.76 E)",
+    "depth": "118 km",
+    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250422191713.png;jsessionid=iaQponnvOf5BlEvfpiyanIGHemmBQO-i9b1HuQSL.standalone"
   },
-  "lastUpdate": "2025-04-22T10:19:50.095Z"
+  "lastUpdate": "2025-04-22T10:40:45.436Z"
 }
