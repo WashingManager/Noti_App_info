@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-26T12:48:22.401Z",
+  "timestamp": "2025-04-26T13:16:55.759Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "5",
       "other": "3"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-26 21:42",
+      "endTime": "-",
+      "location": "경상남도 함양군 병곡면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-26 13:18",
       "endTime": "-",
