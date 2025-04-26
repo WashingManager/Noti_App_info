@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-26T03:05:29.927Z",
+  "timestamp": "2025-04-26T03:44:14.677Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "2",
       "other": "1"
     },
@@ -40,107 +40,7 @@
       ]
     }
   },
-  "fireList": [
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    }
-  ],
-  "resourceList": [
-    {
-      "id": "1",
-      "location": "충남 청안동안 성남 화성",
-      "startTime": "2025-04-19 10:35",
-      "endTime": "2025-04-19 11:25",
-      "resources": "헬기  1대   인력  66명   장비  16대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "2",
-      "location": "충남 서천 비인 율",
-      "startTime": "2025-04-19 10:24",
-      "endTime": "2025-04-19 12:10",
-      "resources": "헬기  5대   인력  84명   장비  20대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "3",
-      "location": "경북 경주 안강 청령",
-      "startTime": "2025-04-17 13:17",
-      "endTime": "2025-04-17 16:24",
-      "resources": "헬기  15대   인력  108명   장비  24대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "4",
-      "location": "경남 하동 금성 가덕",
-      "startTime": "2025-04-16 14:51",
-      "endTime": "2025-04-16 18:00",
-      "resources": "헬기  2대   인력  95명   장비  217대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "5",
-      "location": "울산 울주 범서 중장",
-      "startTime": "2025-04-16 10:03",
-      "endTime": "2025-04-16 11:33",
-      "resources": "헬기  2대   인력  118명   장비  119대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "6",
-      "location": "서울 관악  신림",
-      "startTime": "2025-04-12 13:01",
-      "endTime": "2025-04-12 14:36",
-      "resources": "헬기  0대   인력  107명   장비  120대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "7",
-      "location": "경북 김천 부항 하대",
-      "startTime": "2025-04-12 11:06",
-      "endTime": "2025-04-12 13:31",
-      "resources": "헬기  6대   인력  107명   장비  44대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "8",
-      "location": "부산 북  화명",
-      "startTime": "2025-04-12 06:26",
-      "endTime": "2025-04-12 08:30",
-      "resources": "헬기  0대   인력  83명   장비  24대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "경북 경주  용강",
-      "startTime": "2025-04-12 04:09",
-      "endTime": "2025-04-12 08:26",
-      "resources": "헬기  1대   인력  89명   장비  20대",
-      "level": "-",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "강원 홍천 내촌 도관",
-      "startTime": "2025-04-11 17:07",
-      "endTime": "2025-04-11 18:04",
-      "resources": "헬기  3대   인력  79명   장비  80대",
-      "level": "-",
-      "detailUrl": "-"
-    }
-  ],
+  "fireList": [],
+  "resourceList": [],
   "maintenance": null
 }
