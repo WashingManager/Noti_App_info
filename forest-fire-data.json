@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-04-27T04:36:05.120Z",
+  "timestamp": "2025-04-27T04:51:49.826Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "2",
+      "extinguishing": "2",
+      "completed": "3",
       "other": "0"
     },
     "currentFire": {
@@ -42,9 +42,17 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-27 12:07",
+      "startTime": "2025-04-27 13:44",
       "endTime": "-",
-      "location": "강원특별자치도 홍천군 두촌면",
+      "location": "전북특별자치도 전주시 완산구",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-04-27 13:21",
+      "endTime": "-",
+      "location": "전북특별자치도 남원시 산동면",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
