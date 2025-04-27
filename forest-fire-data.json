@@ -1,21 +1,21 @@
 {
-  "timestamp": "2025-04-26T23:55:36.731Z",
+  "timestamp": "2025-04-27T02:09:14.859Z",
   "main": {
     "status": {
       "extinguishing": "1",
-      "completed": "0",
+      "completed": "1",
       "other": "0"
     },
     "currentFire": {
-      "grade": "산불 2단계",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": "강원특별자치도 인제군 상남면 하남리 25-1 전"
+          "value": "경상북도 청송군 부남면 양숙리 산255-3 임"
         },
         {
           "label": "발생일시",
-          "value": "2025년 4월 26일 13시 18분"
+          "value": "2025년 4월 27일 9시 57분"
         },
         {
           "label": "진화일시",
@@ -27,7 +27,7 @@
         },
         {
           "label": "진화율",
-          "value": "98%"
+          "value": "20%"
         },
         {
           "label": "풍향",
@@ -42,12 +42,12 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-26 13:18",
+      "startTime": "2025-04-27 09:57",
       "endTime": "-",
-      "location": "강원특별자치도 인제군 상남면",
+      "location": "경상북도 청송군 부남면",
       "status": "진화중",
-      "level": "2단계",
-      "detailUrl": "https://fd.forest.go.kr/ffas/pubConn/publicSttBrdView.do?frfrInfoId=375844"
+      "level": "초기대응",
+      "detailUrl": "-"
     }
   ],
   "resourceList": [
