@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-04-28T04:51:24.104Z",
+  "timestamp": "2025-04-28T05:20:45.522Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "0",
       "other": "2"
     },
@@ -27,7 +27,7 @@
         },
         {
           "label": "진화율",
-          "value": "100%"
+          "value": "90%"
         },
         {
           "label": "풍향",
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-04-28 14:01",
+      "endTime": "-",
+      "location": "대구광역시 북구 노곡동",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-04-27 09:57",
       "endTime": "2025-04-27 11:42",
