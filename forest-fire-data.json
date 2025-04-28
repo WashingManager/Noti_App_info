@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-04-28T05:51:24.532Z",
+  "timestamp": "2025-04-28T06:28:23.327Z",
   "main": {
     "status": {
       "extinguishing": "1",
@@ -7,27 +7,27 @@
       "other": "2"
     },
     "currentFire": {
-      "grade": "초기진화단계",
+      "grade": "산불 1단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": "경상북도 청송군 부남면 양숙리 산255-3 임"
+          "value": "대구광역시 북구 노곡동 산12임"
         },
         {
           "label": "발생일시",
-          "value": "2025년 4월 27일 9시 57분"
+          "value": "2025년 4월 28일 14시 1분"
         },
         {
           "label": "진화일시",
-          "value": "2025년 4월 28일 14시 44분"
+          "value": "-"
         },
         {
           "label": "진행상태",
-          "value": "진화완료"
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": "100%"
+          "value": "0%"
         },
         {
           "label": "풍향",
@@ -46,7 +46,7 @@
       "endTime": "-",
       "location": "대구광역시 북구 노곡동",
       "status": "진화중",
-      "level": "초기대응",
+      "level": "1단계",
       "detailUrl": "-"
     }
   ],
