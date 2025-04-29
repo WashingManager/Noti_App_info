@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-04-29T03:54:32.306Z",
+  "timestamp": "2025-04-29T04:30:53.731Z",
   "main": {
     "status": {
       "extinguishing": "1",
-      "completed": "0",
+      "completed": "1",
       "other": "0"
     },
     "currentFire": {
@@ -19,15 +19,15 @@
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2025년 4월 29일 13시 0분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "진화완료"
         },
         {
           "label": "진화율",
-          "value": "92%"
+          "value": "100%"
         },
         {
           "label": "풍향",
@@ -42,12 +42,12 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-28 14:01",
+      "startTime": "2025-04-29 13:12",
       "endTime": "-",
-      "location": "대구광역시 북구 노곡동",
+      "location": "강원특별자치도 영월군 상동읍",
       "status": "진화중",
-      "level": "3단계",
-      "detailUrl": "https://fd.forest.go.kr/ffas/pubConn/publicSttBrdView.do?frfrInfoId=376804"
+      "level": "초기대응",
+      "detailUrl": "-"
     }
   ],
   "resourceList": [
