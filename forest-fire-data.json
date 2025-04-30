@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-04-30T02:04:14.729Z",
+  "timestamp": "2025-04-30T03:11:57.225Z",
   "main": {
     "status": {
-      "extinguishing": "2",
-      "completed": "1",
-      "other": "0"
+      "extinguishing": "0",
+      "completed": "2",
+      "other": "1"
     },
     "currentFire": {
       "grade": "초기진화단계",
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-30 10:56",
-      "endTime": "-",
-      "location": "전라남도 담양군 가사문학면",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-04-30 10:48",
-      "endTime": "-",
-      "location": "충청남도 서천군 마산면",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
