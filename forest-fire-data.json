@@ -1,25 +1,25 @@
 {
-  "timestamp": "2025-04-30T15:51:54.423Z",
+  "timestamp": "2025-04-30T16:19:29.503Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "동원령 해제",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": "대구광역시 북구 노곡동 산12임"
+          "value": "경상북도 포항시 남구 오천읍 문덕리 산102-2임"
         },
         {
           "label": "발생일시",
-          "value": "2025년 4월 28일 14시 1분"
+          "value": "2025년 5월 1일 1시 0분"
         },
         {
           "label": "진화일시",
-          "value": "2025년 4월 29일 13시 0분"
+          "value": "-"
         },
         {
           "label": "진행상태",
@@ -27,7 +27,7 @@
         },
         {
           "label": "진화율",
-          "value": "100%"
+          "value": "0%"
         },
         {
           "label": "풍향",
@@ -53,92 +53,92 @@
   "resourceList": [
     {
       "id": "1",
-      "location": "충남 천안동안 성남 화성",
-      "startTime": "2025-04-19 10:35",
-      "endTime": "2025-04-19 11:25",
-      "resources": "헬기  1대   인력  66명   장비  16대",
-      "level": "-",
+      "location": "경북 고령 운수 봉평",
+      "startTime": "2025-04-29 16:00",
+      "endTime": "2025-04-29 18:00",
+      "resources": "헬기  0대   인력  109명   장비  19대",
+      "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "2",
-      "location": "충남 서천 비인 율",
-      "startTime": "2025-04-19 10:24",
-      "endTime": "2025-04-19 12:10",
-      "resources": "헬기  5대   인력  84명   장비  20대",
-      "level": "-",
+      "location": "충남 금산 군북 산안",
+      "startTime": "2025-04-28 17:38",
+      "endTime": "2025-04-28 18:43",
+      "resources": "헬기  2대   인력  112명   장비  16대",
+      "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "3",
-      "location": "경북 경주 안강 청령",
-      "startTime": "2025-04-17 13:17",
-      "endTime": "2025-04-17 16:24",
-      "resources": "헬기  15대   인력  108명   장비  24대",
-      "level": "-",
+      "location": "경기 평택 진위 동천",
+      "startTime": "2025-04-28 16:02",
+      "endTime": "2025-04-28 19:06",
+      "resources": "헬기  4대   인력  128명   장비  23대",
+      "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "4",
-      "location": "경남 하동 금성 가덕",
-      "startTime": "2025-04-16 14:51",
-      "endTime": "2025-04-16 18:00",
-      "resources": "헬기  2대   인력  95명   장비  217대",
-      "level": "-",
+      "location": "경기 연천 신서 답곡",
+      "startTime": "2025-04-27 17:15",
+      "endTime": "2025-04-27 18:00",
+      "resources": "헬기  0대   인력  54명   장비  8대",
+      "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "5",
-      "location": "울산 울주 범서 중장",
-      "startTime": "2025-04-16 10:03",
-      "endTime": "2025-04-16 11:33",
-      "resources": "헬기  2대   인력  118명   장비  119대",
-      "level": "-",
+      "location": "경북 성주 선남 취곡",
+      "startTime": "2025-04-27 16:45",
+      "endTime": "2025-04-27 17:35",
+      "resources": "헬기  1대   인력  73명   장비  18대",
+      "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "6",
-      "location": "서울 관악  신림",
-      "startTime": "2025-04-12 13:01",
-      "endTime": "2025-04-12 14:36",
-      "resources": "헬기  0대   인력  107명   장비  120대",
-      "level": "-",
+      "location": "울산 울주 청량 율",
+      "startTime": "2025-04-27 16:09",
+      "endTime": "2025-04-27 16:40",
+      "resources": "헬기  1대   인력  43명   장비  6대",
+      "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "7",
-      "location": "경북 김천 부항 하대",
-      "startTime": "2025-04-12 11:06",
-      "endTime": "2025-04-12 13:31",
-      "resources": "헬기  6대   인력  107명   장비  44대",
-      "level": "-",
+      "location": "전북 남원 산동 대상",
+      "startTime": "2025-04-27 13:20",
+      "endTime": "2025-04-27 14:28",
+      "resources": "헬기  1대   인력  118명   장비  135대",
+      "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "8",
-      "location": "부산 북  화명",
-      "startTime": "2025-04-12 06:26",
-      "endTime": "2025-04-12 08:30",
-      "resources": "헬기  0대   인력  83명   장비  24대",
-      "level": "-",
+      "location": "강원 홍천 두촌 원동",
+      "startTime": "2025-04-27 12:07",
+      "endTime": "2025-04-27 14:07",
+      "resources": "헬기  5대   인력  74명   장비  91대",
+      "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "9",
-      "location": "경북 경주  용강",
-      "startTime": "2025-04-12 04:09",
-      "endTime": "2025-04-12 08:26",
-      "resources": "헬기  1대   인력  89명   장비  20대",
-      "level": "-",
+      "location": "경북 청송 부남 양숙",
+      "startTime": "2025-04-27 09:57",
+      "endTime": "2025-04-27 14:32",
+      "resources": "헬기  13대   인력  194명   장비  102대",
+      "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "10",
-      "location": "강원 홍천 내촌 도관",
-      "startTime": "2025-04-11 17:07",
-      "endTime": "2025-04-11 18:04",
-      "resources": "헬기  3대   인력  79명   장비  80대",
-      "level": "-",
+      "location": "경남 함양 병곡 광평",
+      "startTime": "2025-04-26 21:42",
+      "endTime": "2025-04-27 02:00",
+      "resources": "헬기  0대   인력  150명   장비  76대",
+      "level": "초기 대응",
       "detailUrl": "-"
     }
   ],
