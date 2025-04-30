@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-04-30T06:15:14.142Z",
+  "timestamp": "2025-04-30T06:47:17.925Z",
   "main": {
     "status": {
       "extinguishing": "1",
-      "completed": "2",
+      "completed": "3",
       "other": "2"
     },
     "currentFire": {
@@ -42,12 +42,12 @@
   },
   "fireList": [
     {
-      "startTime": "2025-04-30 14:28",
-      "endTime": "-",
-      "location": "전북특별자치도 부안군 위도면",
+      "startTime": "2025-04-28 14:01",
+      "endTime": "2025-04-29 13:00",
+      "location": "대구광역시 북구 노곡동",
       "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
+      "level": "3단계",
+      "detailUrl": "https://fd.forest.go.kr/ffas/pubConn/publicSttBrdView.do?frfrInfoId=376804"
     }
   ],
   "resourceList": [
