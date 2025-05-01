@@ -61,11 +61,11 @@
       "link": "https://kr.investing.com/indices/us-spx-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "5,603.42",
+        "5,604.10",
         "5,658.91",
-        "5,596.08",
-        "+34.40",
-        "+0.62%"
+        "5,597.35",
+        "+35.04",
+        "+0.63%"
       ],
       "time": "04:59:59",
       "marketStatus": "closed"
@@ -95,7 +95,7 @@
         "+10.88",
         "+0.55%"
       ],
-      "time": "04:59:59",
+      "time": "01/05",
       "marketStatus": "closed"
     },
     {
@@ -103,14 +103,14 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "24.57",
+        "24.60",
         "25.18",
         "23.30",
-        "-0.13",
-        "-0.53%"
+        "-0.10",
+        "-0.40%"
       ],
-      "time": "05:13:46",
-      "marketStatus": "open"
+      "time": "05:14:46",
+      "marketStatus": "closed"
     },
     {
       "name": "캐나다 S&P/TSX",
@@ -201,13 +201,13 @@
       "link": "https://kr.investing.com/indices/eu-stoxx50",
       "flagUrl": "https://flagcdn.com/16x12/eu.png",
       "values": [
-        "5,157.05",
-        "5,185.75",
-        "5,105.75",
-        "-4.85",
-        "-0.09%"
+        "5,160.22",
+        "5,185.30",
+        "5,105.80",
+        "-1.68",
+        "-0.03%"
       ],
-      "time": "01/05",
+      "time": "30/04",
       "marketStatus": "closed"
     },
     {
@@ -661,12 +661,12 @@
       "link": "https://kr.investing.com/indices/us-spx-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "+0.62%",
-        "+2.16%",
-        "-1.19%",
-        "-4.73%",
-        "+10.65%",
-        "+34.85%"
+        "+0.63%",
+        "+2.18%",
+        "-1.18%",
+        "-4.72%",
+        "+10.66%",
+        "+34.86%"
       ]
     },
     {
@@ -700,12 +700,12 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "-0.53%",
-        "-6.84%",
-        "+14.64%",
-        "+42.13%",
-        "+67.98%",
-        "-23.75%"
+        "-0.40%",
+        "-7.06%",
+        "+14.37%",
+        "+41.79%",
+        "+67.57%",
+        "-23.93%"
       ]
     },
     {
@@ -791,12 +791,12 @@
       "link": "https://kr.investing.com/indices/eu-stoxx50",
       "flagUrl": "https://flagcdn.com/16x12/eu.png",
       "values": [
-        "-0.09%",
-        "+1.14%",
-        "-2.77%",
-        "+5.33%",
-        "+5.45%",
-        "+38.17%"
+        "-0.03%",
+        "+0.88%",
+        "-2.71%",
+        "+5.40%",
+        "+5.51%",
+        "+38.25%"
       ]
     },
     {
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-05-01T20:15:24.931Z"
+  "lastUpdate": "2025-05-01T20:45:35.161Z"
 }
