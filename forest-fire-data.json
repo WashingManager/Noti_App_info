@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-05-02T15:51:53.484Z",
+  "timestamp": "2025-05-02T16:19:21.915Z",
   "main": {
     "status": {
       "extinguishing": "0",
@@ -53,6 +53,60 @@
   "resourceList": [
     {
       "id": "1",
+      "location": "전북 남원 산동 목동",
+      "startTime": "2025-05-01 09:40",
+      "endTime": "2025-05-01 10:50",
+      "resources": "헬기  1대   인력  118명   장비  103대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "충남 천안동남 성남 신덕",
+      "startTime": "2025-05-01 08:51",
+      "endTime": "2025-05-01 09:25",
+      "resources": "헬기  1대   인력  73명   장비  13대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "경북 포항남 오천 문덕",
+      "startTime": "2025-05-01 01:00",
+      "endTime": "2025-05-01 07:30",
+      "resources": "헬기  1대   인력  150명   장비  71대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "강원 춘천 동내 학곡",
+      "startTime": "2025-04-30 17:19",
+      "endTime": "2025-04-30 17:40",
+      "resources": "헬기  0대   인력  61명   장비  116대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "강원 홍천 화천 성산",
+      "startTime": "2025-04-30 16:14",
+      "endTime": "2025-04-30 18:08",
+      "resources": "헬기  4대   인력  118명   장비  94대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "전북 부안 위도 대",
+      "startTime": "2025-04-30 14:28",
+      "endTime": "2025-04-30 16:04",
+      "resources": "헬기  2대   인력  28명   장비  2대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
       "location": "경북 고령 운수 봉평",
       "startTime": "2025-04-29 16:00",
       "endTime": "2025-04-29 18:00",
@@ -61,7 +115,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "2",
+      "id": "8",
       "location": "충남 금산 군북 산안",
       "startTime": "2025-04-28 17:38",
       "endTime": "2025-04-28 18:43",
@@ -70,7 +124,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "9",
       "location": "경기 평택 진위 동천",
       "startTime": "2025-04-28 16:02",
       "endTime": "2025-04-28 19:06",
@@ -79,65 +133,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "10",
       "location": "경기 연천 신서 답곡",
       "startTime": "2025-04-27 17:15",
       "endTime": "2025-04-27 18:00",
       "resources": "헬기  0대   인력  54명   장비  8대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "5",
-      "location": "경북 성주 선남 취곡",
-      "startTime": "2025-04-27 16:45",
-      "endTime": "2025-04-27 17:35",
-      "resources": "헬기  1대   인력  73명   장비  18대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "6",
-      "location": "울산 울주 청량 율",
-      "startTime": "2025-04-27 16:09",
-      "endTime": "2025-04-27 16:40",
-      "resources": "헬기  1대   인력  43명   장비  6대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "7",
-      "location": "전북 남원 산동 대상",
-      "startTime": "2025-04-27 13:20",
-      "endTime": "2025-04-27 14:28",
-      "resources": "헬기  1대   인력  118명   장비  135대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "8",
-      "location": "강원 홍천 두촌 원동",
-      "startTime": "2025-04-27 12:07",
-      "endTime": "2025-04-27 14:07",
-      "resources": "헬기  5대   인력  74명   장비  91대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "경북 청송 부남 양숙",
-      "startTime": "2025-04-27 09:57",
-      "endTime": "2025-04-27 14:32",
-      "resources": "헬기  13대   인력  194명   장비  102대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "경남 함양 병곡 광평",
-      "startTime": "2025-04-26 21:42",
-      "endTime": "2025-04-27 02:00",
-      "resources": "헬기  0대   인력  150명   장비  76대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
