@@ -303,6 +303,18 @@
   ],
   "international": [
     {
+      "number": "57",
+      "time": "2025/05/05 12:55:40",
+      "magnitude": "6.0",
+      "depth": "10",
+      "maxIntensity": "",
+      "latitude": "35.28 S",
+      "longitude": "107.43 W",
+      "location": "동태평양 남쪽 해령",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20250505125540.png",
+      "detailLink": null
+    },
+    {
       "number": "56",
       "time": "2025/05/03 21:51:45",
       "magnitude": "6.0",
@@ -976,12 +988,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 05월 05일 07시 53분 59초",
-    "magnitude": "3.7",
-    "location": "",
-    "depth": "최대진도  Ⅳ(인천), Ⅱ(경기, 서울, 충남)",
-    "note": "충남 태안군 북서쪽 52km 해역  (위도: 37.12 N, 경도: 125.94 E, ± 1.2km)14 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250505075359.png;jsessionid=5Xsl_DJ4pkAFLxMR47VWHuPu2EIHnMwywe88OCxg.standalone"
+    "time": "2025년 05월 05일 12시 55분 40초",
+    "magnitude": "6.0",
+    "location": "동태평양 남쪽 해령  (위도: 35.28 S, 경도: 107.43 W)",
+    "depth": "10 km",
+    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250505125540.png;jsessionid=ir9q3_6DRrs15oBia1DyhaGrrIVPzoucc3QRnwMV.standalone"
   },
-  "lastUpdate": "2025-05-05T04:01:41.257Z"
+  "lastUpdate": "2025-05-05T04:32:29.547Z"
 }
