@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "27",
+      "time": "2025/05/07 23:08:53",
+      "magnitude": "2.5",
+      "depth": "16",
+      "maxIntensity": "Ⅲ",
+      "latitude": "35.77 N",
+      "longitude": "129.07 E",
+      "location": "경북 경주시 남서쪽 17km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250507230853.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250507230853.html"
+    },
+    {
       "number": "26",
       "time": "2025/05/07 19:55:07",
       "magnitude": "2.0",
@@ -1000,12 +1012,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 05월 07일 19시 55분 07초",
-    "magnitude": "2.0",
+    "time": "2025년 05월 07일 23시 08분 53초",
+    "magnitude": "2.5",
     "location": "",
-    "depth": "최대진도  Ⅱ(경북, 울산)",
-    "note": "경북 경주시 남서쪽 17km 지역  (위도: 35.77 N, 경도: 129.07 E, ± 1.0km)15 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250507195507.png;jsessionid=nW5nG7tC_7Mvor-ZbeMAfZI3cqihSsBUqZ5gKqE0.standalone"
+    "depth": "최대진도  Ⅲ(경북), Ⅱ(경남, 대구, 울산)",
+    "note": "경북 경주시 남서쪽 17km 지역  (위도: 35.77 N, 경도: 129.07 E, ± 1.1km)16 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250507230853.png"
   },
-  "lastUpdate": "2025-05-07T13:56:43.480Z"
+  "lastUpdate": "2025-05-07T14:20:09.202Z"
 }
