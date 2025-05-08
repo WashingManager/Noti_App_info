@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-05-08T07:37:38.997Z",
+  "timestamp": "2025-05-08T07:51:57.126Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "0",
       "other": "0"
     },
@@ -11,11 +11,11 @@
       "details": [
         {
           "label": "발생지주소",
-          "value": "강원특별자치도 철원군 원남면 주파리 산131-2 임"
+          "value": "경기도 연천군 왕징면 고장리 산 167임"
         },
         {
           "label": "발생일시",
-          "value": "2025년 5월 8일 14시 39분"
+          "value": "2025년 5월 8일 16시 33분"
         },
         {
           "label": "진화일시",
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-05-08 16:33",
+      "endTime": "-",
+      "location": "경기도 연천군 왕징면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-05-08 14:39",
       "endTime": "-",
