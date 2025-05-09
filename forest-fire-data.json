@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-05-09T03:58:15.676Z",
+  "timestamp": "2025-05-09T04:33:14.888Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "0",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "초기진화단계",
+      "grade": "--",
       "details": [
         {
           "label": "발생지주소",
-          "value": "경기도 연천군 왕징면 고잔하리 산 186임"
+          "value": ""
         },
         {
           "label": "발생일시",
-          "value": "2025년 5월 8일 16시 33분"
+          "value": ""
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": ""
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": ""
         },
         {
           "label": "진화율",
-          "value": "0%"
+          "value": ""
         },
         {
           "label": "풍향",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-05-08 16:33",
-      "endTime": "-",
-      "location": "경기도 연천군 왕징면",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
