@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "28",
+      "time": "2025/05/10 13:19:00",
+      "magnitude": "3.3",
+      "depth": "9",
+      "maxIntensity": "Ⅳ",
+      "latitude": "38.14 N",
+      "longitude": "127.09 E",
+      "location": "경기 연천군 북북동쪽 5km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250510131900.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250510131900.html"
+    },
+    {
       "number": "27",
       "time": "2025/05/07 23:08:53",
       "magnitude": "2.5",
@@ -1012,12 +1024,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 05월 07일 23시 08분 53초",
-    "magnitude": "2.5",
+    "time": "2025년 05월 10일 13시 19분 00초",
+    "magnitude": "3.3",
     "location": "",
-    "depth": "최대진도  Ⅲ(경북), Ⅱ(경남, 대구, 울산)",
-    "note": "경북 경주시 남서쪽 17km 지역  (위도: 35.77 N, 경도: 129.07 E, ± 1.1km)16 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250507230853.png"
+    "depth": "최대진도  Ⅳ(경기), Ⅲ(강원), Ⅱ(인천)",
+    "note": "경기 연천군 북북동쪽 5km 지역  (위도: 38.14 N, 경도: 127.09 E, ± 0.9km)9 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250510131900.png"
   },
-  "lastUpdate": "2025-05-10T04:21:32.702Z"
+  "lastUpdate": "2025-05-10T04:41:22.016Z"
 }
