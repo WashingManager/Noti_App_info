@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-05-12T04:50:45.208Z",
+  "timestamp": "2025-05-12T05:14:21.731Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "--",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": ""
+          "value": "강원특별자치도 춘천시 남산면 방하리 152전"
         },
         {
           "label": "발생일시",
-          "value": ""
+          "value": "2025년 5월 12일 13시 53분"
         },
         {
           "label": "진화일시",
-          "value": ""
+          "value": "-"
         },
         {
           "label": "진행상태",
-          "value": ""
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": ""
+          "value": "0%"
         },
         {
           "label": "풍향",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-05-12 13:53",
+      "endTime": "-",
+      "location": "강원특별자치도 춘천시 남산면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
