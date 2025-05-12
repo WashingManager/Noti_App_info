@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-05-12T05:52:56.427Z",
+  "timestamp": "2025-05-12T06:28:14.900Z",
   "main": {
     "status": {
-      "extinguishing": "0",
-      "completed": "1",
-      "other": "0"
+      "extinguishing": "1",
+      "completed": "0",
+      "other": "1"
     },
     "currentFire": {
       "grade": "초기진화단계",
@@ -23,7 +23,7 @@
         },
         {
           "label": "진행상태",
-          "value": "진화완료"
+          "value": "산불외종료"
         },
         {
           "label": "진화율",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-05-12 14:31",
+      "endTime": "-",
+      "location": "대구광역시 군위군 삼국유사면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
