@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-05-14T04:55:59.561Z",
+  "timestamp": "2025-05-14T05:29:01.594Z",
   "main": {
     "status": {
-      "extinguishing": "2",
+      "extinguishing": "3",
       "completed": "0",
       "other": "0"
     },
@@ -27,7 +27,7 @@
         },
         {
           "label": "진화율",
-          "value": "0%"
+          "value": "90%"
         },
         {
           "label": "풍향",
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-05-14 14:04",
+      "endTime": "-",
+      "location": "강원특별자치도 철원군 갈말읍",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-05-14 12:24",
       "endTime": "-",
