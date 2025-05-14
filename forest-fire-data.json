@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-05-14T21:08:35.287Z",
+  "timestamp": "2025-05-14T21:25:37.043Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "0",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "초기진화단계",
+      "grade": "--",
       "details": [
         {
           "label": "발생지주소",
-          "value": "강원특별자치도 철원군 갈말읍 정연리 49전"
+          "value": ""
         },
         {
           "label": "발생일시",
-          "value": "2025년 5월 14일 14시 4분"
+          "value": ""
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": ""
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": ""
         },
         {
           "label": "진화율",
-          "value": "0%"
+          "value": ""
         },
         {
           "label": "풍향",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-05-14 14:04",
-      "endTime": "-",
-      "location": "강원특별자치도 철원군 갈말읍",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
