@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-05-14T05:46:20.043Z",
+  "timestamp": "2025-05-14T06:15:18.529Z",
   "main": {
     "status": {
-      "extinguishing": "3",
+      "extinguishing": "2",
       "completed": "0",
-      "other": "0"
+      "other": "1"
     },
     "currentFire": {
       "grade": "초기진화단계",
@@ -19,11 +19,11 @@
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2025년 5월 14일 14시 23분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "산불외종료"
         },
         {
           "label": "진화율",
@@ -45,14 +45,6 @@
       "startTime": "2025-05-14 14:04",
       "endTime": "-",
       "location": "강원특별자치도 철원군 갈말읍",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-05-14 12:24",
-      "endTime": "-",
-      "location": "경기도 연천군 왕징면",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
