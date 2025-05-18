@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "30",
+      "time": "2025/05/18 13:01:21",
+      "magnitude": "2.4",
+      "depth": "7",
+      "maxIntensity": "Ⅰ",
+      "latitude": "35.19 N",
+      "longitude": "124.77 E",
+      "location": "전남 신안군 흑산도 북서쪽 83km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250518130121.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250518130121.html"
+    },
+    {
       "number": "29",
       "time": "2025/05/10 14:59:25",
       "magnitude": "2.5",
@@ -1072,12 +1084,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 05월 17일 19시 22분 13초",
-    "magnitude": "6.0",
-    "location": "페루 아야쿠초 남쪽 180km 지역  (위도: 14.77 S, 경도: 74.16 W)",
-    "depth": "92 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250517192213.png"
+    "time": "2025년 05월 18일 13시 01분 21초",
+    "magnitude": "2.4",
+    "location": "",
+    "depth": "최대진도  Ⅰ",
+    "note": "전남 신안군 흑산도 북서쪽 83km 해역  (위도: 35.19 N, 경도: 124.77 E, ± 6.0km)7 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250518130121.png;jsessionid=N8htwzDJOZhZk5DpzMr_GaIVQD5tCsm5L5i7TqQK.standalone"
   },
-  "lastUpdate": "2025-05-18T03:52:44.924Z"
+  "lastUpdate": "2025-05-18T04:14:42.974Z"
 }
