@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "31",
+      "time": "2025/05/19 14:18:50",
+      "magnitude": "2.4",
+      "depth": "13",
+      "maxIntensity": "Ⅲ",
+      "latitude": "36.18 N",
+      "longitude": "128.26 E",
+      "location": "경북 김천시 동북동쪽 14km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250519141850.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250519141850.html"
+    },
+    {
       "number": "30",
       "time": "2025/05/18 13:01:21",
       "magnitude": "2.4",
@@ -1084,12 +1096,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 05월 18일 13시 01분 21초",
+    "time": "2025년 05월 19일 14시 18분 50초",
     "magnitude": "2.4",
     "location": "",
-    "depth": "최대진도  Ⅰ",
-    "note": "전남 신안군 흑산도 북서쪽 83km 해역  (위도: 35.19 N, 경도: 124.77 E, ± 6.0km)7 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250518130121.png"
+    "depth": "최대진도  Ⅲ(경북), Ⅱ(충북)",
+    "note": "경북 김천시 동북동쪽 14km 지역  (위도: 36.18 N, 경도: 128.26 E, ± 0.6km)13 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250519141850.png;jsessionid=14ywT0dIdyBSGnBnwZGW7tuD1Y3PacOtJ6NIE_KV.standalone"
   },
-  "lastUpdate": "2025-05-19T05:21:28.278Z"
+  "lastUpdate": "2025-05-19T05:39:38.879Z"
 }
