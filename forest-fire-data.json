@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-05-20T15:55:17.482Z",
+  "timestamp": "2025-05-20T16:35:17.222Z",
   "main": {
     "status": {
       "extinguishing": "0",
@@ -116,6 +116,15 @@
     },
     {
       "id": "8",
+      "location": "전남 곡성 죽곡 동계",
+      "startTime": "2025-04-30 12:39",
+      "endTime": "2025-04-30 15:00",
+      "resources": "헬기  4대   인력  132명   장비  40대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
       "location": "전남 순천 서 판교",
       "startTime": "2025-04-30 09:01",
       "endTime": "2025-04-30 11:15",
@@ -124,20 +133,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "9",
+      "id": "10",
       "location": "경북 고령 운수 봉평",
       "startTime": "2025-04-29 16:00",
       "endTime": "2025-04-29 18:00",
       "resources": "헬기  0대   인력  109명   장비  19대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "충남 금산 군북 산안",
-      "startTime": "2025-04-28 17:38",
-      "endTime": "2025-04-28 18:43",
-      "resources": "헬기  2대   인력  112명   장비  16대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
