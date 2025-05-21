@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "32",
+      "time": "2025/05/21 10:17:11",
+      "magnitude": "2.1",
+      "depth": "18",
+      "maxIntensity": "Ⅰ",
+      "latitude": "38.63 N",
+      "longitude": "125.69 E",
+      "location": "북한 황해북도 송림 남남동쪽 13km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250521101711.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250521101711.html"
+    },
+    {
       "number": "31",
       "time": "2025/05/19 14:18:50",
       "magnitude": "2.4",
@@ -1108,12 +1120,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 05월 21일 00시 05분 58초",
-    "magnitude": "6.4",
-    "location": "파푸아뉴기니 마당 북서쪽 190km 해역  (위도: 3.85 S, 경도: 144.77 E)",
-    "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250521000558.png;jsessionid=Xw7xjnlrsQr5L5VOxTbQVEw5mS9JBWL-4kcxAdgi.standalone"
+    "time": "2025년 05월 21일 10시 17분 11초",
+    "magnitude": "2.1",
+    "location": "",
+    "depth": "최대진도  Ⅰ",
+    "note": "북한 황해북도 송림 남남동쪽 13km 지역  (위도: 38.63 N, 경도: 125.69 E, ± 3.8km)18 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250521101711.png"
   },
-  "lastUpdate": "2025-05-20T23:58:48.307Z"
+  "lastUpdate": "2025-05-21T01:48:35.982Z"
 }
