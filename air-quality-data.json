@@ -34,19 +34,19 @@
     },
     {
       "rank": "5",
+      "flag": "https://cdn.airvisual.net/flags/indonesia.jpg",
+      "city": "자카르타, 인도네시아",
+      "link": "https://www.iqair.com/ko/indonesia/jakarta/jakarta",
+      "aqi": "118",
+      "followers": "1.8M"
+    },
+    {
+      "rank": "6",
       "flag": "https://cdn.airvisual.net/flags/brazil.jpg",
       "city": "상파울루, 브라질",
       "link": "https://www.iqair.com/ko/brazil/sao-paulo/sao-paulo",
       "aqi": "115",
       "followers": "125.1K"
-    },
-    {
-      "rank": "6",
-      "flag": "https://cdn.airvisual.net/flags/indonesia.jpg",
-      "city": "자카르타, 인도네시아",
-      "link": "https://www.iqair.com/ko/indonesia/jakarta/jakarta",
-      "aqi": "115",
-      "followers": "1.8M"
     },
     {
       "rank": "7",
@@ -378,14 +378,6 @@
     },
     {
       "rank": "48",
-      "flag": "https://cdn.airvisual.net/flags/china.jpg",
-      "city": "광저우시, 중국",
-      "link": "https://www.iqair.com/ko/china/guangdong/guangzhou",
-      "aqi": "60",
-      "followers": "1.7M"
-    },
-    {
-      "rank": "49",
       "flag": "https://cdn.airvisual.net/flags/bangladesh.jpg",
       "city": "다카, 방글라데시",
       "link": "https://www.iqair.com/ko/bangladesh/dhaka/dhaka",
@@ -393,7 +385,7 @@
       "followers": "277.3K"
     },
     {
-      "rank": "50",
+      "rank": "49",
       "flag": "https://cdn.airvisual.net/flags/azerbaijan.jpg",
       "city": "바쿠, 아제르바이잔",
       "link": "https://www.iqair.com/ko/azerbaijan/baki/baku",
@@ -401,7 +393,7 @@
       "followers": "21.7K"
     },
     {
-      "rank": "51",
+      "rank": "50",
       "flag": "https://cdn.airvisual.net/flags/taiwan.jpg",
       "city": "타이베이시, 대만",
       "link": "https://www.iqair.com/ko/taiwan/taipei/taipei",
@@ -409,7 +401,7 @@
       "followers": "1.1M"
     },
     {
-      "rank": "52",
+      "rank": "51",
       "flag": "https://cdn.airvisual.net/flags/thailand.jpg",
       "city": "방콕, 태국",
       "link": "https://www.iqair.com/ko/thailand/bangkok/bangkok",
@@ -417,7 +409,7 @@
       "followers": "7M"
     },
     {
-      "rank": "53",
+      "rank": "52",
       "flag": "https://cdn.airvisual.net/flags/poland.jpg",
       "city": "바르샤바, 폴란드",
       "link": "https://www.iqair.com/ko/poland/mazovia/warsaw",
@@ -425,7 +417,7 @@
       "followers": "404.1K"
     },
     {
-      "rank": "54",
+      "rank": "53",
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "선전시, 중국",
       "link": "https://www.iqair.com/ko/china/guangdong/shenzhen",
@@ -433,12 +425,20 @@
       "followers": "545.6K"
     },
     {
-      "rank": "55",
+      "rank": "54",
       "flag": "https://cdn.airvisual.net/flags/greece.jpg",
       "city": "아테네, 그리스",
       "link": "https://www.iqair.com/ko/greece/attica/athens",
       "aqi": "56",
       "followers": "57.7K"
+    },
+    {
+      "rank": "55",
+      "flag": "https://cdn.airvisual.net/flags/china.jpg",
+      "city": "광저우시, 중국",
+      "link": "https://www.iqair.com/ko/china/guangdong/guangzhou",
+      "aqi": "56",
+      "followers": "1.7M"
     },
     {
       "rank": "56",
@@ -546,6 +546,14 @@
     },
     {
       "rank": "69",
+      "flag": "https://cdn.airvisual.net/flags/spain.jpg",
+      "city": "바르셀로나, 스페인",
+      "link": "https://www.iqair.com/ko/spain/catalonia/barcelona",
+      "aqi": "52",
+      "followers": "386.9K"
+    },
+    {
+      "rank": "70",
       "flag": "https://cdn.airvisual.net/flags/uzbekistan.jpg",
       "city": "타슈켄트, 우즈베키스탄",
       "link": "https://www.iqair.com/ko/uzbekistan/toshkent-shahri/tashkent",
@@ -553,20 +561,12 @@
       "followers": "253.9K"
     },
     {
-      "rank": "70",
+      "rank": "71",
       "flag": "https://cdn.airvisual.net/flags/netherlands.jpg",
       "city": "암스테르담, 네덜란드",
       "link": "https://www.iqair.com/ko/netherlands/north-holland/amsterdam",
       "aqi": "49",
       "followers": "297.8K"
-    },
-    {
-      "rank": "71",
-      "flag": "https://cdn.airvisual.net/flags/spain.jpg",
-      "city": "바르셀로나, 스페인",
-      "link": "https://www.iqair.com/ko/spain/catalonia/barcelona",
-      "aqi": "49",
-      "followers": "386.9K"
     },
     {
       "rank": "72",
@@ -1001,5 +1001,5 @@
       "followers": "92.9K"
     }
   ],
-  "lastUpdate": "Wed, 21 May 2025 07:43:29 GMT"
+  "lastUpdate": "Wed, 21 May 2025 07:51:38 GMT"
 }
