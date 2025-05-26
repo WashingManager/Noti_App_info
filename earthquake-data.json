@@ -387,6 +387,18 @@
   ],
   "international": [
     {
+      "number": "65",
+      "time": "2025/05/26 17:47:00",
+      "magnitude": "5.3",
+      "depth": "50",
+      "maxIntensity": "",
+      "latitude": "42.30 N",
+      "longitude": "143.10 E",
+      "location": "일본 홋카이도 삿포로시 동남동쪽 167km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20250526174700.png",
+      "detailLink": null
+    },
+    {
       "number": "64",
       "time": "2025/05/25 19:49:53",
       "magnitude": "6.0",
@@ -1156,12 +1168,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 05월 25일 19시 49분 53초",
-    "magnitude": "6.0",
-    "location": "통가 누쿠알로파 남남서쪽 192km 해역  (위도: 22.79 S, 경도: 175.73 W)",
-    "depth": "12 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250525194953.png;jsessionid=ghTh5cUZUaf5WEmsRy6wo405g1pMEDOBEPwk0qIc.standalone"
+    "time": "2025년 05월 26일 17시 47분 00초",
+    "magnitude": "5.3",
+    "location": "일본 홋카이도 삿포로시 동남동쪽 167km 지역  (위도: 42.30 N, 경도: 143.10 E)",
+    "depth": "50 km",
+    "note": "국내영향없음. 위 자료는 일본기상청(JMA) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250526174700.png"
   },
-  "lastUpdate": "2025-05-26T08:39:16.952Z"
+  "lastUpdate": "2025-05-26T09:34:01.578Z"
 }
