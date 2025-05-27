@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "33",
+      "time": "2025/05/28 00:17:31",
+      "magnitude": "2.0",
+      "depth": "17",
+      "maxIntensity": "Ⅰ",
+      "latitude": "35.55 N",
+      "longitude": "129.65 E",
+      "location": "울산 동구 동북동쪽 22km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250528001731.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250528001731.html"
+    },
+    {
       "number": "32",
       "time": "2025/05/21 10:17:11",
       "magnitude": "2.1",
@@ -1168,12 +1180,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 05월 26일 17시 47분 00초",
-    "magnitude": "5.3",
-    "location": "일본 홋카이도 삿포로시 동남동쪽 167km 지역  (위도: 42.30 N, 경도: 143.10 E)",
-    "depth": "50 km",
-    "note": "국내영향없음. 위 자료는 일본기상청(JMA) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250526174700.png"
+    "time": "2025년 05월 28일 00시 17분 31초",
+    "magnitude": "2.0",
+    "location": "",
+    "depth": "최대진도  Ⅰ",
+    "note": "울산 동구 동북동쪽 22km 해역  (위도: 35.55 N, 경도: 129.65 E, ± 4.2km)17 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250528001731.png"
   },
-  "lastUpdate": "2025-05-27T15:21:09.768Z"
+  "lastUpdate": "2025-05-27T15:39:43.238Z"
 }
