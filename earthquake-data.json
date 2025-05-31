@@ -399,6 +399,18 @@
   ],
   "international": [
     {
+      "number": "68",
+      "time": "2025/05/31 17:37:00",
+      "magnitude": "6.1",
+      "depth": "20",
+      "maxIntensity": "",
+      "latitude": "42.30 N",
+      "longitude": "144.50 E",
+      "location": "일본 홋카이도 아사히카와시 남동쪽 238km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20250531173700.png",
+      "detailLink": null
+    },
+    {
       "number": "67",
       "time": "2025/05/30 14:36:38",
       "magnitude": "6.2",
@@ -1204,12 +1216,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 05월 30일 14시 36분 38초",
-    "magnitude": "6.2",
-    "location": "남아프리카 공화국 케이프타운 남남서쪽 2264km 해역  (위도: 53.32 S, 경도: 9.16 E)",
-    "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250530143638.png"
+    "time": "2025년 05월 31일 17시 37분 00초",
+    "magnitude": "6.1",
+    "location": "일본 홋카이도 아사히카와시 남동쪽 238km 해역  (위도: 42.30 N, 경도: 144.50 E)",
+    "depth": "20 km",
+    "note": "국내영향없음. 위 자료는 일본기상청(JMA) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250531173700.png;jsessionid=CQ05tT2a5sOARoXk-RTnyyfpxRZkggFRwWXNE95c.standalone"
   },
-  "lastUpdate": "2025-05-31T08:23:33.903Z"
+  "lastUpdate": "2025-05-31T08:44:57.414Z"
 }
