@@ -26,19 +26,19 @@
     },
     {
       "rank": "4",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "델리, 인도",
-      "link": "https://www.iqair.com/ko/india/delhi/delhi",
-      "aqi": "167",
-      "followers": "2.8M"
-    },
-    {
-      "rank": "5",
       "flag": "https://cdn.airvisual.net/flags/indonesia.jpg",
       "city": "자카르타, 인도네시아",
       "link": "https://www.iqair.com/ko/indonesia/jakarta/jakarta",
       "aqi": "161",
       "followers": "1.8M"
+    },
+    {
+      "rank": "5",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "델리, 인도",
+      "link": "https://www.iqair.com/ko/india/delhi/delhi",
+      "aqi": "149",
+      "followers": "2.8M"
     },
     {
       "rank": "6",
@@ -206,7 +206,7 @@
       "city": "토론토, 캐나다",
       "link": "https://www.iqair.com/ko/canada/ontario/toronto",
       "aqi": "77",
-      "followers": "519.1K"
+      "followers": "519.2K"
     },
     {
       "rank": "27",
@@ -394,14 +394,6 @@
     },
     {
       "rank": "50",
-      "flag": "https://cdn.airvisual.net/flags/japan.jpg",
-      "city": "고베시, 일본",
-      "link": "https://www.iqair.com/ko/japan/hyogo/kobe",
-      "aqi": "64",
-      "followers": "36.2K"
-    },
-    {
-      "rank": "51",
       "flag": "https://cdn.airvisual.net/flags/usa.jpg",
       "city": "미니애폴리스, 미국",
       "link": "https://www.iqair.com/ko/usa/minnesota/minneapolis",
@@ -409,12 +401,20 @@
       "followers": "31.5K"
     },
     {
-      "rank": "52",
+      "rank": "51",
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "베이징시, 중국",
       "link": "https://www.iqair.com/ko/china/beijing/beijing",
       "aqi": "62",
       "followers": "9.8M"
+    },
+    {
+      "rank": "52",
+      "flag": "https://cdn.airvisual.net/flags/japan.jpg",
+      "city": "고베시, 일본",
+      "link": "https://www.iqair.com/ko/japan/hyogo/kobe",
+      "aqi": "62",
+      "followers": "36.2K"
     },
     {
       "rank": "53",
@@ -993,5 +993,5 @@
       "followers": "212.1K"
     }
   ],
-  "lastUpdate": "Wed, 04 Jun 2025 23:45:22 GMT"
+  "lastUpdate": "Wed, 04 Jun 2025 23:51:19 GMT"
 }
