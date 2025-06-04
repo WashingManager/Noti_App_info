@@ -2,14 +2,6 @@
   "rankings": [
     {
       "rank": "1",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "델리, 인도",
-      "link": "https://www.iqair.com/ko/india/delhi/delhi",
-      "aqi": "157",
-      "followers": "2.8M"
-    },
-    {
-      "rank": "2",
       "flag": "https://cdn.airvisual.net/flags/democratic-republic-of-the-congo.jpg",
       "city": "킨샤사, 콩고 민주 공화국",
       "link": "https://www.iqair.com/ko/democratic-republic-of-the-congo/kinshasa/kinshasa",
@@ -17,7 +9,7 @@
       "followers": "9.8K"
     },
     {
-      "rank": "3",
+      "rank": "2",
       "flag": "https://cdn.airvisual.net/flags/senegal.jpg",
       "city": "다카르, 세네갈",
       "link": "https://www.iqair.com/ko/senegal/dakar/dakar",
@@ -25,11 +17,19 @@
       "followers": "17.8K"
     },
     {
+      "rank": "3",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "델리, 인도",
+      "link": "https://www.iqair.com/ko/india/delhi/delhi",
+      "aqi": "142",
+      "followers": "2.8M"
+    },
+    {
       "rank": "4",
       "flag": "https://cdn.airvisual.net/flags/indonesia.jpg",
       "city": "자카르타, 인도네시아",
       "link": "https://www.iqair.com/ko/indonesia/jakarta/jakarta",
-      "aqi": "135",
+      "aqi": "137",
       "followers": "1.8M"
     },
     {
@@ -178,14 +178,6 @@
     },
     {
       "rank": "23",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "뭄바이, 인도",
-      "link": "https://www.iqair.com/ko/india/maharashtra/mumbai",
-      "aqi": "74",
-      "followers": "1.5M"
-    },
-    {
-      "rank": "24",
       "flag": "https://cdn.airvisual.net/flags/poland.jpg",
       "city": "바르샤바, 폴란드",
       "link": "https://www.iqair.com/ko/poland/mazovia/warsaw",
@@ -193,7 +185,7 @@
       "followers": "406.2K"
     },
     {
-      "rank": "25",
+      "rank": "24",
       "flag": "https://cdn.airvisual.net/flags/pakistan.jpg",
       "city": "라호르, 파키스탄",
       "link": "https://www.iqair.com/ko/pakistan/punjab/lahore",
@@ -201,7 +193,7 @@
       "followers": "539.5K"
     },
     {
-      "rank": "26",
+      "rank": "25",
       "flag": "https://cdn.airvisual.net/flags/thailand.jpg",
       "city": "방콕, 태국",
       "link": "https://www.iqair.com/ko/thailand/bangkok/bangkok",
@@ -209,12 +201,20 @@
       "followers": "7M"
     },
     {
-      "rank": "27",
+      "rank": "26",
       "flag": "https://cdn.airvisual.net/flags/ethiopia.jpg",
       "city": "아디스아바바, 에티오피아",
       "link": "https://www.iqair.com/ko/ethiopia/addis-ababa/addis-ababa",
       "aqi": "70",
       "followers": "19.8K"
+    },
+    {
+      "rank": "27",
+      "flag": "https://cdn.airvisual.net/flags/china.jpg",
+      "city": "광저우시, 중국",
+      "link": "https://www.iqair.com/ko/china/guangdong/guangzhou",
+      "aqi": "70",
+      "followers": "1.7M"
     },
     {
       "rank": "28",
@@ -234,6 +234,14 @@
     },
     {
       "rank": "30",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "뭄바이, 인도",
+      "link": "https://www.iqair.com/ko/india/maharashtra/mumbai",
+      "aqi": "68",
+      "followers": "1.5M"
+    },
+    {
+      "rank": "31",
       "flag": "https://cdn.airvisual.net/flags/nepal.jpg",
       "city": "카트만두, 네팔",
       "link": "https://www.iqair.com/ko/nepal/central-region/kathmandu",
@@ -241,7 +249,7 @@
       "followers": "202.8K"
     },
     {
-      "rank": "31",
+      "rank": "32",
       "flag": "https://cdn.airvisual.net/flags/canada.jpg",
       "city": "토론토, 캐나다",
       "link": "https://www.iqair.com/ko/canada/ontario/toronto",
@@ -249,7 +257,7 @@
       "followers": "517.9K"
     },
     {
-      "rank": "32",
+      "rank": "33",
       "flag": "https://cdn.airvisual.net/flags/singapore.jpg",
       "city": "싱가포르, 싱가포르",
       "link": "https://www.iqair.com/ko/singapore/singapore/singapore",
@@ -257,7 +265,7 @@
       "followers": "1M"
     },
     {
-      "rank": "33",
+      "rank": "34",
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "항저우시, 중국",
       "link": "https://www.iqair.com/ko/china/zhejiang/hangzhou",
@@ -265,7 +273,7 @@
       "followers": "518.8K"
     },
     {
-      "rank": "34",
+      "rank": "35",
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "충칭시, 중국",
       "link": "https://www.iqair.com/ko/china/chongqing/chongqing",
@@ -273,20 +281,12 @@
       "followers": "247.1K"
     },
     {
-      "rank": "35",
+      "rank": "36",
       "flag": "https://cdn.airvisual.net/flags/thailand.jpg",
       "city": "치앙마이, 태국",
       "link": "https://www.iqair.com/ko/thailand/chiang-mai/chiang-mai",
       "aqi": "66",
       "followers": "12.5M"
-    },
-    {
-      "rank": "36",
-      "flag": "https://cdn.airvisual.net/flags/china.jpg",
-      "city": "광저우시, 중국",
-      "link": "https://www.iqair.com/ko/china/guangdong/guangzhou",
-      "aqi": "66",
-      "followers": "1.7M"
     },
     {
       "rank": "37",
@@ -370,19 +370,19 @@
     },
     {
       "rank": "47",
+      "flag": "https://cdn.airvisual.net/flags/japan.jpg",
+      "city": "교토시, 일본",
+      "link": "https://www.iqair.com/ko/japan/kyoto/kyoto",
+      "aqi": "60",
+      "followers": "114.7K"
+    },
+    {
+      "rank": "48",
       "flag": "https://cdn.airvisual.net/flags/ghana.jpg",
       "city": "아크라, 가나",
       "link": "https://www.iqair.com/ko/ghana/greater-accra/accra",
       "aqi": "59",
       "followers": "12K"
-    },
-    {
-      "rank": "48",
-      "flag": "https://cdn.airvisual.net/flags/japan.jpg",
-      "city": "교토시, 일본",
-      "link": "https://www.iqair.com/ko/japan/kyoto/kyoto",
-      "aqi": "59",
-      "followers": "114.7K"
     },
     {
       "rank": "49",
@@ -446,7 +446,7 @@
       "city": "프놈펜, 캄보디아",
       "link": "https://www.iqair.com/ko/cambodia/phnom-penh/phnom-penh",
       "aqi": "56",
-      "followers": "609.2K"
+      "followers": "609.3K"
     },
     {
       "rank": "57",
@@ -458,14 +458,6 @@
     },
     {
       "rank": "58",
-      "flag": "https://cdn.airvisual.net/flags/japan.jpg",
-      "city": "도쿄도, 일본",
-      "link": "https://www.iqair.com/ko/japan/tokyo/tokyo",
-      "aqi": "56",
-      "followers": "1.1M"
-    },
-    {
-      "rank": "59",
       "flag": "https://cdn.airvisual.net/flags/bahrain.jpg",
       "city": "마나마, 바레인",
       "link": "https://www.iqair.com/ko/bahrain/capital-governorate/manama",
@@ -473,7 +465,7 @@
       "followers": "42.5K"
     },
     {
-      "rank": "60",
+      "rank": "59",
       "flag": "https://cdn.airvisual.net/flags/qatar.jpg",
       "city": "도하, 카타르",
       "link": "https://www.iqair.com/ko/qatar/baladiyat-ad-dawhah/doha",
@@ -481,7 +473,7 @@
       "followers": "137.4K"
     },
     {
-      "rank": "61",
+      "rank": "60",
       "flag": "https://cdn.airvisual.net/flags/taiwan.jpg",
       "city": "타이베이시, 대만",
       "link": "https://www.iqair.com/ko/taiwan/taipei/taipei",
@@ -489,15 +481,7 @@
       "followers": "1.1M"
     },
     {
-      "rank": "62",
-      "flag": "https://cdn.airvisual.net/flags/germany.jpg",
-      "city": "베를린, 독일",
-      "link": "https://www.iqair.com/ko/germany/berlin/berlin",
-      "aqi": "55",
-      "followers": "314.9K"
-    },
-    {
-      "rank": "63",
+      "rank": "61",
       "flag": "https://cdn.airvisual.net/flags/vietnam.jpg",
       "city": "호찌민시, 베트남",
       "link": "https://www.iqair.com/ko/vietnam/ho-chi-minh-city/ho-chi-minh-city",
@@ -505,7 +489,15 @@
       "followers": "2.3M"
     },
     {
-      "rank": "64",
+      "rank": "62",
+      "flag": "https://cdn.airvisual.net/flags/japan.jpg",
+      "city": "도쿄도, 일본",
+      "link": "https://www.iqair.com/ko/japan/tokyo/tokyo",
+      "aqi": "55",
+      "followers": "1.1M"
+    },
+    {
+      "rank": "63",
       "flag": "https://cdn.airvisual.net/flags/canada.jpg",
       "city": "몬트리올, 캐나다",
       "link": "https://www.iqair.com/ko/canada/quebec/montreal",
@@ -513,7 +505,7 @@
       "followers": "146.6K"
     },
     {
-      "rank": "65",
+      "rank": "64",
       "flag": "https://cdn.airvisual.net/flags/indonesia.jpg",
       "city": "메단, 인도네시아",
       "link": "https://www.iqair.com/ko/indonesia/north-sumatra/medan",
@@ -521,12 +513,20 @@
       "followers": "1.4M"
     },
     {
-      "rank": "66",
+      "rank": "65",
       "flag": "https://cdn.airvisual.net/flags/myanmar.jpg",
       "city": "양곤, 미얀마",
       "link": "https://www.iqair.com/ko/myanmar/yangon/yangon",
       "aqi": "53",
       "followers": "63.7K"
+    },
+    {
+      "rank": "66",
+      "flag": "https://cdn.airvisual.net/flags/germany.jpg",
+      "city": "베를린, 독일",
+      "link": "https://www.iqair.com/ko/germany/berlin/berlin",
+      "aqi": "53",
+      "followers": "314.9K"
     },
     {
       "rank": "67",
@@ -706,14 +706,6 @@
     },
     {
       "rank": "89",
-      "flag": "https://cdn.airvisual.net/flags/uk.jpg",
-      "city": "버밍엄, 영국",
-      "link": "https://www.iqair.com/ko/uk/england/birmingham",
-      "aqi": "39",
-      "followers": "315.7K"
-    },
-    {
-      "rank": "90",
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "선전시, 중국",
       "link": "https://www.iqair.com/ko/china/guangdong/shenzhen",
@@ -721,7 +713,7 @@
       "followers": "553.6K"
     },
     {
-      "rank": "91",
+      "rank": "90",
       "flag": "https://cdn.airvisual.net/flags/spain.jpg",
       "city": "마드리드, 스페인",
       "link": "https://www.iqair.com/ko/spain/madrid/madrid",
@@ -729,7 +721,7 @@
       "followers": "410.7K"
     },
     {
-      "rank": "92",
+      "rank": "91",
       "flag": "https://cdn.airvisual.net/flags/usa.jpg",
       "city": "워싱턴 D.C., 미국",
       "link": "https://www.iqair.com/ko/usa/district-of-columbia/washington-d-c",
@@ -737,7 +729,7 @@
       "followers": "69K"
     },
     {
-      "rank": "93",
+      "rank": "92",
       "flag": "https://cdn.airvisual.net/flags/uzbekistan.jpg",
       "city": "타슈켄트, 우즈베키스탄",
       "link": "https://www.iqair.com/ko/uzbekistan/toshkent-shahri/tashkent",
@@ -745,7 +737,7 @@
       "followers": "257.3K"
     },
     {
-      "rank": "94",
+      "rank": "93",
       "flag": "https://cdn.airvisual.net/flags/usa.jpg",
       "city": "시카고, 미국",
       "link": "https://www.iqair.com/ko/usa/illinois/chicago",
@@ -753,7 +745,7 @@
       "followers": "81.1K"
     },
     {
-      "rank": "95",
+      "rank": "94",
       "flag": "https://cdn.airvisual.net/flags/usa.jpg",
       "city": "뉴욕 씨띠, 미국",
       "link": "https://www.iqair.com/ko/usa/new-york/new-york-city",
@@ -761,7 +753,7 @@
       "followers": "2.1M"
     },
     {
-      "rank": "96",
+      "rank": "95",
       "flag": "https://cdn.airvisual.net/flags/sweden.jpg",
       "city": "스톡홀름, 스웨덴",
       "link": "https://www.iqair.com/ko/sweden/stockholm/stockholm",
@@ -769,7 +761,7 @@
       "followers": "74.5K"
     },
     {
-      "rank": "97",
+      "rank": "96",
       "flag": "https://cdn.airvisual.net/flags/ireland.jpg",
       "city": "더블린, 아일랜드",
       "link": "https://www.iqair.com/ko/ireland/leinster/dublin",
@@ -777,7 +769,7 @@
       "followers": "39.8K"
     },
     {
-      "rank": "98",
+      "rank": "97",
       "flag": "https://cdn.airvisual.net/flags/usa.jpg",
       "city": "샌프란시스코, 미국",
       "link": "https://www.iqair.com/ko/usa/california/san-francisco",
@@ -785,7 +777,7 @@
       "followers": "777.9K"
     },
     {
-      "rank": "99",
+      "rank": "98",
       "flag": "https://cdn.airvisual.net/flags/poland.jpg",
       "city": "크라쿠프, 폴란드",
       "link": "https://www.iqair.com/ko/poland/lesser-poland-voivodeship/krakow",
@@ -793,12 +785,20 @@
       "followers": "354.6K"
     },
     {
-      "rank": "100",
+      "rank": "99",
       "flag": "https://cdn.airvisual.net/flags/ukraine.jpg",
       "city": "키이우, 우크라이나",
       "link": "https://www.iqair.com/ko/ukraine/kyiv/kyiv-c",
       "aqi": "36",
       "followers": "381.7K"
+    },
+    {
+      "rank": "100",
+      "flag": "https://cdn.airvisual.net/flags/uk.jpg",
+      "city": "버밍엄, 영국",
+      "link": "https://www.iqair.com/ko/uk/england/birmingham",
+      "aqi": "34",
+      "followers": "315.7K"
     },
     {
       "rank": "101",
@@ -1001,5 +1001,5 @@
       "followers": "93.3K"
     }
   ],
-  "lastUpdate": "Wed, 04 Jun 2025 09:46:07 GMT"
+  "lastUpdate": "Wed, 04 Jun 2025 09:52:29 GMT"
 }
