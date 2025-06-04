@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-06-04T09:36:01.200Z",
+  "timestamp": "2025-06-04T09:52:13.824Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "2",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-06-04 18:29",
+      "endTime": "-",
+      "location": "충청남도 공주시 사곡면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-06-04 17:24",
       "endTime": "-",
