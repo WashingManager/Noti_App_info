@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-06-04T09:52:13.824Z",
+  "timestamp": "2025-06-04T10:18:34.710Z",
   "main": {
     "status": {
-      "extinguishing": "2",
-      "completed": "2",
+      "extinguishing": "1",
+      "completed": "3",
       "other": "0"
     },
     "currentFire": {
@@ -19,15 +19,15 @@
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2025년 6월 4일 18시 45분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "진화완료"
         },
         {
           "label": "진화율",
-          "value": "70%"
+          "value": "100%"
         },
         {
           "label": "풍향",
@@ -45,14 +45,6 @@
       "startTime": "2025-06-04 18:29",
       "endTime": "-",
       "location": "충청남도 공주시 사곡면",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-06-04 17:24",
-      "endTime": "-",
-      "location": "전북특별자치도 김제시 금산면",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
