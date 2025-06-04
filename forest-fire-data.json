@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-06-04T09:11:39.723Z",
+  "timestamp": "2025-06-04T09:36:01.200Z",
   "main": {
     "status": {
-      "extinguishing": "3",
-      "completed": "0",
+      "extinguishing": "1",
+      "completed": "2",
       "other": "0"
     },
     "currentFire": {
@@ -11,7 +11,7 @@
       "details": [
         {
           "label": "발생지주소",
-          "value": "전북특별자치도 김제시 금산면 청도리 산153-2임"
+          "value": "전북특별자치도 김제시 금산면 금산리 산110임"
         },
         {
           "label": "발생일시",
@@ -27,7 +27,7 @@
         },
         {
           "label": "진화율",
-          "value": "0%"
+          "value": "70%"
         },
         {
           "label": "풍향",
@@ -45,22 +45,6 @@
       "startTime": "2025-06-04 17:24",
       "endTime": "-",
       "location": "전북특별자치도 김제시 금산면",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-06-04 17:23",
-      "endTime": "-",
-      "location": "경상남도 진주시 이반성면",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-06-04 17:02",
-      "endTime": "-",
-      "location": "경상남도 하동군 금남면",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
