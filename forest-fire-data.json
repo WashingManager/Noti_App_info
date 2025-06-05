@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-06-05T02:56:59.686Z",
+  "timestamp": "2025-06-05T03:52:35.440Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "2",
       "completed": "0",
       "other": "1"
     },
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-06-05 12:11",
+      "endTime": "-",
+      "location": "경상남도 김해시 한림면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-06-05 11:32",
+      "endTime": "-",
+      "location": "전라남도 장흥군 관산읍",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
