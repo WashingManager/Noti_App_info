@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-06-05T03:52:35.440Z",
+  "timestamp": "2025-06-05T04:25:32.432Z",
   "main": {
     "status": {
-      "extinguishing": "2",
+      "extinguishing": "1",
       "completed": "0",
-      "other": "1"
+      "other": "2"
     },
     "currentFire": {
       "grade": "초기진화단계",
@@ -41,14 +41,6 @@
     }
   },
   "fireList": [
-    {
-      "startTime": "2025-06-05 12:11",
-      "endTime": "-",
-      "location": "경상남도 김해시 한림면",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
     {
       "startTime": "2025-06-05 11:32",
       "endTime": "-",
