@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-06-05T04:51:36.059Z",
+  "timestamp": "2025-06-05T05:16:18.554Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "2",
       "completed": "1",
       "other": "2"
     },
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-06-05 13:51",
+      "endTime": "-",
+      "location": "경상남도 창원시 의창구",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-06-05 13:26",
+      "endTime": "-",
+      "location": "전북특별자치도 진안군 백운면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
