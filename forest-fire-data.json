@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-06-06T09:46:34.805Z",
+  "timestamp": "2025-06-06T10:11:53.978Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "1",
       "other": "1"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-06-06 18:40",
+      "endTime": "2025-06-06 18:58",
+      "location": "경기도 의정부시 의정부동",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-06-06 17:51",
       "endTime": "-",
