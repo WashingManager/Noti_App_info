@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "34",
+      "time": "2025/06/07 03:25:17",
+      "magnitude": "2.2",
+      "depth": "-",
+      "maxIntensity": "Ⅰ",
+      "latitude": "39.10 N",
+      "longitude": "126.76 E",
+      "location": "북한 평안남도 양덕 남동쪽 16km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250607032517.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250607032517.html"
+    },
+    {
       "number": "33",
       "time": "2025/05/28 00:17:31",
       "magnitude": "2.0",
@@ -1276,12 +1288,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 06월 07일 02시 15분 06초",
-    "magnitude": "6.4",
-    "location": "칠레 코피아포 북쪽 81km 지역  (위도: 26.65 S, 경도: 70.49 W)",
-    "depth": "77 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250607021506.png;jsessionid=L84XiVLpwCns3TDYAk_UY-zLY8ejEo-Do3asjTly.standalone"
+    "time": "2025년 06월 07일 03시 25분 17초",
+    "magnitude": "2.2",
+    "location": "",
+    "depth": "최대진도  Ⅰ",
+    "note": "북한 평안남도 양덕 남동쪽 16km 지역  (위도: 39.10 N, 경도: 126.76 E, ± 2.6km) -",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250607032517.png;jsessionid=RP7ml7zq9u90VptK9WGa2K5fkVdhZN0YwXB5Rkyk.standalone"
   },
-  "lastUpdate": "2025-06-06T18:27:46.664Z"
+  "lastUpdate": "2025-06-06T18:50:00.626Z"
 }
