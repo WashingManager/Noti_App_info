@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-06-07T05:51:48.209Z",
+  "timestamp": "2025-06-07T06:21:24.629Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "2",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-06-07 14:44",
+      "endTime": "-",
+      "location": "전라남도 영암군 도포면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-06-07 14:07",
       "endTime": "-",
