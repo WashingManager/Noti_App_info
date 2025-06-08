@@ -21,7 +21,7 @@
       "flag": "https://cdn.airvisual.net/flags/india.jpg",
       "city": "델리, 인도",
       "link": "https://www.iqair.com/ko/india/delhi/delhi",
-      "aqi": "152",
+      "aqi": "144",
       "followers": "2.8M"
     },
     {
@@ -210,6 +210,14 @@
     },
     {
       "rank": "27",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "뭄바이, 인도",
+      "link": "https://www.iqair.com/ko/india/maharashtra/mumbai",
+      "aqi": "73",
+      "followers": "1.5M"
+    },
+    {
+      "rank": "28",
       "flag": "https://cdn.airvisual.net/flags/egypt.jpg",
       "city": "카이로, 이집트",
       "link": "https://www.iqair.com/ko/egypt/cairo/cairo",
@@ -217,7 +225,7 @@
       "followers": "57.4K"
     },
     {
-      "rank": "28",
+      "rank": "29",
       "flag": "https://cdn.airvisual.net/flags/ethiopia.jpg",
       "city": "아디스아바바, 에티오피아",
       "link": "https://www.iqair.com/ko/ethiopia/addis-ababa/addis-ababa",
@@ -225,20 +233,12 @@
       "followers": "19.9K"
     },
     {
-      "rank": "29",
+      "rank": "30",
       "flag": "https://cdn.airvisual.net/flags/greece.jpg",
       "city": "아테네, 그리스",
       "link": "https://www.iqair.com/ko/greece/attica/athens",
       "aqi": "69",
       "followers": "59.4K"
-    },
-    {
-      "rank": "30",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "뭄바이, 인도",
-      "link": "https://www.iqair.com/ko/india/maharashtra/mumbai",
-      "aqi": "69",
-      "followers": "1.5M"
     },
     {
       "rank": "31",
@@ -650,14 +650,6 @@
     },
     {
       "rank": "82",
-      "flag": "https://cdn.airvisual.net/flags/germany.jpg",
-      "city": "베를린, 독일",
-      "link": "https://www.iqair.com/ko/germany/berlin/berlin",
-      "aqi": "39",
-      "followers": "316.1K"
-    },
-    {
-      "rank": "83",
       "flag": "https://cdn.airvisual.net/flags/vietnam.jpg",
       "city": "호찌민시, 베트남",
       "link": "https://www.iqair.com/ko/vietnam/ho-chi-minh-city/ho-chi-minh-city",
@@ -665,7 +657,7 @@
       "followers": "2.3M"
     },
     {
-      "rank": "84",
+      "rank": "83",
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "상하이시, 중국",
       "link": "https://www.iqair.com/ko/china/shanghai/shanghai",
@@ -673,7 +665,7 @@
       "followers": "2.6M"
     },
     {
-      "rank": "85",
+      "rank": "84",
       "flag": "https://cdn.airvisual.net/flags/hungary.jpg",
       "city": "부다페스트, 헝가리",
       "link": "https://www.iqair.com/ko/hungary/central-hungary/budapest",
@@ -681,7 +673,7 @@
       "followers": "51.4K"
     },
     {
-      "rank": "86",
+      "rank": "85",
       "flag": "https://cdn.airvisual.net/flags/hong-kong.jpg",
       "city": "홍콩, 홍콩",
       "link": "https://www.iqair.com/ko/hong-kong/hong-kong/hong-kong",
@@ -689,7 +681,7 @@
       "followers": "892.8K"
     },
     {
-      "rank": "87",
+      "rank": "86",
       "flag": "https://cdn.airvisual.net/flags/denmark.jpg",
       "city": "코펜하겐, 덴마크",
       "link": "https://www.iqair.com/ko/denmark/capital-region/copenhagen",
@@ -697,7 +689,7 @@
       "followers": "64K"
     },
     {
-      "rank": "88",
+      "rank": "87",
       "flag": "https://cdn.airvisual.net/flags/usa.jpg",
       "city": "미니애폴리스, 미국",
       "link": "https://www.iqair.com/ko/usa/minnesota/minneapolis",
@@ -705,12 +697,20 @@
       "followers": "31.8K"
     },
     {
-      "rank": "89",
+      "rank": "88",
       "flag": "https://cdn.airvisual.net/flags/usa.jpg",
       "city": "솔트레이크시티, 미국",
       "link": "https://www.iqair.com/ko/usa/utah/salt-lake-city",
       "aqi": "34",
       "followers": "89.6K"
+    },
+    {
+      "rank": "89",
+      "flag": "https://cdn.airvisual.net/flags/germany.jpg",
+      "city": "베를린, 독일",
+      "link": "https://www.iqair.com/ko/germany/berlin/berlin",
+      "aqi": "33",
+      "followers": "316.1K"
     },
     {
       "rank": "90",
@@ -749,7 +749,7 @@
       "flag": "https://cdn.airvisual.net/flags/uk.jpg",
       "city": "버밍엄, 영국",
       "link": "https://www.iqair.com/ko/uk/england/birmingham",
-      "aqi": "29",
+      "aqi": "30",
       "followers": "315.9K"
     },
     {
@@ -985,5 +985,5 @@
       "followers": "93.5K"
     }
   ],
-  "lastUpdate": "Sun, 08 Jun 2025 10:46:25 GMT"
+  "lastUpdate": "Sun, 08 Jun 2025 10:52:16 GMT"
 }
