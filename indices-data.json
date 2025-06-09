@@ -61,11 +61,11 @@
       "link": "https://kr.investing.com/indices/us-spx-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "6,003.43",
-        "6,021.46",
-        "5,993.25",
-        "+3.11",
-        "+0.05%"
+        "6,005.88",
+        "6,021.31",
+        "5,994.18",
+        "+5.52",
+        "+0.09%"
       ],
       "time": "04:59:59",
       "marketStatus": "closed"
@@ -109,8 +109,8 @@
         "+0.40",
         "+2.39%"
       ],
-      "time": "05:14:16",
-      "marketStatus": "open"
+      "time": "05:14:46",
+      "marketStatus": "closed"
     },
     {
       "name": "캐나다 S&P/TSX",
@@ -131,11 +131,11 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "135,655",
+        "135,699",
         "136,106",
         "134,119",
-        "-447",
-        "-0.33%"
+        "-403",
+        "-0.30%"
       ],
       "time": "04:58:59",
       "marketStatus": "closed"
@@ -145,13 +145,13 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "57,798.58",
+        "57,813.38",
         "58,325.75",
         "57,748.99",
-        "-262.83",
-        "-0.45%"
+        "-248.03",
+        "-0.43%"
       ],
-      "time": "05:19:01",
+      "time": "05:26:00",
       "marketStatus": "closed"
     },
     {
@@ -661,12 +661,12 @@
       "link": "https://kr.investing.com/indices/us-spx-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "+0.05%",
-        "+1.14%",
-        "+6.07%",
-        "+2.07%",
-        "+11.99%",
-        "+53.90%"
+        "+0.09%",
+        "+1.18%",
+        "+6.11%",
+        "+2.11%",
+        "+12.03%",
+        "+53.96%"
       ]
     },
     {
@@ -726,12 +726,12 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "-0.33%",
-        "-0.83%",
-        "-0.63%",
-        "+12.78%",
-        "+12.33%",
-        "+28.61%"
+        "-0.30%",
+        "-0.80%",
+        "-0.60%",
+        "+12.82%",
+        "+12.37%",
+        "+28.65%"
       ]
     },
     {
@@ -739,12 +739,12 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "-0.45%",
-        "+0.16%",
-        "+2.21%",
-        "+16.73%",
-        "+8.80%",
-        "+19.24%"
+        "-0.43%",
+        "+0.19%",
+        "+2.23%",
+        "+16.76%",
+        "+8.83%",
+        "+19.27%"
       ]
     },
     {
@@ -1280,7 +1280,7 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "적극 매도",
+        "매도",
         "중립",
         "적극 매수",
         "적극 매수"
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-06-09T20:19:03.291Z"
+  "lastUpdate": "2025-06-09T20:40:22.426Z"
 }
