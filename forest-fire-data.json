@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-06-09T21:09:47.424Z",
+  "timestamp": "2025-06-09T21:31:27.562Z",
   "main": {
     "status": {
       "extinguishing": "0",
@@ -40,7 +40,107 @@
       ]
     }
   },
-  "fireList": [],
-  "resourceList": [],
+  "fireList": [
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "1",
+      "location": "충남 공주 신풍 용수",
+      "startTime": "2025-06-09 14:08",
+      "endTime": "2025-06-09 16:00",
+      "resources": "헬기  2대   인력  49명   장비  9대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "충남 태안 원북 이곡",
+      "startTime": "2025-06-08 16:28",
+      "endTime": "2025-06-08 18:07",
+      "resources": "헬기  1대   인력  39명   장비  4대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "충남 홍성 홍북 중계",
+      "startTime": "2025-06-07 12:40",
+      "endTime": "2025-06-07 14:10",
+      "resources": "헬기  1대   인력  56명   장비  3대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "전북 고창 공음 두암",
+      "startTime": "2025-06-07 08:40",
+      "endTime": "2025-06-07 10:18",
+      "resources": "헬기  1대   인력  46명   장비  50대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "경기 남양주 수동 내방",
+      "startTime": "2025-06-06 17:51",
+      "endTime": "2025-06-06 21:00",
+      "resources": "헬기  2대   인력  67명   장비  28대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "경기 포천 소흘 이동교",
+      "startTime": "2025-06-06 15:32",
+      "endTime": "2025-06-06 17:51",
+      "resources": "헬기  2대   인력  141명   장비  33대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "전북 진안 백운 평장",
+      "startTime": "2025-06-05 13:20",
+      "endTime": "2025-06-05 17:00",
+      "resources": "헬기  1대   인력  88명   장비  46대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "전남 장흥 관산 남송",
+      "startTime": "2025-06-05 11:32",
+      "endTime": "2025-06-05 13:55",
+      "resources": "헬기  2대   인력  40명   장비  38대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "충남 공주 사곡 호계",
+      "startTime": "2025-06-04 18:29",
+      "endTime": "2025-06-04 20:40",
+      "resources": "헬기  1대   인력  67명   장비  12대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "전북 김제 금산 금산",
+      "startTime": "2025-06-04 17:33",
+      "endTime": "2025-06-04 19:30",
+      "resources": "헬기  3대   인력  71명   장비  77대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
