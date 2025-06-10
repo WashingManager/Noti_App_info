@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "35",
+      "time": "2025/06/10 23:53:28",
+      "magnitude": "2.2",
+      "depth": "13",
+      "maxIntensity": "Ⅲ",
+      "latitude": "38.33 N",
+      "longitude": "128.58 E",
+      "location": "강원 고성군 동남동쪽 11km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250610235328.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250610235328.html"
+    },
+    {
       "number": "34",
       "time": "2025/06/07 03:25:17",
       "magnitude": "2.2",
@@ -1312,12 +1324,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 06월 08일 22시 08분 06초",
-    "magnitude": "6.3",
-    "location": "콜롬비아 비야비센시오 북동쪽 68km 지역  (위도: 4.51 N, 경도: 73.14 W)",
-    "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250608220806.png;jsessionid=-WJfEV-XEIlyKDb0Mv49RGlGq4jM2B1piXoXu8Nn.standalone"
+    "time": "2025년 06월 10일 23시 53분 28초",
+    "magnitude": "2.2",
+    "location": "",
+    "depth": "최대진도  Ⅲ(강원)",
+    "note": "강원 고성군 동남동쪽 11km 해역  (위도: 38.33 N, 경도: 128.58 E, ± 1.5km)13 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250610235328.png"
   },
-  "lastUpdate": "2025-06-10T14:53:26.589Z"
+  "lastUpdate": "2025-06-10T15:21:48.350Z"
 }
