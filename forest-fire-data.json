@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-06-11T04:47:13.101Z",
+  "timestamp": "2025-06-11T05:12:38.022Z",
   "main": {
     "status": {
       "extinguishing": "1",
-      "completed": "0",
+      "completed": "1",
       "other": "1"
     },
     "currentFire": {
@@ -11,15 +11,15 @@
       "details": [
         {
           "label": "발생지주소",
-          "value": "강원특별자치도 양구군 동면 덕곡리 산15임"
+          "value": "경상남도 산청군 산청읍 지리 산 1임"
         },
         {
           "label": "발생일시",
-          "value": "2025년 6월 10일 19시 36분"
+          "value": "2025년 6월 11일 13시 18분"
         },
         {
           "label": "진화일시",
-          "value": "2025년 6월 10일 20시 25분"
+          "value": "-"
         },
         {
           "label": "진행상태",
@@ -27,7 +27,7 @@
         },
         {
           "label": "진화율",
-          "value": "100%"
+          "value": "0%"
         },
         {
           "label": "풍향",
@@ -42,9 +42,9 @@
   },
   "fireList": [
     {
-      "startTime": "2025-06-10 19:36",
-      "endTime": "2025-06-10 20:25",
-      "location": "강원특별자치도 양구군 동면",
+      "startTime": "2025-06-11 13:18",
+      "endTime": "-",
+      "location": "경상남도 산청군 산청읍",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
