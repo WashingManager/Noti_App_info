@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-06-11T02:46:52.782Z",
+  "timestamp": "2025-06-11T03:42:22.124Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "2",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "--",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": ""
+          "value": "강원특별자치도 양구군 동면 덕곡리 산15임"
         },
         {
           "label": "발생일시",
-          "value": ""
+          "value": "2025년 6월 10일 19시 36분"
         },
         {
           "label": "진화일시",
-          "value": ""
+          "value": "2025년 6월 10일 20시 25분"
         },
         {
           "label": "진행상태",
-          "value": ""
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": ""
+          "value": "100%"
         },
         {
           "label": "풍향",
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-06-11 12:21",
+      "endTime": "-",
+      "location": "전북특별자치도 부안군 변산면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-06-10 19:36",
+      "endTime": "2025-06-10 20:25",
+      "location": "강원특별자치도 양구군 동면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
