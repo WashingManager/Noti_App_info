@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-06-11T05:12:38.022Z",
+  "timestamp": "2025-06-11T05:39:14.875Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "1",
       "other": "1"
     },
@@ -45,6 +45,14 @@
       "startTime": "2025-06-11 13:18",
       "endTime": "-",
       "location": "경상남도 산청군 산청읍",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-06-11 12:21",
+      "endTime": "-",
+      "location": "경상북도 안동시 풍산읍",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
