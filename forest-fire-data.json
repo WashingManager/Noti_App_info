@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-06-11T05:52:20.349Z",
+  "timestamp": "2025-06-11T06:26:02.887Z",
   "main": {
     "status": {
-      "extinguishing": "2",
-      "completed": "1",
+      "extinguishing": "0",
+      "completed": "3",
       "other": "1"
     },
     "currentFire": {
@@ -19,15 +19,15 @@
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2025년 6월 11일 15시 0분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "진화완료"
         },
         {
           "label": "진화율",
-          "value": "50%"
+          "value": "100%"
         },
         {
           "label": "풍향",
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-06-11 13:18",
-      "endTime": "-",
-      "location": "경상남도 산청군 산청읍",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-06-11 12:21",
-      "endTime": "-",
-      "location": "경상북도 안동시 풍산읍",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
