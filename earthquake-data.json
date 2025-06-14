@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "39",
+      "time": "2025/06/14 13:58:33",
+      "magnitude": "2.3",
+      "depth": "11",
+      "maxIntensity": "Ⅲ",
+      "latitude": "36.61 N",
+      "longitude": "129.34 E",
+      "location": "경북 영덕군 북쪽 22km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250614135833.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250614135833.html"
+    },
+    {
       "number": "38",
       "time": "2025/06/14 12:22:11",
       "magnitude": "2.0",
@@ -1384,12 +1396,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 06월 14일 12시 22분 11초",
-    "magnitude": "2.0",
+    "time": "2025년 06월 14일 13시 58분 33초",
+    "magnitude": "2.3",
     "location": "",
     "depth": "최대진도  Ⅲ(경북)",
-    "note": "경북 영덕군 북쪽 21km 지역  (위도: 36.60 N, 경도: 129.35 E, ± 1.7km)12 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250614122211.png"
+    "note": "경북 영덕군 북쪽 22km 지역  (위도: 36.61 N, 경도: 129.34 E, ± 1.1km)11 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250614135833.png"
   },
-  "lastUpdate": "2025-06-14T05:00:53.230Z"
+  "lastUpdate": "2025-06-14T05:27:02.433Z"
 }
