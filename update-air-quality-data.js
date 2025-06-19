@@ -33,18 +33,22 @@ async function updateAirQualityData() {
         await waitForTable(page, 'table tbody tr');
         console.log('테이블 로드 완료');
 
+        // 동적 데이터 로드를 위해 추가 대기
+        await page.waitForTimeout(2000); // 2초 대기
+
         const data = await page.evaluate(() => {
             const rows = Array.from(document.querySelectorAll('table tbody tr'));
             console.log(`발견된 행 수: ${rows.length}`);
-            return rows.map(row => {
+            return rows.map((row, index) => {
                 const cells = row.querySelectorAll('td');
+                console.log(`행 ${index + 1} 셀 수: ${cells.length}`); // 디버깅: 셀 수 출력
                 return {
                     rank: cells[0]?.textContent.trim() || '',
                     flag: cells[1]?.querySelector('img')?.src || '',
-                    city: cells[2]?.querySelector('a')?.textContent.trim() || '',
-                    link: cells[2]?.querySelector('a')?.href || '',
-                    aqi: cells[3]?.querySelector('.aqi-number')?.textContent.trim() || '',
-                    followers: cells[4]?.querySelector('.follower-number')?.textContent.trim() || ''
+                    city: cells[1]?.querySelector('a')?.textContent.trim() || '',
+                    link: cells[1]?.querySelector('a')?.href || '',
+                    aqi: cells[2]?.querySelector('div')?.textContent.trim() || '',
+                    followers: cells[3]?.querySelector('span.text-input-text')?.textContent.trim() || ''
                 };
             });
         });
@@ -52,16 +56,17 @@ async function updateAirQualityData() {
         if (data.length === 0) {
             console.log('데이터가 비어 있음. HTML 확인:', await page.content().slice(0, 500));
             await page.screenshot({ path: 'debug-screenshot.png' });
+        } else {
+            console.log('추출된 첫 번째 데이터:', JSON.stringify(data[0], null, 2));
         }
 
         let updateTime;
         try {
-            // <time> 태그를 직접 선택
-            await page.waitForSelector('time', { timeout: 10000 });
-            updateTime = await page.$eval('time', el => el.getAttribute('datetime'));
+            await page.waitForSelector('time.text-text-secondary', { timeout: 10000 });
+            updateTime = await page.$eval('time.text-text-secondary', el => el.getAttribute('datetime'));
             console.log('업데이트 시간 추출 성공:', updateTime);
         } catch (error) {
-            console.log('time 태그 선택 실패, 기본 시간 사용:', error.message);
+            console.log('time.text-text-secondary 선택기 실패, 기본 시간 사용:', error.message);
             updateTime = new Date().toISOString();
             await page.screenshot({ path: 'update-time-error-screenshot.png' });
             console.log('HTML 디버깅:', await page.content().slice(0, 500));
@@ -84,6 +89,7 @@ async function updateAirQualityData() {
                 lastUpdate: new Date().toISOString()
             }, null, 2)
         );
+        await page?.screenshot({ path: 'error-screenshot.png' });
     } finally {
         if (browser) await browser.close().catch(err => console.error('브라우저 닫기 실패:', err));
     }
