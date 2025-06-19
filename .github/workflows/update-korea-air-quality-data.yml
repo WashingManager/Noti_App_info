@@ -7,7 +7,7 @@ permissions:
   contents: write
 concurrency:
   cancel-in-progress: false
-  group: update-data
+  group: update-air-quality-data
 jobs:
   update:
     runs-on: ubuntu-latest
