@@ -6,7 +6,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: update-data
+  group: update-indices-data
   cancel-in-progress: false
 jobs:
   update:
