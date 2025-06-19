@@ -29,3 +29,4 @@ jobs:
           else
             git commit -m "Update indices-data.json"
             git push origin main
+          fi
