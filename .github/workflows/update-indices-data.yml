@@ -1,32 +1,38 @@
 name: Update Indices Data
 on:
-  schedule:
-    - cron: 6/10 * * * *
-  workflow_dispatch:
+ schedule:
+ - cron: '0 * * * *' # 매시간 실행
+ workflow_dispatch:
 permissions:
-  contents: write
+ contents: write
 concurrency:
-  group: update-data
-  cancel-in-progress: false
+ group: update-data-${{ github.run_id }}
+ cancel-in-progress: false
 jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: '18'
-      - run: npm install
-      - run: npm install puppeteer
-      - run: node update-indices-data.js
-      - name: Check file changes and commit
-        run: |
-          git config user.name "GitHub Action"
-          git config user.email "action@github.com"
-          git add indices-data.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update indices-data.json"
-            git push origin main
-          fi
+ update:
+ runs-on: ubuntu-latest
+ timeout-minutes: 30
+ steps:
+ - uses: actions/checkout@v4
+ - uses: actions/setup-node@v4
+ with:
+ node-version: '18'
+ - name: Install dependencies
+ run: npm install
+ - name: Install puppeteer
+ run: npm install puppeteer
+ - name: Run script
+ run: node update-indices-data.js
+ - name: Check file changes and commit
+ run: |
+ git config user.name "GitHub Action"
+ git config user.email "action@github.com"
+ git add indices-data.json
+ if git diff --staged --quiet; then
+ echo "No changes to commit"
+ else
+ git commit -m "Update indices-data.json"
+ git push origin main
+ fi
+ - name: Debug concurrency
+ run: echo "Workflow run ID: ${{ github.run_id }}, Ref: ${{ github.ref }}"
