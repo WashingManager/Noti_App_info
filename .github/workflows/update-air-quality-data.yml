@@ -7,7 +7,7 @@ permissions:
   contents: write
 concurrency:
   cancel-in-progress: false
-  group: update-data
+  group: update-data-air-quality
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -17,8 +17,16 @@ jobs:
         with:
           node-version: '18'
       - run: npm install
+      - run: npm install puppeteer # Puppeteer 설치 명시
       - run: npm run update-air-quality
-      - run: "git config user.name \"GitHub Action\"\ngit config user.email \"action@github.com\"\
-          \ngit add air-quality-data.json\n git diff --staged --quiet || (git commit
-          -m \"Update air-quality-data.json\" && git pull origin main --rebase &&
-          git push)\n"
+      - name: Check file changes and commit
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add air-quality-data.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update air-quality-data.json"
+            git push origin main
+          fi
