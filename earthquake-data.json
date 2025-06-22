@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "41",
+      "time": "2025/06/22 12:00:39",
+      "magnitude": "2.1",
+      "depth": "16",
+      "maxIntensity": "Ⅰ",
+      "latitude": "41.22 N",
+      "longitude": "129.05 E",
+      "location": "북한 함경북도 길주 북서쪽 37km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250622120039.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250622120039.html"
+    },
+    {
       "number": "40",
       "time": "2025/06/16 07:04:18",
       "magnitude": "2.4",
@@ -1432,12 +1444,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 06월 20일 05시 18분 39초",
-    "magnitude": "5.0",
-    "location": "대만 가오슝시 남남서쪽 85km 해역  (위도: 21.93 N, 경도: 119.93 E)",
-    "depth": "56 km",
-    "note": "국내영향없음. 위 자료는 대만기상청(CWA) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250620051839.png"
+    "time": "2025년 06월 22일 12시 00분 39초",
+    "magnitude": "2.1",
+    "location": "",
+    "depth": "최대진도  Ⅰ",
+    "note": "북한 함경북도 길주 북서쪽 37km 지역  (위도: 41.22 N, 경도: 129.05 E, ± 23.0km)16 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250622120039.png;jsessionid=4Q9z0xAwDXAhQs2QdT3g1J5ZOQuoKk7ozMr0J2eR.standalone"
   },
-  "lastUpdate": "2025-06-22T03:18:26.054Z"
+  "lastUpdate": "2025-06-22T04:02:55.095Z"
 }
