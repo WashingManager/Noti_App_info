@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "42",
+      "time": "2025/06/22 13:28:14",
+      "magnitude": "2.0",
+      "depth": "14",
+      "maxIntensity": "Ⅰ",
+      "latitude": "37.77 N",
+      "longitude": "125.97 E",
+      "location": "북한 황해남도 해주 남동쪽 38km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250622132814.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250622132814.html"
+    },
+    {
       "number": "41",
       "time": "2025/06/22 12:00:39",
       "magnitude": "2.1",
@@ -1444,12 +1456,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 06월 22일 12시 00분 39초",
-    "magnitude": "2.1",
+    "time": "2025년 06월 22일 13시 28분 14초",
+    "magnitude": "2.0",
     "location": "",
     "depth": "최대진도  Ⅰ",
-    "note": "북한 함경북도 길주 북서쪽 37km 지역  (위도: 41.22 N, 경도: 129.05 E, ± 23.0km)16 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250622120039.png;jsessionid=4Q9z0xAwDXAhQs2QdT3g1J5ZOQuoKk7ozMr0J2eR.standalone"
+    "note": "북한 황해남도 해주 남동쪽 38km 해역  (위도: 37.77 N, 경도: 125.97 E, ± 1.3km)14 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250622132814.png;jsessionid=iutKdiAhfDQw2DIO6b7oFOtTE1SMlOCzDDVYDW0b.standalone"
   },
-  "lastUpdate": "2025-06-22T04:02:55.095Z"
+  "lastUpdate": "2025-06-22T04:41:08.075Z"
 }
