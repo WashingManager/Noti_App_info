@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-07-04T13:05:19.784Z",
+  "timestamp": "2025-07-04T13:42:58.180Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "0",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "초기진화단계",
+      "grade": "--",
       "details": [
         {
           "label": "발생지주소",
-          "value": "전라남도 나주시 반남면 청송리 1024-16 임"
+          "value": ""
         },
         {
           "label": "발생일시",
-          "value": "2025년 7월 4일 21시 4분"
+          "value": ""
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": ""
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": ""
         },
         {
           "label": "진화율",
-          "value": "0%"
+          "value": ""
         },
         {
           "label": "풍향",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-07-04 21:04",
-      "endTime": "-",
-      "location": "전라남도 나주시 반남면",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
