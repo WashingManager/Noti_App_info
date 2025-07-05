@@ -531,6 +531,18 @@
   ],
   "international": [
     {
+      "number": "95",
+      "time": "2025/07/05 06:29:00",
+      "magnitude": "5.3",
+      "depth": "20",
+      "maxIntensity": "",
+      "latitude": "29.30 N",
+      "longitude": "129.40 E",
+      "location": "일본 가고시마현 가고시마시 남남서쪽 278km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20250705062900.png",
+      "detailLink": null
+    },
+    {
       "number": "94",
       "time": "2025/07/03 16:13:00",
       "magnitude": "5.5",
@@ -1660,12 +1672,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 07월 03일 16시 13분 00초",
-    "magnitude": "5.5",
-    "location": "일본 가고시마현 가고시마시 남남서쪽 275km 해역  (위도: 29.30 N, 경도: 129.50 E)",
+    "time": "2025년 07월 05일 06시 29분 00초",
+    "magnitude": "5.3",
+    "location": "일본 가고시마현 가고시마시 남남서쪽 278km 해역  (위도: 29.30 N, 경도: 129.40 E)",
     "depth": "20 km",
     "note": "국내영향없음. 위 자료는 일본기상청(JMA) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250703161300.png;jsessionid=c1nNLPMglLxrpYdgwXbtJt8g2AL_q9ZRI6QtyAy7.standalone"
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250705062900.png"
   },
-  "lastUpdate": "2025-07-04T19:18:08.799Z"
+  "lastUpdate": "2025-07-05T01:37:31.961Z"
 }
