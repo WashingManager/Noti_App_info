@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-07-05T09:37:16.976Z",
+  "timestamp": "2025-07-05T09:51:39.076Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "0",
+      "extinguishing": "0",
+      "completed": "1",
       "other": "0"
     },
     "currentFire": {
@@ -19,11 +19,11 @@
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2025년 7월 5일 18시 20분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "진화완료"
         },
         {
           "label": "진화율",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-07-05 13:00",
-      "endTime": "-",
-      "location": "충청북도 영동군 양강면",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
