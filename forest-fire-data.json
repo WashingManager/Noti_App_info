@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-07-06T16:18:29.093Z",
+  "timestamp": "2025-07-06T16:44:14.953Z",
   "main": {
     "status": {
       "extinguishing": "0",
@@ -40,7 +40,16 @@
       ]
     }
   },
-  "fireList": [],
+  "fireList": [
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    }
+  ],
   "resourceList": [],
   "maintenance": null
 }
