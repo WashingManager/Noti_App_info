@@ -543,6 +543,18 @@
   ],
   "international": [
     {
+      "number": "97",
+      "time": "2025/07/07 21:01:28",
+      "magnitude": "5.0",
+      "depth": "63",
+      "maxIntensity": "",
+      "latitude": "24.56 N",
+      "longitude": "121.78 E",
+      "location": "대만 이란현 남쪽 21km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20250707210128.png",
+      "detailLink": null
+    },
+    {
       "number": "96",
       "time": "2025/07/06 14:07:00",
       "magnitude": "5.4",
@@ -1696,12 +1708,12 @@
     }
   ],
   "recent": {
-    "time": "레워토비(Lewotobi)",
-    "magnitude": "",
-    "location": "",
-    "depth": "2025년 07월 07일 12시 10분",
-    "note": "19200 m",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_30_20250707121000.png;jsessionid=nvoUUUg9cgE9dfTvhMnujz2DmAHDO-fQAzoVBepr.standalone"
+    "time": "2025년 07월 07일 21시 01분 28초",
+    "magnitude": "5.0",
+    "location": "대만 이란현 남쪽 21km 지역  (위도: 24.56 N, 경도: 121.78 E)",
+    "depth": "63 km",
+    "note": "국내영향없음. 위 자료는 대만기상청(CWA) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250707210128.png"
   },
-  "lastUpdate": "2025-07-07T11:56:05.612Z"
+  "lastUpdate": "2025-07-07T12:41:14.668Z"
 }
