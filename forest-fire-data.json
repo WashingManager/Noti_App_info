@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-07-07T06:43:35.131Z",
+  "timestamp": "2025-07-07T07:00:45.961Z",
   "main": {
     "status": {
       "extinguishing": "0",
@@ -50,6 +50,97 @@
       "detailUrl": "-"
     }
   ],
-  "resourceList": [],
+  "resourceList": [
+    {
+      "id": "1",
+      "location": "서울 종로  옥인",
+      "startTime": "2025-06-14 16:59",
+      "endTime": "2025-06-14 20:00",
+      "resources": "헬기  0대   인력  175명   장비  72대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경남 김해 상동 우계",
+      "startTime": "2025-06-13 16:53",
+      "endTime": "2025-06-13 21:00",
+      "resources": "헬기  2대   인력  76명   장비  65대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "경기 양평 양서 북포",
+      "startTime": "2025-06-13 14:27",
+      "endTime": "2025-06-13 16:00",
+      "resources": "헬기  0대   인력  30명   장비  5대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "전북 무주 적상 방이",
+      "startTime": "2025-06-12 16:15",
+      "endTime": "2025-06-12 19:20",
+      "resources": "헬기  4대   인력  106명   장비  15대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "충남 보령 주교 은포",
+      "startTime": "2025-06-12 12:56",
+      "endTime": "2025-06-12 16:30",
+      "resources": "헬기  2대   인력  50명   장비  29대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "경북 포항북 홍해 홍안",
+      "startTime": "2025-06-11 21:23",
+      "endTime": "2025-06-12 00:35",
+      "resources": "헬기  0대   인력  86명   장비  79대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "충남 서천 문산 은곡",
+      "startTime": "2025-06-11 16:16",
+      "endTime": "2025-06-11 18:30",
+      "resources": "헬기  2대   인력  50명   장비  9대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "경남 산청 산청 지",
+      "startTime": "2025-06-11 13:18",
+      "endTime": "2025-06-11 15:00",
+      "resources": "헬기  3대   인력  73명   장비  14대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "경북 안동 풍산 만운",
+      "startTime": "2025-06-11 12:21",
+      "endTime": "2025-06-11 18:37",
+      "resources": "헬기  3대   인력  62명   장비  65대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "강원 양구 동 덕곡",
+      "startTime": "2025-06-10 19:36",
+      "endTime": "2025-06-10 20:27",
+      "resources": "헬기  0대   인력  63명   장비  31대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
