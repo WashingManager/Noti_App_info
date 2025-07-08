@@ -27,18 +27,18 @@
     {
       "rank": "4",
       "flag": "https://dev-cdn.airvisual.net/flags/china.jpg",
-      "city": "우한시, 중국",
-      "link": "https://www.iqair.com/ko/china/hubei/wuhan",
-      "aqi": "77",
-      "followers": "436.6K"
+      "city": "베이징시, 중국",
+      "link": "https://www.iqair.com/ko/china/beijing/beijing",
+      "aqi": "78",
+      "followers": "9.8M"
     },
     {
       "rank": "5",
       "flag": "https://dev-cdn.airvisual.net/flags/china.jpg",
-      "city": "베이징시, 중국",
-      "link": "https://www.iqair.com/ko/china/beijing/beijing",
-      "aqi": "77",
-      "followers": "9.8M"
+      "city": "청두시, 중국",
+      "link": "https://www.iqair.com/ko/china/sichuan/chengdu",
+      "aqi": "71",
+      "followers": "2M"
     },
     {
       "rank": "6",
@@ -51,13 +51,21 @@
     {
       "rank": "7",
       "flag": "https://dev-cdn.airvisual.net/flags/china.jpg",
-      "city": "충칭시, 중국",
-      "link": "https://www.iqair.com/ko/china/chongqing/chongqing",
+      "city": "우한시, 중국",
+      "link": "https://www.iqair.com/ko/china/hubei/wuhan",
       "aqi": "69",
-      "followers": "241.1K"
+      "followers": "436.6K"
     },
     {
       "rank": "8",
+      "flag": "https://dev-cdn.airvisual.net/flags/china.jpg",
+      "city": "충칭시, 중국",
+      "link": "https://www.iqair.com/ko/china/chongqing/chongqing",
+      "aqi": "68",
+      "followers": "241.1K"
+    },
+    {
+      "rank": "9",
       "flag": "https://dev-cdn.airvisual.net/flags/usa.jpg",
       "city": "디트로이트, 미국",
       "link": "https://www.iqair.com/ko/usa/michigan/detroit",
@@ -65,20 +73,12 @@
       "followers": "31.3K"
     },
     {
-      "rank": "9",
+      "rank": "10",
       "flag": "https://dev-cdn.airvisual.net/flags/philippines.jpg",
       "city": "마닐라, 필리핀",
       "link": "https://www.iqair.com/ko/philippines/ncr/manila",
       "aqi": "63",
       "followers": "160.4K"
-    },
-    {
-      "rank": "10",
-      "flag": "https://dev-cdn.airvisual.net/flags/china.jpg",
-      "city": "청두시, 중국",
-      "link": "https://www.iqair.com/ko/china/sichuan/chengdu",
-      "aqi": "60",
-      "followers": "2M"
     },
     {
       "rank": "11",
@@ -93,7 +93,7 @@
       "flag": "https://dev-cdn.airvisual.net/flags/china.jpg",
       "city": "광저우시, 중국",
       "link": "https://www.iqair.com/ko/china/guangdong/guangzhou",
-      "aqi": "55",
+      "aqi": "56",
       "followers": "1.7M"
     },
     {
@@ -141,7 +141,7 @@
       "flag": "https://dev-cdn.airvisual.net/flags/china.jpg",
       "city": "항저우시, 중국",
       "link": "https://www.iqair.com/ko/china/zhejiang/hangzhou",
-      "aqi": "39",
+      "aqi": "36",
       "followers": "504.4K"
     },
     {
@@ -162,14 +162,6 @@
     },
     {
       "rank": "21",
-      "flag": "https://dev-cdn.airvisual.net/flags/china.jpg",
-      "city": "선전시, 중국",
-      "link": "https://www.iqair.com/ko/china/guangdong/shenzhen",
-      "aqi": "33",
-      "followers": "539.9K"
-    },
-    {
-      "rank": "22",
       "flag": "https://dev-cdn.airvisual.net/flags/usa.jpg",
       "city": "미니애폴리스, 미국",
       "link": "https://www.iqair.com/ko/usa/minnesota/minneapolis",
@@ -177,7 +169,7 @@
       "followers": "29.1K"
     },
     {
-      "rank": "23",
+      "rank": "22",
       "flag": "https://dev-cdn.airvisual.net/flags/uk.jpg",
       "city": "런던, 영국",
       "link": "https://www.iqair.com/ko/uk/england/london",
@@ -185,7 +177,7 @@
       "followers": "502.3K"
     },
     {
-      "rank": "24",
+      "rank": "23",
       "flag": "https://dev-cdn.airvisual.net/flags/usa.jpg",
       "city": "시애틀, 미국",
       "link": "https://www.iqair.com/ko/usa/washington/seattle",
@@ -193,7 +185,7 @@
       "followers": "419.5K"
     },
     {
-      "rank": "25",
+      "rank": "24",
       "flag": "https://dev-cdn.airvisual.net/flags/usa.jpg",
       "city": "포틀랜드, 미국",
       "link": "https://www.iqair.com/ko/usa/oregon/portland",
@@ -201,12 +193,20 @@
       "followers": "233K"
     },
     {
-      "rank": "26",
+      "rank": "25",
       "flag": "https://dev-cdn.airvisual.net/flags/canada.jpg",
       "city": "밴쿠버, 캐나다",
       "link": "https://www.iqair.com/ko/canada/british-columbia/vancouver",
       "aqi": "21",
       "followers": "205.6K"
+    },
+    {
+      "rank": "26",
+      "flag": "https://dev-cdn.airvisual.net/flags/china.jpg",
+      "city": "선전시, 중국",
+      "link": "https://www.iqair.com/ko/china/guangdong/shenzhen",
+      "aqi": "17",
+      "followers": "539.9K"
     },
     {
       "rank": "27",
@@ -849,5 +849,5 @@
       "followers": "176.3K"
     }
   ],
-  "lastUpdate": "2025-07-08T14:14:10.238Z"
+  "lastUpdate": "2025-07-08T14:36:43.929Z"
 }
