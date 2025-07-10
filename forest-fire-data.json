@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-07-10T05:02:17.475Z",
+  "timestamp": "2025-07-10T05:35:34.325Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "2",
       "completed": "2",
       "other": "1"
     },
@@ -27,7 +27,7 @@
         },
         {
           "label": "진화율",
-          "value": "0%"
+          "value": "100%"
         },
         {
           "label": "풍향",
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-07-10 14:08",
+      "endTime": "-",
+      "location": "충청남도 서천군 비인면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-07-10 12:19",
+      "endTime": "-",
+      "location": "충청남도 공주시 계룡면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
