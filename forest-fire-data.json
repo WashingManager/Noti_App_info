@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-07-10T03:04:46.719Z",
+  "timestamp": "2025-07-10T04:01:38.460Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "2",
       "completed": "0",
       "other": "1"
     },
@@ -11,23 +11,23 @@
       "details": [
         {
           "label": "발생지주소",
-          "value": "서울특별시 서초구 내곡동 411 대"
+          "value": "경상남도 거창군 가북면 용암리 286-12 임"
         },
         {
           "label": "발생일시",
-          "value": "2025년 7월 10일 7시 19분"
+          "value": "2025년 7월 10일 12시 37분"
         },
         {
           "label": "진화일시",
-          "value": "2025년 7월 10일 7시 52분"
+          "value": "-"
         },
         {
           "label": "진행상태",
-          "value": "산불외종료"
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": "100%"
+          "value": "0%"
         },
         {
           "label": "풍향",
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-07-10 12:37",
+      "endTime": "-",
+      "location": "경상남도 거창군 가북면",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2025-07-10 11:54",
+      "endTime": "-",
+      "location": "충청남도 논산시 양촌면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
