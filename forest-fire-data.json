@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-07-10T04:42:51.627Z",
+  "timestamp": "2025-07-10T05:02:17.475Z",
   "main": {
     "status": {
-      "extinguishing": "2",
-      "completed": "0",
+      "extinguishing": "0",
+      "completed": "2",
       "other": "1"
     },
     "currentFire": {
@@ -19,11 +19,11 @@
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2025년 7월 10일 13시 20분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "진화완료"
         },
         {
           "label": "진화율",
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-07-10 12:37",
-      "endTime": "-",
-      "location": "경상남도 거창군 가북면",
-      "status": "진화중",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2025-07-10 11:54",
-      "endTime": "-",
-      "location": "충청남도 논산시 양촌면",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
