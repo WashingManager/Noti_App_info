@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-07-11T11:10:05.830Z",
+  "timestamp": "2025-07-11T11:30:05.423Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "2",
       "other": "1"
     },
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-07-11 20:20",
+      "endTime": "-",
+      "location": "전북특별자치도 고창군 해리면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
