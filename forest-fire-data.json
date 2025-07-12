@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-07-12T07:10:55.040Z",
+  "timestamp": "2025-07-12T07:31:45.735Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "1",
       "other": "1"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-07-12 16:11",
+      "endTime": "-",
+      "location": "강원특별자치도 삼척시 조비동",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-07-12 15:07",
       "endTime": "-",
