@@ -74,14 +74,6 @@
     },
     {
       "rank": "10",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "델리, 인도",
-      "link": "https://www.iqair.com/ko/india/delhi/delhi",
-      "aqi": "96",
-      "followers": "2.8M"
-    },
-    {
-      "rank": "11",
       "flag": "https://cdn.airvisual.net/flags/pakistan.jpg",
       "city": "라호르, 파키스탄",
       "link": "https://www.iqair.com/ko/pakistan/punjab/lahore",
@@ -89,12 +81,20 @@
       "followers": "549.8K"
     },
     {
-      "rank": "12",
+      "rank": "11",
       "flag": "https://cdn.airvisual.net/flags/ethiopia.jpg",
       "city": "아디스아바바, 에티오피아",
       "link": "https://www.iqair.com/ko/ethiopia/addis-ababa/addis-ababa",
       "aqi": "94",
       "followers": "20.2K"
+    },
+    {
+      "rank": "12",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "델리, 인도",
+      "link": "https://www.iqair.com/ko/india/delhi/delhi",
+      "aqi": "92",
+      "followers": "2.8M"
     },
     {
       "rank": "13",
@@ -109,7 +109,7 @@
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "광저우시, 중국",
       "link": "https://www.iqair.com/ko/china/guangdong/guangzhou",
-      "aqi": "88",
+      "aqi": "91",
       "followers": "1.8M"
     },
     {
@@ -718,7 +718,7 @@
       "city": "토론토, 캐나다",
       "link": "https://www.iqair.com/ko/canada/ontario/toronto",
       "aqi": "32",
-      "followers": "561.4K"
+      "followers": "561.5K"
     },
     {
       "rank": "91",
@@ -1001,5 +1001,5 @@
       "followers": "34.2K"
     }
   ],
-  "lastUpdate": "2025-07-17T11:45:58.579Z"
+  "lastUpdate": "2025-07-17T11:52:33.768Z"
 }
