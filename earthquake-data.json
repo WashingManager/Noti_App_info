@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "46",
+      "time": "2025/07/22 03:57:05",
+      "magnitude": "2.5",
+      "depth": "-",
+      "maxIntensity": "Ⅰ",
+      "latitude": "32.41 N",
+      "longitude": "126.95 E",
+      "location": "제주 서귀포시 남남동쪽 101km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250722035705.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250722035705.html"
+    },
+    {
       "number": "45",
       "time": "2025/07/06 04:20:19",
       "magnitude": "2.2",
@@ -1804,12 +1816,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 07월 21일 07시 28분 01초",
-    "magnitude": "6.2",
-    "location": "미국 알래스카 앵커리지 남서쪽 934km 해역  (위도: 54.69 N, 경도: 159.93 W)",
-    "depth": "47 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250721072801.png;jsessionid=FYBTXbHvaHgf1HStp004iJjcZDXiWN436T4zkc36.standalone"
+    "time": "2025년 07월 22일 03시 57분 05초",
+    "magnitude": "2.5",
+    "location": "",
+    "depth": "최대진도  Ⅰ",
+    "note": "제주 서귀포시 남남동쪽 101km 해역  (위도: 32.41 N, 경도: 126.95 E, ± 14.2km) -",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250722035705.png"
   },
-  "lastUpdate": "2025-07-21T18:56:36.469Z"
+  "lastUpdate": "2025-07-21T19:18:10.511Z"
 }
