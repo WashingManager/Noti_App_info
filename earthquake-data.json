@@ -555,6 +555,18 @@
   ],
   "international": [
     {
+      "number": "111",
+      "time": "2025/07/25 20:22:02",
+      "magnitude": "6.2",
+      "depth": "10",
+      "maxIntensity": "",
+      "latitude": "55.31 S",
+      "longitude": "146.46 E",
+      "location": "호주 태즈메이니아주 호바트 남쪽 1384km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20250725202202.png",
+      "detailLink": null
+    },
+    {
       "number": "110",
       "time": "2025/07/25 11:17:00",
       "magnitude": "4.7",
@@ -1876,12 +1888,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 07월 25일 11시 17분 00초",
-    "magnitude": "4.7",
-    "location": "일본 나가사키현 나가사키시 동북동쪽 22km 지역  (위도: 32.80 N, 경도: 130.10 E)",
+    "time": "2025년 07월 25일 20시 22분 02초",
+    "magnitude": "6.2",
+    "location": "호주 태즈메이니아주 호바트 남쪽 1384km 해역  (위도: 55.31 S, 경도: 146.46 E)",
     "depth": "10 km",
-    "note": "국내 일부지역에서 지진동을 느낄수 있음. 안전에 유의하기 바람.\n위 자료는 일본기상청(JMA) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250725111700.png;jsessionid=Vl3K6Bt3r5UvuHYJayF_uPrLxn3KNZBiGPfhrixK.standalone"
+    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250725202202.png;jsessionid=yKsmHhD5w8bcBRKlLnwrLT58aT-R3W2kACZ6Y7W4.standalone"
   },
-  "lastUpdate": "2025-07-25T11:47:52.221Z"
+  "lastUpdate": "2025-07-25T11:56:04.019Z"
 }
