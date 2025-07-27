@@ -138,19 +138,19 @@
     },
     {
       "rank": "18",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "델리, 인도",
-      "link": "https://www.iqair.com/ko/india/delhi/delhi",
-      "aqi": "90",
-      "followers": "2.8M"
-    },
-    {
-      "rank": "19",
       "flag": "https://cdn.airvisual.net/flags/united-arab-emirates.jpg",
       "city": "두바이, 아랍에미리트 연합",
       "link": "https://www.iqair.com/ko/united-arab-emirates/dubai/dubai",
       "aqi": "90",
       "followers": "576.9K"
+    },
+    {
+      "rank": "19",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "델리, 인도",
+      "link": "https://www.iqair.com/ko/india/delhi/delhi",
+      "aqi": "88",
+      "followers": "2.8M"
     },
     {
       "rank": "20",
@@ -309,7 +309,7 @@
       "flag": "https://cdn.airvisual.net/flags/india.jpg",
       "city": "뭄바이, 인도",
       "link": "https://www.iqair.com/ko/india/maharashtra/mumbai",
-      "aqi": "66",
+      "aqi": "65",
       "followers": "1.5M"
     },
     {
@@ -514,6 +514,14 @@
     },
     {
       "rank": "65",
+      "flag": "https://cdn.airvisual.net/flags/spain.jpg",
+      "city": "바르셀로나, 스페인",
+      "link": "https://www.iqair.com/ko/spain/catalonia/barcelona",
+      "aqi": "52",
+      "followers": "395.9K"
+    },
+    {
+      "rank": "66",
       "flag": "https://cdn.airvisual.net/flags/poland.jpg",
       "city": "브로츠와프, 폴란드",
       "link": "https://www.iqair.com/ko/poland/lower-silesia/wroclaw",
@@ -521,7 +529,7 @@
       "followers": "276.9K"
     },
     {
-      "rank": "66",
+      "rank": "67",
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "우한시, 중국",
       "link": "https://www.iqair.com/ko/china/hubei/wuhan",
@@ -529,7 +537,7 @@
       "followers": "465.5K"
     },
     {
-      "rank": "67",
+      "rank": "68",
       "flag": "https://cdn.airvisual.net/flags/taiwan.jpg",
       "city": "타이베이시, 대만",
       "link": "https://www.iqair.com/ko/taiwan/taipei/taipei",
@@ -537,20 +545,12 @@
       "followers": "1.1M"
     },
     {
-      "rank": "68",
+      "rank": "69",
       "flag": "https://cdn.airvisual.net/flags/austria.jpg",
       "city": "빈, 오스트리아",
       "link": "https://www.iqair.com/ko/austria/vienna/vienna",
       "aqi": "50",
       "followers": "209.1K"
-    },
-    {
-      "rank": "69",
-      "flag": "https://cdn.airvisual.net/flags/spain.jpg",
-      "city": "바르셀로나, 스페인",
-      "link": "https://www.iqair.com/ko/spain/catalonia/barcelona",
-      "aqi": "50",
-      "followers": "395.9K"
     },
     {
       "rank": "70",
@@ -586,14 +586,6 @@
     },
     {
       "rank": "74",
-      "flag": "https://cdn.airvisual.net/flags/uk.jpg",
-      "city": "버밍엄, 영국",
-      "link": "https://www.iqair.com/ko/uk/england/birmingham",
-      "aqi": "45",
-      "followers": "317.9K"
-    },
-    {
-      "rank": "75",
       "flag": "https://cdn.airvisual.net/flags/bosnia-herzegovina.jpg",
       "city": "사라예보, 보스니아 헤르체고비나",
       "link": "https://www.iqair.com/ko/bosnia-herzegovina/federation-of-b-h/sarajevo",
@@ -601,7 +593,7 @@
       "followers": "117.7K"
     },
     {
-      "rank": "76",
+      "rank": "75",
       "flag": "https://cdn.airvisual.net/flags/france.jpg",
       "city": "니스 (프랑스), 프랑스",
       "link": "https://www.iqair.com/ko/france/paca/nice",
@@ -609,12 +601,20 @@
       "followers": "510.4K"
     },
     {
-      "rank": "77",
+      "rank": "76",
       "flag": "https://cdn.airvisual.net/flags/russia.jpg",
       "city": "크라스노야르스크, 러시아",
       "link": "https://www.iqair.com/ko/russia/krasnoyarsk-krai/krasnoyarsk",
       "aqi": "44",
       "followers": "118.7K"
+    },
+    {
+      "rank": "77",
+      "flag": "https://cdn.airvisual.net/flags/uk.jpg",
+      "city": "버밍엄, 영국",
+      "link": "https://www.iqair.com/ko/uk/england/birmingham",
+      "aqi": "44",
+      "followers": "317.9K"
     },
     {
       "rank": "78",
@@ -661,7 +661,7 @@
       "flag": "https://cdn.airvisual.net/flags/czech-republic.jpg",
       "city": "프라하, 체코공화국",
       "link": "https://www.iqair.com/ko/czech-republic/praha/prague",
-      "aqi": "40",
+      "aqi": "42",
       "followers": "141.2K"
     },
     {
@@ -1009,5 +1009,5 @@
       "followers": "1.7M"
     }
   ],
-  "lastUpdate": "2025-07-27T17:47:36.318Z"
+  "lastUpdate": "2025-07-27T17:54:41.109Z"
 }
