@@ -555,6 +555,18 @@
   ],
   "international": [
     {
+      "number": "113",
+      "time": "2025/07/28 12:10:00",
+      "magnitude": "5.3",
+      "depth": "50",
+      "maxIntensity": "",
+      "latitude": "42.30 N",
+      "longitude": "143.10 E",
+      "location": "일본 홋카이도 삿포로시 동남동쪽 167km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20250728121000.png",
+      "detailLink": null
+    },
+    {
       "number": "112",
       "time": "2025/07/27 01:15:04",
       "magnitude": "6.2",
@@ -1900,12 +1912,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 07월 27일 01시 15분 04초",
-    "magnitude": "6.2",
-    "location": "뉴질랜드 더니든 남남서쪽 1578km 해역  (위도: 57.68 S, 경도: 157.63 E)",
-    "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250727011504.png"
+    "time": "2025년 07월 28일 12시 10분 00초",
+    "magnitude": "5.3",
+    "location": "일본 홋카이도 삿포로시 동남동쪽 167km 지역  (위도: 42.30 N, 경도: 143.10 E)",
+    "depth": "50 km",
+    "note": "국내영향없음. 위 자료는 일본기상청(JMA) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250728121000.png"
   },
-  "lastUpdate": "2025-07-28T02:04:48.160Z"
+  "lastUpdate": "2025-07-28T03:50:52.027Z"
 }
