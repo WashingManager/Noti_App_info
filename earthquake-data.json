@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "48",
+      "time": "2025/08/05 15:58:17",
+      "magnitude": "2.7",
+      "depth": "16",
+      "maxIntensity": "Ⅲ",
+      "latitude": "36.58 N",
+      "longitude": "129.24 E",
+      "location": "경북 영덕군 북북서쪽 22km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250805155817.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250805155817.html"
+    },
+    {
       "number": "47",
       "time": "2025/08/01 10:34:17",
       "magnitude": "2.3",
@@ -2080,12 +2092,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 08월 04일 13시 20분 55초",
-    "magnitude": "6.2",
-    "location": "러시아 캄차카반도 페트로파블롭스크-캄차츠키 남남서쪽 476km 해역  (위도: 48.87 N, 경도: 156.98 E)",
-    "depth": "10 km",
-    "note": "위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250804132055.png;jsessionid=q17YuRlu7HSPnN-jYv2rch_mVJmV5XZOpq8FCIm4.standalone"
+    "time": "2025년 08월 05일 15시 58분 17초",
+    "magnitude": "2.7",
+    "location": "",
+    "depth": "최대진도  Ⅲ(경북)",
+    "note": "경북 영덕군 북북서쪽 22km 지역  (위도: 36.58 N, 경도: 129.24 E, ± 0.8km)16 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250805155817.png"
   },
-  "lastUpdate": "2025-08-05T06:46:58.993Z"
+  "lastUpdate": "2025-08-05T07:14:04.350Z"
 }
