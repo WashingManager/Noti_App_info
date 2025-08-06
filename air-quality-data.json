@@ -130,6 +130,14 @@
     },
     {
       "rank": "17",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "델리, 인도",
+      "link": "https://www.iqair.com/ko/india/delhi/delhi",
+      "aqi": "88",
+      "followers": "2.8M"
+    },
+    {
+      "rank": "18",
       "flag": "https://cdn.airvisual.net/flags/japan.jpg",
       "city": "고베시, 일본",
       "link": "https://www.iqair.com/ko/japan/hyogo/kobe",
@@ -137,20 +145,12 @@
       "followers": "37.2K"
     },
     {
-      "rank": "18",
+      "rank": "19",
       "flag": "https://cdn.airvisual.net/flags/malaysia.jpg",
       "city": "쿠알라룸푸르, 말레이지아",
       "link": "https://www.iqair.com/ko/malaysia/kuala-lumpur/kuala-lumpur",
       "aqi": "84",
       "followers": "533K"
-    },
-    {
-      "rank": "19",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "델리, 인도",
-      "link": "https://www.iqair.com/ko/india/delhi/delhi",
-      "aqi": "84",
-      "followers": "2.8M"
     },
     {
       "rank": "20",
@@ -765,7 +765,7 @@
       "flag": "https://cdn.airvisual.net/flags/uk.jpg",
       "city": "버밍엄, 영국",
       "link": "https://www.iqair.com/ko/uk/england/birmingham",
-      "aqi": "30",
+      "aqi": "31",
       "followers": "318.2K"
     },
     {
@@ -842,14 +842,6 @@
     },
     {
       "rank": "106",
-      "flag": "https://cdn.airvisual.net/flags/mongolia.jpg",
-      "city": "울란바토르, 몽골",
-      "link": "https://www.iqair.com/ko/mongolia/ulaanbaatar/ulaanbaatar",
-      "aqi": "28",
-      "followers": "73.6K"
-    },
-    {
-      "rank": "107",
       "flag": "https://cdn.airvisual.net/flags/germany.jpg",
       "city": "베를린, 독일",
       "link": "https://www.iqair.com/ko/germany/berlin/berlin",
@@ -857,12 +849,20 @@
       "followers": "334.1K"
     },
     {
-      "rank": "108",
+      "rank": "107",
       "flag": "https://cdn.airvisual.net/flags/croatia.jpg",
       "city": "자그레브, 크로아티아",
       "link": "https://www.iqair.com/ko/croatia/zagreb/zagreb",
       "aqi": "27",
       "followers": "46.3K"
+    },
+    {
+      "rank": "108",
+      "flag": "https://cdn.airvisual.net/flags/mongolia.jpg",
+      "city": "울란바토르, 몽골",
+      "link": "https://www.iqair.com/ko/mongolia/ulaanbaatar/ulaanbaatar",
+      "aqi": "26",
+      "followers": "73.6K"
     },
     {
       "rank": "109",
@@ -1001,5 +1001,5 @@
       "followers": "67.5K"
     }
   ],
-  "lastUpdate": "2025-08-06T10:43:59.292Z"
+  "lastUpdate": "2025-08-06T10:57:55.284Z"
 }
