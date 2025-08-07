@@ -579,6 +579,18 @@
   ],
   "international": [
     {
+      "number": "127",
+      "time": "2025/08/07 08:47:00",
+      "magnitude": "4.8",
+      "depth": "-",
+      "maxIntensity": "",
+      "latitude": "33.10 N",
+      "longitude": "131.20 E",
+      "location": "일본 오이타현 오이타시 서남서쪽 41km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20250807084700.png",
+      "detailLink": null
+    },
+    {
       "number": "126",
       "time": "2025/08/04 13:20:55",
       "magnitude": "6.2",
@@ -2092,12 +2104,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 08월 05일 15시 58분 17초",
-    "magnitude": "2.7",
-    "location": "",
-    "depth": "최대진도  Ⅲ(경북)",
-    "note": "경북 영덕군 북북서쪽 22km 지역  (위도: 36.58 N, 경도: 129.24 E, ± 0.8km)16 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250805155817.png;jsessionid=9qTmKYQTyaHqvkqMkLbNP87Q4rxFvlpoX-_zppPF.standalone"
+    "time": "2025년 08월 07일 08시 47분 00초",
+    "magnitude": "4.8",
+    "location": "일본 오이타현 오이타시 서남서쪽 41km 지역  (위도: 33.10 N, 경도: 131.20 E)",
+    "depth": "-",
+    "note": "국내 일부지역에서 지진동을 느낄수 있음. 안전에 유의하기 바람.\n위 자료는 일본기상청(JMA) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250807084700.png;jsessionid=xE2QCUXPJsLgeWW-5jZnW9DVD6jwrC9y0usgGO6Y.standalone"
   },
-  "lastUpdate": "2025-08-06T23:59:33.364Z"
+  "lastUpdate": "2025-08-07T02:08:51.282Z"
 }
