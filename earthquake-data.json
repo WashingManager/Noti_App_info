@@ -579,6 +579,18 @@
   ],
   "international": [
     {
+      "number": "128",
+      "time": "2025/08/07 16:45:00",
+      "magnitude": "5.7",
+      "depth": "100",
+      "maxIntensity": "",
+      "latitude": "24.70 N",
+      "longitude": "123.00 E",
+      "location": "일본 오키나와현 요나구니섬 북쪽 26km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20250807164500.png",
+      "detailLink": null
+    },
+    {
       "number": "127",
       "time": "2025/08/07 08:47:00",
       "magnitude": "4.8",
@@ -2104,12 +2116,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 08월 07일 08시 47분 00초",
-    "magnitude": "4.8",
-    "location": "일본 오이타현 오이타시 서남서쪽 41km 지역  (위도: 33.10 N, 경도: 131.20 E)",
-    "depth": "-",
-    "note": "국내 일부지역에서 지진동을 느낄수 있음. 안전에 유의하기 바람.\n위 자료는 일본기상청(JMA) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250807084700.png;jsessionid=fi6wms1Z3wNbQ9YCzMOAn1lsVXqDR-GZ4heu_CWF.standalone"
+    "time": "2025년 08월 07일 16시 45분 00초",
+    "magnitude": "5.7",
+    "location": "일본 오키나와현 요나구니섬 북쪽 26km 해역  (위도: 24.70 N, 경도: 123.00 E)",
+    "depth": "100 km",
+    "note": "국내영향없음. 위 자료는 일본기상청(JMA) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250807164500.png;jsessionid=DUIH8yRhBaXjzHwStCFABZMdmfoRLliwg-6kZxGU.standalone"
   },
-  "lastUpdate": "2025-08-07T07:53:16.622Z"
+  "lastUpdate": "2025-08-07T08:30:19.229Z"
 }
