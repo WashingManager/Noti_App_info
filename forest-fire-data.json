@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-08-12T08:46:50.184Z",
+  "timestamp": "2025-08-12T09:13:30.270Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "0",
+      "extinguishing": "0",
+      "completed": "1",
       "other": "0"
     },
     "currentFire": {
@@ -11,7 +11,7 @@
       "details": [
         {
           "label": "발생지주소",
-          "value": "강원특별자치도 횡성군 우천면 상대리 51-1 전"
+          "value": "강원특별자치도 횡성군 우천면 상대리 산72임"
         },
         {
           "label": "발생일시",
@@ -19,11 +19,11 @@
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2025년 8월 12일 17시 15분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "진화완료"
         },
         {
           "label": "진화율",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-08-12 16:23",
-      "endTime": "-",
-      "location": "강원특별자치도 횡성군 우천면",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
