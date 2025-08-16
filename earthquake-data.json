@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "49",
+      "time": "2025/08/16 09:33:11",
+      "magnitude": "2.3",
+      "depth": "12",
+      "maxIntensity": "Ⅲ",
+      "latitude": "36.85 N",
+      "longitude": "126.53 E",
+      "location": "충남 당진시 서남서쪽 11km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250816093311.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250816093311.html"
+    },
+    {
       "number": "48",
       "time": "2025/08/05 15:58:17",
       "magnitude": "2.7",
@@ -2188,12 +2200,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 08월 15일 01시 22분 35초",
-    "magnitude": "6.2",
-    "location": "바누아투 산마 루간빌 북북서쪽 442km 해역  (위도: 11.67 S, 경도: 166.14 E)",
-    "depth": "53 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250815012235.png"
+    "time": "2025년 08월 16일 09시 33분 11초",
+    "magnitude": "2.3",
+    "location": "",
+    "depth": "최대진도  Ⅲ(충남)",
+    "note": "충남 당진시 서남서쪽 11km 지역  (위도: 36.85 N, 경도: 126.53 E, ± 1.0km)12 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250816093311.png;jsessionid=IX9YIHPzdt9TQCvKgh2gO0ihjoj5WgjvLHucB4aN.standalone"
   },
-  "lastUpdate": "2025-08-15T23:56:26.962Z"
+  "lastUpdate": "2025-08-16T01:37:25.053Z"
 }
