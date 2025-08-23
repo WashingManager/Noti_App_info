@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-08-23T21:42:01.211Z",
+  "timestamp": "2025-08-23T21:54:26.632Z",
   "main": {
     "status": {
       "extinguishing": "0",
@@ -50,6 +50,97 @@
       "detailUrl": "-"
     }
   ],
-  "resourceList": [],
+  "resourceList": [
+    {
+      "id": "1",
+      "location": "경북 포항 북 창포",
+      "startTime": "2025-08-18 15:18",
+      "endTime": "2025-08-18 19:34",
+      "resources": "헬기  3대   인력  61명   장비  43대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "강원 횡성 우천 상대",
+      "startTime": "2025-08-12 16:23",
+      "endTime": "2025-08-12 19:11",
+      "resources": "헬기  1대   인력  81명   장비  89대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "경기 안산 상록 팔곡일",
+      "startTime": "2025-08-02 15:42",
+      "endTime": "2025-08-02 22:00",
+      "resources": "헬기  2대   인력  101명   장비  60대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "경남 진주 집현 정수",
+      "startTime": "2025-07-31 17:53",
+      "endTime": "2025-07-31 19:40",
+      "resources": "헬기  1대   인력  47명   장비  13대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "강원 평창 진부 신기",
+      "startTime": "2025-07-25 16:48",
+      "endTime": "2025-07-25 18:30",
+      "resources": "헬기  2대   인력  94명   장비  54대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "경북 예천 지보 암천",
+      "startTime": "2025-07-12 13:33",
+      "endTime": "2025-07-12 16:30",
+      "resources": "헬기  0대   인력  45명   장비  28대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "전북 장수 천천 용광",
+      "startTime": "2025-07-11 12:15",
+      "endTime": "2025-07-11 15:00",
+      "resources": "헬기  1대   인력  82명   장비  35대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "전남 장흥 안양 당암",
+      "startTime": "2025-07-11 12:11",
+      "endTime": "2025-07-11 12:41",
+      "resources": "헬기  0대   인력  15명   장비  3대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "전남 보성 북내 시천",
+      "startTime": "2025-07-10 18:20",
+      "endTime": "2025-07-10 20:10",
+      "resources": "헬기  0대   인력  39명   장비  24대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "충남 서천 비인 남당",
+      "startTime": "2025-07-10 14:08",
+      "endTime": "2025-07-10 17:00",
+      "resources": "헬기  1대   인력  44명   장비  10대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
