@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "50",
+      "time": "2025/08/25 10:40:28",
+      "magnitude": "2.2",
+      "depth": "14",
+      "maxIntensity": "Ⅱ",
+      "latitude": "35.76 N",
+      "longitude": "129.19 E",
+      "location": "경북 경주시 남남서쪽 11km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250825104028.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250825104028.html"
+    },
+    {
       "number": "49",
       "time": "2025/08/16 09:33:11",
       "magnitude": "2.3",
@@ -2260,12 +2272,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 08월 23일 18시 14분 21초",
-    "magnitude": "6.0",
-    "location": "엘살바도르 산타테클라 남서쪽 133km 해역  (위도: 13.08 N, 경도: 90.36 W)",
-    "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250823181421.png;jsessionid=Qn11Vwi8mBAyEKgIBK7bpq061JILZoHu-IuqSMJJ.standalone"
+    "time": "2025년 08월 25일 10시 40분 28초",
+    "magnitude": "2.2",
+    "location": "",
+    "depth": "최대진도  Ⅱ(경북, 울산)",
+    "note": "경북 경주시 남남서쪽 11km 지역  (위도: 35.76 N, 경도: 129.19 E, ± 1.0km)14 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250825104028.png;jsessionid=HQD7m2EihQJk9fpb_tKYm5rkm6eSjsRf6QLKbu_c.standalone"
   },
-  "lastUpdate": "2025-08-24T23:59:10.521Z"
+  "lastUpdate": "2025-08-25T01:52:23.978Z"
 }
