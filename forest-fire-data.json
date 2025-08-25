@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-08-25T21:09:25.674Z",
+  "timestamp": "2025-08-25T21:29:39.973Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "--",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": ""
+          "value": "강원특별자치도 삼척시 가곡면 오목리 산53임"
         },
         {
           "label": "발생일시",
-          "value": ""
+          "value": "2025년 8월 25일 11시 52분"
         },
         {
           "label": "진화일시",
-          "value": ""
+          "value": "2025년 8월 25일 18시 30분"
         },
         {
           "label": "진행상태",
-          "value": ""
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": ""
+          "value": "100%"
         },
         {
           "label": "풍향",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-08-25 11:52",
+      "endTime": "2025-08-25 18:30",
+      "location": "강원특별자치도 삼척시 가곡면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
