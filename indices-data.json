@@ -103,11 +103,11 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "14.66",
+        "14.62",
         "15.75",
-        "14.66",
-        "-0.13",
-        "-0.88%"
+        "14.62",
+        "-0.17",
+        "-1.15%"
       ],
       "time": "05:14:46",
       "marketStatus": "closed"
@@ -334,7 +334,7 @@
         "-0.02%"
       ],
       "time": "00:40:00",
-      "marketStatus": "open"
+      "marketStatus": "closed"
     },
     {
       "name": "RTSI 지수",
@@ -348,7 +348,7 @@
         "+0.17%"
       ],
       "time": "00:40:00",
-      "marketStatus": "open"
+      "marketStatus": "closed"
     },
     {
       "name": "폴란드 WIG 20",
@@ -498,8 +498,8 @@
         "536.44",
         "539.19",
         "535.22",
-        "-2.15",
-        "-0.40%"
+        "0.00",
+        "0.00%"
       ],
       "time": "26/08",
       "marketStatus": "closed"
@@ -700,7 +700,7 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "-0.88%",
+        "-1.15%",
         "-5.84%",
         "-1.81%",
         "-15.50%",
@@ -1064,7 +1064,7 @@
       "link": "https://kr.investing.com/indices/dj-shanghai",
       "flagUrl": "https://flagcdn.com/16x12/cn.png",
       "values": [
-        "-0.40%",
+        "0.00%",
         "+4.32%",
         "+7.67%",
         "+16.43%",
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-08-26T20:58:07.169Z"
+  "lastUpdate": "2025-08-26T21:21:38.303Z"
 }
