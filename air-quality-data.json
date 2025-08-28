@@ -26,14 +26,6 @@
     },
     {
       "rank": "4",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "델리, 인도",
-      "link": "https://www.iqair.com/ko/india/delhi/delhi",
-      "aqi": "132",
-      "followers": "2.8M"
-    },
-    {
-      "rank": "5",
       "flag": "https://cdn.airvisual.net/flags/qatar.jpg",
       "city": "도하, 카타르",
       "link": "https://www.iqair.com/ko/qatar/baladiyat-ad-dawhah/doha",
@@ -41,12 +33,20 @@
       "followers": "146.4K"
     },
     {
-      "rank": "6",
+      "rank": "5",
       "flag": "https://cdn.airvisual.net/flags/kuwait.jpg",
       "city": "쿠웨이트시티, 쿠웨이트",
       "link": "https://www.iqair.com/ko/kuwait/al-asimah/kuwait-city",
       "aqi": "115",
       "followers": "84.8K"
+    },
+    {
+      "rank": "6",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "델리, 인도",
+      "link": "https://www.iqair.com/ko/india/delhi/delhi",
+      "aqi": "115",
+      "followers": "2.8M"
     },
     {
       "rank": "7",
@@ -197,7 +197,7 @@
       "flag": "https://cdn.airvisual.net/flags/germany.jpg",
       "city": "베를린, 독일",
       "link": "https://www.iqair.com/ko/germany/berlin/berlin",
-      "aqi": "71",
+      "aqi": "73",
       "followers": "340.6K"
     },
     {
@@ -630,7 +630,7 @@
       "city": "부산광역시, 대한민국",
       "link": "https://www.iqair.com/ko/south-korea/busan/busan",
       "aqi": "43",
-      "followers": "410.9K"
+      "followers": "411K"
     },
     {
       "rank": "80",
@@ -1017,5 +1017,5 @@
       "followers": "1M"
     }
   ],
-  "lastUpdate": "2025-08-28T09:44:19.152Z"
+  "lastUpdate": "2025-08-28T09:51:23.397Z"
 }
