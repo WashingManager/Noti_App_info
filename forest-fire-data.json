@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-08-27T23:55:13.578Z",
+  "timestamp": "2025-08-28T02:00:48.712Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "--",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": ""
+          "value": "강원특별자치도 삼척시 가곡면 풍곡리 산128-63임"
         },
         {
           "label": "발생일시",
-          "value": ""
+          "value": "2025년 8월 28일 9시 39분"
         },
         {
           "label": "진화일시",
-          "value": ""
+          "value": "-"
         },
         {
           "label": "진행상태",
-          "value": ""
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": ""
+          "value": "0%"
         },
         {
           "label": "풍향",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-08-28 09:39",
+      "endTime": "-",
+      "location": "강원특별자치도 삼척시 가곡면",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
