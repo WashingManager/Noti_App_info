@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-08-31T15:54:21.883Z",
+  "timestamp": "2025-08-31T16:30:37.564Z",
   "main": {
     "status": {
-      "extinguishing": "0",
-      "completed": "0",
-      "other": "0"
+      "extinguishing": "N/A",
+      "completed": "N/A",
+      "other": "N/A"
     },
     "currentFire": {
       "grade": "--",
@@ -53,6 +53,15 @@
   "resourceList": [
     {
       "id": "1",
+      "location": "경북 봉화 소천 현동",
+      "startTime": "2025-08-29 15:26",
+      "endTime": "2025-08-29 17:34",
+      "resources": "헬기  3대   인력  83명   장비  31대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
       "location": "강원 삼척 사곡 풍곡",
       "startTime": "2025-08-28 09:39",
       "endTime": "2025-08-29 00:30",
@@ -61,7 +70,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "2",
+      "id": "3",
       "location": "강원 삼척 가곡 오목",
       "startTime": "2025-08-25 11:52",
       "endTime": "2025-08-28 21:00",
@@ -70,7 +79,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "4",
       "location": "충북 음성 감곡 영산",
       "startTime": "2025-08-22 14:41",
       "endTime": "2025-08-22 20:30",
@@ -79,7 +88,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "5",
       "location": "경북 포항 북 창포",
       "startTime": "2025-08-18 15:18",
       "endTime": "2025-08-18 19:34",
@@ -88,7 +97,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "5",
+      "id": "6",
       "location": "강원 횡성 우천 상대",
       "startTime": "2025-08-12 16:23",
       "endTime": "2025-08-12 19:11",
@@ -97,7 +106,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "6",
+      "id": "7",
       "location": "경기 안산 상록 팔곡일",
       "startTime": "2025-08-02 15:42",
       "endTime": "2025-08-02 22:00",
@@ -106,7 +115,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "7",
+      "id": "8",
       "location": "경남 진주 집현 정수",
       "startTime": "2025-07-31 17:53",
       "endTime": "2025-07-31 19:40",
@@ -115,7 +124,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "8",
+      "id": "9",
       "location": "강원 평창 진부 신기",
       "startTime": "2025-07-25 16:48",
       "endTime": "2025-07-25 18:30",
@@ -124,20 +133,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "9",
+      "id": "10",
       "location": "경북 예천 지보 암천",
       "startTime": "2025-07-12 13:33",
       "endTime": "2025-07-12 16:30",
       "resources": "헬기  0대   인력  45명   장비  28대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "전북 장수 천천 용광",
-      "startTime": "2025-07-11 12:15",
-      "endTime": "2025-07-11 15:00",
-      "resources": "헬기  1대   인력  82명   장비  35대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
