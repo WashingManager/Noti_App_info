@@ -110,7 +110,7 @@
         "+4.95%"
       ],
       "time": "01:00:16",
-      "marketStatus": "open"
+      "marketStatus": "closed"
     },
     {
       "name": "캐나다 S&P/TSX",
@@ -131,28 +131,28 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "141,085",
+        "141,103",
         "141,950",
         "140,878",
-        "-337",
-        "-0.24%"
+        "-319",
+        "-0.23%"
       ],
-      "time": "04:41:00",
-      "marketStatus": "open"
+      "time": "04:58:59",
+      "marketStatus": "closed"
     },
     {
       "name": "S&P/BMV IPC",
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "58,842.69",
+        "58,803.07",
         "58,982.75",
         "58,398.75",
-        "+133.83",
-        "+0.23%"
+        "+94.21",
+        "+0.16%"
       ],
-      "time": "04:58:05",
-      "marketStatus": "open"
+      "time": "05:21:33",
+      "marketStatus": "closed"
     },
     {
       "name": "DAX",
@@ -179,7 +179,7 @@
         "+9.00",
         "+0.10%"
       ],
-      "time": "00:35:58",
+      "time": "00:35:59",
       "marketStatus": "closed"
     },
     {
@@ -726,12 +726,12 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "-0.24%",
-        "+2.22%",
-        "+6.53%",
-        "+17.29%",
-        "+4.58%",
-        "+27.26%"
+        "-0.23%",
+        "+2.23%",
+        "+6.54%",
+        "+17.31%",
+        "+4.59%",
+        "+27.28%"
       ]
     },
     {
@@ -739,12 +739,12 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "+0.30%",
-        "+0.57%",
-        "+3.38%",
-        "+18.80%",
-        "+12.06%",
-        "+28.19%"
+        "+0.16%",
+        "+0.53%",
+        "+3.34%",
+        "+18.76%",
+        "+12.02%",
+        "+28.14%"
       ]
     },
     {
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-09-01T19:58:05.778Z"
+  "lastUpdate": "2025-09-01T20:24:50.832Z"
 }
