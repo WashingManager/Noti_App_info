@@ -334,7 +334,7 @@
         "-0.35%"
       ],
       "time": "00:40:00",
-      "marketStatus": "open"
+      "marketStatus": "closed"
     },
     {
       "name": "RTSI 지수",
@@ -348,7 +348,7 @@
         "-0.47%"
       ],
       "time": "00:40:00",
-      "marketStatus": "open"
+      "marketStatus": "closed"
     },
     {
       "name": "폴란드 WIG 20",
@@ -498,8 +498,8 @@
         "540.15",
         "540.51",
         "536.61",
-        "+3.05",
-        "+0.57%"
+        "0.00",
+        "0.00%"
       ],
       "time": "01/09",
       "marketStatus": "closed"
@@ -1064,7 +1064,7 @@
       "link": "https://kr.investing.com/indices/dj-shanghai",
       "flagUrl": "https://flagcdn.com/16x12/cn.png",
       "values": [
-        "+0.57%",
+        "0.00%",
         "+0.29%",
         "+9.76%",
         "+17.23%",
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-09-01T20:58:25.767Z"
+  "lastUpdate": "2025-09-01T21:20:44.464Z"
 }
