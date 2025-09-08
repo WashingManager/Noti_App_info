@@ -226,14 +226,6 @@
     },
     {
       "rank": "29",
-      "flag": "https://cdn.airvisual.net/flags/china.jpg",
-      "city": "베이징시, 중국",
-      "link": "https://www.iqair.com/ko/china/beijing/beijing",
-      "aqi": "71",
-      "followers": "10.2M"
-    },
-    {
-      "rank": "30",
       "flag": "https://cdn.airvisual.net/flags/japan.jpg",
       "city": "도쿄도, 일본",
       "link": "https://www.iqair.com/ko/japan/tokyo/tokyo",
@@ -241,12 +233,20 @@
       "followers": "1.2M"
     },
     {
-      "rank": "31",
+      "rank": "30",
       "flag": "https://cdn.airvisual.net/flags/nepal.jpg",
       "city": "카트만두, 네팔",
       "link": "https://www.iqair.com/ko/nepal/central-region/kathmandu",
       "aqi": "70",
       "followers": "211.9K"
+    },
+    {
+      "rank": "31",
+      "flag": "https://cdn.airvisual.net/flags/china.jpg",
+      "city": "베이징시, 중국",
+      "link": "https://www.iqair.com/ko/china/beijing/beijing",
+      "aqi": "70",
+      "followers": "10.2M"
     },
     {
       "rank": "32",
@@ -738,19 +738,19 @@
     },
     {
       "rank": "93",
+      "flag": "https://cdn.airvisual.net/flags/hong-kong.jpg",
+      "city": "홍콩, 홍콩",
+      "link": "https://www.iqair.com/ko/hong-kong/hong-kong/hong-kong",
+      "aqi": "35",
+      "followers": "933.3K"
+    },
+    {
+      "rank": "94",
       "flag": "https://cdn.airvisual.net/flags/canada.jpg",
       "city": "밴쿠버, 캐나다",
       "link": "https://www.iqair.com/ko/canada/british-columbia/vancouver",
       "aqi": "35",
       "followers": "246.8K"
-    },
-    {
-      "rank": "94",
-      "flag": "https://cdn.airvisual.net/flags/hong-kong.jpg",
-      "city": "홍콩, 홍콩",
-      "link": "https://www.iqair.com/ko/hong-kong/hong-kong/hong-kong",
-      "aqi": "34",
-      "followers": "933.3K"
     },
     {
       "rank": "95",
@@ -1017,5 +1017,5 @@
       "followers": "37.3K"
     }
   ],
-  "lastUpdate": "2025-09-08T22:38:22.945Z"
+  "lastUpdate": "2025-09-08T22:44:55.921Z"
 }
