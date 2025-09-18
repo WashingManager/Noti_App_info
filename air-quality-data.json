@@ -330,14 +330,6 @@
     },
     {
       "rank": "42",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "뭄바이, 인도",
-      "link": "https://www.iqair.com/ko/india/maharashtra/mumbai",
-      "aqi": "58",
-      "followers": "1.5M"
-    },
-    {
-      "rank": "43",
       "flag": "https://cdn.airvisual.net/flags/spain.jpg",
       "city": "바르셀로나, 스페인",
       "link": "https://www.iqair.com/ko/spain/catalonia/barcelona",
@@ -345,7 +337,7 @@
       "followers": "403.2K"
     },
     {
-      "rank": "44",
+      "rank": "43",
       "flag": "https://cdn.airvisual.net/flags/spain.jpg",
       "city": "마드리드, 스페인",
       "link": "https://www.iqair.com/ko/spain/madrid/madrid",
@@ -353,7 +345,7 @@
       "followers": "439.8K"
     },
     {
-      "rank": "45",
+      "rank": "44",
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "충칭시, 중국",
       "link": "https://www.iqair.com/ko/china/chongqing/chongqing",
@@ -361,7 +353,7 @@
       "followers": "260.2K"
     },
     {
-      "rank": "46",
+      "rank": "45",
       "flag": "https://cdn.airvisual.net/flags/malaysia.jpg",
       "city": "쿠알라룸푸르, 말레이지아",
       "link": "https://www.iqair.com/ko/malaysia/kuala-lumpur/kuala-lumpur",
@@ -369,12 +361,20 @@
       "followers": "544.7K"
     },
     {
-      "rank": "47",
+      "rank": "46",
       "flag": "https://cdn.airvisual.net/flags/nepal.jpg",
       "city": "카트만두, 네팔",
       "link": "https://www.iqair.com/ko/nepal/central-region/kathmandu",
       "aqi": "56",
       "followers": "212.9K"
+    },
+    {
+      "rank": "47",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "뭄바이, 인도",
+      "link": "https://www.iqair.com/ko/india/maharashtra/mumbai",
+      "aqi": "56",
+      "followers": "1.5M"
     },
     {
       "rank": "48",
@@ -682,6 +682,14 @@
     },
     {
       "rank": "86",
+      "flag": "https://cdn.airvisual.net/flags/germany.jpg",
+      "city": "베를린, 독일",
+      "link": "https://www.iqair.com/ko/germany/berlin/berlin",
+      "aqi": "32",
+      "followers": "345.8K"
+    },
+    {
+      "rank": "87",
       "flag": "https://cdn.airvisual.net/flags/france.jpg",
       "city": "파리 (프랑스), 프랑스",
       "link": "https://www.iqair.com/ko/france/ile-de-france/paris",
@@ -689,7 +697,7 @@
       "followers": "8M"
     },
     {
-      "rank": "87",
+      "rank": "88",
       "flag": "https://cdn.airvisual.net/flags/hungary.jpg",
       "city": "부다페스트, 헝가리",
       "link": "https://www.iqair.com/ko/hungary/central-hungary/budapest",
@@ -697,7 +705,7 @@
       "followers": "58K"
     },
     {
-      "rank": "88",
+      "rank": "89",
       "flag": "https://cdn.airvisual.net/flags/bosnia-herzegovina.jpg",
       "city": "사라예보, 보스니아 헤르체고비나",
       "link": "https://www.iqair.com/ko/bosnia-herzegovina/federation-of-b-h/sarajevo",
@@ -705,7 +713,7 @@
       "followers": "122.6K"
     },
     {
-      "rank": "89",
+      "rank": "90",
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "베이징시, 중국",
       "link": "https://www.iqair.com/ko/china/beijing/beijing",
@@ -713,7 +721,7 @@
       "followers": "10.2M"
     },
     {
-      "rank": "90",
+      "rank": "91",
       "flag": "https://cdn.airvisual.net/flags/south-korea.jpg",
       "city": "인천광역시, 대한민국",
       "link": "https://www.iqair.com/ko/south-korea/incheon/incheon",
@@ -721,7 +729,7 @@
       "followers": "43.7K"
     },
     {
-      "rank": "91",
+      "rank": "92",
       "flag": "https://cdn.airvisual.net/flags/slovenia.jpg",
       "city": "류블랴나, 슬로베니아",
       "link": "https://www.iqair.com/ko/slovenia/osrednjeslovenska/ljubljana",
@@ -729,20 +737,12 @@
       "followers": "45.7K"
     },
     {
-      "rank": "92",
+      "rank": "93",
       "flag": "https://cdn.airvisual.net/flags/croatia.jpg",
       "city": "자그레브, 크로아티아",
       "link": "https://www.iqair.com/ko/croatia/zagreb/zagreb",
       "aqi": "28",
       "followers": "48.5K"
-    },
-    {
-      "rank": "93",
-      "flag": "https://cdn.airvisual.net/flags/germany.jpg",
-      "city": "베를린, 독일",
-      "link": "https://www.iqair.com/ko/germany/berlin/berlin",
-      "aqi": "28",
-      "followers": "345.8K"
     },
     {
       "rank": "94",
@@ -1017,5 +1017,5 @@
       "followers": "248.3K"
     }
   ],
-  "lastUpdate": "2025-09-18T05:45:34.873Z"
+  "lastUpdate": "2025-09-18T05:51:39.970Z"
 }
