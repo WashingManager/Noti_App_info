@@ -74,14 +74,6 @@
     },
     {
       "rank": "10",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "델리, 인도",
-      "link": "https://www.iqair.com/ko/india/delhi/delhi",
-      "aqi": "105",
-      "followers": "2.8M"
-    },
-    {
-      "rank": "11",
       "flag": "https://cdn.airvisual.net/flags/saudi-arabia.jpg",
       "city": "리야드, 사우디 아라비아",
       "link": "https://www.iqair.com/ko/saudi-arabia/ar-riyad/riyadh",
@@ -89,12 +81,20 @@
       "followers": "138.6K"
     },
     {
-      "rank": "12",
+      "rank": "11",
       "flag": "https://cdn.airvisual.net/flags/malaysia.jpg",
       "city": "쿠알라룸푸르, 말레이지아",
       "link": "https://www.iqair.com/ko/malaysia/kuala-lumpur/kuala-lumpur",
       "aqi": "97",
       "followers": "545.3K"
+    },
+    {
+      "rank": "12",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "델리, 인도",
+      "link": "https://www.iqair.com/ko/india/delhi/delhi",
+      "aqi": "94",
+      "followers": "2.8M"
     },
     {
       "rank": "13",
@@ -306,19 +306,19 @@
     },
     {
       "rank": "39",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "뭄바이, 인도",
+      "link": "https://www.iqair.com/ko/india/maharashtra/mumbai",
+      "aqi": "61",
+      "followers": "1.5M"
+    },
+    {
+      "rank": "40",
       "flag": "https://cdn.airvisual.net/flags/south-africa.jpg",
       "city": "요하네스버그, 남아프리카 공화국",
       "link": "https://www.iqair.com/ko/south-africa/gauteng/johannesburg",
       "aqi": "60",
       "followers": "74.3K"
-    },
-    {
-      "rank": "40",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "뭄바이, 인도",
-      "link": "https://www.iqair.com/ko/india/maharashtra/mumbai",
-      "aqi": "60",
-      "followers": "1.5M"
     },
     {
       "rank": "41",
@@ -390,7 +390,7 @@
       "city": "크라쿠프, 폴란드",
       "link": "https://www.iqair.com/ko/poland/lesser-poland-voivodeship/krakow",
       "aqi": "55",
-      "followers": "363.4K"
+      "followers": "363.5K"
     },
     {
       "rank": "50",
@@ -982,7 +982,7 @@
       "city": "더블린, 아일랜드",
       "link": "https://www.iqair.com/ko/ireland/leinster/dublin",
       "aqi": "16",
-      "followers": "44.4K"
+      "followers": "44.5K"
     },
     {
       "rank": "124",
@@ -1017,5 +1017,5 @@
       "followers": "34.4K"
     }
   ],
-  "lastUpdate": "2025-09-20T06:48:27.764Z"
+  "lastUpdate": "2025-09-20T06:54:37.457Z"
 }
