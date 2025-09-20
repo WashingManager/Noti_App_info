@@ -1,7 +1,146 @@
 {
-  "timestamp": "2025-09-20T13:27:54.517Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2025-09-20T13:41:39.271Z",
+  "main": {
+    "status": {
+      "extinguishing": "0",
+      "completed": "0",
+      "other": "0"
+    },
+    "currentFire": {
+      "grade": "--",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": ""
+        },
+        {
+          "label": "발생일시",
+          "value": ""
+        },
+        {
+          "label": "진화일시",
+          "value": ""
+        },
+        {
+          "label": "진행상태",
+          "value": ""
+        },
+        {
+          "label": "진화율",
+          "value": ""
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "1",
+      "location": "경북 봉화 명호 고감",
+      "startTime": "2025-09-11 16:13",
+      "endTime": "2025-09-11 18:40",
+      "resources": "헬기  1대   인력  81명   장비  27대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경북 울진 북 주인",
+      "startTime": "2025-08-31 16:34",
+      "endTime": "2025-08-31 18:56",
+      "resources": "헬기  1대   인력  62명   장비  15대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "경북 봉화 소천 현동",
+      "startTime": "2025-08-29 15:26",
+      "endTime": "2025-08-30 01:30",
+      "resources": "헬기  3대   인력  83명   장비  31대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "강원 삼척 사곡 풍곡",
+      "startTime": "2025-08-28 09:39",
+      "endTime": "2025-08-29 00:30",
+      "resources": "헬기  2대   인력  76명   장비  11대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "강원 삼척 가곡 오목",
+      "startTime": "2025-08-25 11:52",
+      "endTime": "2025-08-28 21:00",
+      "resources": "헬기  15대   인력  299명   장비  113대",
+      "level": "산불 1단계",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "충북 음성 감곡 영산",
+      "startTime": "2025-08-22 14:41",
+      "endTime": "2025-08-22 20:30",
+      "resources": "헬기  2대   인력  74명   장비  12대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "경북 포항 북 창포",
+      "startTime": "2025-08-18 15:18",
+      "endTime": "2025-08-18 19:34",
+      "resources": "헬기  3대   인력  61명   장비  43대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "강원 횡성 우천 상대",
+      "startTime": "2025-08-12 16:23",
+      "endTime": "2025-08-12 19:11",
+      "resources": "헬기  1대   인력  81명   장비  89대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "경기 안산 상록 팔곡일",
+      "startTime": "2025-08-02 15:42",
+      "endTime": "2025-08-02 22:00",
+      "resources": "헬기  2대   인력  101명   장비  60대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "경남 진주 집현 정수",
+      "startTime": "2025-07-31 17:53",
+      "endTime": "2025-07-31 19:40",
+      "resources": "헬기  1대   인력  47명   장비  13대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
