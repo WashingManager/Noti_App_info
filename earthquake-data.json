@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "58",
+      "time": "2025/09/21 01:59:59",
+      "magnitude": "2.5",
+      "depth": "19",
+      "maxIntensity": "Ⅰ",
+      "latitude": "41.33 N",
+      "longitude": "129.18 E",
+      "location": "북한 함경북도 길주 북북서쪽 44km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250921015959.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250921015959.html"
+    },
+    {
       "number": "57",
       "time": "2025/09/15 15:49:56",
       "magnitude": "2.0",
@@ -2500,12 +2512,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 09월 20일 07시 56분 45초",
-    "magnitude": "5.0",
-    "location": "대만 펑후현 북북서쪽 112km 해역  (위도: 24.52 N, 경도: 119.24 E)",
-    "depth": "17 km",
-    "note": "국내영향없음. 위 자료는 대만기상청(CWA) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20250920075645.png;jsessionid=C-7vCf7T0C-Zh12FaaeKJ-l7L1r5dznaG8UcYsyf.standalone"
+    "time": "2025년 09월 21일 01시 59분 59초",
+    "magnitude": "2.5",
+    "location": "",
+    "depth": "최대진도  Ⅰ",
+    "note": "북한 함경북도 길주 북북서쪽 44km 지역  (위도: 41.33 N, 경도: 129.18 E, ± 6.6km)19 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20250921015959.png;jsessionid=_IZIksYMtzeAJjpSYKeyWmgfkF4aHnRyt1Evq5kG.standalone"
   },
-  "lastUpdate": "2025-09-20T17:46:25.883Z"
+  "lastUpdate": "2025-09-20T17:56:12.241Z"
 }
