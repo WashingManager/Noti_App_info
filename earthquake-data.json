@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "62",
+      "time": "2025/10/05 12:49:56",
+      "magnitude": "2.8",
+      "depth": "19",
+      "maxIntensity": "Ⅰ",
+      "latitude": "33.27 N",
+      "longitude": "127.54 E",
+      "location": "전남 여수시 거문도 남남동쪽 87km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20251005124956.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20251005124956.html"
+    },
+    {
       "number": "61",
       "time": "2025/09/26 06:53:01",
       "magnitude": "2.1",
@@ -2608,12 +2620,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 10월 04일 01시 07분 44초",
-    "magnitude": "6.1",
-    "location": "러시아 캄차카반도 페트로파블롭스크-캄차츠키 남남동쪽 173km 해역  (위도: 51.65 N, 경도: 159.88 E)",
-    "depth": "17 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20251004010744.png;jsessionid=L7kteXvLFPylldyQR4KMPlOsq3cX_NvZjVeayM7u.standalone"
+    "time": "2025년 10월 05일 12시 49분 56초",
+    "magnitude": "2.8",
+    "location": "",
+    "depth": "최대진도  Ⅰ",
+    "note": "전남 여수시 거문도 남남동쪽 87km 해역  (위도: 33.27 N, 경도: 127.54 E, ± 2.8km)19 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20251005124956.png;jsessionid=_mb_I2oMFomHJSLPrdW0vaQERv6NBVaO9xJIIJxp.standalone"
   },
-  "lastUpdate": "2025-10-05T03:51:17.101Z"
+  "lastUpdate": "2025-10-05T04:24:32.304Z"
 }
