@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "63",
+      "time": "2025/10/08 11:49:39",
+      "magnitude": "3.1",
+      "depth": "9",
+      "maxIntensity": "Ⅳ",
+      "latitude": "36.28 N",
+      "longitude": "127.76 E",
+      "location": "충북 옥천군 동쪽 17km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20251008114939.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20251008114939.html"
+    },
+    {
       "number": "62",
       "time": "2025/10/05 12:49:56",
       "magnitude": "2.8",
@@ -2656,12 +2668,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 10월 08일 08시 52분 12초",
-    "magnitude": "5.0",
-    "location": "대만 화롄현 서북서쪽 6km 지역  (위도: 23.99 N, 경도: 121.55 E)",
-    "depth": "6 km",
-    "note": "국내영향없음. 위 자료는 대만기상청(CWA) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20251008085212.png"
+    "time": "2025년 10월 08일 11시 49분 39초",
+    "magnitude": "3.1",
+    "location": "",
+    "depth": "최대진도  Ⅳ(충북), Ⅲ(경북, 대전, 전북, 충남), Ⅱ(경남, 세종)",
+    "note": "충북 옥천군 동쪽 17km 지역  (위도: 36.28 N, 경도: 127.76 E, ± 0.8km)9 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20251008114939.png"
   },
-  "lastUpdate": "2025-10-08T02:38:47.944Z"
+  "lastUpdate": "2025-10-08T03:19:46.405Z"
 }
