@@ -330,11 +330,11 @@
         "2,668.60",
         "2,673.27",
         "2,635.79",
-        "+20.10",
-        "+0.76%"
+        "0.00",
+        "0.00%"
       ],
       "time": "00:43:59",
-      "marketStatus": "closed"
+      "marketStatus": "open"
     },
     {
       "name": "RTSI 지수",
@@ -344,11 +344,11 @@
         "1,026.02",
         "1,026.02",
         "1,000.40",
-        "+20.80",
-        "+2.07%"
+        "0.00",
+        "0.00%"
       ],
       "time": "00:43:59",
-      "marketStatus": "closed"
+      "marketStatus": "open"
     },
     {
       "name": "폴란드 WIG 20",
@@ -425,13 +425,13 @@
       "link": "https://kr.investing.com/indices/japan-ni225",
       "flagUrl": "https://flagcdn.com/16x12/jp.png",
       "values": [
-        "47,991.00",
+        "48,004.00",
         "48,194.00",
         "47,855.50",
-        "+40.12",
-        "+0.08%"
+        "+53.12",
+        "+0.11%"
       ],
-      "time": "12:48:33",
+      "time": "12:54:35",
       "marketStatus": "open"
     },
     {
@@ -439,13 +439,13 @@
       "link": "https://kr.investing.com/indices/aus-200",
       "flagUrl": "https://flagcdn.com/16x12/au.png",
       "values": [
-        "8,956.10",
+        "8,957.30",
         "8,963.70",
         "8,916.20",
-        "-0.70",
-        "-0.01%"
+        "+0.50",
+        "+0.01%"
       ],
-      "time": "12:48:44",
+      "time": "12:53:44",
       "marketStatus": "open"
     },
     {
@@ -509,13 +509,13 @@
       "link": "https://kr.investing.com/indices/hang-sen-40",
       "flagUrl": "https://flagcdn.com/16x12/hk.png",
       "values": [
-        "26,684.50",
+        "26,657.00",
         "26,926.50",
         "26,487.00",
-        "-273.27",
-        "-1.01%"
+        "-300.77",
+        "-1.12%"
       ],
-      "time": "12:49:00",
+      "time": "12:54:08",
       "marketStatus": "open"
     },
     {
@@ -537,13 +537,13 @@
       "link": "https://kr.investing.com/indices/thailand-set",
       "flagUrl": "https://flagcdn.com/16x12/th.png",
       "values": [
-        "1,311.92",
-        "1,313.28",
+        "1,313.48",
+        "1,313.96",
         "1,305.12",
-        "+6.68",
-        "+0.51%"
+        "+8.24",
+        "+0.63%"
       ],
-      "time": "12:33:59",
+      "time": "12:39:02",
       "marketStatus": "open"
     },
     {
@@ -551,13 +551,13 @@
       "link": "https://kr.investing.com/indices/idx-composite",
       "flagUrl": "https://flagcdn.com/16x12/id.png",
       "values": [
-        "8,142.68",
+        "8,150.59",
         "8,224.65",
         "8,044.93",
-        "-26.61",
-        "-0.33%"
+        "-18.70",
+        "-0.23%"
       ],
-      "time": "12:39:08",
+      "time": "12:44:11",
       "marketStatus": "open"
     },
     {
@@ -565,13 +565,13 @@
       "link": "https://kr.investing.com/indices/s-p-cnx-nifty",
       "flagUrl": "https://flagcdn.com/16x12/in.png",
       "values": [
-        "25,140.45",
-        "25,146.80",
+        "25,165.45",
+        "25,165.55",
         "25,078.00",
-        "+32.15",
-        "+0.13%"
+        "+57.15",
+        "+0.23%"
       ],
-      "time": "12:49:02",
+      "time": "12:53:59",
       "marketStatus": "open"
     },
     {
@@ -593,13 +593,13 @@
       "link": "https://kr.investing.com/indices/vn-30",
       "flagUrl": "https://flagcdn.com/16x12/vn.png",
       "values": [
-        "1,920.36",
+        "1,918.70",
         "1,970.59",
         "1,909.65",
-        "+10.71",
-        "+0.56%"
+        "+9.05",
+        "+0.47%"
       ],
-      "time": "12:48:45",
+      "time": "12:54:05",
       "marketStatus": "open"
     }
   ],
@@ -908,7 +908,7 @@
       "link": "https://kr.investing.com/indices/mcx",
       "flagUrl": "https://flagcdn.com/16x12/ru.png",
       "values": [
-        "+0.76%",
+        "0.00%",
         "+0.81%",
         "-9.11%",
         "-7.44%",
@@ -921,7 +921,7 @@
       "link": "https://kr.investing.com/indices/rtsi",
       "flagUrl": "https://flagcdn.com/16x12/ru.png",
       "values": [
-        "+2.07%",
+        "0.00%",
         "+0.27%",
         "-7.66%",
         "+14.87%",
@@ -999,12 +999,12 @@
       "link": "https://kr.investing.com/indices/japan-ni225",
       "flagUrl": "https://flagcdn.com/16x12/jp.png",
       "values": [
-        "+0.08%",
-        "+7.63%",
-        "+10.34%",
-        "+20.20%",
-        "+22.08%",
-        "+76.84%"
+        "+0.11%",
+        "+7.74%",
+        "+10.45%",
+        "+20.31%",
+        "+22.20%",
+        "+77.01%"
       ]
     },
     {
@@ -1012,7 +1012,7 @@
       "link": "https://kr.investing.com/indices/aus-200",
       "flagUrl": "https://flagcdn.com/16x12/au.png",
       "values": [
-        "-0.01%",
+        "+0.01%",
         "+1.26%",
         "+1.74%",
         "+9.78%",
@@ -1077,12 +1077,12 @@
       "link": "https://kr.investing.com/indices/hang-sen-40",
       "flagUrl": "https://flagcdn.com/16x12/hk.png",
       "values": [
-        "-1.01%",
-        "-0.65%",
-        "+2.87%",
-        "+33.01%",
-        "+29.29%",
-        "+50.41%"
+        "-1.12%",
+        "-0.61%",
+        "+2.90%",
+        "+33.05%",
+        "+29.33%",
+        "+50.45%"
       ]
     },
     {
@@ -1103,12 +1103,12 @@
       "link": "https://kr.investing.com/indices/thailand-set",
       "flagUrl": "https://flagcdn.com/16x12/th.png",
       "values": [
-        "+0.51%",
-        "+2.78%",
-        "+2.69%",
-        "-6.41%",
-        "-10.06%",
-        "-17.04%"
+        "+0.63%",
+        "+2.95%",
+        "+2.87%",
+        "-6.25%",
+        "-9.90%",
+        "-16.90%"
       ]
     },
     {
@@ -1116,12 +1116,12 @@
       "link": "https://kr.investing.com/indices/idx-composite",
       "flagUrl": "https://flagcdn.com/16x12/id.png",
       "values": [
-        "-0.33%",
-        "+1.23%",
-        "+6.74%",
-        "+15.01%",
-        "+8.55%",
-        "+15.88%"
+        "-0.23%",
+        "+1.20%",
+        "+6.71%",
+        "+14.98%",
+        "+8.52%",
+        "+15.85%"
       ]
     },
     {
@@ -1129,12 +1129,12 @@
       "link": "https://kr.investing.com/indices/s-p-cnx-nifty",
       "flagUrl": "https://flagcdn.com/16x12/in.png",
       "values": [
-        "+0.13%",
-        "+1.19%",
-        "+1.06%",
-        "+6.29%",
-        "+0.60%",
-        "+45.15%"
+        "+0.23%",
+        "+1.28%",
+        "+1.15%",
+        "+6.39%",
+        "+0.69%",
+        "+45.28%"
       ]
     },
     {
@@ -1155,12 +1155,12 @@
       "link": "https://kr.investing.com/indices/vn-30",
       "flagUrl": "https://flagcdn.com/16x12/vn.png",
       "values": [
-        "+0.56%",
-        "+2.76%",
-        "+5.32%",
-        "+42.95%",
-        "+42.19%",
-        "+84.92%"
+        "+0.47%",
+        "+2.61%",
+        "+5.17%",
+        "+42.74%",
+        "+41.98%",
+        "+84.65%"
       ]
     }
   ],
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-10-08T03:52:26.560Z"
+  "lastUpdate": "2025-10-08T03:59:14.093Z"
 }
