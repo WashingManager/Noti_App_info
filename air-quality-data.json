@@ -354,14 +354,6 @@
     },
     {
       "rank": "45",
-      "flag": "https://cdn.airvisual.net/flags/china.jpg",
-      "city": "광저우시, 중국",
-      "link": "https://www.iqair.com/ko/china/guangdong/guangzhou",
-      "aqi": "64",
-      "followers": "1.8M"
-    },
-    {
-      "rank": "46",
       "flag": "https://cdn.airvisual.net/flags/vietnam.jpg",
       "city": "호찌민시, 베트남",
       "link": "https://www.iqair.com/ko/vietnam/ho-chi-minh-city/ho-chi-minh-city",
@@ -369,12 +361,20 @@
       "followers": "2.3M"
     },
     {
-      "rank": "47",
+      "rank": "46",
       "flag": "https://cdn.airvisual.net/flags/algeria.jpg",
       "city": "알제, 알제리",
       "link": "https://www.iqair.com/ko/algeria/algiers/algiers",
       "aqi": "62",
       "followers": "41.8K"
+    },
+    {
+      "rank": "47",
+      "flag": "https://cdn.airvisual.net/flags/china.jpg",
+      "city": "광저우시, 중국",
+      "link": "https://www.iqair.com/ko/china/guangdong/guangzhou",
+      "aqi": "62",
+      "followers": "1.8M"
     },
     {
       "rank": "48",
@@ -498,6 +498,14 @@
     },
     {
       "rank": "63",
+      "flag": "https://cdn.airvisual.net/flags/spain.jpg",
+      "city": "바르셀로나, 스페인",
+      "link": "https://www.iqair.com/ko/spain/catalonia/barcelona",
+      "aqi": "54",
+      "followers": "406.8K"
+    },
+    {
+      "rank": "64",
       "flag": "https://cdn.airvisual.net/flags/china.jpg",
       "city": "상하이시, 중국",
       "link": "https://www.iqair.com/ko/china/shanghai/shanghai",
@@ -505,20 +513,12 @@
       "followers": "2.7M"
     },
     {
-      "rank": "64",
+      "rank": "65",
       "flag": "https://cdn.airvisual.net/flags/japan.jpg",
       "city": "교토시, 일본",
       "link": "https://www.iqair.com/ko/japan/kyoto/kyoto",
       "aqi": "53",
       "followers": "124K"
-    },
-    {
-      "rank": "65",
-      "flag": "https://cdn.airvisual.net/flags/spain.jpg",
-      "city": "바르셀로나, 스페인",
-      "link": "https://www.iqair.com/ko/spain/catalonia/barcelona",
-      "aqi": "53",
-      "followers": "406.8K"
     },
     {
       "rank": "66",
@@ -814,7 +814,7 @@
       "city": "런던, 영국",
       "link": "https://www.iqair.com/ko/uk/england/london",
       "aqi": "28",
-      "followers": "597K"
+      "followers": "597.1K"
     },
     {
       "rank": "103",
@@ -1017,5 +1017,5 @@
       "followers": "40.4K"
     }
   ],
-  "lastUpdate": "2025-10-14T11:42:01.913Z"
+  "lastUpdate": "2025-10-14T11:51:58.506Z"
 }
