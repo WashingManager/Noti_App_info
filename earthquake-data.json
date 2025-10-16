@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "66",
+      "time": "2025/10/17 02:22:46",
+      "magnitude": "2.4",
+      "depth": "17",
+      "maxIntensity": "Ⅰ",
+      "latitude": "41.28 N",
+      "longitude": "129.24 E",
+      "location": "북한 함경북도 길주 북쪽 37km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20251017022246.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20251017022246.html"
+    },
+    {
       "number": "65",
       "time": "2025/10/17 00:11:36",
       "magnitude": "2.4",
@@ -707,78 +719,6 @@
       "location": "충북 충주시 북서쪽 22km 지역",
       "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250207023534.png",
       "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/report_20250207023534.pdf"
-    },
-    {
-      "number": "6",
-      "time": "2025/01/29 02:15:45",
-      "magnitude": "2.1",
-      "depth": "11",
-      "maxIntensity": "Ⅰ",
-      "latitude": "38.47 N",
-      "longitude": "126.19 E",
-      "location": "북한 황해북도 평산 북서쪽 23km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250129021545.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250129021545.html"
-    },
-    {
-      "number": "5",
-      "time": "2025/01/14 16:33:56",
-      "magnitude": "2.5",
-      "depth": "10",
-      "maxIntensity": "Ⅰ",
-      "latitude": "39.01 N",
-      "longitude": "126.53 E",
-      "location": "북한 황해북도 신평 북서쪽 22km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250114163356.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250114163356.html"
-    },
-    {
-      "number": "4",
-      "time": "2025/01/11 22:35:51",
-      "magnitude": "2.2",
-      "depth": "13",
-      "maxIntensity": "Ⅰ",
-      "latitude": "33.49 N",
-      "longitude": "125.85 E",
-      "location": "제주 제주시 서쪽 63km 해역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250111223551.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250111223551.html"
-    },
-    {
-      "number": "3",
-      "time": "2025/01/05 09:54:14",
-      "magnitude": "2.1",
-      "depth": "10",
-      "maxIntensity": "Ⅱ",
-      "latitude": "35.48 N",
-      "longitude": "128.31 E",
-      "location": "경남 의령군 북북동쪽 18km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250105095414.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250105095414.html"
-    },
-    {
-      "number": "2",
-      "time": "2025/01/05 02:43:11",
-      "magnitude": "2.2",
-      "depth": "5",
-      "maxIntensity": "Ⅰ",
-      "latitude": "38.00 N",
-      "longitude": "125.39 E",
-      "location": "북한 황해남도 옹진 북북동쪽 8km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250105024311.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250105024311.html"
-    },
-    {
-      "number": "1",
-      "time": "2025/01/03 15:28:06",
-      "magnitude": "2.9",
-      "depth": "8",
-      "maxIntensity": "Ⅴ",
-      "latitude": "35.56 N",
-      "longitude": "127.94 E",
-      "location": "경남 거창군 남쪽 14km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20250103152806.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20250103152806.html"
     }
   ],
   "international": [
@@ -2788,12 +2728,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 10월 17일 00시 11분 36초",
+    "time": "2025년 10월 17일 02시 22분 46초",
     "magnitude": "2.4",
     "location": "",
     "depth": "최대진도  Ⅰ",
-    "note": "북한 함경북도 길주 북북서쪽 40km 지역  (위도: 41.30 N, 경도: 129.20 E, ± 7.0km)10 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20251017001136.png"
+    "note": "북한 함경북도 길주 북쪽 37km 지역  (위도: 41.28 N, 경도: 129.24 E, ± 7.5km)17 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20251017022246.png"
   },
-  "lastUpdate": "2025-10-16T15:59:35.357Z"
+  "lastUpdate": "2025-10-16T22:31:57.089Z"
 }
