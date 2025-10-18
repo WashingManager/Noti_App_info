@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "67",
+      "time": "2025/10/18 21:37:40",
+      "magnitude": "2.3",
+      "depth": "18",
+      "maxIntensity": "Ⅱ",
+      "latitude": "36.49 N",
+      "longitude": "128.05 E",
+      "location": "경북 상주시 북서쪽 13km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20251018213740.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20251018213740.html"
+    },
+    {
       "number": "66",
       "time": "2025/10/17 02:22:46",
       "magnitude": "2.4",
@@ -2812,12 +2824,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 10월 17일 08시 03분 16초",
-    "magnitude": "6.1",
-    "location": "필리핀 부투안 북동쪽 110km 지역  (위도: 9.76 N, 경도: 126.11 E)",
-    "depth": "69 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20251017080316.png"
+    "time": "2025년 10월 18일 21시 37분 40초",
+    "magnitude": "2.3",
+    "location": "",
+    "depth": "최대진도  Ⅱ(경북, 충북)",
+    "note": "경북 상주시 북서쪽 13km 지역  (위도: 36.49 N, 경도: 128.05 E, ± 0.8km)18 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20251018213740.png"
   },
-  "lastUpdate": "2025-10-18T12:35:44.346Z"
+  "lastUpdate": "2025-10-18T13:03:20.220Z"
 }
