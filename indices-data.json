@@ -103,11 +103,11 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "16.43",
+        "16.42",
         "16.55",
         "15.66",
-        "+0.64",
-        "+4.05%"
+        "+0.63",
+        "+3.99%"
       ],
       "time": "05:14:46",
       "marketStatus": "closed"
@@ -152,20 +152,20 @@
         "+1.51%"
       ],
       "time": "05:26:00",
-      "marketStatus": "open"
+      "marketStatus": "closed"
     },
     {
       "name": "DAX",
       "link": "https://kr.investing.com/indices/germany-30",
       "flagUrl": "https://flagcdn.com/16x12/de.png",
       "values": [
-        "24,283.58",
+        "24,278.63",
         "24,339.94",
         "24,188.37",
-        "-25.20",
-        "-0.10%"
+        "-30.15",
+        "-0.12%"
       ],
-      "time": "01:38:58",
+      "time": "01:38:59",
       "marketStatus": "closed"
     },
     {
@@ -700,12 +700,12 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "+4.05%",
-        "-8.06%",
-        "+1.92%",
-        "-5.30%",
-        "-15.05%",
-        "-36.19%"
+        "+3.99%",
+        "-8.11%",
+        "+1.86%",
+        "-5.36%",
+        "-15.10%",
+        "-36.23%"
       ]
     },
     {
@@ -752,12 +752,12 @@
       "link": "https://kr.investing.com/indices/germany-30",
       "flagUrl": "https://flagcdn.com/16x12/de.png",
       "values": [
-        "-0.10%",
-        "-0.19%",
-        "+2.27%",
-        "+21.97%",
-        "+24.67%",
-        "+83.36%"
+        "-0.12%",
+        "-0.21%",
+        "+2.25%",
+        "+21.95%",
+        "+24.65%",
+        "+83.33%"
       ]
     },
     {
@@ -1247,7 +1247,7 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "적극 매수",
+        "매수",
         "적극 매도",
         "적극 매도",
         "중립"
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-10-28T20:59:15.805Z"
+  "lastUpdate": "2025-10-28T21:22:57.705Z"
 }
