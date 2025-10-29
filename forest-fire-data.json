@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-10-29T10:53:31.472Z",
+  "timestamp": "2025-10-29T11:17:34.821Z",
   "main": {
     "status": {
       "extinguishing": "0",
@@ -40,7 +40,43 @@
       ]
     }
   },
-  "fireList": [],
-  "resourceList": [],
+  "fireList": [
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "진화자원이력 목록이 없습니다.",
+      "location": "",
+      "startTime": "",
+      "endTime": "",
+      "resources": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "id": "진화자원이력 목록이 없습니다.",
+      "location": "",
+      "startTime": "",
+      "endTime": "",
+      "resources": "",
+      "level": "",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
