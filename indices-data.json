@@ -61,10 +61,10 @@
       "link": "https://kr.investing.com/indices/us-spx-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "6,832.21",
+        "6,832.47",
         "6,841.32",
-        "6,769.28",
-        "+103.41",
+        "6,770.56",
+        "+103.67",
         "+1.54%"
       ],
       "time": "05:59:58",
@@ -103,14 +103,14 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "17.65",
+        "17.60",
         "18.82",
-        "17.64",
-        "-1.43",
-        "-7.49%"
+        "17.60",
+        "-1.48",
+        "-7.76%"
       ],
-      "time": "06:07:46",
-      "marketStatus": "open"
+      "time": "06:14:31",
+      "marketStatus": "closed"
     },
     {
       "name": "캐나다 S&P/TSX",
@@ -131,13 +131,13 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "155,157",
+        "155,257",
         "155,601",
         "154,058",
-        "+1,093",
-        "+0.71%"
+        "+1,194",
+        "+0.77%"
       ],
-      "time": "05:53:00",
+      "time": "05:54:59",
       "marketStatus": "closed"
     },
     {
@@ -159,13 +159,13 @@
       "link": "https://kr.investing.com/indices/germany-30",
       "flagUrl": "https://flagcdn.com/16x12/de.png",
       "values": [
-        "23,976.07",
+        "23,959.99",
         "24,022.69",
         "23,854.49",
-        "+406.11",
-        "+1.72%"
+        "+390.03",
+        "+1.65%"
       ],
-      "time": "01:38:56",
+      "time": "01:38:59",
       "marketStatus": "closed"
     },
     {
@@ -662,10 +662,10 @@
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
         "+1.54%",
-        "-0.29%",
+        "-0.28%",
         "+4.27%",
-        "+16.16%",
-        "+13.84%",
+        "+16.17%",
+        "+13.85%",
         "+71.11%"
       ]
     },
@@ -700,12 +700,12 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "-7.49%",
-        "+2.91%",
-        "-18.42%",
-        "+1.84%",
-        "+18.04%",
-        "-21.54%"
+        "-7.76%",
+        "+2.50%",
+        "-18.74%",
+        "+1.44%",
+        "+17.57%",
+        "-21.85%"
       ]
     },
     {
@@ -726,12 +726,12 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "+0.71%",
-        "+3.17%",
-        "+10.33%",
-        "+29.04%",
-        "+21.38%",
-        "+38.27%"
+        "+0.77%",
+        "+3.19%",
+        "+10.36%",
+        "+29.08%",
+        "+21.41%",
+        "+38.31%"
       ]
     },
     {
@@ -752,7 +752,7 @@
       "link": "https://kr.investing.com/indices/germany-30",
       "flagUrl": "https://flagcdn.com/16x12/de.png",
       "values": [
-        "+1.72%",
+        "+1.65%",
         "-0.65%",
         "-1.09%",
         "+20.43%",
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-11-10T21:09:21.581Z"
+  "lastUpdate": "2025-11-10T21:29:03.771Z"
 }
