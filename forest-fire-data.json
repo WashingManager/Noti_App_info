@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-11-11T21:43:29.867Z",
+  "timestamp": "2025-11-11T21:55:50.880Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "--",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": ""
+          "value": "강원특별자치도 철원군 동송읍 양지리 517-2답"
         },
         {
           "label": "발생일시",
-          "value": ""
+          "value": "2025년 11월 12일 6시 3분"
         },
         {
           "label": "진화일시",
-          "value": ""
+          "value": "-"
         },
         {
           "label": "진행상태",
-          "value": ""
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": ""
+          "value": "0%"
         },
         {
           "label": "풍향",
@@ -60,21 +60,93 @@
   ],
   "resourceList": [
     {
-      "id": "진화자원이력 목록이 없습니다.",
-      "location": "",
-      "startTime": "",
-      "endTime": "",
-      "resources": "",
-      "level": "",
+      "id": "1",
+      "location": "경기 화성 송산 신천",
+      "startTime": "2025-11-10 13:17",
+      "endTime": "2025-11-10 14:21",
+      "resources": "헬기  3대   인력  77명   장비  16대",
+      "level": "초기 대응",
       "detailUrl": "-"
     },
     {
-      "id": "진화자원이력 목록이 없습니다.",
-      "location": "",
-      "startTime": "",
-      "endTime": "",
-      "resources": "",
-      "level": "",
+      "id": "2",
+      "location": "경기 수원 장안 파장",
+      "startTime": "2025-11-10 13:09",
+      "endTime": "2025-11-10 17:05",
+      "resources": "헬기  2대   인력  109명   장비  27대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "충북 진천 초평 영구",
+      "startTime": "2025-11-10 13:09",
+      "endTime": "2025-11-10 15:16",
+      "resources": "헬기  3대   인력  66명   장비  4대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "강원 화천 간동 방천",
+      "startTime": "2025-11-10 11:36",
+      "endTime": "2025-11-10 14:21",
+      "resources": "헬기  9대   인력  103명   장비  180대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "충북 괴산 칠성 사은",
+      "startTime": "2025-11-10 11:28",
+      "endTime": "2025-11-10 15:06",
+      "resources": "헬기  6대   인력  139명   장비  33대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "경기 가평 북 적목",
+      "startTime": "2025-11-10 08:44",
+      "endTime": "2025-11-10 10:03",
+      "resources": "헬기  3대   인력  87명   장비  14대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "경북 봉화 법전 눌산",
+      "startTime": "2025-11-09 14:07",
+      "endTime": "2025-11-09 16:20",
+      "resources": "헬기  9대   인력  143명   장비  31대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "경북 봉화 명호 고감",
+      "startTime": "2025-09-11 16:13",
+      "endTime": "2025-09-11 18:40",
+      "resources": "헬기  1대   인력  81명   장비  27대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "경북 울진 북 주인",
+      "startTime": "2025-08-31 16:34",
+      "endTime": "2025-08-31 18:56",
+      "resources": "헬기  1대   인력  62명   장비  15대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "경북 봉화 소천 현동",
+      "startTime": "2025-08-29 15:26",
+      "endTime": "2025-08-30 01:30",
+      "resources": "헬기  3대   인력  83명   장비  31대",
+      "level": "초기 대응",
       "detailUrl": "-"
     }
   ],
