@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-11-12T07:38:29.953Z",
+  "timestamp": "2025-11-12T07:51:57.893Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "0",
+      "extinguishing": "0",
+      "completed": "1",
       "other": "2"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2025-11-12 15:18",
-      "endTime": "-",
-      "location": "강원특별자치도 태백시 혈동",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
