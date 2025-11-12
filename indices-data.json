@@ -1,27 +1,1643 @@
 {
   "price": [
     {
-      "name": "오류",
+      "name": "코스피지수",
+      "link": "https://kr.investing.com/indices/kospi",
+      "flagUrl": "https://flagcdn.com/16x12/kr.png",
       "values": [
-        "Navigation timeout of 30000 ms exceeded"
-      ]
+        "4,150.39",
+        "4,154.62",
+        "4,088.86",
+        "+44.00",
+        "+1.07%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "코스피 50",
+      "link": "https://kr.investing.com/indices/kospi-50",
+      "flagUrl": "https://flagcdn.com/16x12/kr.png",
+      "values": [
+        "4,166.90",
+        "4,181.14",
+        "4,100.19",
+        "+31.89",
+        "+0.77%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "코스닥",
+      "link": "https://kr.investing.com/indices/kosdaq",
+      "flagUrl": "https://flagcdn.com/16x12/kr.png",
+      "values": [
+        "906.51",
+        "906.59",
+        "887.20",
+        "+22.24",
+        "+2.52%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "다우존스",
+      "link": "https://kr.investing.com/indices/us-30",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "48,276.76",
+        "48,431.57",
+        "48,015.79",
+        "+348.80",
+        "+0.73%"
+      ],
+      "time": "00:55:27",
+      "marketStatus": "open"
+    },
+    {
+      "name": "S&P 500",
+      "link": "https://kr.investing.com/indices/us-spx-500",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "6,839.16",
+        "6,869.87",
+        "6,836.91",
+        "-7.46",
+        "-0.11%"
+      ],
+      "time": "00:58:41",
+      "marketStatus": "open"
+    },
+    {
+      "name": "나스닥종합지수",
+      "link": "https://kr.investing.com/indices/nasdaq-composite",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "23,330.33",
+        "23,564.09",
+        "23,329.95",
+        "-137.97",
+        "-0.59%"
+      ],
+      "time": "00:58:41",
+      "marketStatus": "open"
+    },
+    {
+      "name": "러셀 2000",
+      "link": "https://kr.investing.com/indices/smallcap-2000",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "2,455.04",
+        "2,479.25",
+        "2,454.78",
+        "-3.24",
+        "-0.13%"
+      ],
+      "time": "00:58:41",
+      "marketStatus": "open"
+    },
+    {
+      "name": "CBOE VIX",
+      "link": "https://kr.investing.com/indices/volatility-s-p-500",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "17.80",
+        "17.84",
+        "17.10",
+        "+0.52",
+        "+3.01%"
+      ],
+      "time": "00:55:16",
+      "marketStatus": "open"
+    },
+    {
+      "name": "캐나다 S&P/TSX",
+      "link": "https://kr.investing.com/indices/s-p-tsx-composite",
+      "flagUrl": "https://flagcdn.com/16x12/ca.png",
+      "values": [
+        "30,691.80",
+        "30,730.93",
+        "30,475.34",
+        "+282.55",
+        "+0.93%"
+      ],
+      "time": "00:55:16",
+      "marketStatus": "open"
+    },
+    {
+      "name": "브라질 보베스파",
+      "link": "https://kr.investing.com/indices/bovespa",
+      "flagUrl": "https://flagcdn.com/16x12/br.png",
+      "values": [
+        "156,954",
+        "158,134",
+        "156,832",
+        "-795",
+        "-0.50%"
+      ],
+      "time": "00:40:30",
+      "marketStatus": "open"
+    },
+    {
+      "name": "S&P/BMV IPC",
+      "link": "https://kr.investing.com/indices/ipc",
+      "flagUrl": "https://flagcdn.com/16x12/mx.png",
+      "values": [
+        "64,254.44",
+        "64,365.75",
+        "63,856.92",
+        "-66.83",
+        "-0.10%"
+      ],
+      "time": "00:55:34",
+      "marketStatus": "open"
+    },
+    {
+      "name": "DAX",
+      "link": "https://kr.investing.com/indices/germany-30",
+      "flagUrl": "https://flagcdn.com/16x12/de.png",
+      "values": [
+        "24,346.35",
+        "24,457.23",
+        "24,226.80",
+        "+250.10",
+        "+1.04%"
+      ],
+      "time": "00:58:41",
+      "marketStatus": "open"
+    },
+    {
+      "name": "영국 FTSE",
+      "link": "https://kr.investing.com/indices/uk-100",
+      "flagUrl": "https://flagcdn.com/16x12/gb.png",
+      "values": [
+        "9,906.65",
+        "9,930.95",
+        "9,875.15",
+        "+7.05",
+        "+0.07%"
+      ],
+      "time": "00:58:41",
+      "marketStatus": "open"
+    },
+    {
+      "name": "프랑스 CAC",
+      "link": "https://kr.investing.com/indices/france-40",
+      "flagUrl": "https://flagcdn.com/16x12/fr.png",
+      "values": [
+        "8,252.50",
+        "8,280.97",
+        "8,185.03",
+        "+96.27",
+        "+1.18%"
+      ],
+      "time": "00:55:45",
+      "marketStatus": "open"
+    },
+    {
+      "name": "유로 스톡스 50",
+      "link": "https://kr.investing.com/indices/eu-stoxx50",
+      "flagUrl": "https://flagcdn.com/16x12/eu.png",
+      "values": [
+        "5,787.05",
+        "5,805.20",
+        "5,749.25",
+        "+61.35",
+        "+1.07%"
+      ],
+      "time": "00:55:30",
+      "marketStatus": "open"
+    },
+    {
+      "name": "네덜란드 AEX",
+      "link": "https://kr.investing.com/indices/netherlands-25",
+      "flagUrl": "https://flagcdn.com/16x12/nl.png",
+      "values": [
+        "968.43",
+        "972.46",
+        "968.08",
+        "-2.16",
+        "-0.22%"
+      ],
+      "time": "00:55:30",
+      "marketStatus": "open"
+    },
+    {
+      "name": "스페인 IBEX",
+      "link": "https://kr.investing.com/indices/spain-35",
+      "flagUrl": "https://flagcdn.com/16x12/es.png",
+      "values": [
+        "16,608.99",
+        "16,639.00",
+        "16,424.87",
+        "+209.89",
+        "+1.28%"
+      ],
+      "time": "00:56:29",
+      "marketStatus": "open"
+    },
+    {
+      "name": "이탈리아 FTSE MIB",
+      "link": "https://kr.investing.com/indices/it-mib-40",
+      "flagUrl": "https://flagcdn.com/16x12/it.png",
+      "values": [
+        "44,847.00",
+        "45,061.00",
+        "44,558.00",
+        "+408.12",
+        "+0.92%"
+      ],
+      "time": "00:55:31",
+      "marketStatus": "open"
+    },
+    {
+      "name": "스위스 SMI",
+      "link": "https://kr.investing.com/indices/switzerland-20",
+      "flagUrl": "https://flagcdn.com/16x12/ch.png",
+      "values": [
+        "12,815.14",
+        "12,830.14",
+        "12,742.64",
+        "+95.95",
+        "+0.75%"
+      ],
+      "time": "00:55:31",
+      "marketStatus": "open"
+    },
+    {
+      "name": "PSI",
+      "link": "https://kr.investing.com/indices/psi-20",
+      "flagUrl": "https://flagcdn.com/16x12/pt.png",
+      "values": [
+        "8,288.64",
+        "8,292.65",
+        "8,201.84",
+        "+93.96",
+        "+1.15%"
+      ],
+      "time": "00:55:30",
+      "marketStatus": "open"
+    },
+    {
+      "name": "벨기에 BEL",
+      "link": "https://kr.investing.com/indices/bel-20",
+      "flagUrl": "https://flagcdn.com/16x12/be.png",
+      "values": [
+        "5,087.80",
+        "5,094.00",
+        "5,056.80",
+        "+46.45",
+        "+0.92%"
+      ],
+      "time": "00:55:15",
+      "marketStatus": "open"
+    },
+    {
+      "name": "ATX",
+      "link": "https://kr.investing.com/indices/atx",
+      "flagUrl": "https://flagcdn.com/16x12/at.png",
+      "values": [
+        "4,915.47",
+        "4,918.44",
+        "4,915.47",
+        "-2.97",
+        "-0.06%"
+      ],
+      "time": "00:30:00",
+      "marketStatus": "open"
+    },
+    {
+      "name": "스웨덴 OMXS",
+      "link": "https://kr.investing.com/indices/omx-stockholm-30",
+      "flagUrl": "https://flagcdn.com/16x12/se.png",
+      "values": [
+        "2,807.51",
+        "2,815.30",
+        "2,791.81",
+        "+16.53",
+        "+0.59%"
+      ],
+      "time": "00:55:35",
+      "marketStatus": "open"
+    },
+    {
+      "name": "MOEX Russia Index",
+      "link": "https://kr.investing.com/indices/mcx",
+      "flagUrl": "https://flagcdn.com/16x12/ru.png",
+      "values": [
+        "2,535.68",
+        "2,576.65",
+        "2,529.06",
+        "-30.49",
+        "-1.19%"
+      ],
+      "time": "00:40:00",
+      "marketStatus": "open"
+    },
+    {
+      "name": "RTSI 지수",
+      "link": "https://kr.investing.com/indices/rtsi",
+      "flagUrl": "https://flagcdn.com/16x12/ru.png",
+      "values": [
+        "982.71",
+        "997.71",
+        "979.28",
+        "-10.94",
+        "-1.10%"
+      ],
+      "time": "00:40:00",
+      "marketStatus": "open"
+    },
+    {
+      "name": "폴란드 WIG 20",
+      "link": "https://kr.investing.com/indices/wig-20",
+      "flagUrl": "https://flagcdn.com/16x12/pl.png",
+      "values": [
+        "3,023.95",
+        "3,056.61",
+        "3,015.36",
+        "+4.66",
+        "+0.15%"
+      ],
+      "time": "00:55:30",
+      "marketStatus": "open"
+    },
+    {
+      "name": "헝가리 BUX",
+      "link": "https://kr.investing.com/indices/hungary-stock-market",
+      "flagUrl": "https://flagcdn.com/16x12/hu.png",
+      "values": [
+        "107,229.31",
+        "107,835.52",
+        "106,458.35",
+        "0.00",
+        "0.00%"
+      ],
+      "time": "12/11",
+      "marketStatus": "open"
+    },
+    {
+      "name": "터키 BIST",
+      "link": "https://kr.investing.com/indices/ise-100",
+      "flagUrl": "https://flagcdn.com/16x12/tr.png",
+      "values": [
+        "10,640.86",
+        "10,706.60",
+        "10,581.02",
+        "+64.40",
+        "+0.61%"
+      ],
+      "time": "00:09:59",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "TA 35",
+      "link": "https://kr.investing.com/indices/ta25",
+      "flagUrl": "https://flagcdn.com/16x12/il.png",
+      "values": [
+        "3,434.03",
+        "3,436.05",
+        "3,390.74",
+        "+44.82",
+        "+1.32%"
+      ],
+      "time": "00:29:59",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "사우디아라비아 Tadawul",
+      "link": "https://kr.investing.com/indices/tasi",
+      "flagUrl": "https://flagcdn.com/16x12/sa.png",
+      "values": [
+        "11,254.88",
+        "11,297.84",
+        "11,246.72",
+        "-15.57",
+        "-0.14%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "닛케이",
+      "link": "https://kr.investing.com/indices/japan-ni225",
+      "flagUrl": "https://flagcdn.com/16x12/jp.png",
+      "values": [
+        "51,063.31",
+        "51,072.26",
+        "50,537.50",
+        "+220.38",
+        "+0.43%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "호주 S&P/ASX",
+      "link": "https://kr.investing.com/indices/aus-200",
+      "flagUrl": "https://flagcdn.com/16x12/au.png",
+      "values": [
+        "8,799.50",
+        "8,843.60",
+        "8,799.50",
+        "-19.30",
+        "-0.22%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "상해종합",
+      "link": "https://kr.investing.com/indices/shanghai-composite",
+      "flagUrl": "https://flagcdn.com/16x12/cn.png",
+      "values": [
+        "4,000.14",
+        "4,020.38",
+        "3,980.68",
+        "-2.62",
+        "-0.07%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "SZSE Component",
+      "link": "https://kr.investing.com/indices/szse-component",
+      "flagUrl": "https://flagcdn.com/16x12/cn.png",
+      "values": [
+        "13,240.62",
+        "13,312.53",
+        "13,120.71",
+        "-48.39",
+        "-0.36%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "China A50",
+      "link": "https://kr.investing.com/indices/ftse-china-a50",
+      "flagUrl": "https://flagcdn.com/16x12/cn.png",
+      "values": [
+        "15,428.36",
+        "15,493.61",
+        "15,328.24",
+        "+92.38",
+        "+0.60%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "DJ Shanghai",
+      "link": "https://kr.investing.com/indices/dj-shanghai",
+      "flagUrl": "https://flagcdn.com/16x12/cn.png",
+      "values": [
+        "549.13",
+        "552.40",
+        "546.25",
+        "-1.88",
+        "-0.34%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "항셍",
+      "link": "https://kr.investing.com/indices/hang-sen-40",
+      "flagUrl": "https://flagcdn.com/16x12/hk.png",
+      "values": [
+        "26,922.73",
+        "27,016.40",
+        "26,739.09",
+        "+226.32",
+        "+0.85%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "대만 가권",
+      "link": "https://kr.investing.com/indices/taiwan-weighted",
+      "flagUrl": "https://flagcdn.com/16x12/tw.png",
+      "values": [
+        "27,784.95",
+        "28,187.70",
+        "27,784.95",
+        "-84.56",
+        "-0.30%"
+      ],
+      "time": "11/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "SET",
+      "link": "https://kr.investing.com/indices/thailand-set",
+      "flagUrl": "https://flagcdn.com/16x12/th.png",
+      "values": [
+        "1,284.81",
+        "1,303.71",
+        "1,284.80",
+        "-15.66",
+        "-1.20%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "인도네시아 IDX",
+      "link": "https://kr.investing.com/indices/idx-composite",
+      "flagUrl": "https://flagcdn.com/16x12/id.png",
+      "values": [
+        "8,388.57",
+        "8,428.95",
+        "8,377.50",
+        "+22.05",
+        "+0.26%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "Nifty 50",
+      "link": "https://kr.investing.com/indices/s-p-cnx-nifty",
+      "flagUrl": "https://flagcdn.com/16x12/in.png",
+      "values": [
+        "25,875.80",
+        "25,934.55",
+        "25,781.15",
+        "+180.85",
+        "+0.70%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "인도 센섹스",
+      "link": "https://kr.investing.com/indices/sensex",
+      "flagUrl": "https://flagcdn.com/16x12/in.png",
+      "values": [
+        "84,466.51",
+        "84,652.01",
+        "84,166.75",
+        "+595.19",
+        "+0.71%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
+    },
+    {
+      "name": "VN 30",
+      "link": "https://kr.investing.com/indices/vn-30",
+      "flagUrl": "https://flagcdn.com/16x12/vn.png",
+      "values": [
+        "1,872.27",
+        "1,872.31",
+        "1,821.60",
+        "+50.67",
+        "+2.78%"
+      ],
+      "time": "12/11",
+      "marketStatus": "closed"
     }
   ],
   "performance": [
     {
-      "name": "오류",
+      "name": "코스피지수",
+      "link": "https://kr.investing.com/indices/kospi",
+      "flagUrl": "https://flagcdn.com/16x12/kr.png",
       "values": [
-        "Navigation timeout of 30000 ms exceeded"
+        "+1.07%",
+        "+3.65%",
+        "+15.79%",
+        "+72.97%",
+        "+71.71%",
+        "+67.14%"
+      ]
+    },
+    {
+      "name": "코스피 50",
+      "link": "https://kr.investing.com/indices/kospi-50",
+      "flagUrl": "https://flagcdn.com/16x12/kr.png",
+      "values": [
+        "+0.77%",
+        "+4.13%",
+        "+18.15%",
+        "+88.26%",
+        "+88.49%",
+        "+86.81%"
+      ]
+    },
+    {
+      "name": "코스닥",
+      "link": "https://kr.investing.com/indices/kosdaq",
+      "flagUrl": "https://flagcdn.com/16x12/kr.png",
+      "values": [
+        "+2.52%",
+        "+0.51%",
+        "+5.35%",
+        "+33.67%",
+        "+31.44%",
+        "+23.97%"
+      ]
+    },
+    {
+      "name": "다우존스",
+      "link": "https://kr.investing.com/indices/us-30",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "+0.73%",
+        "+2.06%",
+        "+4.81%",
+        "+13.49%",
+        "+9.84%",
+        "+43.07%"
+      ]
+    },
+    {
+      "name": "S&P 500",
+      "link": "https://kr.investing.com/indices/us-spx-500",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "-0.07%",
+        "+0.66%",
+        "+2.80%",
+        "+16.32%",
+        "+14.30%",
+        "+71.34%"
+      ]
+    },
+    {
+      "name": "나스닥종합지수",
+      "link": "https://kr.investing.com/indices/nasdaq-composite",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "-0.52%",
+        "-0.70%",
+        "+2.82%",
+        "+20.84%",
+        "+21.34%",
+        "+106.08%"
+      ]
+    },
+    {
+      "name": "러셀 2000",
+      "link": "https://kr.investing.com/indices/smallcap-2000",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "-0.09%",
+        "-0.38%",
+        "-0.24%",
+        "+10.10%",
+        "+3.64%",
+        "+30.42%"
+      ]
+    },
+    {
+      "name": "CBOE VIX",
+      "link": "https://kr.investing.com/indices/volatility-s-p-500",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "+3.01%",
+        "-1.83%",
+        "-7.09%",
+        "+1.90%",
+        "+26.11%",
+        "-21.49%"
+      ]
+    },
+    {
+      "name": "캐나다 S&P/TSX",
+      "link": "https://kr.investing.com/indices/s-p-tsx-composite",
+      "flagUrl": "https://flagcdn.com/16x12/ca.png",
+      "values": [
+        "+0.93%",
+        "+1.93%",
+        "+2.80%",
+        "+24.09%",
+        "+22.80%",
+        "+52.58%"
+      ]
+    },
+    {
+      "name": "브라질 보베스파",
+      "link": "https://kr.investing.com/indices/bovespa",
+      "flagUrl": "https://flagcdn.com/16x12/br.png",
+      "values": [
+        "-0.50%",
+        "+2.36%",
+        "+10.67%",
+        "+30.46%",
+        "+22.85%",
+        "+39.79%"
+      ]
+    },
+    {
+      "name": "S&P/BMV IPC",
+      "link": "https://kr.investing.com/indices/ipc",
+      "flagUrl": "https://flagcdn.com/16x12/mx.png",
+      "values": [
+        "-0.10%",
+        "+1.36%",
+        "+5.24%",
+        "+29.75%",
+        "+26.59%",
+        "+23.64%"
+      ]
+    },
+    {
+      "name": "DAX",
+      "link": "https://kr.investing.com/indices/germany-30",
+      "flagUrl": "https://flagcdn.com/16x12/de.png",
+      "values": [
+        "+1.17%",
+        "+1.28%",
+        "-0.13%",
+        "+22.34%",
+        "+28.17%",
+        "+71.22%"
+      ]
+    },
+    {
+      "name": "영국 FTSE",
+      "link": "https://kr.investing.com/indices/uk-100",
+      "flagUrl": "https://flagcdn.com/16x12/gb.png",
+      "values": [
+        "+0.10%",
+        "+1.33%",
+        "+4.92%",
+        "+21.22%",
+        "+23.38%",
+        "+35.38%"
+      ]
+    },
+    {
+      "name": "프랑스 CAC",
+      "link": "https://kr.investing.com/indices/france-40",
+      "flagUrl": "https://flagcdn.com/16x12/fr.png",
+      "values": [
+        "+1.18%",
+        "+2.23%",
+        "+4.03%",
+        "+11.83%",
+        "+14.37%",
+        "+25.16%"
+      ]
+    },
+    {
+      "name": "유로 스톡스 50",
+      "link": "https://kr.investing.com/indices/eu-stoxx50",
+      "flagUrl": "https://flagcdn.com/16x12/eu.png",
+      "values": [
+        "+1.07%",
+        "+2.08%",
+        "+3.93%",
+        "+18.20%",
+        "+22.08%",
+        "+49.59%"
+      ]
+    },
+    {
+      "name": "네덜란드 AEX",
+      "link": "https://kr.investing.com/indices/netherlands-25",
+      "flagUrl": "https://flagcdn.com/16x12/nl.png",
+      "values": [
+        "-0.22%",
+        "-0.26%",
+        "+1.73%",
+        "+10.21%",
+        "+12.21%",
+        "+37.76%"
+      ]
+    },
+    {
+      "name": "스페인 IBEX",
+      "link": "https://kr.investing.com/indices/spain-35",
+      "flagUrl": "https://flagcdn.com/16x12/es.png",
+      "values": [
+        "+1.28%",
+        "+3.18%",
+        "+6.88%",
+        "+43.26%",
+        "+46.00%",
+        "+105.12%"
+      ]
+    },
+    {
+      "name": "이탈리아 FTSE MIB",
+      "link": "https://kr.investing.com/indices/it-mib-40",
+      "flagUrl": "https://flagcdn.com/16x12/it.png",
+      "values": [
+        "+0.92%",
+        "+3.28%",
+        "+6.40%",
+        "+31.24%",
+        "+33.10%",
+        "+83.46%"
+      ]
+    },
+    {
+      "name": "스위스 SMI",
+      "link": "https://kr.investing.com/indices/switzerland-20",
+      "flagUrl": "https://flagcdn.com/16x12/ch.png",
+      "values": [
+        "+0.75%",
+        "+3.71%",
+        "+2.70%",
+        "+10.52%",
+        "+9.55%",
+        "+15.23%"
+      ]
+    },
+    {
+      "name": "PSI",
+      "link": "https://kr.investing.com/indices/psi-20",
+      "flagUrl": "https://flagcdn.com/16x12/pt.png",
+      "values": [
+        "+1.15%",
+        "-2.31%",
+        "+0.75%",
+        "+29.96%",
+        "+31.67%",
+        "+44.41%"
+      ]
+    },
+    {
+      "name": "벨기에 BEL",
+      "link": "https://kr.investing.com/indices/bel-20",
+      "flagUrl": "https://flagcdn.com/16x12/be.png",
+      "values": [
+        "+0.92%",
+        "+3.93%",
+        "+2.42%",
+        "+19.40%",
+        "+20.86%",
+        "+39.01%"
+      ]
+    },
+    {
+      "name": "ATX",
+      "link": "https://kr.investing.com/indices/atx",
+      "flagUrl": "https://flagcdn.com/16x12/at.png",
+      "values": [
+        "-0.06%",
+        "+2.74%",
+        "+3.93%",
+        "+34.19%",
+        "+42.02%",
+        "+53.43%"
+      ]
+    },
+    {
+      "name": "스웨덴 OMXS",
+      "link": "https://kr.investing.com/indices/omx-stockholm-30",
+      "flagUrl": "https://flagcdn.com/16x12/se.png",
+      "values": [
+        "+0.59%",
+        "+2.03%",
+        "+3.63%",
+        "+13.05%",
+        "+11.73%",
+        "+33.13%"
+      ]
+    },
+    {
+      "name": "MOEX Russia Index",
+      "link": "https://kr.investing.com/indices/mcx",
+      "flagUrl": "https://flagcdn.com/16x12/ru.png",
+      "values": [
+        "-1.19%",
+        "-0.43%",
+        "-1.58%",
+        "-12.05%",
+        "-8.26%",
+        "+14.35%"
+      ]
+    },
+    {
+      "name": "RTSI 지수",
+      "link": "https://kr.investing.com/indices/rtsi",
+      "flagUrl": "https://flagcdn.com/16x12/ru.png",
+      "values": [
+        "-1.10%",
+        "-0.55%",
+        "-2.10%",
+        "+10.02%",
+        "+11.02%",
+        "-15.15%"
+      ]
+    },
+    {
+      "name": "폴란드 WIG 20",
+      "link": "https://kr.investing.com/indices/wig-20",
+      "flagUrl": "https://flagcdn.com/16x12/pl.png",
+      "values": [
+        "+0.15%",
+        "+1.57%",
+        "+5.17%",
+        "+37.95%",
+        "+35.44%",
+        "+78.89%"
+      ]
+    },
+    {
+      "name": "헝가리 BUX",
+      "link": "https://kr.investing.com/indices/hungary-stock-market",
+      "flagUrl": "https://flagcdn.com/16x12/hu.png",
+      "values": [
+        "0.00%",
+        "-0.23%",
+        "+4.50%",
+        "+35.17%",
+        "+39.04%",
+        "+145.39%"
+      ]
+    },
+    {
+      "name": "터키 BIST",
+      "link": "https://kr.investing.com/indices/ise-100",
+      "flagUrl": "https://flagcdn.com/16x12/tr.png",
+      "values": [
+        "+0.61%",
+        "-3.00%",
+        "+0.80%",
+        "+8.24%",
+        "+14.41%",
+        "+138.82%"
+      ]
+    },
+    {
+      "name": "TA 35",
+      "link": "https://kr.investing.com/indices/ta25",
+      "flagUrl": "https://flagcdn.com/16x12/il.png",
+      "values": [
+        "+1.32%",
+        "+2.48%",
+        "+6.24%",
+        "+43.39%",
+        "+49.10%",
+        "+74.70%"
+      ]
+    },
+    {
+      "name": "사우디아라비아 Tadawul",
+      "link": "https://kr.investing.com/indices/tasi",
+      "flagUrl": "https://flagcdn.com/16x12/sa.png",
+      "values": [
+        "-0.14%",
+        "-0.02%",
+        "-2.91%",
+        "-6.49%",
+        "-5.66%",
+        "+0.07%"
+      ]
+    },
+    {
+      "name": "닛케이",
+      "link": "https://kr.investing.com/indices/japan-ni225",
+      "flagUrl": "https://flagcdn.com/16x12/jp.png",
+      "values": [
+        "+0.43%",
+        "+1.69%",
+        "+8.21%",
+        "+28.00%",
+        "+31.87%",
+        "+80.67%"
+      ]
+    },
+    {
+      "name": "호주 S&P/ASX",
+      "link": "https://kr.investing.com/indices/aus-200",
+      "flagUrl": "https://flagcdn.com/16x12/au.png",
+      "values": [
+        "-0.22%",
+        "-0.03%",
+        "-0.94%",
+        "+7.85%",
+        "+7.40%",
+        "+22.93%"
+      ]
+    },
+    {
+      "name": "상해종합",
+      "link": "https://kr.investing.com/indices/shanghai-composite",
+      "flagUrl": "https://flagcdn.com/16x12/cn.png",
+      "values": [
+        "-0.07%",
+        "+0.78%",
+        "+2.84%",
+        "+19.34%",
+        "+16.31%",
+        "+29.57%"
+      ]
+    },
+    {
+      "name": "SZSE Component",
+      "link": "https://kr.investing.com/indices/szse-component",
+      "flagUrl": "https://flagcdn.com/16x12/cn.png",
+      "values": [
+        "-0.36%",
+        "+0.13%",
+        "+0.07%",
+        "+27.14%",
+        "+16.56%",
+        "+18.86%"
+      ]
+    },
+    {
+      "name": "China A50",
+      "link": "https://kr.investing.com/indices/ftse-china-a50",
+      "flagUrl": "https://flagcdn.com/16x12/cn.png",
+      "values": [
+        "+0.60%",
+        "+0.70%",
+        "+3.78%",
+        "+14.18%",
+        "+12.69%",
+        "+25.81%"
+      ]
+    },
+    {
+      "name": "DJ Shanghai",
+      "link": "https://kr.investing.com/indices/dj-shanghai",
+      "flagUrl": "https://flagcdn.com/16x12/cn.png",
+      "values": [
+        "-0.34%",
+        "+0.53%",
+        "+0.47%",
+        "+19.18%",
+        "+13.88%",
+        "+23.53%"
+      ]
+    },
+    {
+      "name": "항셍",
+      "link": "https://kr.investing.com/indices/hang-sen-40",
+      "flagUrl": "https://flagcdn.com/16x12/hk.png",
+      "values": [
+        "+0.85%",
+        "+3.81%",
+        "+3.99%",
+        "+34.21%",
+        "+35.81%",
+        "+55.39%"
+      ]
+    },
+    {
+      "name": "대만 가권",
+      "link": "https://kr.investing.com/indices/taiwan-weighted",
+      "flagUrl": "https://flagcdn.com/16x12/tw.png",
+      "values": [
+        "-0.30%",
+        "+0.24%",
+        "+3.20%",
+        "+20.62%",
+        "+21.54%",
+        "+98.36%"
+      ]
+    },
+    {
+      "name": "SET",
+      "link": "https://kr.investing.com/indices/thailand-set",
+      "flagUrl": "https://flagcdn.com/16x12/th.png",
+      "values": [
+        "-1.20%",
+        "-0.81%",
+        "-0.17%",
+        "-8.24%",
+        "-11.48%",
+        "-21.53%"
+      ]
+    },
+    {
+      "name": "인도네시아 IDX",
+      "link": "https://kr.investing.com/indices/idx-composite",
+      "flagUrl": "https://flagcdn.com/16x12/id.png",
+      "values": [
+        "+0.26%",
+        "+0.84%",
+        "+1.96%",
+        "+18.48%",
+        "+14.78%",
+        "+18.33%"
+      ]
+    },
+    {
+      "name": "Nifty 50",
+      "link": "https://kr.investing.com/indices/s-p-cnx-nifty",
+      "flagUrl": "https://flagcdn.com/16x12/in.png",
+      "values": [
+        "+0.70%",
+        "+1.09%",
+        "+2.57%",
+        "+9.44%",
+        "+9.83%",
+        "+41.01%"
+      ]
+    },
+    {
+      "name": "인도 센섹스",
+      "link": "https://kr.investing.com/indices/sensex",
+      "flagUrl": "https://flagcdn.com/16x12/in.png",
+      "values": [
+        "+0.71%",
+        "+1.21%",
+        "+2.60%",
+        "+8.10%",
+        "+8.72%",
+        "+36.69%"
+      ]
+    },
+    {
+      "name": "VN 30",
+      "link": "https://kr.investing.com/indices/vn-30",
+      "flagUrl": "https://flagcdn.com/16x12/vn.png",
+      "values": [
+        "+2.78%",
+        "-0.75%",
+        "-6.96%",
+        "+39.23%",
+        "+43.57%",
+        "+97.32%"
       ]
     }
   ],
   "technical": [
     {
-      "name": "오류",
+      "name": "코스피지수",
+      "link": "https://kr.investing.com/indices/kospi",
+      "flagUrl": "https://flagcdn.com/16x12/kr.png",
       "values": [
-        "Navigation timeout of 30000 ms exceeded"
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "코스피 50",
+      "link": "https://kr.investing.com/indices/kospi-50",
+      "flagUrl": "https://flagcdn.com/16x12/kr.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "코스닥",
+      "link": "https://kr.investing.com/indices/kosdaq",
+      "flagUrl": "https://flagcdn.com/16x12/kr.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "다우존스",
+      "link": "https://kr.investing.com/indices/us-30",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "S&P 500",
+      "link": "https://kr.investing.com/indices/us-spx-500",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "나스닥종합지수",
+      "link": "https://kr.investing.com/indices/nasdaq-composite",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "매도",
+        "매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "러셀 2000",
+      "link": "https://kr.investing.com/indices/smallcap-2000",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "중립",
+        "중립",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "CBOE VIX",
+      "link": "https://kr.investing.com/indices/volatility-s-p-500",
+      "flagUrl": "https://flagcdn.com/16x12/us.png",
+      "values": [
+        "매수",
+        "매도",
+        "매도",
+        "중립"
+      ]
+    },
+    {
+      "name": "캐나다 S&P/TSX",
+      "link": "https://kr.investing.com/indices/s-p-tsx-composite",
+      "flagUrl": "https://flagcdn.com/16x12/ca.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "브라질 보베스파",
+      "link": "https://kr.investing.com/indices/bovespa",
+      "flagUrl": "https://flagcdn.com/16x12/br.png",
+      "values": [
+        "매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "S&P/BMV IPC",
+      "link": "https://kr.investing.com/indices/ipc",
+      "flagUrl": "https://flagcdn.com/16x12/mx.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "DAX",
+      "link": "https://kr.investing.com/indices/germany-30",
+      "flagUrl": "https://flagcdn.com/16x12/de.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "영국 FTSE",
+      "link": "https://kr.investing.com/indices/uk-100",
+      "flagUrl": "https://flagcdn.com/16x12/gb.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "프랑스 CAC",
+      "link": "https://kr.investing.com/indices/france-40",
+      "flagUrl": "https://flagcdn.com/16x12/fr.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "유로 스톡스 50",
+      "link": "https://kr.investing.com/indices/eu-stoxx50",
+      "flagUrl": "https://flagcdn.com/16x12/eu.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "네덜란드 AEX",
+      "link": "https://kr.investing.com/indices/netherlands-25",
+      "flagUrl": "https://flagcdn.com/16x12/nl.png",
+      "values": [
+        "매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "스페인 IBEX",
+      "link": "https://kr.investing.com/indices/spain-35",
+      "flagUrl": "https://flagcdn.com/16x12/es.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "이탈리아 FTSE MIB",
+      "link": "https://kr.investing.com/indices/it-mib-40",
+      "flagUrl": "https://flagcdn.com/16x12/it.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "스위스 SMI",
+      "link": "https://kr.investing.com/indices/switzerland-20",
+      "flagUrl": "https://flagcdn.com/16x12/ch.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "PSI",
+      "link": "https://kr.investing.com/indices/psi-20",
+      "flagUrl": "https://flagcdn.com/16x12/pt.png",
+      "values": [
+        "적극 매수",
+        "중립",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "벨기에 BEL",
+      "link": "https://kr.investing.com/indices/bel-20",
+      "flagUrl": "https://flagcdn.com/16x12/be.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "ATX",
+      "link": "https://kr.investing.com/indices/atx",
+      "flagUrl": "https://flagcdn.com/16x12/at.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "스웨덴 OMXS",
+      "link": "https://kr.investing.com/indices/omx-stockholm-30",
+      "flagUrl": "https://flagcdn.com/16x12/se.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "MOEX Russia Index",
+      "link": "https://kr.investing.com/indices/mcx",
+      "flagUrl": "https://flagcdn.com/16x12/ru.png",
+      "values": [
+        "적극 매도",
+        "적극 매도",
+        "적극 매도",
+        "적극 매도"
+      ]
+    },
+    {
+      "name": "RTSI 지수",
+      "link": "https://kr.investing.com/indices/rtsi",
+      "flagUrl": "https://flagcdn.com/16x12/ru.png",
+      "values": [
+        "적극 매도",
+        "적극 매도",
+        "적극 매도",
+        "적극 매도"
+      ]
+    },
+    {
+      "name": "폴란드 WIG 20",
+      "link": "https://kr.investing.com/indices/wig-20",
+      "flagUrl": "https://flagcdn.com/16x12/pl.png",
+      "values": [
+        "매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "헝가리 BUX",
+      "link": "https://kr.investing.com/indices/hungary-stock-market",
+      "flagUrl": "https://flagcdn.com/16x12/hu.png",
+      "values": [
+        "",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "터키 BIST",
+      "link": "https://kr.investing.com/indices/ise-100",
+      "flagUrl": "https://flagcdn.com/16x12/tr.png",
+      "values": [
+        "적극 매도",
+        "적극 매도",
+        "중립",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "TA 35",
+      "link": "https://kr.investing.com/indices/ta25",
+      "flagUrl": "https://flagcdn.com/16x12/il.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "사우디아라비아 Tadawul",
+      "link": "https://kr.investing.com/indices/tasi",
+      "flagUrl": "https://flagcdn.com/16x12/sa.png",
+      "values": [
+        "적극 매도",
+        "적극 매도",
+        "중립",
+        "중립"
+      ]
+    },
+    {
+      "name": "닛케이",
+      "link": "https://kr.investing.com/indices/japan-ni225",
+      "flagUrl": "https://flagcdn.com/16x12/jp.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "호주 S&P/ASX",
+      "link": "https://kr.investing.com/indices/aus-200",
+      "flagUrl": "https://flagcdn.com/16x12/au.png",
+      "values": [
+        "적극 매도",
+        "적극 매도",
+        "중립",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "상해종합",
+      "link": "https://kr.investing.com/indices/shanghai-composite",
+      "flagUrl": "https://flagcdn.com/16x12/cn.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "SZSE Component",
+      "link": "https://kr.investing.com/indices/szse-component",
+      "flagUrl": "https://flagcdn.com/16x12/cn.png",
+      "values": [
+        "적극 매도",
+        "중립",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "China A50",
+      "link": "https://kr.investing.com/indices/ftse-china-a50",
+      "flagUrl": "https://flagcdn.com/16x12/cn.png",
+      "values": [
+        "적극 매수",
+        "매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "DJ Shanghai",
+      "link": "https://kr.investing.com/indices/dj-shanghai",
+      "flagUrl": "https://flagcdn.com/16x12/cn.png",
+      "values": [
+        "중립",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "항셍",
+      "link": "https://kr.investing.com/indices/hang-sen-40",
+      "flagUrl": "https://flagcdn.com/16x12/hk.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "대만 가권",
+      "link": "https://kr.investing.com/indices/taiwan-weighted",
+      "flagUrl": "https://flagcdn.com/16x12/tw.png",
+      "values": [
+        "",
+        "매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "SET",
+      "link": "https://kr.investing.com/indices/thailand-set",
+      "flagUrl": "https://flagcdn.com/16x12/th.png",
+      "values": [
+        "적극 매도",
+        "적극 매도",
+        "중립",
+        "매도"
+      ]
+    },
+    {
+      "name": "인도네시아 IDX",
+      "link": "https://kr.investing.com/indices/idx-composite",
+      "flagUrl": "https://flagcdn.com/16x12/id.png",
+      "values": [
+        "중립",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "Nifty 50",
+      "link": "https://kr.investing.com/indices/s-p-cnx-nifty",
+      "flagUrl": "https://flagcdn.com/16x12/in.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "인도 센섹스",
+      "link": "https://kr.investing.com/indices/sensex",
+      "flagUrl": "https://flagcdn.com/16x12/in.png",
+      "values": [
+        "적극 매수",
+        "적극 매수",
+        "적극 매수",
+        "적극 매수"
+      ]
+    },
+    {
+      "name": "VN 30",
+      "link": "https://kr.investing.com/indices/vn-30",
+      "flagUrl": "https://flagcdn.com/16x12/vn.png",
+      "values": [
+        "적극 매수",
+        "중립",
+        "매수",
+        "적극 매수"
       ]
     }
   ],
-  "lastUpdate": "N/A"
+  "lastUpdate": "2025-11-12T15:58:44.650Z"
 }
