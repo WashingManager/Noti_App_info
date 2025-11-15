@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-11-15T08:47:24.274Z",
+  "timestamp": "2025-11-15T09:09:59.022Z",
   "main": {
     "status": {
       "extinguishing": "1",
-      "completed": "1",
+      "completed": "0",
       "other": "0"
     },
     "currentFire": {
@@ -23,7 +23,7 @@
         },
         {
           "label": "진행상태",
-          "value": "진화완료"
+          "value": "진화중"
         },
         {
           "label": "진화율",
@@ -42,9 +42,9 @@
   },
   "fireList": [
     {
-      "startTime": "2025-11-15 17:37",
-      "endTime": "-",
-      "location": "충청남도 청양군 남양면",
+      "startTime": "2025-11-15 16:00",
+      "endTime": "2025-11-15 17:26",
+      "location": "경기도 군포시 속달동",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
