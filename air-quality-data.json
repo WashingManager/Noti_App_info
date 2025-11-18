@@ -2,19 +2,19 @@
   "rankings": [
     {
       "rank": "1",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "델리, 인도",
+      "link": "https://www.iqair.com/ko/india/delhi/delhi",
+      "aqi": "348",
+      "followers": "2.9M"
+    },
+    {
+      "rank": "2",
       "flag": "https://cdn.airvisual.net/flags/pakistan.jpg",
       "city": "라호르, 파키스탄",
       "link": "https://www.iqair.com/ko/pakistan/punjab/lahore",
       "aqi": "341",
-      "followers": "865.8K"
-    },
-    {
-      "rank": "2",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "델리, 인도",
-      "link": "https://www.iqair.com/ko/india/delhi/delhi",
-      "aqi": "326",
-      "followers": "2.9M"
+      "followers": "865.9K"
     },
     {
       "rank": "3",
@@ -22,7 +22,7 @@
       "city": "타슈켄트, 우즈베키스탄",
       "link": "https://www.iqair.com/ko/uzbekistan/toshkent-shahri/tashkent",
       "aqi": "159",
-      "followers": "669.4K"
+      "followers": "669.5K"
     },
     {
       "rank": "4",
@@ -50,6 +50,14 @@
     },
     {
       "rank": "7",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "뭄바이, 인도",
+      "link": "https://www.iqair.com/ko/india/maharashtra/mumbai",
+      "aqi": "103",
+      "followers": "1.6M"
+    },
+    {
+      "rank": "8",
       "flag": "https://cdn.airvisual.net/flags/united-arab-emirates.jpg",
       "city": "두바이, 아랍에미리트 연합",
       "link": "https://www.iqair.com/ko/united-arab-emirates/dubai/dubai",
@@ -57,20 +65,12 @@
       "followers": "770K"
     },
     {
-      "rank": "8",
+      "rank": "9",
       "flag": "https://cdn.airvisual.net/flags/saudi-arabia.jpg",
       "city": "리야드, 사우디 아라비아",
       "link": "https://www.iqair.com/ko/saudi-arabia/ar-riyad/riyadh",
       "aqi": "99",
       "followers": "171.1K"
-    },
-    {
-      "rank": "9",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "뭄바이, 인도",
-      "link": "https://www.iqair.com/ko/india/maharashtra/mumbai",
-      "aqi": "94",
-      "followers": "1.6M"
     },
     {
       "rank": "10",
@@ -582,7 +582,7 @@
       "city": "바르샤바, 폴란드",
       "link": "https://www.iqair.com/ko/poland/mazovia/warsaw",
       "aqi": "19",
-      "followers": "475.1K"
+      "followers": "475.2K"
     },
     {
       "rank": "74",
@@ -854,7 +854,7 @@
       "city": "류블랴나, 슬로베니아",
       "link": "https://www.iqair.com/ko/slovenia/osrednjeslovenska/ljubljana",
       "aqi": "12",
-      "followers": "61.7K"
+      "followers": "61.8K"
     },
     {
       "rank": "108",
@@ -862,7 +862,7 @@
       "city": "더블린, 아일랜드",
       "link": "https://www.iqair.com/ko/ireland/leinster/dublin",
       "aqi": "12",
-      "followers": "58.9K"
+      "followers": "59K"
     },
     {
       "rank": "109",
@@ -870,7 +870,7 @@
       "city": "키이우, 우크라이나",
       "link": "https://www.iqair.com/ko/ukraine/kyiv/kyiv-c",
       "aqi": "12",
-      "followers": "454.3K"
+      "followers": "454.4K"
     },
     {
       "rank": "110",
@@ -906,19 +906,19 @@
     },
     {
       "rank": "114",
-      "flag": "https://cdn.airvisual.net/flags/myanmar.jpg",
-      "city": "양곤, 미얀마",
-      "link": "https://www.iqair.com/ko/myanmar/yangon/yangon",
-      "aqi": "9",
-      "followers": "79.8K"
-    },
-    {
-      "rank": "115",
       "flag": "https://cdn.airvisual.net/flags/usa.jpg",
       "city": "시카고, 미국",
       "link": "https://www.iqair.com/ko/usa/illinois/chicago",
       "aqi": "9",
       "followers": "109.8K"
+    },
+    {
+      "rank": "115",
+      "flag": "https://cdn.airvisual.net/flags/myanmar.jpg",
+      "city": "양곤, 미얀마",
+      "link": "https://www.iqair.com/ko/myanmar/yangon/yangon",
+      "aqi": "8",
+      "followers": "79.8K"
     },
     {
       "rank": "116",
@@ -1013,9 +1013,9 @@
       "flag": "https://cdn.airvisual.net/flags/thailand.jpg",
       "city": "치앙마이, 태국",
       "link": "https://www.iqair.com/ko/thailand/chiang-mai/chiang-mai",
-      "aqi": "1",
+      "aqi": "2",
       "followers": "12.8M"
     }
   ],
-  "lastUpdate": "2025-11-18T18:45:42.671Z"
+  "lastUpdate": "2025-11-18T18:57:48.667Z"
 }
