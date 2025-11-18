@@ -2,14 +2,6 @@
   "rankings": [
     {
       "rank": "1",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "델리, 인도",
-      "link": "https://www.iqair.com/ko/india/delhi/delhi",
-      "aqi": "355",
-      "followers": "2.9M"
-    },
-    {
-      "rank": "2",
       "flag": "https://cdn.airvisual.net/flags/pakistan.jpg",
       "city": "라호르, 파키스탄",
       "link": "https://www.iqair.com/ko/pakistan/punjab/lahore",
@@ -17,12 +9,20 @@
       "followers": "865.4K"
     },
     {
+      "rank": "2",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "델리, 인도",
+      "link": "https://www.iqair.com/ko/india/delhi/delhi",
+      "aqi": "324",
+      "followers": "2.9M"
+    },
+    {
       "rank": "3",
       "flag": "https://cdn.airvisual.net/flags/uzbekistan.jpg",
       "city": "타슈켄트, 우즈베키스탄",
       "link": "https://www.iqair.com/ko/uzbekistan/toshkent-shahri/tashkent",
       "aqi": "158",
-      "followers": "668.8K"
+      "followers": "668.9K"
     },
     {
       "rank": "4",
@@ -58,19 +58,19 @@
     },
     {
       "rank": "8",
+      "flag": "https://cdn.airvisual.net/flags/india.jpg",
+      "city": "뭄바이, 인도",
+      "link": "https://www.iqair.com/ko/india/maharashtra/mumbai",
+      "aqi": "95",
+      "followers": "1.6M"
+    },
+    {
+      "rank": "9",
       "flag": "https://cdn.airvisual.net/flags/united-arab-emirates.jpg",
       "city": "두바이, 아랍에미리트 연합",
       "link": "https://www.iqair.com/ko/united-arab-emirates/dubai/dubai",
       "aqi": "95",
       "followers": "769.7K"
-    },
-    {
-      "rank": "9",
-      "flag": "https://cdn.airvisual.net/flags/india.jpg",
-      "city": "뭄바이, 인도",
-      "link": "https://www.iqair.com/ko/india/maharashtra/mumbai",
-      "aqi": "94",
-      "followers": "1.6M"
     },
     {
       "rank": "10",
@@ -173,7 +173,7 @@
       "flag": "https://cdn.airvisual.net/flags/thailand.jpg",
       "city": "방콕, 태국",
       "link": "https://www.iqair.com/ko/thailand/bangkok/bangkok",
-      "aqi": "47",
+      "aqi": "49",
       "followers": "7.9M"
     },
     {
@@ -486,7 +486,7 @@
       "city": "오슬로, 노르웨이",
       "link": "https://www.iqair.com/ko/norway/oslo/oslo",
       "aqi": "22",
-      "followers": "88.9K"
+      "followers": "89K"
     },
     {
       "rank": "62",
@@ -526,7 +526,7 @@
       "city": "베오그라드, 세르비아",
       "link": "https://www.iqair.com/ko/serbia/central-serbia/belgrade",
       "aqi": "22",
-      "followers": "728K"
+      "followers": "728.1K"
     },
     {
       "rank": "67",
@@ -1017,5 +1017,5 @@
       "followers": "12.8M"
     }
   ],
-  "lastUpdate": "2025-11-18T17:46:06.060Z"
+  "lastUpdate": "2025-11-18T17:52:16.118Z"
 }
