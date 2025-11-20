@@ -843,6 +843,18 @@
   ],
   "international": [
     {
+      "number": "182",
+      "time": "2025/11/21 08:36:00",
+      "magnitude": "5.0",
+      "depth": "110",
+      "maxIntensity": "",
+      "latitude": "25.70 N",
+      "longitude": "124.70 E",
+      "location": "일본 오키나와현 나하시 서쪽 303km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20251121083600.png",
+      "detailLink": null
+    },
+    {
       "number": "181",
       "time": "2025/11/10 16:23:00",
       "magnitude": "6.2",
@@ -3016,12 +3028,12 @@
     }
   ],
   "recent": {
-    "time": "2025년 11월 20일 21시 20분 32초",
-    "magnitude": "2.2",
-    "location": "",
-    "depth": "최대진도  Ⅰ",
-    "note": "북한 함경북도 길주 북쪽 39km 지역  (위도: 41.30 N, 경도: 129.24 E, ± 7.5km)14 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20251120212032.png"
+    "time": "2025년 11월 21일 08시 36분 00초",
+    "magnitude": "5.0",
+    "location": "일본 오키나와현 나하시 서쪽 303km 해역  (위도: 25.70 N, 경도: 124.70 E)",
+    "depth": "110 km",
+    "note": "국내영향없음. 위 자료는 일본기상청(JMA) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20251121083600.png;jsessionid=6iZDvfIctudlPif7gziIsVcV-bnGHuOGbTW79h8V.standalone"
   },
-  "lastUpdate": "2025-11-20T23:32:17.485Z"
+  "lastUpdate": "2025-11-20T23:51:10.582Z"
 }
