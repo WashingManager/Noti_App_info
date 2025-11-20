@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-11-20T07:11:32.019Z",
+  "timestamp": "2025-11-20T07:31:37.614Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "0",
       "other": "1"
     },
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-11-20 16:13",
+      "endTime": "-",
+      "location": "충청북도 청주시 흥덕구 서촌동",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
