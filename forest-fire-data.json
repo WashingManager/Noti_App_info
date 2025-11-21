@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-11-21T07:33:02.792Z",
+  "timestamp": "2025-11-21T07:45:45.175Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "2",
+      "extinguishing": "0",
+      "completed": "3",
       "other": "1"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2025-11-21 16:03",
-      "endTime": "-",
-      "location": "경상남도 거창군 북상면 농산리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
