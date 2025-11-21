@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-11-21T10:54:19.893Z",
+  "timestamp": "2025-11-21T11:19:11.119Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "3",
+      "extinguishing": "0",
+      "completed": "4",
       "other": "1"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2025-11-21 19:06",
-      "endTime": "-",
-      "location": "경기도 가평군 가평읍 경반리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
