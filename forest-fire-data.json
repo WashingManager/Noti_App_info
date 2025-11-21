@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-11-21T03:19:11.449Z",
+  "timestamp": "2025-11-21T03:52:30.706Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "1",
+      "extinguishing": "0",
+      "completed": "2",
       "other": "1"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2025-11-21 10:45",
-      "endTime": "-",
-      "location": "전라남도 순천시 서면 동산리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
