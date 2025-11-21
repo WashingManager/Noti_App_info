@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-11-20T23:55:38.256Z",
+  "timestamp": "2025-11-21T02:05:43.576Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "0",
+      "extinguishing": "0",
+      "completed": "1",
       "other": "0"
     },
     "currentFire": {
@@ -19,15 +19,15 @@
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2025년 11월 21일 10시 30분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "진화완료"
         },
         {
           "label": "진화율",
-          "value": "68%"
+          "value": "100%"
         },
         {
           "label": "풍향",
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2025-11-20 17:23",
-      "endTime": "-",
-      "location": "강원특별자치도 인제군 기린면 현리",
-      "status": "진화중",
-      "level": "1단계",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
