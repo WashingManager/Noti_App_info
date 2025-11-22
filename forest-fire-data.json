@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-11-22T07:28:36.398Z",
+  "timestamp": "2025-11-22T07:41:55.207Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "0",
       "other": "1"
     },
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-11-22 16:32",
+      "endTime": "-",
+      "location": "인천광역시 강화군 삼산면 매음리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
