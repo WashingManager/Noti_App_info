@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-11-22T09:12:33.698Z",
+  "timestamp": "2025-11-22T09:31:23.776Z",
   "main": {
     "status": {
-      "extinguishing": "0",
-      "completed": "1",
+      "extinguishing": "1",
+      "completed": "0",
       "other": "1"
     },
     "currentFire": {
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-11-22 18:16",
+      "endTime": "-",
+      "location": "강원특별자치도 양양군 서면 서림리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
