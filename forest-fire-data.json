@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-11-23T07:54:21.210Z",
+  "timestamp": "2025-11-23T08:27:48.952Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "3",
+      "extinguishing": "0",
+      "completed": "4",
       "other": "0"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2025-11-23 15:58",
-      "endTime": "-",
-      "location": "경기도 여주시 점동면 청안리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
