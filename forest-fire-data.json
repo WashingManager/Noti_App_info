@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-11-23T02:27:12.498Z",
+  "timestamp": "2025-11-23T03:47:03.836Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "2",
+      "extinguishing": "0",
+      "completed": "3",
       "other": "0"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2025-11-23 11:07",
-      "endTime": "-",
-      "location": "서울특별시 금천구 시흥동",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
