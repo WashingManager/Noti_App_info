@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-11-22T23:55:32.531Z",
+  "timestamp": "2025-11-23T02:27:12.498Z",
   "main": {
     "status": {
       "extinguishing": "1",
-      "completed": "1",
+      "completed": "2",
       "other": "0"
     },
     "currentFire": {
@@ -19,15 +19,15 @@
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2025년 11월 23일 10시 20분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "진화완료"
         },
         {
           "label": "진화율",
-          "value": "55%"
+          "value": "100%"
         },
         {
           "label": "풍향",
@@ -42,11 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "2025-11-22 18:16",
+      "startTime": "2025-11-23 11:07",
       "endTime": "-",
-      "location": "강원특별자치도 양양군 서면 서림리",
+      "location": "서울특별시 금천구 시흥동",
       "status": "진화중",
-      "level": "1단계",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
