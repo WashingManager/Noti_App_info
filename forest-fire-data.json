@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-11-23T07:41:44.532Z",
+  "timestamp": "2025-11-23T07:54:21.210Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "3",
       "other": "0"
     },
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-11-23 15:58",
+      "endTime": "-",
+      "location": "경기도 여주시 점동면 청안리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
