@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-11-24T02:21:17.844Z",
+  "timestamp": "2025-11-24T03:43:32.814Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "--",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": ""
+          "value": "충청북도 단양군 단양읍 고수리 167전"
         },
         {
           "label": "발생일시",
-          "value": ""
+          "value": "2025년 11월 24일 12시 2분"
         },
         {
           "label": "진화일시",
-          "value": ""
+          "value": "-"
         },
         {
           "label": "진행상태",
-          "value": ""
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": ""
+          "value": "0%"
         },
         {
           "label": "풍향",
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-11-24 12:02",
+      "endTime": "-",
+      "location": "충청북도 단양군 단양읍 고수리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
