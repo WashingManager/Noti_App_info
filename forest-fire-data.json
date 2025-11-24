@@ -1,5 +1,5 @@
 {
-  "timestamp": "2025-11-24T15:50:14.614Z",
+  "timestamp": "2025-11-24T16:14:41.505Z",
   "main": {
     "status": {
       "extinguishing": "0",
@@ -61,6 +61,51 @@
   "resourceList": [
     {
       "id": "1",
+      "location": "충북 단양 단양 고수",
+      "startTime": "2025-11-24 12:02",
+      "endTime": "2025-11-24 15:30",
+      "resources": "헬기  4대   인력  59명   장비  17대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경기 여주 점동 청안",
+      "startTime": "2025-11-23 15:58",
+      "endTime": "2025-11-23 17:24",
+      "resources": "헬기  0대   인력  35명   장비  12대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "서울 금천  시흥",
+      "startTime": "2025-11-23 11:07",
+      "endTime": "2025-11-23 11:37",
+      "resources": "헬기  0대   인력  101명   장비  79대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "전남 화순 이양 초방",
+      "startTime": "2025-11-23 07:00",
+      "endTime": "2025-11-23 11:28",
+      "resources": "헬기  0대   인력  74명   장비  88대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "경기 가평 가평 경반",
+      "startTime": "2025-11-21 19:53",
+      "endTime": "2025-11-21 21:00",
+      "resources": "헬기  0대   인력  92명   장비  16대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
       "location": "전남 순천 서 동산",
       "startTime": "2025-11-21 10:45",
       "endTime": "2025-11-21 13:40",
@@ -69,7 +114,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "2",
+      "id": "7",
       "location": "충남 천안동남 목천 응원",
       "startTime": "2025-11-20 21:22",
       "endTime": "2025-11-20 22:25",
@@ -78,7 +123,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "8",
       "location": "경기 연천 전곡 간파",
       "startTime": "2025-11-20 19:26",
       "endTime": "2025-11-20 23:10",
@@ -87,7 +132,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "9",
       "location": "경북 예천 유천 가",
       "startTime": "2025-11-20 18:53",
       "endTime": "2025-11-20 20:23",
@@ -96,56 +141,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "5",
+      "id": "10",
       "location": "충남 태안 소원 의항",
       "startTime": "2025-11-20 18:20",
       "endTime": "2025-11-21 00:21",
       "resources": "헬기  0대   인력  146명   장비  52대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "6",
-      "location": "경북 의성 구천 장국",
-      "startTime": "2025-11-19 11:06",
-      "endTime": "2025-11-19 12:00",
-      "resources": "헬기  10대   인력  137명   장비  174대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "7",
-      "location": "경기 양평 청운 갈운",
-      "startTime": "2025-11-16 23:59",
-      "endTime": "2025-11-17 08:32",
-      "resources": "헬기  0대   인력  185명   장비  27대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "8",
-      "location": "경기 연천 전곡 양원",
-      "startTime": "2025-11-16 17:55",
-      "endTime": "2025-11-16 23:00",
-      "resources": "헬기  0대   인력  125명   장비  24대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "경기 용인 수지 죽전",
-      "startTime": "2025-11-16 14:17",
-      "endTime": "2025-11-16 16:55",
-      "resources": "헬기  7대   인력  136명   장비  28대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "충남 천안 동남 유량",
-      "startTime": "2025-11-15 20:45",
-      "endTime": "2025-11-15 23:27",
-      "resources": "헬기  0대   인력  161명   장비  31대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
