@@ -117,13 +117,13 @@
       "link": "https://kr.investing.com/indices/s-p-tsx-composite",
       "flagUrl": "https://flagcdn.com/16x12/ca.png",
       "values": [
-        "31,239.48",
-        "31,240.30",
+        "31,251.59",
+        "31,254.54",
         "31,158.82",
-        "+59.23",
-        "+0.19%"
+        "+71.34",
+        "+0.23%"
       ],
-      "time": "04:52:31",
+      "time": "05:20:01",
       "marketStatus": "open"
     },
     {
@@ -131,27 +131,27 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "158,339",
+        "158,375",
         "158,864",
         "158,167",
-        "-216",
-        "-0.14%"
+        "-180",
+        "-0.11%"
       ],
-      "time": "04:38:30",
-      "marketStatus": "open"
+      "time": "05:05:00",
+      "marketStatus": "closed"
     },
     {
       "name": "S&P/BMV IPC",
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "63,053.70",
+        "62,824.61",
         "63,298.32",
         "62,751.73",
-        "-189.01",
-        "-0.30%"
+        "-418.10",
+        "-0.66%"
       ],
-      "time": "04:52:35",
+      "time": "05:20:06",
       "marketStatus": "open"
     },
     {
@@ -713,12 +713,12 @@
       "link": "https://kr.investing.com/indices/s-p-tsx-composite",
       "flagUrl": "https://flagcdn.com/16x12/ca.png",
       "values": [
-        "+0.19%",
-        "+4.45%",
-        "+2.69%",
-        "+26.33%",
-        "+22.30%",
-        "+54.49%"
+        "+0.23%",
+        "+4.50%",
+        "+2.74%",
+        "+26.39%",
+        "+22.35%",
+        "+54.56%"
       ]
     },
     {
@@ -726,12 +726,12 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "-0.14%",
-        "+1.91%",
-        "+7.41%",
-        "+31.65%",
-        "+27.08%",
-        "+45.57%"
+        "-0.11%",
+        "+1.94%",
+        "+7.44%",
+        "+31.68%",
+        "+27.11%",
+        "+45.60%"
       ]
     },
     {
@@ -739,12 +739,12 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "-0.30%",
-        "+2.26%",
-        "+0.43%",
-        "+27.37%",
-        "+26.28%",
-        "+23.46%"
+        "-0.66%",
+        "+1.94%",
+        "+0.12%",
+        "+26.98%",
+        "+25.89%",
+        "+23.08%"
       ]
     },
     {
@@ -1269,7 +1269,7 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "매수",
+        "적극 매수",
         "적극 매수",
         "적극 매수",
         "적극 매수"
@@ -1280,8 +1280,8 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
+        "중립",
         "매수",
-        "적극 매수",
         "적극 매수",
         "적극 매수"
       ]
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-11-27T19:57:57.931Z"
+  "lastUpdate": "2025-11-27T20:26:51.708Z"
 }
