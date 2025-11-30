@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-11-30T04:26:23.238Z",
+  "timestamp": "2025-11-30T04:55:13.309Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "2",
+      "extinguishing": "0",
+      "completed": "3",
       "other": "0"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2025-11-30 11:27",
-      "endTime": "-",
-      "location": "울산광역시 울주군 범서읍 중리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
