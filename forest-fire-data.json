@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-12-01T05:05:09.237Z",
+  "timestamp": "2025-12-01T05:44:15.552Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "1",
+      "extinguishing": "0",
+      "completed": "2",
       "other": "0"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2025-12-01 13:27",
-      "endTime": "-",
-      "location": "충청남도 금산군 군북면 천을리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
