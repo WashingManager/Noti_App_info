@@ -145,11 +145,11 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "63,509.03",
+        "63,551.13",
         "63,809.73",
         "63,106.87",
-        "-87.75",
-        "-0.14%"
+        "-45.65",
+        "-0.07%"
       ],
       "time": "05:59:59",
       "marketStatus": "closed"
@@ -327,13 +327,13 @@
       "link": "https://kr.investing.com/indices/mcx",
       "flagUrl": "https://flagcdn.com/16x12/ru.png",
       "values": [
-        "2,685.65",
+        "2,686.93",
         "2,698.41",
         "2,662.86",
-        "+9.23",
-        "+0.34%"
+        "+10.51",
+        "+0.39%"
       ],
-      "time": "00:40:00",
+      "time": "00:43:59",
       "marketStatus": "closed"
     },
     {
@@ -341,13 +341,13 @@
       "link": "https://kr.investing.com/indices/rtsi",
       "flagUrl": "https://flagcdn.com/16x12/ru.png",
       "values": [
-        "1,088.81",
+        "1,089.33",
         "1,091.63",
         "1,072.32",
-        "+11.03",
-        "+1.02%"
+        "+11.55",
+        "+1.07%"
       ],
-      "time": "00:40:00",
+      "time": "00:43:59",
       "marketStatus": "closed"
     },
     {
@@ -439,14 +439,14 @@
       "link": "https://kr.investing.com/indices/aus-200",
       "flagUrl": "https://flagcdn.com/16x12/au.png",
       "values": [
+        "8,599.40",
+        "8,602.50",
         "8,565.20",
-        "8,624.70",
-        "8,563.20",
-        "-48.90",
-        "-0.57%"
+        "+34.20",
+        "+0.40%"
       ],
-      "time": "01/12",
-      "marketStatus": "closed"
+      "time": "08:23:14",
+      "marketStatus": "open"
     },
     {
       "name": "상해종합",
@@ -739,12 +739,12 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "-0.14%",
-        "+1.58%",
-        "+1.18%",
-        "+28.27%",
-        "+25.97%",
-        "+23.96%"
+        "-0.07%",
+        "+1.65%",
+        "+1.25%",
+        "+28.35%",
+        "+26.06%",
+        "+24.04%"
       ]
     },
     {
@@ -908,12 +908,12 @@
       "link": "https://kr.investing.com/indices/mcx",
       "flagUrl": "https://flagcdn.com/16x12/ru.png",
       "values": [
-        "+0.34%",
-        "+1.16%",
-        "+6.04%",
-        "-6.85%",
-        "+3.82%",
-        "+23.17%"
+        "+0.39%",
+        "+1.21%",
+        "+6.09%",
+        "-6.80%",
+        "+3.87%",
+        "+23.23%"
       ]
     },
     {
@@ -921,12 +921,12 @@
       "link": "https://kr.investing.com/indices/rtsi",
       "flagUrl": "https://flagcdn.com/16x12/ru.png",
       "values": [
-        "+1.02%",
-        "+2.75%",
-        "+10.38%",
-        "+21.90%",
-        "+43.20%",
-        "-1.69%"
+        "+1.07%",
+        "+2.79%",
+        "+10.44%",
+        "+21.96%",
+        "+43.27%",
+        "-1.65%"
       ]
     },
     {
@@ -1012,12 +1012,12 @@
       "link": "https://kr.investing.com/indices/aus-200",
       "flagUrl": "https://flagcdn.com/16x12/au.png",
       "values": [
-        "-0.57%",
-        "+0.47%",
-        "-3.57%",
-        "+4.98%",
-        "+1.39%",
-        "+17.31%"
+        "+0.40%",
+        "+0.89%",
+        "-3.17%",
+        "+5.41%",
+        "+1.81%",
+        "+17.79%"
       ]
     },
     {
@@ -1511,8 +1511,8 @@
       "link": "https://kr.investing.com/indices/aus-200",
       "flagUrl": "https://flagcdn.com/16x12/au.png",
       "values": [
-        "적극 매도",
-        "적극 매도",
+        "중립",
+        "매도",
         "매도",
         "적극 매수"
       ]
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-12-01T22:58:53.830Z"
+  "lastUpdate": "2025-12-01T23:25:18.299Z"
 }
