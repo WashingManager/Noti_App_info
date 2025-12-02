@@ -1,33 +1,33 @@
 {
-  "timestamp": "2025-12-02T05:47:50.408Z",
+  "timestamp": "2025-12-02T06:18:47.589Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "--",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": ""
+          "value": "인천광역시 강화군 선원면 선행리 산107-3임"
         },
         {
           "label": "발생일시",
-          "value": ""
+          "value": "2025년 12월 2일 15시 7분"
         },
         {
           "label": "진화일시",
-          "value": ""
+          "value": "-"
         },
         {
           "label": "진행상태",
-          "value": ""
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": ""
+          "value": "0%"
         },
         {
           "label": "풍향",
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-12-02 15:07",
+      "endTime": "-",
+      "location": "인천광역시 강화군 선원면 선행리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
