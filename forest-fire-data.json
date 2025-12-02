@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-12-02T14:58:42.759Z",
+  "timestamp": "2025-12-02T15:33:55.661Z",
   "main": {
     "status": {
-      "extinguishing": "0",
-      "completed": "2",
+      "extinguishing": "1",
+      "completed": "0",
       "other": "0"
     },
     "currentFire": {
@@ -11,23 +11,23 @@
       "details": [
         {
           "label": "발생지주소",
-          "value": "인천광역시 강화군 선원면 선행리 산107-3임"
+          "value": "경기도 용인시 기흥구 고매동 225-1대"
         },
         {
           "label": "발생일시",
-          "value": "2025년 12월 2일 15시 7분"
+          "value": "2025년 12월 2일 23시 4분"
         },
         {
           "label": "진화일시",
-          "value": "2025년 12월 2일 15시 43분"
+          "value": "-"
         },
         {
           "label": "진행상태",
-          "value": "진화완료"
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": "100%"
+          "value": "0%"
         },
         {
           "label": "풍향",
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-12-02 23:04",
+      "endTime": "-",
+      "location": "경기도 용인시 기흥구 고매동",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
