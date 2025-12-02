@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-12-02T09:36:07.603Z",
+  "timestamp": "2025-12-02T09:56:18.327Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "1",
+      "extinguishing": "0",
+      "completed": "2",
       "other": "0"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2025-12-02 17:58",
-      "endTime": "-",
-      "location": "충청남도 청양군 정산면 해남리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
