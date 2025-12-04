@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-12-04T05:11:50.016Z",
+  "timestamp": "2025-12-04T05:37:35.812Z",
   "main": {
     "status": {
       "extinguishing": "0",
       "completed": "1",
-      "other": "0"
+      "other": "1"
     },
     "currentFire": {
       "grade": "초기진화단계",
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2025-12-04 13:51",
-      "endTime": "-",
-      "location": "전라남도 광양시 옥곡면 원월리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
