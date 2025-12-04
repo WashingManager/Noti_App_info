@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-12-04T08:17:04.233Z",
+  "timestamp": "2025-12-04T08:48:11.470Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "1",
       "other": "1"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2025-12-04 17:38",
+      "endTime": "-",
+      "location": "충청남도 논산시 연무읍 황화정리",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2025-12-04 16:21",
       "endTime": "-",
