@@ -1,10 +1,10 @@
 {
-  "timestamp": "2025-12-04T09:15:20.346Z",
+  "timestamp": "2025-12-04T09:42:31.569Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "0",
       "completed": "1",
-      "other": "2"
+      "other": "3"
     },
     "currentFire": {
       "grade": "초기진화단계",
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2025-12-04 16:21",
-      "endTime": "-",
-      "location": "경상남도 통영시 산양읍 연곡리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
