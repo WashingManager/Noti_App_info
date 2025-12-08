@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-12-08T06:27:21.569Z",
+  "timestamp": "2025-12-08T06:58:51.593Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "1",
       "other": "1"
     },
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-12-08 15:37",
+      "endTime": "-",
+      "location": "경상남도 합천군 용주면 방곡리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
