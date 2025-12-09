@@ -47,13 +47,13 @@
       "link": "https://kr.investing.com/indices/us-30",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "47,587.71",
+        "47,572.31",
         "47,957.79",
         "47,555.85",
-        "-151.61",
-        "-0.32%"
+        "-167.01",
+        "-0.35%"
       ],
-      "time": "05:48:11",
+      "time": "05:56:11",
       "marketStatus": "open"
     },
     {
@@ -61,13 +61,13 @@
       "link": "https://kr.investing.com/indices/us-spx-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "6,842.92",
+        "6,839.98",
         "6,864.92",
-        "6,838.93",
-        "-3.59",
-        "-0.05%"
+        "6,837.11",
+        "-6.53",
+        "-0.10%"
       ],
-      "time": "05:47:30",
+      "time": "05:56:16",
       "marketStatus": "open"
     },
     {
@@ -75,13 +75,13 @@
       "link": "https://kr.investing.com/indices/nasdaq-composite",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "23,580.52",
+        "23,578.52",
         "23,616.46",
         "23,449.73",
-        "+34.61",
-        "+0.15%"
+        "+32.61",
+        "+0.14%"
       ],
-      "time": "05:47:58",
+      "time": "05:56:19",
       "marketStatus": "open"
     },
     {
@@ -89,13 +89,13 @@
       "link": "https://kr.investing.com/indices/smallcap-2000",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "2,530.40",
+        "2,526.65",
         "2,542.79",
         "2,514.84",
-        "+9.42",
-        "+0.37%"
+        "+5.67",
+        "+0.22%"
       ],
-      "time": "05:48:02",
+      "time": "05:56:12",
       "marketStatus": "open"
     },
     {
@@ -103,13 +103,13 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "16.80",
+        "16.89",
         "17.20",
         "16.45",
-        "+0.14",
-        "+0.84%"
+        "+0.23",
+        "+1.38%"
       ],
-      "time": "05:47:01",
+      "time": "05:55:16",
       "marketStatus": "open"
     },
     {
@@ -117,13 +117,13 @@
       "link": "https://kr.investing.com/indices/s-p-tsx-composite",
       "flagUrl": "https://flagcdn.com/16x12/ca.png",
       "values": [
-        "31,266.81",
+        "31,251.43",
         "31,395.86",
         "31,160.89",
-        "+96.84",
-        "+0.31%"
+        "+81.46",
+        "+0.26%"
       ],
-      "time": "05:48:01",
+      "time": "05:56:16",
       "marketStatus": "open"
     },
     {
@@ -131,13 +131,13 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "158,410",
+        "158,072",
         "158,851",
         "155,188",
-        "+222",
-        "+0.14%"
+        "-115",
+        "-0.07%"
       ],
-      "time": "05:32:30",
+      "time": "05:40:30",
       "marketStatus": "closed"
     },
     {
@@ -145,13 +145,13 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "63,627.51",
+        "63,711.66",
         "64,087.31",
         "63,317.02",
-        "+99.51",
-        "+0.16%"
+        "+183.66",
+        "+0.29%"
       ],
-      "time": "05:48:01",
+      "time": "05:56:19",
       "marketStatus": "open"
     },
     {
@@ -334,7 +334,7 @@
         "-0.11%"
       ],
       "time": "00:40:00",
-      "marketStatus": "open"
+      "marketStatus": "closed"
     },
     {
       "name": "RTSI 지수",
@@ -348,7 +348,7 @@
         "+0.50%"
       ],
       "time": "00:40:00",
-      "marketStatus": "open"
+      "marketStatus": "closed"
     },
     {
       "name": "폴란드 WIG 20",
@@ -648,12 +648,12 @@
       "link": "https://kr.investing.com/indices/us-30",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "-0.32%",
-        "+0.24%",
-        "+0.47%",
-        "+11.86%",
-        "+7.55%",
-        "+42.16%"
+        "-0.35%",
+        "+0.23%",
+        "+0.45%",
+        "+11.85%",
+        "+7.54%",
+        "+42.14%"
       ]
     },
     {
@@ -661,12 +661,12 @@
       "link": "https://kr.investing.com/indices/us-spx-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "-0.05%",
-        "+0.21%",
+        "-0.10%",
         "+0.17%",
-        "+16.36%",
-        "+13.40%",
-        "+73.95%"
+        "+0.13%",
+        "+16.31%",
+        "+13.36%",
+        "+73.88%"
       ]
     },
     {
@@ -674,12 +674,12 @@
       "link": "https://kr.investing.com/indices/nasdaq-composite",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "+0.15%",
-        "+0.73%",
-        "+0.25%",
-        "+22.14%",
-        "+19.80%",
-        "+114.33%"
+        "+0.14%",
+        "+0.69%",
+        "+0.21%",
+        "+22.09%",
+        "+19.75%",
+        "+114.24%"
       ]
     },
     {
@@ -687,12 +687,12 @@
       "link": "https://kr.investing.com/indices/smallcap-2000",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "+0.37%",
-        "+2.65%",
-        "+3.04%",
-        "+13.46%",
-        "+6.20%",
-        "+40.84%"
+        "+0.22%",
+        "+2.55%",
+        "+2.94%",
+        "+13.35%",
+        "+6.09%",
+        "+40.70%"
       ]
     },
     {
@@ -700,12 +700,12 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "+0.84%",
-        "+1.33%",
-        "-4.49%",
-        "-3.11%",
-        "+18.55%",
-        "-26.37%"
+        "+1.38%",
+        "+1.15%",
+        "-4.66%",
+        "-3.29%",
+        "+18.34%",
+        "-26.50%"
       ]
     },
     {
@@ -713,12 +713,12 @@
       "link": "https://kr.investing.com/indices/s-p-tsx-composite",
       "flagUrl": "https://flagcdn.com/16x12/ca.png",
       "values": [
-        "+0.31%",
-        "+0.69%",
-        "+3.13%",
-        "+26.43%",
-        "+22.58%",
-        "+56.74%"
+        "+0.26%",
+        "+0.68%",
+        "+3.11%",
+        "+26.41%",
+        "+22.56%",
+        "+56.71%"
       ]
     },
     {
@@ -726,12 +726,12 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "+0.14%",
-        "-1.64%",
-        "+2.05%",
-        "+31.72%",
-        "+23.56%",
-        "+47.36%"
+        "-0.07%",
+        "-1.67%",
+        "+2.03%",
+        "+31.70%",
+        "+23.54%",
+        "+47.33%"
       ]
     },
     {
@@ -739,12 +739,12 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "+0.16%",
-        "-0.23%",
-        "+0.92%",
-        "+28.60%",
-        "+23.93%",
-        "+26.17%"
+        "+0.29%",
+        "-0.20%",
+        "+0.95%",
+        "+28.64%",
+        "+23.97%",
+        "+26.21%"
       ]
     },
     {
@@ -1214,7 +1214,7 @@
       "link": "https://kr.investing.com/indices/us-spx-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "매도",
+        "적극 매도",
         "적극 매수",
         "적극 매수",
         "적극 매수"
@@ -1225,7 +1225,7 @@
       "link": "https://kr.investing.com/indices/nasdaq-composite",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "적극 매수",
+        "매수",
         "적극 매수",
         "적극 매수",
         "적극 매수"
@@ -1247,7 +1247,7 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "매수",
+        "적극 매수",
         "적극 매도",
         "적극 매도",
         "매도"
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-12-09T20:48:50.006Z"
+  "lastUpdate": "2025-12-09T20:58:11.076Z"
 }
