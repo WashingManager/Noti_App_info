@@ -1,8 +1,8 @@
 {
-  "timestamp": "2025-12-10T05:16:45.526Z",
+  "timestamp": "2025-12-10T05:42:12.088Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "1",
       "other": "0"
     },
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2025-12-10 14:19",
+      "endTime": "-",
+      "location": "충청남도 보령시 청라면 장산리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
