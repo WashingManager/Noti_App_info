@@ -459,7 +459,7 @@
         "+11.56",
         "+0.29%"
       ],
-      "time": "13:22:30",
+      "time": "13:51:27",
       "marketStatus": "open"
     },
     {
@@ -473,7 +473,7 @@
         "-14.19",
         "-0.11%"
       ],
-      "time": "13:05:39",
+      "time": "13:35:39",
       "marketStatus": "open"
     },
     {
@@ -501,7 +501,7 @@
         "+1.42",
         "+0.26%"
       ],
-      "time": "13:21:25",
+      "time": "13:51:20",
       "marketStatus": "closed"
     },
     {
@@ -526,8 +526,8 @@
         "28,310.47",
         "28,350.37",
         "28,212.84",
-        "0.00",
-        "0.00%"
+        "+160.83",
+        "+0.57%"
       ],
       "time": "23/12",
       "marketStatus": "open"
@@ -537,13 +537,13 @@
       "link": "https://kr.investing.com/indices/thailand-set",
       "flagUrl": "https://flagcdn.com/16x12/th.png",
       "values": [
-        "1,267.56",
+        "1,266.64",
         "1,274.92",
-        "1,266.12",
-        "-7.77",
-        "-0.61%"
+        "1,265.77",
+        "-8.69",
+        "-0.68%"
       ],
-      "time": "13:07:51",
+      "time": "13:36:01",
       "marketStatus": "open"
     },
     {
@@ -593,13 +593,13 @@
       "link": "https://kr.investing.com/indices/vn-30",
       "flagUrl": "https://flagcdn.com/16x12/vn.png",
       "values": [
-        "2,029.09",
+        "2,030.32",
         "2,049.15",
         "2,018.40",
-        "+5.96",
-        "+0.29%"
+        "+7.19",
+        "+0.36%"
       ],
-      "time": "13:21:15",
+      "time": "13:51:00",
       "marketStatus": "open"
     }
   ],
@@ -1090,7 +1090,7 @@
       "link": "https://kr.investing.com/indices/taiwan-weighted",
       "flagUrl": "https://flagcdn.com/16x12/tw.png",
       "values": [
-        "0.00%",
+        "+0.57%",
         "+3.07%",
         "+3.29%",
         "+22.90%",
@@ -1103,12 +1103,12 @@
       "link": "https://kr.investing.com/indices/thailand-set",
       "flagUrl": "https://flagcdn.com/16x12/th.png",
       "values": [
-        "-0.61%",
-        "+1.40%",
-        "+0.51%",
-        "-9.47%",
-        "-9.32%",
-        "-22.08%"
+        "-0.68%",
+        "+1.36%",
+        "+0.46%",
+        "-9.51%",
+        "-9.36%",
+        "-22.12%"
       ]
     },
     {
@@ -1155,12 +1155,12 @@
       "link": "https://kr.investing.com/indices/vn-30",
       "flagUrl": "https://flagcdn.com/16x12/vn.png",
       "values": [
-        "+0.29%",
-        "+6.78%",
-        "+5.66%",
-        "+51.14%",
-        "+51.37%",
-        "+105.76%"
+        "+0.36%",
+        "+6.66%",
+        "+5.55%",
+        "+50.98%",
+        "+51.21%",
+        "+105.55%"
       ]
     }
   ],
@@ -1588,9 +1588,9 @@
       "link": "https://kr.investing.com/indices/thailand-set",
       "flagUrl": "https://flagcdn.com/16x12/th.png",
       "values": [
-        "적극 매도",
-        "매수",
         "매도",
+        "매수",
+        "중립",
         "매도"
       ]
     },
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-12-25T04:24:02.830Z"
+  "lastUpdate": "2025-12-25T04:52:35.602Z"
 }
