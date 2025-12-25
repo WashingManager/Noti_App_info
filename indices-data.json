@@ -106,8 +106,8 @@
         "13.47",
         "14.16",
         "13.38",
-        "-0.53",
-        "-3.79%"
+        "0.00",
+        "0.00%"
       ],
       "time": "06:14:59",
       "marketStatus": "open"
@@ -327,13 +327,13 @@
       "link": "https://kr.investing.com/indices/mcx",
       "flagUrl": "https://flagcdn.com/16x12/ru.png",
       "values": [
-        "2,712.25",
+        "2,713.30",
         "2,722.91",
         "2,708.39",
-        "-7.77",
-        "-0.29%"
+        "-6.72",
+        "-0.25%"
       ],
-      "time": "23:16:21",
+      "time": "23:45:00",
       "marketStatus": "open"
     },
     {
@@ -341,13 +341,13 @@
       "link": "https://kr.investing.com/indices/rtsi",
       "flagUrl": "https://flagcdn.com/16x12/ru.png",
       "values": [
-        "1,089.25",
-        "1,093.59",
+        "1,097.43",
+        "1,097.76",
         "1,087.76",
-        "-3.18",
-        "-0.29%"
+        "+5.00",
+        "+0.46%"
       ],
-      "time": "23:16:15",
+      "time": "23:45:06",
       "marketStatus": "open"
     },
     {
@@ -383,13 +383,13 @@
       "link": "https://kr.investing.com/indices/ise-100",
       "flagUrl": "https://flagcdn.com/16x12/tr.png",
       "values": [
-        "11,363.14",
+        "11,353.14",
         "11,426.65",
-        "11,360.48",
-        "+23.03",
-        "+0.20%"
+        "11,347.49",
+        "+13.04",
+        "+0.11%"
       ],
-      "time": "23:01:29",
+      "time": "23:29:38",
       "marketStatus": "open"
     },
     {
@@ -397,13 +397,13 @@
       "link": "https://kr.investing.com/indices/ta25",
       "flagUrl": "https://flagcdn.com/16x12/il.png",
       "values": [
-        "3,640.83",
+        "3,637.58",
         "3,711.09",
-        "3,633.94",
-        "-78.82",
-        "-2.12%"
+        "3,630.34",
+        "-82.07",
+        "-2.21%"
       ],
-      "time": "23:16:26",
+      "time": "23:44:56",
       "marketStatus": "open"
     },
     {
@@ -700,7 +700,7 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "-3.79%",
+        "0.00%",
         "-20.15%",
         "-21.64%",
         "-22.36%",
@@ -908,12 +908,12 @@
       "link": "https://kr.investing.com/indices/mcx",
       "flagUrl": "https://flagcdn.com/16x12/ru.png",
       "values": [
-        "-0.29%",
-        "-1.48%",
-        "+1.64%",
-        "-5.93%",
-        "-1.96%",
-        "+26.79%"
+        "-0.25%",
+        "-1.44%",
+        "+1.69%",
+        "-5.88%",
+        "-1.92%",
+        "+26.84%"
       ]
     },
     {
@@ -921,12 +921,12 @@
       "link": "https://kr.investing.com/indices/rtsi",
       "flagUrl": "https://flagcdn.com/16x12/ru.png",
       "values": [
-        "-0.29%",
-        "+0.51%",
-        "+1.84%",
-        "+21.94%",
-        "+24.01%",
-        "+11.45%"
+        "+0.46%",
+        "+1.28%",
+        "+2.62%",
+        "+22.88%",
+        "+24.97%",
+        "+12.31%"
       ]
     },
     {
@@ -960,12 +960,12 @@
       "link": "https://kr.investing.com/indices/ise-100",
       "flagUrl": "https://flagcdn.com/16x12/tr.png",
       "values": [
-        "+0.20%",
-        "+0.25%",
-        "+4.11%",
-        "+15.59%",
-        "+14.21%",
-        "+106.45%"
+        "+0.11%",
+        "+0.14%",
+        "+3.99%",
+        "+15.46%",
+        "+14.09%",
+        "+106.22%"
       ]
     },
     {
@@ -973,12 +973,12 @@
       "link": "https://kr.investing.com/indices/ta25",
       "flagUrl": "https://flagcdn.com/16x12/il.png",
       "values": [
-        "-2.12%",
-        "-0.43%",
-        "+8.06%",
-        "+52.24%",
-        "+53.21%",
-        "+107.02%"
+        "-2.21%",
+        "-0.71%",
+        "+7.75%",
+        "+51.81%",
+        "+52.77%",
+        "+106.42%"
       ]
     },
     {
@@ -1434,10 +1434,10 @@
       "link": "https://kr.investing.com/indices/rtsi",
       "flagUrl": "https://flagcdn.com/16x12/ru.png",
       "values": [
-        "중립",
-        "매수",
         "적극 매수",
-        "중립"
+        "적극 매수",
+        "적극 매수",
+        "매수"
       ]
     },
     {
@@ -1467,7 +1467,7 @@
       "link": "https://kr.investing.com/indices/ise-100",
       "flagUrl": "https://flagcdn.com/16x12/tr.png",
       "values": [
-        "매수",
+        "중립",
         "적극 매수",
         "적극 매수",
         "적극 매수"
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-12-25T14:26:26.289Z"
+  "lastUpdate": "2025-12-25T14:46:02.105Z"
 }
