@@ -103,13 +103,13 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "14.68",
+        "14.53",
         "14.92",
-        "14.67",
-        "+0.35",
-        "+2.44%"
+        "14.53",
+        "+0.20",
+        "+1.40%"
       ],
-      "time": "22:18:01",
+      "time": "22:47:31",
       "marketStatus": "open"
     },
     {
@@ -148,11 +148,11 @@
         "64,366.70",
         "65,697.63",
         "64,329.74",
-        "-980.38",
-        "-1.50%"
+        "0.00",
+        "0.00%"
       ],
       "time": "05:59:59",
-      "marketStatus": "closed"
+      "marketStatus": "open"
     },
     {
       "name": "DAX",
@@ -193,7 +193,7 @@
         "-18.65",
         "-0.23%"
       ],
-      "time": "22:20:00",
+      "time": "22:48:15",
       "marketStatus": "closed"
     },
     {
@@ -221,7 +221,7 @@
         "+0.02",
         "0.00%"
       ],
-      "time": "22:18:45",
+      "time": "22:48:15",
       "marketStatus": "closed"
     },
     {
@@ -277,7 +277,7 @@
         "-0.14",
         "0.00%"
       ],
-      "time": "22:19:00",
+      "time": "22:48:15",
       "marketStatus": "closed"
     },
     {
@@ -291,7 +291,7 @@
         "+0.72",
         "+0.01%"
       ],
-      "time": "22:04:00",
+      "time": "22:33:15",
       "marketStatus": "closed"
     },
     {
@@ -383,13 +383,13 @@
       "link": "https://kr.investing.com/indices/ise-100",
       "flagUrl": "https://flagcdn.com/16x12/tr.png",
       "values": [
-        "11,295.30",
+        "11,297.79",
         "11,324.36",
         "11,249.67",
-        "+75.13",
-        "+0.67%"
+        "+77.62",
+        "+0.69%"
       ],
-      "time": "22:04:41",
+      "time": "22:32:59",
       "marketStatus": "open"
     },
     {
@@ -397,13 +397,13 @@
       "link": "https://kr.investing.com/indices/ta25",
       "flagUrl": "https://flagcdn.com/16x12/il.png",
       "values": [
-        "3,642.11",
-        "3,653.30",
+        "3,649.72",
+        "3,653.94",
         "3,610.20",
-        "-19.06",
-        "-0.52%"
+        "-11.45",
+        "-0.31%"
       ],
-      "time": "22:19:04",
+      "time": "22:48:19",
       "marketStatus": "open"
     },
     {
@@ -700,12 +700,12 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "+2.44%",
-        "+9.06%",
-        "-11.45%",
-        "-15.33%",
-        "-15.33%",
-        "-32.21%"
+        "+1.40%",
+        "+8.02%",
+        "-12.30%",
+        "-16.14%",
+        "-16.14%",
+        "-32.86%"
       ]
     },
     {
@@ -739,7 +739,7 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "-1.50%",
+        "0.00%",
         "-1.90%",
         "+0.86%",
         "+30.00%",
@@ -960,12 +960,12 @@
       "link": "https://kr.investing.com/indices/ise-100",
       "flagUrl": "https://flagcdn.com/16x12/tr.png",
       "values": [
-        "+0.67%",
-        "-0.38%",
-        "+1.56%",
-        "+14.92%",
-        "+14.92%",
-        "+105.06%"
+        "+0.69%",
+        "-0.43%",
+        "+1.51%",
+        "+14.86%",
+        "+14.86%",
+        "+104.95%"
       ]
     },
     {
@@ -973,12 +973,12 @@
       "link": "https://kr.investing.com/indices/ta25",
       "flagUrl": "https://flagcdn.com/16x12/il.png",
       "values": [
-        "-0.52%",
-        "-2.07%",
-        "+4.22%",
-        "+52.09%",
-        "+51.73%",
-        "+104.41%"
+        "-0.31%",
+        "-1.87%",
+        "+4.44%",
+        "+52.41%",
+        "+52.05%",
+        "+104.83%"
       ]
     },
     {
@@ -1247,7 +1247,7 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "적극 매수",
+        "중립",
         "적극 매도",
         "적극 매도",
         "적극 매도"
@@ -1479,7 +1479,7 @@
       "flagUrl": "https://flagcdn.com/16x12/il.png",
       "values": [
         "중립",
-        "중립",
+        "매수",
         "적극 매수",
         "적극 매수"
       ]
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2025-12-31T13:27:36.979Z"
+  "lastUpdate": "2025-12-31T13:50:41.218Z"
 }
