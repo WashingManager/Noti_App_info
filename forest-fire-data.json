@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-01T08:55:05.799Z",
+  "timestamp": "2026-01-01T09:34:23.246Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "0",
+      "extinguishing": "0",
+      "completed": "1",
       "other": "3"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2026-01-01 17:23",
-      "endTime": "-",
-      "location": "경상남도 하동군 금남면 덕천리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
