@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-01-01T05:03:41.750Z",
+  "timestamp": "2026-01-01T05:41:18.585Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "0",
       "other": "2"
     },
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2026-01-01 14:25",
+      "endTime": "-",
+      "location": "강원특별자치도 강릉시 왕산면 고단리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
