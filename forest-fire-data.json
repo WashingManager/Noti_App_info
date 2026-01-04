@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-01-04T01:29:01.710Z",
+  "timestamp": "2026-01-04T03:28:45.951Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "0",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2026-01-04 11:53",
+      "endTime": "-",
+      "location": "경상북도 영주시 상망동",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2026-01-03 15:13",
       "endTime": "-",
