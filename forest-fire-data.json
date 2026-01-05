@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-01-05T05:59:10.957Z",
+  "timestamp": "2026-01-05T06:53:36.833Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "0",
       "other": "0"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2026-01-05 14:41",
+      "endTime": "-",
+      "location": "경기도 연천군 중면 삼곶리",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2026-01-03 15:13",
       "endTime": "-",
