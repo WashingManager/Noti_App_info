@@ -15,6 +15,18 @@
   ],
   "international": [
     {
+      "number": "3",
+      "time": "2026/01/06 10:18:00",
+      "magnitude": "6.2",
+      "depth": "10",
+      "maxIntensity": "",
+      "latitude": "35.30 N",
+      "longitude": "133.20 E",
+      "location": "일본 시마네현 마쓰에시 남동쪽 23km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20260106101800.png",
+      "detailLink": null
+    },
+    {
       "number": "2",
       "time": "2026/01/02 22:58:18",
       "magnitude": "6.5",
@@ -40,12 +52,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 01월 03일 14시 27분 19초",
-    "magnitude": "2.2",
-    "location": "",
-    "depth": "최대진도  Ⅰ",
-    "note": "강원 동해시 북동쪽 49km 해역  (위도: 37.86 N, 경도: 129.47 E, ± 4.2km) -",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260103142719.png;jsessionid=HRjLyVGzx6QbxGe_vhHue-wPEJ9Gtcua9O3jvT0C.standalone"
+    "time": "2026년 01월 06일 10시 18분 00초",
+    "magnitude": "6.2",
+    "location": "일본 시마네현 마쓰에시 남동쪽 23km 지역  (위도: 35.30 N, 경도: 133.20 E)",
+    "depth": "10 km",
+    "note": "국내 일부지역에서 지진동을 느낄수 있음. 안전에 유의하기 바람.\n위 자료는 일본기상청(JMA) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260106101800.png;jsessionid=5jBsgQfasDNV5h7gJqC5mHeLh2xmq6UE0RdMLTO5.standalone"
   },
-  "lastUpdate": "2026-01-05T23:56:24.236Z"
+  "lastUpdate": "2026-01-06T01:46:17.007Z"
 }
