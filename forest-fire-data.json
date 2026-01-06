@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-06T13:12:29.261Z",
+  "timestamp": "2026-01-06T13:50:48.496Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "0",
+      "extinguishing": "0",
+      "completed": "1",
       "other": "1"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2026-01-06 21:09",
-      "endTime": "-",
-      "location": "경상북도 김천시 부항면 어전리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
