@@ -386,11 +386,11 @@
         "12,023.78",
         "12,032.36",
         "11,732.40",
-        "+321.78",
-        "+2.75%"
+        "0.00",
+        "0.00%"
       ],
       "time": "00:09:59",
-      "marketStatus": "closed"
+      "marketStatus": "open"
     },
     {
       "name": "TA 35",
@@ -414,11 +414,11 @@
         "10,290.76",
         "10,361.81",
         "10,281.49",
-        "-34.44",
-        "-0.33%"
+        "0.00",
+        "0.00%"
       ],
       "time": "06/01",
-      "marketStatus": "closed"
+      "marketStatus": "open"
     },
     {
       "name": "닛케이",
@@ -453,69 +453,69 @@
       "link": "https://kr.investing.com/indices/shanghai-composite",
       "flagUrl": "https://flagcdn.com/16x12/cn.png",
       "values": [
-        "4,081.61",
+        "4,085.77",
         "4,098.78",
         "4,069.44",
-        "-2.06",
-        "-0.05%"
+        "+2.11",
+        "+0.05%"
       ],
-      "time": "15:41:27",
-      "marketStatus": "open"
+      "time": "15:59:59",
+      "marketStatus": "closed"
     },
     {
       "name": "SZSE Component",
       "link": "https://kr.investing.com/indices/szse-component",
       "flagUrl": "https://flagcdn.com/16x12/cn.png",
       "values": [
-        "14,022.25",
+        "14,014.11",
         "14,111.18",
         "13,935.53",
-        "-0.30",
-        "0.00%"
+        "-8.45",
+        "-0.06%"
       ],
-      "time": "15:26:12",
-      "marketStatus": "open"
+      "time": "15:46:24",
+      "marketStatus": "closed"
     },
     {
       "name": "China A50",
       "link": "https://kr.investing.com/indices/ftse-china-a50",
       "flagUrl": "https://flagcdn.com/16x12/cn.png",
       "values": [
-        "15,606.10",
+        "15,601.65",
         "15,709.08",
         "15,550.74",
-        "-99.36",
-        "-0.63%"
+        "-103.81",
+        "-0.66%"
       ],
-      "time": "15:26:14",
-      "marketStatus": "open"
+      "time": "15:46:26",
+      "marketStatus": "closed"
     },
     {
       "name": "DJ Shanghai",
       "link": "https://kr.investing.com/indices/dj-shanghai",
       "flagUrl": "https://flagcdn.com/16x12/cn.png",
       "values": [
-        "570.64",
+        "571.18",
         "573.58",
         "568.54",
-        "+0.70",
-        "+0.12%"
+        "+1.24",
+        "+0.22%"
       ],
-      "time": "15:41:30",
-      "marketStatus": "open"
+      "time": "15:59:59",
+      "marketStatus": "closed"
     },
     {
       "name": "항셍",
       "link": "https://kr.investing.com/indices/hang-sen-40",
       "flagUrl": "https://flagcdn.com/16x12/hk.png",
       "values": [
-        "26,373.50",
+        "26,408.50",
         "26,628.50",
         "26,313.50",
-        "-336.95",
-        "-1.26%"
+        "-301.95",
+        "-1.13%"
       ],
-      "time": "15:40:44",
+      "time": "16:00:49",
       "marketStatus": "open"
     },
     {
@@ -551,13 +551,13 @@
       "link": "https://kr.investing.com/indices/idx-composite",
       "flagUrl": "https://flagcdn.com/16x12/id.png",
       "values": [
-        "8,943.10",
+        "8,944.46",
         "8,970.87",
         "8,925.85",
-        "+9.49",
-        "+0.11%"
+        "+10.85",
+        "+0.12%"
       ],
-      "time": "15:31:27",
+      "time": "15:51:21",
       "marketStatus": "open"
     },
     {
@@ -565,13 +565,13 @@
       "link": "https://kr.investing.com/indices/s-p-cnx-nifty",
       "flagUrl": "https://flagcdn.com/16x12/in.png",
       "values": [
-        "26,109.35",
+        "26,106.70",
         "26,187.15",
-        "26,096.65",
-        "-69.35",
-        "-0.26%"
+        "26,096.45",
+        "-72.00",
+        "-0.28%"
       ],
-      "time": "15:40:41",
+      "time": "16:01:18",
       "marketStatus": "open"
     },
     {
@@ -579,13 +579,13 @@
       "link": "https://kr.investing.com/indices/sensex",
       "flagUrl": "https://flagcdn.com/16x12/in.png",
       "values": [
-        "84,885.02",
+        "84,833.19",
         "85,075.99",
         "84,617.49",
-        "-178.32",
-        "-0.21%"
+        "-230.15",
+        "-0.27%"
       ],
-      "time": "15:26:32",
+      "time": "15:46:17",
       "marketStatus": "open"
     },
     {
@@ -593,13 +593,13 @@
       "link": "https://kr.investing.com/indices/vn-30",
       "flagUrl": "https://flagcdn.com/16x12/vn.png",
       "values": [
-        "2,080.66",
-        "2,082.92",
+        "2,083.02",
+        "2,083.74",
         "2,054.45",
-        "+24.70",
-        "+1.20%"
+        "+27.06",
+        "+1.32%"
       ],
-      "time": "15:41:25",
+      "time": "16:01:10",
       "marketStatus": "open"
     }
   ],
@@ -623,11 +623,11 @@
       "flagUrl": "https://flagcdn.com/16x12/kr.png",
       "values": [
         "+1.09%",
-        "+11.05%",
-        "+15.53%",
-        "+11.05%",
-        "+107.22%",
-        "+133.48%"
+        "+11.11%",
+        "+15.58%",
+        "+11.11%",
+        "+107.32%",
+        "+133.60%"
       ]
     },
     {
@@ -960,7 +960,7 @@
       "link": "https://kr.investing.com/indices/ise-100",
       "flagUrl": "https://flagcdn.com/16x12/tr.png",
       "values": [
-        "+2.75%",
+        "0.00%",
         "+6.77%",
         "+7.46%",
         "+6.77%",
@@ -986,7 +986,7 @@
       "link": "https://kr.investing.com/indices/tasi",
       "flagUrl": "https://flagcdn.com/16x12/sa.png",
       "values": [
-        "-0.33%",
+        "0.00%",
         "-1.91%",
         "-3.15%",
         "-1.91%",
@@ -1025,12 +1025,12 @@
       "link": "https://kr.investing.com/indices/shanghai-composite",
       "flagUrl": "https://flagcdn.com/16x12/cn.png",
       "values": [
-        "-0.05%",
-        "+2.76%",
-        "+3.93%",
-        "+2.76%",
-        "+26.26%",
-        "+29.16%"
+        "+0.05%",
+        "+2.97%",
+        "+4.15%",
+        "+2.97%",
+        "+26.52%",
+        "+29.43%"
       ]
     },
     {
@@ -1038,12 +1038,12 @@
       "link": "https://kr.investing.com/indices/szse-component",
       "flagUrl": "https://flagcdn.com/16x12/cn.png",
       "values": [
-        "0.00%",
-        "+3.73%",
-        "+5.25%",
-        "+3.73%",
-        "+41.07%",
-        "+23.41%"
+        "-0.06%",
+        "+3.60%",
+        "+5.11%",
+        "+3.60%",
+        "+40.90%",
+        "+23.26%"
       ]
     },
     {
@@ -1051,12 +1051,12 @@
       "link": "https://kr.investing.com/indices/ftse-china-a50",
       "flagUrl": "https://flagcdn.com/16x12/cn.png",
       "values": [
-        "-0.63%",
-        "+1.95%",
-        "+1.54%",
-        "+1.95%",
-        "+20.13%",
-        "+16.66%"
+        "-0.66%",
+        "+1.79%",
+        "+1.38%",
+        "+1.79%",
+        "+19.95%",
+        "+16.49%"
       ]
     },
     {
@@ -1064,12 +1064,12 @@
       "link": "https://kr.investing.com/indices/dj-shanghai",
       "flagUrl": "https://flagcdn.com/16x12/cn.png",
       "values": [
-        "+0.12%",
-        "+3.73%",
-        "+5.28%",
-        "+3.73%",
-        "+28.56%",
-        "+25.11%"
+        "+0.22%",
+        "+3.85%",
+        "+5.40%",
+        "+3.85%",
+        "+28.71%",
+        "+25.25%"
       ]
     },
     {
@@ -1077,12 +1077,12 @@
       "link": "https://kr.investing.com/indices/hang-sen-40",
       "flagUrl": "https://flagcdn.com/16x12/hk.png",
       "values": [
-        "-1.26%",
-        "+2.89%",
-        "+2.36%",
-        "+2.89%",
-        "+36.79%",
-        "+25.63%"
+        "-1.13%",
+        "+3.12%",
+        "+2.58%",
+        "+3.12%",
+        "+37.08%",
+        "+25.90%"
       ]
     },
     {
@@ -1116,12 +1116,12 @@
       "link": "https://kr.investing.com/indices/idx-composite",
       "flagUrl": "https://flagcdn.com/16x12/id.png",
       "values": [
-        "+0.11%",
-        "+3.46%",
-        "+2.70%",
-        "+3.46%",
-        "+26.35%",
-        "+33.83%"
+        "+0.12%",
+        "+3.49%",
+        "+2.73%",
+        "+3.49%",
+        "+26.39%",
+        "+33.87%"
       ]
     },
     {
@@ -1129,12 +1129,12 @@
       "link": "https://kr.investing.com/indices/s-p-cnx-nifty",
       "flagUrl": "https://flagcdn.com/16x12/in.png",
       "values": [
-        "-0.26%",
-        "-0.07%",
-        "+0.58%",
-        "-0.07%",
-        "+10.23%",
-        "+46.20%"
+        "-0.28%",
+        "-0.08%",
+        "+0.57%",
+        "-0.08%",
+        "+10.21%",
+        "+46.19%"
       ]
     },
     {
@@ -1142,12 +1142,12 @@
       "link": "https://kr.investing.com/indices/sensex",
       "flagUrl": "https://flagcdn.com/16x12/in.png",
       "values": [
-        "-0.21%",
-        "-0.39%",
-        "-0.25%",
-        "-0.39%",
-        "+8.62%",
-        "+41.71%"
+        "-0.27%",
+        "-0.45%",
+        "-0.31%",
+        "-0.45%",
+        "+8.56%",
+        "+41.63%"
       ]
     },
     {
@@ -1155,12 +1155,12 @@
       "link": "https://kr.investing.com/indices/vn-30",
       "flagUrl": "https://flagcdn.com/16x12/vn.png",
       "values": [
-        "+1.20%",
+        "+1.32%",
         "+2.45%",
         "+4.87%",
         "+2.45%",
         "+58.01%",
-        "+96.74%"
+        "+96.75%"
       ]
     }
   ],
@@ -1533,7 +1533,7 @@
       "link": "https://kr.investing.com/indices/szse-component",
       "flagUrl": "https://flagcdn.com/16x12/cn.png",
       "values": [
-        "적극 매수",
+        "매수",
         "적극 매수",
         "적극 매수",
         "적극 매수"
@@ -1555,7 +1555,7 @@
       "link": "https://kr.investing.com/indices/dj-shanghai",
       "flagUrl": "https://flagcdn.com/16x12/cn.png",
       "values": [
-        "적극 매수",
+        "매수",
         "적극 매수",
         "적극 매수",
         "적극 매수"
@@ -1566,7 +1566,7 @@
       "link": "https://kr.investing.com/indices/hang-sen-40",
       "flagUrl": "https://flagcdn.com/16x12/hk.png",
       "values": [
-        "매도",
+        "중립",
         "적극 매수",
         "적극 매수",
         "적극 매수"
@@ -1622,7 +1622,7 @@
       "flagUrl": "https://flagcdn.com/16x12/in.png",
       "values": [
         "적극 매도",
-        "중립",
+        "매도",
         "적극 매수",
         "적극 매수"
       ]
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2026-01-07T06:43:48.985Z"
+  "lastUpdate": "2026-01-07T07:02:19.000Z"
 }
