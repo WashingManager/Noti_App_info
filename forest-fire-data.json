@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-01-07T05:36:02.392Z",
+  "timestamp": "2026-01-07T05:56:00.062Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "1",
       "other": "0"
     },
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2026-01-07 14:27",
+      "endTime": "-",
+      "location": "충청북도 충주시 산척면 송강리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
