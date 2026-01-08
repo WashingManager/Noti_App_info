@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-08T11:39:00.605Z",
+  "timestamp": "2026-01-08T11:52:53.797Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "0",
+      "extinguishing": "0",
+      "completed": "1",
       "other": "0"
     },
     "currentFire": {
@@ -19,11 +19,11 @@
         },
         {
           "label": "진화일시",
-          "value": "-"
+          "value": "2026년 1월 8일 20시 25분"
         },
         {
           "label": "진행상태",
-          "value": "진화중"
+          "value": "진화완료"
         },
         {
           "label": "진화율",
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2026-01-08 19:57",
-      "endTime": "-",
-      "location": "경상북도 성주군 성주읍 성산리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
