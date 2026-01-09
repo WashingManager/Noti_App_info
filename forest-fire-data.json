@@ -1,7 +1,154 @@
 {
-  "timestamp": "2026-01-09T07:34:37.529Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2026-01-09T07:54:06.509Z",
+  "main": {
+    "status": {
+      "extinguishing": "0",
+      "completed": "2",
+      "other": "2"
+    },
+    "currentFire": {
+      "grade": "초기진화단계",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": "경기도 파주시 파평면 눌노리 268-25 임"
+        },
+        {
+          "label": "발생일시",
+          "value": "2026년 1월 9일 1시 3분"
+        },
+        {
+          "label": "진화일시",
+          "value": "2026년 1월 9일 2시 44분"
+        },
+        {
+          "label": "진행상태",
+          "value": "진화완료"
+        },
+        {
+          "label": "진화율",
+          "value": "100%"
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "1",
+      "location": "경북 안동 임동 대곡",
+      "startTime": "2025-12-31 15:56",
+      "endTime": "2025-12-31 20:30",
+      "resources": "헬기  12대   인력  111명   장비  75대",
+      "level": "-",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "전남 장흥 용산 녹원",
+      "startTime": "2025-12-30 11:03",
+      "endTime": "2025-12-30 12:40",
+      "resources": "헬기  3대   인력  80명   장비  45대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "강원 고성 거진 화포",
+      "startTime": "2025-12-29 20:00",
+      "endTime": "2025-12-29 22:35",
+      "resources": "헬기  0대   인력  229명   장비  100대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "강원 강릉 강동 심곡",
+      "startTime": "2025-12-26 10:33",
+      "endTime": "2025-12-26 13:10",
+      "resources": "헬기  2대   인력  122명   장비  104대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "부산 사상  모라",
+      "startTime": "2025-12-22 19:08",
+      "endTime": "2025-12-22 20:20",
+      "resources": "헬기  0대   인력  112명   장비  27대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "전남 광양 옥곡 묵백",
+      "startTime": "2025-12-21 14:18",
+      "endTime": "2025-12-21 16:00",
+      "resources": "헬기  4대   인력  62명   장비  37대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "경남 거제 동부 구천",
+      "startTime": "2025-12-14 16:01",
+      "endTime": "2025-12-14 20:00",
+      "resources": "헬기  4대   인력  68명   장비  23대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "경기 시흥  조남",
+      "startTime": "2025-12-11 17:58",
+      "endTime": "2025-12-11 19:10",
+      "resources": "헬기  0대   인력  48명   장비  9대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "충남 보령 청라 장산",
+      "startTime": "2025-12-10 14:19",
+      "endTime": "2025-12-10 15:10",
+      "resources": "헬기  1대   인력  75명   장비  33대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "강원 양양 손양 상왕도",
+      "startTime": "2025-12-10 10:38",
+      "endTime": "2025-12-10 13:10",
+      "resources": "헬기  11대   인력  259명   장비  184대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
