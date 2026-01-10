@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-01-10T07:28:14.596Z",
+  "timestamp": "2026-01-10T07:43:47.398Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "5",
       "other": "1"
     },
     "currentFire": {
-      "grade": "초기진화단계",
+      "grade": "산불 2단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": "경기도 포천시 가산면 가산리 산68 임"
+          "value": "경상북도 청도군 청도읍 고수리 543-2전"
         },
         {
           "label": "발생일시",
-          "value": "2026년 1월 10일 5시 32분"
+          "value": "2026년 1월 10일 16시 39분"
         },
         {
           "label": "진화일시",
-          "value": "2026년 1월 10일 6시 48분"
+          "value": "-"
         },
         {
           "label": "진행상태",
-          "value": "진화완료"
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": "100%"
+          "value": "0%"
         },
         {
           "label": "풍향",
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2026-01-10 16:39",
+      "endTime": "-",
+      "location": "경상북도 청도군 청도읍 고수리",
+      "status": "진화중",
+      "level": "2단계",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2026-01-10 15:14",
       "endTime": "-",
