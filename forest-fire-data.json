@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-01-10T07:56:07.833Z",
+  "timestamp": "2026-01-10T08:37:13.810Z",
   "main": {
     "status": {
-      "extinguishing": "2",
+      "extinguishing": "1",
       "completed": "5",
-      "other": "1"
+      "other": "2"
     },
     "currentFire": {
       "grade": "산불 2단계",
@@ -27,7 +27,7 @@
         },
         {
           "label": "진화율",
-          "value": "0%"
+          "value": "60%"
         },
         {
           "label": "풍향",
@@ -41,14 +41,6 @@
     }
   },
   "fireList": [
-    {
-      "startTime": "2026-01-10 16:39",
-      "endTime": "-",
-      "location": "경상북도 청도군 청도읍 고수리",
-      "status": "진화중",
-      "level": "2단계",
-      "detailUrl": "-"
-    },
     {
       "startTime": "2026-01-10 15:14",
       "endTime": "-",
