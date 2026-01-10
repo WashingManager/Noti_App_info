@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-10T05:18:30.533Z",
+  "timestamp": "2026-01-10T05:41:30.937Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "4",
+      "extinguishing": "0",
+      "completed": "5",
       "other": "1"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2026-01-10 12:06",
-      "endTime": "-",
-      "location": "전라남도 여수시 중흥동",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
