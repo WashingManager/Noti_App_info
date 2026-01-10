@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-01-10T05:54:04.587Z",
+  "timestamp": "2026-01-10T06:34:03.842Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "5",
       "other": "1"
     },
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2026-01-10 15:14",
+      "endTime": "-",
+      "location": "경상북도 의성군 의성읍 비봉리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
