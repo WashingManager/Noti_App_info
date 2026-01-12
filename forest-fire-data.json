@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-01-12T06:24:14.031Z",
+  "timestamp": "2026-01-12T07:00:41.992Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "0",
       "other": "2"
     },
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2026-01-12 15:36",
+      "endTime": "-",
+      "location": "대전광역시 동구 판암동",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
