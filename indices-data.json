@@ -47,56 +47,56 @@
       "link": "https://kr.investing.com/indices/us-30",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "49,581.46",
-        "49,590.48",
+        "49,590.20",
+        "49,633.35",
         "49,011.31",
-        "+77.39",
-        "+0.16%"
+        "+86.13",
+        "+0.17%"
       ],
-      "time": "05:47:04",
-      "marketStatus": "open"
+      "time": "05:59:59",
+      "marketStatus": "closed"
     },
     {
       "name": "S&P 500",
       "link": "https://kr.investing.com/indices/us-spx-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "6,978.66",
-        "6,985.98",
-        "6,933.15",
-        "+12.38",
-        "+0.18%"
+        "6,977.32",
+        "6,986.33",
+        "6,934.07",
+        "+11.04",
+        "+0.16%"
       ],
-      "time": "05:46:49",
-      "marketStatus": "open"
+      "time": "05:59:58",
+      "marketStatus": "closed"
     },
     {
       "name": "나스닥종합지수",
       "link": "https://kr.investing.com/indices/nasdaq-composite",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "23,762.26",
+        "23,733.90",
         "23,804.05",
         "23,562.97",
-        "+90.91",
-        "+0.38%"
+        "+62.56",
+        "+0.26%"
       ],
-      "time": "05:46:32",
-      "marketStatus": "open"
+      "time": "05:59:59",
+      "marketStatus": "closed"
     },
     {
       "name": "러셀 2000",
       "link": "https://kr.investing.com/indices/smallcap-2000",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "2,637.13",
-        "2,637.25",
+        "2,636.75",
+        "2,638.42",
         "2,603.86",
-        "+12.91",
-        "+0.49%"
+        "+12.53",
+        "+0.48%"
       ],
-      "time": "05:46:44",
-      "marketStatus": "open"
+      "time": "05:59:59",
+      "marketStatus": "closed"
     },
     {
       "name": "CBOE VIX",
@@ -109,35 +109,35 @@
         "+0.63",
         "+4.35%"
       ],
-      "time": "05:46:01",
-      "marketStatus": "open"
+      "time": "06:12:01",
+      "marketStatus": "closed"
     },
     {
       "name": "캐나다 S&P/TSX",
       "link": "https://kr.investing.com/indices/s-p-tsx-composite",
       "flagUrl": "https://flagcdn.com/16x12/ca.png",
       "values": [
-        "32,890.43",
-        "32,893.82",
+        "32,874.70",
+        "32,897.53",
         "32,676.66",
-        "+277.50",
-        "+0.85%"
+        "+261.77",
+        "+0.80%"
       ],
-      "time": "05:46:16",
-      "marketStatus": "open"
+      "time": "06:01:29",
+      "marketStatus": "closed"
     },
     {
       "name": "브라질 보베스파",
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "163,107",
+        "163,152",
         "163,493",
         "162,277",
-        "-263",
-        "-0.16%"
+        "-218",
+        "-0.13%"
       ],
-      "time": "05:31:00",
+      "time": "05:54:59",
       "marketStatus": "closed"
     },
     {
@@ -145,27 +145,27 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "66,730.48",
+        "66,738.48",
         "66,942.87",
         "66,038.60",
-        "+667.86",
-        "+1.01%"
+        "+675.86",
+        "+1.02%"
       ],
-      "time": "05:46:41",
-      "marketStatus": "open"
+      "time": "05:59:59",
+      "marketStatus": "closed"
     },
     {
       "name": "DAX",
       "link": "https://kr.investing.com/indices/germany-30",
       "flagUrl": "https://flagcdn.com/16x12/de.png",
       "values": [
-        "25,397.77",
+        "25,405.34",
         "25,421.42",
         "25,236.88",
-        "+136.13",
-        "+0.54%"
+        "+143.70",
+        "+0.57%"
       ],
-      "time": "01:38:57",
+      "time": "01:38:59",
       "marketStatus": "closed"
     },
     {
@@ -249,7 +249,7 @@
         "+12.94",
         "+0.03%"
       ],
-      "time": "01:35:58",
+      "time": "01:35:59",
       "marketStatus": "closed"
     },
     {
@@ -334,7 +334,7 @@
         "-0.88%"
       ],
       "time": "00:40:00",
-      "marketStatus": "open"
+      "marketStatus": "closed"
     },
     {
       "name": "RTSI 지수",
@@ -348,7 +348,7 @@
         "-1.59%"
       ],
       "time": "00:40:00",
-      "marketStatus": "open"
+      "marketStatus": "closed"
     },
     {
       "name": "폴란드 WIG 20",
@@ -648,12 +648,12 @@
       "link": "https://kr.investing.com/indices/us-30",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "+0.16%",
-        "+1.22%",
-        "+2.31%",
-        "+3.15%",
-        "+17.21%",
-        "+44.53%"
+        "+0.17%",
+        "+1.25%",
+        "+2.34%",
+        "+3.18%",
+        "+17.24%",
+        "+44.57%"
       ]
     },
     {
@@ -661,12 +661,12 @@
       "link": "https://kr.investing.com/indices/us-spx-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "+0.18%",
-        "+1.10%",
-        "+2.21%",
-        "+1.94%",
-        "+19.56%",
-        "+74.49%"
+        "+0.16%",
+        "+1.09%",
+        "+2.20%",
+        "+1.93%",
+        "+19.55%",
+        "+74.47%"
       ]
     },
     {
@@ -674,12 +674,12 @@
       "link": "https://kr.investing.com/indices/nasdaq-composite",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "+0.38%",
-        "+1.56%",
-        "+2.43%",
-        "+2.23%",
-        "+24.48%",
-        "+114.46%"
+        "+0.26%",
+        "+1.45%",
+        "+2.32%",
+        "+2.12%",
+        "+24.34%",
+        "+114.22%"
       ]
     },
     {
@@ -687,8 +687,8 @@
       "link": "https://kr.investing.com/indices/smallcap-2000",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "+0.49%",
-        "+3.48%",
+        "+0.48%",
+        "+3.49%",
         "+3.34%",
         "+6.24%",
         "+20.16%",
@@ -701,11 +701,11 @@
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
         "+4.35%",
-        "+1.41%",
-        "-4.00%",
-        "+1.07%",
-        "-21.26%",
-        "-17.66%"
+        "+1.48%",
+        "-3.94%",
+        "+1.14%",
+        "-21.21%",
+        "-17.60%"
       ]
     },
     {
@@ -713,12 +713,12 @@
       "link": "https://kr.investing.com/indices/s-p-tsx-composite",
       "flagUrl": "https://flagcdn.com/16x12/ca.png",
       "values": [
-        "+0.85%",
-        "+2.08%",
-        "+4.32%",
-        "+3.71%",
-        "+34.04%",
-        "+61.54%"
+        "+0.80%",
+        "+2.03%",
+        "+4.27%",
+        "+3.66%",
+        "+33.98%",
+        "+61.47%"
       ]
     },
     {
@@ -726,12 +726,12 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "-0.16%",
-        "+0.80%",
-        "+1.49%",
-        "+1.26%",
-        "+37.10%",
-        "+47.10%"
+        "-0.13%",
+        "+0.85%",
+        "+1.54%",
+        "+1.32%",
+        "+37.18%",
+        "+47.18%"
       ]
     },
     {
@@ -739,12 +739,12 @@
       "link": "https://kr.investing.com/indices/ipc",
       "flagUrl": "https://flagcdn.com/16x12/mx.png",
       "values": [
-        "+1.01%",
-        "+2.67%",
-        "+3.15%",
-        "+3.79%",
-        "+33.95%",
-        "+24.58%"
+        "+1.02%",
+        "+2.65%",
+        "+3.13%",
+        "+3.78%",
+        "+33.93%",
+        "+24.57%"
       ]
     },
     {
@@ -752,12 +752,12 @@
       "link": "https://kr.investing.com/indices/germany-30",
       "flagUrl": "https://flagcdn.com/16x12/de.png",
       "values": [
-        "+0.54%",
-        "+2.13%",
-        "+5.01%",
-        "+3.70%",
-        "+26.15%",
-        "+68.35%"
+        "+0.57%",
+        "+2.16%",
+        "+5.04%",
+        "+3.74%",
+        "+26.19%",
+        "+68.40%"
       ]
     },
     {
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2026-01-12T20:59:06.097Z"
+  "lastUpdate": "2026-01-12T21:28:24.668Z"
 }
