@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-01-12T05:49:55.950Z",
+  "timestamp": "2026-01-12T06:24:14.031Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "0",
       "completed": "0",
-      "other": "1"
+      "other": "2"
     },
     "currentFire": {
       "grade": "초기진화단계",
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2026-01-12 13:50",
-      "endTime": "-",
-      "location": "경기도 양평군 청운면 도원리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
