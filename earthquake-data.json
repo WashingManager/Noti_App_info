@@ -27,6 +27,18 @@
   ],
   "international": [
     {
+      "number": "7",
+      "time": "2026/01/12 09:50:00",
+      "magnitude": "5.0",
+      "depth": "-",
+      "maxIntensity": "",
+      "latitude": "45.00 N",
+      "longitude": "142.20 E",
+      "location": "일본 홋카이도 아사히카와시 북쪽 137km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20260112095000.png",
+      "detailLink": null
+    },
+    {
       "number": "6",
       "time": "2026/01/11 13:15:00",
       "magnitude": "5.1",
@@ -100,12 +112,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 01월 11일 13시 15분 00초",
-    "magnitude": "5.1",
-    "location": "일본 이와테현 모리오카시 동쪽 65km 지역  (위도: 39.60 N, 경도: 141.90 E)",
-    "depth": "60 km",
+    "time": "2026년 01월 12일 09시 50분 00초",
+    "magnitude": "5.0",
+    "location": "일본 홋카이도 아사히카와시 북쪽 137km 지역  (위도: 45.00 N, 경도: 142.20 E)",
+    "depth": "-",
     "note": "국내영향없음. 위 자료는 일본기상청(JMA) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260111131500.png;jsessionid=ghubDcg7yNd-zMU04efvyGLMIkkH1_M0I6rVNb9O.standalone"
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260112095000.png;jsessionid=cAC_YxUyeMgGPQ52W8BBMB9HPVuv7cDvZfYjjaaH.standalone"
   },
-  "lastUpdate": "2026-01-11T23:58:46.646Z"
+  "lastUpdate": "2026-01-12T02:05:57.781Z"
 }
