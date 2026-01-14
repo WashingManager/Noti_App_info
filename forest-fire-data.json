@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-14T11:37:10.386Z",
+  "timestamp": "2026-01-14T11:53:24.919Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "1",
+      "extinguishing": "0",
+      "completed": "2",
       "other": "1"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2026-01-14 19:11",
-      "endTime": "-",
-      "location": "경상북도 영천시 화산면 가상리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
