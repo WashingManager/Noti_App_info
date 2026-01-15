@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-01-15T04:10:36.474Z",
+  "timestamp": "2026-01-15T04:54:37.081Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "1",
       "other": "1"
     },
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2026-01-15 13:43",
+      "endTime": "-",
+      "location": "경상북도 포항시 남구 장기면 대진리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
