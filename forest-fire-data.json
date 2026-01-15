@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-01-15T00:55:42.864Z",
+  "timestamp": "2026-01-15T03:03:16.335Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "2",
       "completed": "0",
       "other": "0"
     },
     "currentFire": {
-      "grade": "--",
+      "grade": "초기진화단계",
       "details": [
         {
           "label": "발생지주소",
-          "value": ""
+          "value": "전라남도 완도군 노화읍 등산리 622 전"
         },
         {
           "label": "발생일시",
-          "value": ""
+          "value": "2026년 1월 15일 10시 59분"
         },
         {
           "label": "진화일시",
-          "value": ""
+          "value": "-"
         },
         {
           "label": "진행상태",
-          "value": ""
+          "value": "진화중"
         },
         {
           "label": "진화율",
-          "value": ""
+          "value": "60%"
         },
         {
           "label": "풍향",
@@ -42,19 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2026-01-15 11:12",
+      "endTime": "-",
+      "location": "전라남도 고흥군 두원면 용당리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     },
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2026-01-15 10:59",
+      "endTime": "-",
+      "location": "전라남도 완도군 노화읍 등산리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
