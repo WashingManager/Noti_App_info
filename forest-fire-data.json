@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-20T09:44:47.532Z",
+  "timestamp": "2026-01-20T10:17:31.419Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "3",
+      "extinguishing": "0",
+      "completed": "4",
       "other": "0"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2026-01-20 17:23",
-      "endTime": "-",
-      "location": "전북특별자치도 순창군 쌍치면 오봉리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
