@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "4",
+      "time": "2026/01/21 02:08:40",
+      "magnitude": "2.1",
+      "depth": "20",
+      "maxIntensity": "Ⅱ",
+      "latitude": "35.57 N",
+      "longitude": "128.25 E",
+      "location": "경남 합천군 동쪽 8km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260121020840.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260121020840.html"
+    },
+    {
       "number": "3",
       "time": "2026/01/12 16:51:01",
       "magnitude": "2.0",
@@ -184,12 +196,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 01월 19일 22시 02분 20초",
-    "magnitude": "6.0",
-    "location": "뉴칼레도니아 누메아 동쪽 390km 해역  (위도: 22.40 S, 경도: 170.23 E)",
-    "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260119220220.png;jsessionid=L0wxvjeuo4fevv3CgDx1UdRdrpvcchmw08Hs-3hH.standalone"
+    "time": "2026년 01월 21일 02시 08분 40초",
+    "magnitude": "2.1",
+    "location": "",
+    "depth": "최대진도  Ⅱ(경남)",
+    "note": "경남 합천군 동쪽 8km 지역  (위도: 35.57 N, 경도: 128.25 E, ± 0.5km)20 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260121020840.png;jsessionid=yCUSZv_QPpMIZCoR-TzYO7eL7LoQExK7biDUX6OJ.standalone"
   },
-  "lastUpdate": "2026-01-20T16:53:51.929Z"
+  "lastUpdate": "2026-01-20T17:30:03.709Z"
 }
