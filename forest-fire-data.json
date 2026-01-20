@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-20T00:57:01.918Z",
+  "timestamp": "2026-01-20T03:06:09.373Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "2",
+      "extinguishing": "0",
+      "completed": "3",
       "other": "0"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2026-01-20 09:30",
-      "endTime": "-",
-      "location": "경상남도 하동군 금남면 대치리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
