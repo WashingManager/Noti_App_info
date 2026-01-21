@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-01-21T11:15:42.713Z",
+  "timestamp": "2026-01-21T11:42:55.830Z",
   "main": {
     "status": {
-      "extinguishing": "1",
+      "extinguishing": "2",
       "completed": "1",
       "other": "1"
     },
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2026-01-21 20:23",
+      "endTime": "-",
+      "location": "부산광역시 기장군 기장읍 청강리",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2026-01-21 15:31",
       "endTime": "-",
