@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-22T09:59:08.990Z",
+  "timestamp": "2026-01-22T10:41:15.763Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "4",
+      "extinguishing": "0",
+      "completed": "5",
       "other": "3"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2026-01-22 17:41",
-      "endTime": "-",
-      "location": "충청남도 논산시 연산면 관동리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
