@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-01-22T11:51:11.403Z",
+  "timestamp": "2026-01-22T12:37:19.257Z",
   "main": {
     "status": {
-      "extinguishing": "0",
+      "extinguishing": "1",
       "completed": "5",
       "other": "3"
     },
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2026-01-22 20:58",
+      "endTime": "-",
+      "location": "전라남도 곡성군 오산면 선세리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
