@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-01-23T04:57:16.272Z",
+  "timestamp": "2026-01-23T05:38:51.452Z",
   "main": {
     "status": {
-      "extinguishing": "1",
-      "completed": "1",
+      "extinguishing": "0",
+      "completed": "3",
       "other": "0"
     },
     "currentFire": {
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2026-01-23 12:29",
-      "endTime": "-",
-      "location": "경상북도 봉화군 재산면 현동리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
