@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-26T15:49:23.091Z",
+  "timestamp": "2026-01-26T16:20:57.173Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -61,6 +61,42 @@
   "resourceList": [
     {
       "id": "1",
+      "location": "울산 울주 온산 화산",
+      "startTime": "2026-01-26 06:31",
+      "endTime": "2026-01-26 09:00",
+      "resources": "헬기  6대   인력  125명   장비  74대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경북 경주 산내 외칠",
+      "startTime": "2026-01-25 13:33",
+      "endTime": "2026-01-25 16:47",
+      "resources": "헬기  14대   인력  87명   장비  53대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "경북 구미  구평",
+      "startTime": "2026-01-25 12:39",
+      "endTime": "2026-01-25 22:00",
+      "resources": "헬기  17대   인력  400명   장비  452대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "경북 영주 풍기 금계",
+      "startTime": "2026-01-24 10:25",
+      "endTime": "2026-01-24 13:40",
+      "resources": "헬기  9대   인력  135명   장비  36대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
       "location": "경북 봉화 재산 현동",
       "startTime": "2026-01-23 12:29",
       "endTime": "2026-01-23 17:00",
@@ -69,7 +105,16 @@
       "detailUrl": "-"
     },
     {
-      "id": "2",
+      "id": "6",
+      "location": "전남 곡성 오산 선세",
+      "startTime": "2026-01-22 20:58",
+      "endTime": "2026-01-23 17:00",
+      "resources": "헬기  7대   인력  181명   장비  144대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
       "location": "경남 진주 집현 대암",
       "startTime": "2026-01-22 13:21",
       "endTime": "2026-01-22 17:30",
@@ -78,7 +123,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "8",
       "location": "경기 연천 백학 통구",
       "startTime": "2026-01-22 01:32",
       "endTime": "2026-01-22 04:40",
@@ -87,7 +132,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "9",
       "location": "부산 기장 기장 청강",
       "startTime": "2026-01-21 20:18",
       "endTime": "2026-01-22 18:00",
@@ -96,56 +141,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "5",
+      "id": "10",
       "location": "전북 순창 쌍치 오봉",
       "startTime": "2026-01-20 17:23",
       "endTime": "2026-01-20 20:20",
       "resources": "헬기  0대   인력  62명   장비  21대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "6",
-      "location": "경남 하동 금안 대치",
-      "startTime": "2026-01-20 09:30",
-      "endTime": "2026-01-20 14:41",
-      "resources": "헬기  4대   인력  121명   장비  45대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "7",
-      "location": "울산 울주 삼남 교동",
-      "startTime": "2026-01-20 06:16",
-      "endTime": "2026-01-20 11:00",
-      "resources": "헬기  7대   인력  158명   장비  123대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "8",
-      "location": "경남 고성 회화 어신",
-      "startTime": "2026-01-20 01:09",
-      "endTime": "2026-01-20 04:47",
-      "resources": "헬기  0대   인력  137명   장비  30대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "부산 부산진  개금",
-      "startTime": "2026-01-18 00:11",
-      "endTime": "2026-01-18 01:29",
-      "resources": "헬기  0대   인력  105명   장비  20대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "경북 영천 화산 가상",
-      "startTime": "2026-01-14 19:11",
-      "endTime": "2026-01-14 22:52",
-      "resources": "헬기  0대   인력  244명   장비  55대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
