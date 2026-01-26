@@ -61,10 +61,10 @@
       "link": "https://kr.investing.com/indices/us-spx-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "6,950.42",
-        "6,965.17",
+        "6,950.30",
+        "6,964.66",
         "6,921.60",
-        "+34.81",
+        "+34.69",
         "+0.50%"
       ],
       "time": "05:59:58",
@@ -103,14 +103,14 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "16.18",
+        "16.15",
         "17.39",
         "15.80",
-        "+0.09",
-        "+0.56%"
+        "+0.06",
+        "+0.37%"
       ],
-      "time": "06:08:16",
-      "marketStatus": "open"
+      "time": "06:14:46",
+      "marketStatus": "closed"
     },
     {
       "name": "캐나다 S&P/TSX",
@@ -131,13 +131,13 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "178,944",
+        "178,721",
         "179,543",
         "177,694",
-        "+85",
-        "+0.05%"
+        "-138",
+        "-0.08%"
       ],
-      "time": "05:54:00",
+      "time": "05:54:59",
       "marketStatus": "closed"
     },
     {
@@ -663,7 +663,7 @@
       "values": [
         "+0.50%",
         "+0.15%",
-        "+0.30%",
+        "+0.29%",
         "+1.53%",
         "+15.60%",
         "+70.75%"
@@ -700,12 +700,12 @@
       "link": "https://kr.investing.com/indices/volatility-s-p-500",
       "flagUrl": "https://flagcdn.com/16x12/us.png",
       "values": [
-        "+0.56%",
-        "-14.23%",
-        "+18.82%",
-        "+8.09%",
-        "-9.72%",
-        "-12.70%"
+        "+0.37%",
+        "-14.28%",
+        "+18.75%",
+        "+8.03%",
+        "-9.78%",
+        "-12.75%"
       ]
     },
     {
@@ -726,12 +726,12 @@
       "link": "https://kr.investing.com/indices/bovespa",
       "flagUrl": "https://flagcdn.com/16x12/br.png",
       "values": [
-        "+0.05%",
-        "+8.52%",
-        "+11.19%",
-        "+11.03%",
-        "+43.28%",
-        "+59.28%"
+        "-0.08%",
+        "+8.42%",
+        "+11.08%",
+        "+10.92%",
+        "+43.14%",
+        "+59.13%"
       ]
     },
     {
@@ -1639,5 +1639,5 @@
       ]
     }
   ],
-  "lastUpdate": "2026-01-26T21:11:56.052Z"
+  "lastUpdate": "2026-01-26T21:36:51.985Z"
 }
