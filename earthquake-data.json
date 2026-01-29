@@ -63,6 +63,18 @@
   ],
   "international": [
     {
+      "number": "16",
+      "time": "2026/01/29 16:30:40",
+      "magnitude": "6.0",
+      "depth": "75",
+      "maxIntensity": "",
+      "latitude": "57.81 S",
+      "longitude": "25.57 W",
+      "location": "사우스 샌드위치 제도 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20260129163040.png",
+      "detailLink": null
+    },
+    {
       "number": "15",
       "time": "2026/01/22 21:42:35",
       "magnitude": "6.2",
@@ -244,12 +256,12 @@
     }
   ],
   "recent": {
-    "time": "킬라우에아(Kilauea)",
-    "magnitude": "",
-    "location": "",
-    "depth": "2026년 01월 25일 07시 21분",
-    "note": "9800 m",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_30_20260125072100.png"
+    "time": "2026년 01월 29일 16시 30분 40초",
+    "magnitude": "6.0",
+    "location": "사우스 샌드위치 제도 해역  (위도: 57.81 S, 경도: 25.57 W)",
+    "depth": "75 km",
+    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260129163040.png;jsessionid=479HXxJksph3uzqOA-VciSQL2jTCeVuB-Rhc9FcM.standalone"
   },
-  "lastUpdate": "2026-01-29T07:46:29.169Z"
+  "lastUpdate": "2026-01-29T09:02:05.798Z"
 }
