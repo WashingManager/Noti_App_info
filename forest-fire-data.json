@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-01-30T15:48:11.448Z",
+  "timestamp": "2026-01-30T16:25:49.947Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -61,6 +61,42 @@
   "resourceList": [
     {
       "id": "1",
+      "location": "전북 남원 산내 백일",
+      "startTime": "2026-01-29 16:29",
+      "endTime": "2026-01-30 10:00",
+      "resources": "헬기  10대   인력  258명   장비  39대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "충북 단양 매포 응실",
+      "startTime": "2026-01-29 16:15",
+      "endTime": "2026-01-29 19:00",
+      "resources": "헬기  3대   인력  76명   장비  33대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "경기 가평 북 도대",
+      "startTime": "2026-01-29 14:39",
+      "endTime": "2026-01-29 16:50",
+      "resources": "헬기  1대   인력  93명   장비  36대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "경기 양평 청운 갈운",
+      "startTime": "2026-01-29 12:17",
+      "endTime": "2026-01-29 14:30",
+      "resources": "헬기  5대   인력  51명   장비  17대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
       "location": "충남 공주 정안 북계",
       "startTime": "2026-01-28 15:25",
       "endTime": "2026-01-28 17:00",
@@ -69,7 +105,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "2",
+      "id": "6",
       "location": "전남 고흥 점암 모룡",
       "startTime": "2026-01-28 12:29",
       "endTime": "2026-01-28 14:15",
@@ -78,7 +114,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "7",
       "location": "전남 고흥 금산 어전",
       "startTime": "2026-01-27 18:30",
       "endTime": "2026-01-27 23:55",
@@ -87,7 +123,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "8",
       "location": "전남 완도 신지 월양",
       "startTime": "2026-01-27 13:15",
       "endTime": "2026-01-27 16:30",
@@ -96,7 +132,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "5",
+      "id": "9",
       "location": "전남 광양 진상 황죽",
       "startTime": "2026-01-27 10:19",
       "endTime": "2026-01-27 12:30",
@@ -105,47 +141,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "6",
+      "id": "10",
       "location": "경기 파주 파주 연풍",
       "startTime": "2026-01-26 17:26",
       "endTime": "2026-01-26 18:00",
       "resources": "헬기  0대   인력  49명   장비  19대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "7",
-      "location": "울산 울주 온산 화산",
-      "startTime": "2026-01-26 06:31",
-      "endTime": "2026-01-26 09:00",
-      "resources": "헬기  6대   인력  125명   장비  74대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "8",
-      "location": "서울 노원  상계",
-      "startTime": "2026-01-26 02:27",
-      "endTime": "2026-01-28 09:00",
-      "resources": "헬기  8대   인력  957명   장비  269대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "경북 경주 산내 외칠",
-      "startTime": "2026-01-25 13:33",
-      "endTime": "2026-01-25 16:47",
-      "resources": "헬기  14대   인력  87명   장비  53대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "경북 구미  구평",
-      "startTime": "2026-01-25 12:39",
-      "endTime": "2026-01-25 22:00",
-      "resources": "헬기  17대   인력  400명   장비  452대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
