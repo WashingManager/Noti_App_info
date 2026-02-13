@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-13T15:56:49.518Z",
+  "timestamp": "2026-02-13T17:01:04.981Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -61,6 +61,42 @@
   "resourceList": [
     {
       "id": "1",
+      "location": "경남 창원의창 북 무곡",
+      "startTime": "2026-02-12 12:38",
+      "endTime": "2026-02-12 14:20",
+      "resources": "헬기  3대   인력  76명   장비  17대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경남 함양 휴천 남호",
+      "startTime": "2026-02-12 12:19",
+      "endTime": "2026-02-12 16:06",
+      "resources": "헬기  7대   인력  169명   장비  22대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "강원 양양 현북 장",
+      "startTime": "2026-02-12 10:18",
+      "endTime": "2026-02-12 16:30",
+      "resources": "헬기  10대   인력  203명   장비  244대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "강원 양양 양양 화일",
+      "startTime": "2026-02-12 00:56",
+      "endTime": "2026-02-12 03:00",
+      "resources": "헬기  0대   인력  152명   장비  227대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
       "location": "충남 금산 복수 지량",
       "startTime": "2026-02-11 18:17",
       "endTime": "2026-02-11 19:07",
@@ -69,7 +105,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "2",
+      "id": "6",
       "location": "경북 포항북  장성",
       "startTime": "2026-02-10 01:09",
       "endTime": "2026-02-10 03:00",
@@ -78,7 +114,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "7",
       "location": "세종 세종 연서 신대",
       "startTime": "2026-02-09 15:33",
       "endTime": "2026-02-09 16:20",
@@ -87,7 +123,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "8",
       "location": "울산 울주 두동 송계",
       "startTime": "2026-02-09 15:14",
       "endTime": "2026-02-09 16:34",
@@ -96,7 +132,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "5",
+      "id": "9",
       "location": "충남 서산 지곡 중왕",
       "startTime": "2026-02-09 00:37",
       "endTime": "2026-02-09 02:55",
@@ -105,47 +141,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "6",
+      "id": "10",
       "location": "부산 동래  사직",
       "startTime": "2026-02-08 22:07",
       "endTime": "2026-02-09 09:00",
       "resources": "헬기  0대   인력  981명   장비  56대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "7",
-      "location": "전남 여수  묘도",
-      "startTime": "2026-02-08 19:49",
-      "endTime": "2026-02-09 00:20",
-      "resources": "헬기  0대   인력  111명   장비  106대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "8",
-      "location": "경기 양주  어둔",
-      "startTime": "2026-02-08 14:44",
-      "endTime": "2026-02-08 17:14",
-      "resources": "헬기  5대   인력  86명   장비  54대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "인천 중  운남",
-      "startTime": "2026-02-08 11:54",
-      "endTime": "2026-02-08 13:24",
-      "resources": "헬기  0대   인력  79명   장비  38대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "경북 포항북 죽장 지동",
-      "startTime": "2026-02-08 05:30",
-      "endTime": "2026-02-08 08:55",
-      "resources": "헬기  4대   인력  191명   장비  51대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
