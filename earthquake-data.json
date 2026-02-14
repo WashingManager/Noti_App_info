@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "8",
+      "time": "2026/02/15 04:13:38",
+      "magnitude": "3.0",
+      "depth": "9",
+      "maxIntensity": "Ⅲ",
+      "latitude": "38.13 N",
+      "longitude": "127.10 E",
+      "location": "경기 연천군 북북동쪽 4km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260215041338.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260215041338.html"
+    },
+    {
       "number": "7",
       "time": "2026/02/09 10:33:29",
       "magnitude": "2.4",
@@ -328,12 +340,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 02월 14일 11시 27분 38초",
-    "magnitude": "6.4",
-    "location": "바누아투 포트 올리 서북서쪽 52km 지역  (위도: 14.92 S, 경도: 166.61 E)",
-    "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260214112738.png;jsessionid=EH61QbWp9YllSkl39K4bb5v67z1cFcAQ4V61pcC3.standalone"
+    "time": "2026년 02월 15일 04시 13분 38초",
+    "magnitude": "3.0",
+    "location": "",
+    "depth": "최대진도  Ⅲ(경기), Ⅱ(강원)",
+    "note": "경기 연천군 북북동쪽 4km 지역  (위도: 38.13 N, 경도: 127.10 E, ± 1.0km)9 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260215041338.png;jsessionid=SmVvEeRLozoHqRQfuqRyoM2NlyzGUbWYUwvn7_nN.standalone"
   },
-  "lastUpdate": "2026-02-14T19:13:21.898Z"
+  "lastUpdate": "2026-02-14T19:39:54.492Z"
 }
