@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "9",
+      "time": "2026/02/19 08:25:43",
+      "magnitude": "2.5",
+      "depth": "-",
+      "maxIntensity": "Ⅲ",
+      "latitude": "37.19 N",
+      "longitude": "129.07 E",
+      "location": "강원 삼척시 남남서쪽 30km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260219082543.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260219082543.html"
+    },
+    {
       "number": "8",
       "time": "2026/02/15 04:13:38",
       "magnitude": "3.0",
@@ -580,12 +592,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 02월 17일 06시 42분 53초",
-    "magnitude": "6.0",
-    "location": "러시아 캄차카반도 페트로파블롭스크-캄차츠키 남남서쪽 220km 해역  (위도: 51.10 N, 경도: 157.87 E)",
-    "depth": "57 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260217064253.png"
+    "time": "2026년 02월 19일 08시 25분 43초",
+    "magnitude": "2.5",
+    "location": "",
+    "depth": "최대진도  Ⅲ(강원)",
+    "note": "강원 삼척시 남남서쪽 30km 지역  (위도: 37.19 N, 경도: 129.07 E, ± 0.7km) -",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260219082543.png;jsessionid=vyR8Ii2ykzN3SippGgQmbvdCnmTTlK9YL0XD1OWL.standalone"
   },
-  "lastUpdate": "2026-02-18T23:14:35.732Z"
+  "lastUpdate": "2026-02-18T23:47:42.916Z"
 }
