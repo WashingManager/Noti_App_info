@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "10",
+      "time": "2026/02/19 20:24:07",
+      "magnitude": "2.2",
+      "depth": "9",
+      "maxIntensity": "Ⅱ",
+      "latitude": "33.52 N",
+      "longitude": "126.88 E",
+      "location": "제주 제주시 동쪽 32km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260219202407.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260219202407.html"
+    },
+    {
       "number": "9",
       "time": "2026/02/19 08:25:43",
       "magnitude": "2.5",
@@ -592,12 +604,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 02월 19일 08시 25분 43초",
-    "magnitude": "2.5",
+    "time": "2026년 02월 19일 20시 24분 07초",
+    "magnitude": "2.2",
     "location": "",
-    "depth": "최대진도  Ⅲ(강원)",
-    "note": "강원 삼척시 남남서쪽 30km 지역  (위도: 37.19 N, 경도: 129.07 E, ± 0.7km) -",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260219082543.png;jsessionid=BFyQ5zO61dtYvplwzzAToC6DlLE2qvjlTHbtX8zz.standalone"
+    "depth": "최대진도  Ⅱ(제주)",
+    "note": "제주 제주시 동쪽 32km 지역  (위도: 33.52 N, 경도: 126.88 E, ± 2.1km)9 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260219202407.png"
   },
-  "lastUpdate": "2026-02-19T11:22:42.197Z"
+  "lastUpdate": "2026-02-19T12:00:09.814Z"
 }
