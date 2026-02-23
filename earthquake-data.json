@@ -123,6 +123,18 @@
   ],
   "international": [
     {
+      "number": "26",
+      "time": "2026/02/23 14:11:51",
+      "magnitude": "6.1",
+      "depth": "25",
+      "maxIntensity": "",
+      "latitude": "52.63 N",
+      "longitude": "170.03 W",
+      "location": "미국 앵커리지 서남서쪽 1540km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20260223141151.png",
+      "detailLink": null
+    },
+    {
       "number": "25",
       "time": "2026/02/23 01:57:46",
       "magnitude": "7.1",
@@ -351,15 +363,15 @@
       "detailLink": null
     },
     {
-      "number": "6",
-      "time": "2026/01/11 13:15:00",
-      "magnitude": "5.1",
-      "depth": "60",
+      "number": "26",
+      "time": "2026/02/23 14:11:51",
+      "magnitude": "6.1",
+      "depth": "25",
       "maxIntensity": "",
-      "latitude": "39.60 N",
-      "longitude": "141.90 E",
-      "location": "일본 이와테현 모리오카시 동쪽 65km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20260111131500.png",
+      "latitude": "52.63 N",
+      "longitude": "170.03 W",
+      "location": "미국 앵커리지 서남서쪽 1540km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20260223141151.png",
       "detailLink": null
     },
     {
@@ -588,28 +600,16 @@
       "longitude": "142.20 E",
       "location": "일본 홋카이도 아사히카와시 북쪽 137km 지역",
       "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20260112095000.png",
-      "detailLink": null
-    },
-    {
-      "number": "6",
-      "time": "2026/01/11 13:15:00",
-      "magnitude": "5.1",
-      "depth": "60",
-      "maxIntensity": "",
-      "latitude": "39.60 N",
-      "longitude": "141.90 E",
-      "location": "일본 이와테현 모리오카시 동쪽 65km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20260111131500.png",
       "detailLink": null
     }
   ],
   "recent": {
-    "time": "2026년 02월 23일 01시 57분 46초",
-    "magnitude": "7.1",
-    "location": "말레이시아 코타키나발루 북북동쪽 97km 해역  (위도: 6.83 N, 경도: 116.26 E)",
-    "depth": "620 km",
+    "time": "2026년 02월 23일 14시 11분 51초",
+    "magnitude": "6.1",
+    "location": "미국 앵커리지 서남서쪽 1540km 해역  (위도: 52.63 N, 경도: 170.03 W)",
+    "depth": "25 km",
     "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260223015746.png"
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260223141151.png;jsessionid=2sl17EhmxuEPu6iJepFF4zSYNWbF5IX0PtuBTBx8.standalone"
   },
-  "lastUpdate": "2026-02-23T04:58:09.791Z"
+  "lastUpdate": "2026-02-23T06:06:07.626Z"
 }
