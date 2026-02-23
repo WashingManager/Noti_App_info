@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-02-23T07:35:22.760Z",
+  "timestamp": "2026-02-23T08:28:56.754Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -42,19 +42,27 @@
   },
   "fireList": [
     {
-      "startTime": "2026-02-23 14:23",
+      "startTime": "2026-02-23 16:10",
       "endTime": "-",
-      "location": "울산광역시 울주군 웅촌면 대복리",
+      "location": "경상남도 밀양시 삼랑진읍 검세리",
+      "status": "진화중",
+      "level": "1단계",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-02-23 16:05",
+      "endTime": "-",
+      "location": "전라남도 순천시 상사면 쌍지리",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
     },
     {
-      "startTime": "2026-02-21 21:14",
+      "startTime": "2026-02-23 14:23",
       "endTime": "-",
-      "location": "경상남도 함양군 마천면 창원리",
+      "location": "울산광역시 울주군 웅촌면 대복리",
       "status": "진화중",
-      "level": "2단계",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
