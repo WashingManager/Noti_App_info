@@ -1,7 +1,154 @@
 {
-  "timestamp": "2026-02-27T22:59:03.934Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2026-02-27T23:34:36.913Z",
+  "main": {
+    "status": {
+      "extinguishing": "N/A",
+      "completed": "N/A",
+      "other": "N/A"
+    },
+    "currentFire": {
+      "grade": "--",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": ""
+        },
+        {
+          "label": "발생일시",
+          "value": ""
+        },
+        {
+          "label": "진화일시",
+          "value": ""
+        },
+        {
+          "label": "진행상태",
+          "value": ""
+        },
+        {
+          "label": "진화율",
+          "value": ""
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "1",
+      "location": "충북 충주 살미 설운",
+      "startTime": "2026-02-27 10:07",
+      "endTime": "2026-02-27 11:50",
+      "resources": "헬기  1대   인력  105명   장비  13대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경기 연천 미산 광동",
+      "startTime": "2026-02-26 23:18",
+      "endTime": "2026-02-27 00:30",
+      "resources": "헬기  0대   인력  55명   장비  9대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "인천 남동  장수",
+      "startTime": "2026-02-26 14:40",
+      "endTime": "2026-02-26 15:10",
+      "resources": "헬기  0대   인력  79명   장비  40대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "경북 영주 안정 용산",
+      "startTime": "2026-02-25 19:29",
+      "endTime": "2026-02-25 00:00",
+      "resources": "헬기  0대   인력  188명   장비  72대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "경기 남양주 와부 도곡",
+      "startTime": "2026-02-24 09:37",
+      "endTime": "2026-02-24 10:46",
+      "resources": "헬기  1대   인력  57명   장비  29대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "전남 순천 서 압곡",
+      "startTime": "2026-02-23 20:54",
+      "endTime": "2026-02-24 14:20",
+      "resources": "헬기  0대   인력  113명   장비  119대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "경기 남양주 화도 답내",
+      "startTime": "2026-02-23 17:17",
+      "endTime": "2026-02-23 19:00",
+      "resources": "헬기  1대   인력  71명   장비  29대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "경남 밀양 삼랑진 검세",
+      "startTime": "2026-02-23 16:10",
+      "endTime": "2026-02-24 17:30",
+      "resources": "헬기  34대   인력  896명   장비  389대",
+      "level": "산불 2단계",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "전남 순천 상사 쌍지",
+      "startTime": "2026-02-23 16:05",
+      "endTime": "2026-02-23 21:32",
+      "resources": "헬기  8대   인력  84명   장비  110대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "울산 울주 웅촌 대복",
+      "startTime": "2026-02-23 14:23",
+      "endTime": "2026-02-23 19:30",
+      "resources": "헬기  6대   인력  208명   장비  234대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
