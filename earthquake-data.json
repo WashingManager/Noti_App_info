@@ -123,6 +123,18 @@
   ],
   "international": [
     {
+      "number": "38",
+      "time": "2026/03/02 13:56:00",
+      "magnitude": "5.4",
+      "depth": "10",
+      "maxIntensity": "",
+      "latitude": "25.40 N",
+      "longitude": "124.90 E",
+      "location": "일본 오키나와현 나하시 서남서쪽 292km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20260302135600.png",
+      "detailLink": null
+    },
+    {
       "number": "37",
       "time": "2026/03/02 12:55:22",
       "magnitude": "6.1",
@@ -351,15 +363,15 @@
       "detailLink": null
     },
     {
-      "number": "18",
-      "time": "2026/02/11 05:44:52",
-      "magnitude": "6.2",
-      "depth": "511",
+      "number": "38",
+      "time": "2026/03/02 13:56:00",
+      "magnitude": "5.4",
+      "depth": "10",
       "maxIntensity": "",
-      "latitude": "21.04 S",
-      "longitude": "178.34 W",
-      "location": "뉴질랜드 오클랜드 북북동쪽 1876km 해역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20260211054452.png",
+      "latitude": "25.40 N",
+      "longitude": "124.90 E",
+      "location": "일본 오키나와현 나하시 서남서쪽 292km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20260302135600.png",
       "detailLink": null
     },
     {
@@ -588,28 +600,16 @@
       "longitude": "71.45 W",
       "location": "칠레 코킴보 남쪽 95km 지역",
       "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20260212223431.png",
-      "detailLink": null
-    },
-    {
-      "number": "18",
-      "time": "2026/02/11 05:44:52",
-      "magnitude": "6.2",
-      "depth": "511",
-      "maxIntensity": "",
-      "latitude": "21.04 S",
-      "longitude": "178.34 W",
-      "location": "뉴질랜드 오클랜드 북북동쪽 1876km 해역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_2_20260211054452.png",
       "detailLink": null
     }
   ],
   "recent": {
-    "time": "2026년 03월 02일 12시 55분 22초",
-    "magnitude": "6.1",
-    "location": "일본 가나가와현 요코스카시 남남동쪽 1439km 해역  (위도: 22.95 N, 경도: 144.30 E)",
+    "time": "2026년 03월 02일 13시 56분 00초",
+    "magnitude": "5.4",
+    "location": "일본 오키나와현 나하시 서남서쪽 292km 해역  (위도: 25.40 N, 경도: 124.90 E)",
     "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260302125522.png"
+    "note": "국내영향없음. 위 자료는 일본기상청(JMA) 분석결과임.",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260302135600.png"
   },
-  "lastUpdate": "2026-03-02T04:22:03.202Z"
+  "lastUpdate": "2026-03-02T05:31:42.166Z"
 }
