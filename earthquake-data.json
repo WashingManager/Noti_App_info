@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "11",
+      "time": "2026/03/07 10:06:59",
+      "magnitude": "3.0",
+      "depth": "22",
+      "maxIntensity": "Ⅱ",
+      "latitude": "35.46 N",
+      "longitude": "125.82 E",
+      "location": "전남 영광군 서북서쪽 66km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260307100659.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260307100659.html"
+    },
+    {
       "number": "10",
       "time": "2026/02/19 20:24:07",
       "magnitude": "2.2",
@@ -844,12 +856,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 03월 07일 07시 39분 00초",
-    "magnitude": "5.1",
-    "location": "일본 오키나와현 나하시 서남서쪽 283km 해역  (위도: 25.40 N, 경도: 125.00 E)",
-    "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 일본기상청(JMA) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260307073900.png;jsessionid=e7NX8h5P_RQfyDvOg5-mXdFHBsp6INi4-GgTvYbQ.standalone"
+    "time": "2026년 03월 07일 10시 06분 59초",
+    "magnitude": "3.0",
+    "location": "",
+    "depth": "최대진도  Ⅱ(전북)",
+    "note": "전남 영광군 서북서쪽 66km 해역  (위도: 35.46 N, 경도: 125.82 E, ± 2.5km)22 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260307100659.png;jsessionid=_MD4ezRnSwndhCOWZGj7Stak1Wk-TB0YJtUyo3w7.standalone"
   },
-  "lastUpdate": "2026-03-06T23:55:15.927Z"
+  "lastUpdate": "2026-03-07T01:58:33.854Z"
 }
