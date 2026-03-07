@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "12",
+      "time": "2026/03/07 18:38:44",
+      "magnitude": "2.6",
+      "depth": "10",
+      "maxIntensity": "Ⅲ",
+      "latitude": "36.56 N",
+      "longitude": "129.10 E",
+      "location": "경북 영양군 남쪽 12km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260307183844.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260307183844.html"
+    },
+    {
       "number": "11",
       "time": "2026/03/07 10:06:59",
       "magnitude": "3.0",
@@ -856,12 +868,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 03월 07일 10시 06분 59초",
-    "magnitude": "3.0",
+    "time": "2026년 03월 07일 18시 38분 44초",
+    "magnitude": "2.6",
     "location": "",
-    "depth": "최대진도  Ⅱ(전북)",
-    "note": "전남 영광군 서북서쪽 66km 해역  (위도: 35.46 N, 경도: 125.82 E, ± 2.5km)22 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260307100659.png;jsessionid=rPSAz5FdLVSKxH0B-Bp9bHL4dM7u-Z2CXmTlkw2W.standalone"
+    "depth": "최대진도  Ⅲ(경북)",
+    "note": "경북 영양군 남쪽 12km 지역  (위도: 36.56 N, 경도: 129.10 E, ± 0.5km)10 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260307183844.png;jsessionid=9QKT4bp2ukoRypVzYUYcGYWTkuaLPINrZVjdLxHN.standalone"
   },
-  "lastUpdate": "2026-03-07T09:29:12.954Z"
+  "lastUpdate": "2026-03-07T09:51:36.727Z"
 }
