@@ -1,7 +1,82 @@
 {
-  "timestamp": "2026-03-08T20:37:45.857Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2026-03-08T20:58:27.146Z",
+  "main": {
+    "status": {
+      "extinguishing": "N/A",
+      "completed": "N/A",
+      "other": "N/A"
+    },
+    "currentFire": {
+      "grade": "--",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": ""
+        },
+        {
+          "label": "발생일시",
+          "value": ""
+        },
+        {
+          "label": "진화일시",
+          "value": ""
+        },
+        {
+          "label": "진행상태",
+          "value": ""
+        },
+        {
+          "label": "진화율",
+          "value": ""
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "진화자원이력 목록이 없습니다.",
+      "location": "",
+      "startTime": "",
+      "endTime": "",
+      "resources": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "id": "진화자원이력 목록이 없습니다.",
+      "location": "",
+      "startTime": "",
+      "endTime": "",
+      "resources": "",
+      "level": "",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
