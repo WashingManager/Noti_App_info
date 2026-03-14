@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "17",
+      "time": "2026/03/14 09:00:20",
+      "magnitude": "2.6",
+      "depth": "11",
+      "maxIntensity": "Ⅲ",
+      "latitude": "35.82 N",
+      "longitude": "128.35 E",
+      "location": "경북 성주군 남남동쪽 13km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260314090020.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260314090020.html"
+    },
+    {
       "number": "16",
       "time": "2026/03/11 22:11:04",
       "magnitude": "2.1",
@@ -916,12 +928,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 03월 13일 22시 39분 18초",
-    "magnitude": "6.3",
-    "location": "칠레 라세레나 북북서쪽 141km 해역  (위도: 28.68 S, 경도: 71.63 W)",
-    "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260313223918.png;jsessionid=0PlMSRw3pXoNyaLAWNUcZNJ1wv-9a-C-yHy9pu7c.standalone"
+    "time": "2026년 03월 14일 09시 00분 20초",
+    "magnitude": "2.6",
+    "location": "",
+    "depth": "최대진도  Ⅲ(경북, 대구), Ⅱ(경남, 전북, 충북)",
+    "note": "경북 성주군 남남동쪽 13km 지역  (위도: 35.82 N, 경도: 128.35 E, ± 0.4km)11 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260314090020.png;jsessionid=VIxbR83Tpud-cM4iMUoqqt2qXyydJlJ-_dM2pOz2.standalone"
   },
-  "lastUpdate": "2026-03-13T23:58:51.113Z"
+  "lastUpdate": "2026-03-14T02:25:46.546Z"
 }
