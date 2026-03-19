@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "18",
+      "time": "2026/03/20 00:51:51",
+      "magnitude": "2.4",
+      "depth": "7",
+      "maxIntensity": "Ⅳ",
+      "latitude": "35.46 N",
+      "longitude": "126.81 E",
+      "location": "전남 장성군 북쪽 18km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260320005151.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260320005151.html"
+    },
+    {
       "number": "17",
       "time": "2026/03/14 09:00:20",
       "magnitude": "2.6",
@@ -928,12 +940,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 03월 14일 09시 00분 20초",
-    "magnitude": "2.6",
+    "time": "2026년 03월 20일 00시 51분 51초",
+    "magnitude": "2.4",
     "location": "",
-    "depth": "최대진도  Ⅲ(경북, 대구), Ⅱ(경남, 전북, 충북)",
-    "note": "경북 성주군 남남동쪽 13km 지역  (위도: 35.82 N, 경도: 128.35 E, ± 0.4km)11 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260314090020.png;jsessionid=FYWORevUoRThnpTv4MK7Ylvq_65sHsHOwDwhATuG.standalone"
+    "depth": "최대진도  Ⅳ(전남), Ⅲ(전북), Ⅱ(광주)",
+    "note": "전남 장성군 북쪽 18km 지역  (위도: 35.46 N, 경도: 126.81 E, ± 0.4km)7 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260320005151.png;jsessionid=xzr_Po03fL7aib2VrgVNDn7mKO2Xeh9LoAmXcOeZ.standalone"
   },
-  "lastUpdate": "2026-03-19T15:25:58.115Z"
+  "lastUpdate": "2026-03-19T17:32:37.179Z"
 }
