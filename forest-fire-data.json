@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-25T07:33:47.932Z",
+  "timestamp": "2026-03-25T08:27:44.508Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -42,11 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "2026-03-25 15:48",
-      "endTime": "-",
-      "location": "충청북도 단양군 단성면 장회리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
@@ -62,6 +70,15 @@
     },
     {
       "id": "2",
+      "location": "강원 횡성 청일 감천",
+      "startTime": "2026-03-24 10:31",
+      "endTime": "2026-03-24 12:20",
+      "resources": "헬기  4대   인력  52명   장비  37대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
       "location": "전북 완주 고산 율곡",
       "startTime": "2026-03-24 00:20",
       "endTime": "2026-03-24 02:30",
@@ -70,7 +87,16 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "4",
+      "location": "경기 이천 설성 장능",
+      "startTime": "2026-03-23 14:27",
+      "endTime": "2026-03-23 16:30",
+      "resources": "헬기  1대   인력  50명   장비  12대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
       "location": "전남 화순 동 복암",
       "startTime": "2026-03-23 11:26",
       "endTime": "2026-03-23 16:30",
@@ -79,7 +105,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "6",
       "location": "전남 순천 별량 마산",
       "startTime": "2026-03-23 11:25",
       "endTime": "2026-03-23 15:00",
@@ -88,7 +114,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "5",
+      "id": "7",
       "location": "경기 시흥  도창",
       "startTime": "2026-03-22 17:30",
       "endTime": "2026-03-22 18:55",
@@ -97,7 +123,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "6",
+      "id": "8",
       "location": "전북 김제 성덕 석동",
       "startTime": "2026-03-22 16:39",
       "endTime": "2026-03-22 17:30",
@@ -106,7 +132,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "7",
+      "id": "9",
       "location": "경기 수원 장안 파장",
       "startTime": "2026-03-22 16:06",
       "endTime": "2026-03-22 19:00",
@@ -115,29 +141,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "8",
+      "id": "10",
       "location": "충북 충주 앙성 용대",
       "startTime": "2026-03-22 16:03",
       "endTime": "2026-03-22 19:00",
       "resources": "헬기  5대   인력  87명   장비  19대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "전북 김제 금구 오봉",
-      "startTime": "2026-03-22 15:30",
-      "endTime": "2026-03-22 16:00",
-      "resources": "헬기  2대   인력  86명   장비  24대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "경북 안동  수상",
-      "startTime": "2026-03-22 15:14",
-      "endTime": "2026-03-22 16:50",
-      "resources": "헬기  10대   인력  130명   장비  28대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
