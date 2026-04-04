@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "19",
+      "time": "2026/04/04 23:03:05",
+      "magnitude": "2.4",
+      "depth": "14",
+      "maxIntensity": "Ⅰ",
+      "latitude": "41.27 N",
+      "longitude": "129.39 E",
+      "location": "북한 함경북도 길주 북쪽 36km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260404230305.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260404230305.html"
+    },
+    {
       "number": "18",
       "time": "2026/03/20 00:51:51",
       "magnitude": "2.4",
@@ -1180,12 +1192,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 04월 04일 19시 34분 31초",
-    "magnitude": "6.0",
-    "location": "필리핀 제너럴산토스 남동쪽 170km 해역  (위도: 4.89 N, 경도: 126.10 E)",
-    "depth": "100 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260404193431.png"
+    "time": "2026년 04월 04일 23시 03분 05초",
+    "magnitude": "2.4",
+    "location": "",
+    "depth": "최대진도  Ⅰ",
+    "note": "북한 함경북도 길주 북쪽 36km 지역  (위도: 41.27 N, 경도: 129.39 E, ± 5.2km)14 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260404230305.png"
   },
-  "lastUpdate": "2026-04-04T14:42:47.901Z"
+  "lastUpdate": "2026-04-04T15:16:30.696Z"
 }
