@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-08T06:10:35.161Z",
+  "timestamp": "2026-04-08T07:53:48.193Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -42,19 +42,11 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2026-04-08 16:06",
+      "endTime": "-",
+      "location": "충청남도 공주시 신풍면 쌍대리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
@@ -70,6 +62,15 @@
     },
     {
       "id": "2",
+      "location": "경북 안동 와룡 태",
+      "startTime": "2026-04-03 23:52",
+      "endTime": "2026-04-04 00:40",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
       "location": "전남 영암 삼호 용앙",
       "startTime": "2026-04-03 13:30",
       "endTime": "2026-04-03 14:50",
@@ -78,7 +79,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "4",
       "location": "전남 강진 미량 영동",
       "startTime": "2026-04-03 12:40",
       "endTime": "2026-04-03 15:40",
@@ -87,7 +88,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "5",
       "location": "강원 홍천 내촌 답풍",
       "startTime": "2026-03-31 19:21",
       "endTime": "2026-03-31 20:40",
@@ -96,7 +97,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "5",
+      "id": "6",
       "location": "강원 양구 국토정중앙 원",
       "startTime": "2026-03-30 15:19",
       "endTime": "2026-03-30 16:58",
@@ -105,7 +106,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "6",
+      "id": "7",
       "location": "경기 파주 파주 향양",
       "startTime": "2026-03-30 02:49",
       "endTime": "2026-03-30 05:49",
@@ -114,7 +115,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "7",
+      "id": "8",
       "location": "충남 홍성 장곡 산성",
       "startTime": "2026-03-29 22:55",
       "endTime": "2026-03-30 00:27",
@@ -123,7 +124,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "8",
+      "id": "9",
       "location": "충남 예산 광시 광시",
       "startTime": "2026-03-29 17:00",
       "endTime": "2026-03-29 18:30",
@@ -132,20 +133,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "9",
+      "id": "10",
       "location": "경북 경주 외동 석계",
       "startTime": "2026-03-29 16:16",
       "endTime": "2026-03-29 17:48",
       "resources": "헬기  8대   인력  72명   장비  39대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "인천 강화 삼산 석포",
-      "startTime": "2026-03-29 15:05",
-      "endTime": "2026-03-29 15:40",
-      "resources": "헬기  2대   인력  140명   장비  20대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
