@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-15T04:17:12.197Z",
+  "timestamp": "2026-04-15T06:15:14.908Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -42,9 +42,17 @@
   },
   "fireList": [
     {
-      "startTime": "2026-04-15 12:56",
+      "startTime": "2026-04-15 14:38",
       "endTime": "-",
-      "location": "경기도 광주시 퇴촌면 무수리",
+      "location": "강원특별자치도 철원군 근남면 마현리",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-04-15 14:11",
+      "endTime": "-",
+      "location": "경기도 남양주시 화도읍 녹촌리",
       "status": "진화중",
       "level": "초기대응",
       "detailUrl": "-"
@@ -61,6 +69,24 @@
   "resourceList": [
     {
       "id": "1",
+      "location": "경북 상주 화서 사산",
+      "startTime": "2026-04-14 19:30",
+      "endTime": "2026-04-14 22:00",
+      "resources": "헬기  0대   인력  153명   장비  34대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경기 파주 적성 가월",
+      "startTime": "2026-04-14 15:01",
+      "endTime": "2026-04-14 16:19",
+      "resources": "헬기  1대   인력  41명   장비  9대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
       "location": "전남 담양 창평 외동",
       "startTime": "2026-04-13 19:48",
       "endTime": "2026-04-13 20:55",
@@ -69,7 +95,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "2",
+      "id": "4",
       "location": "충남 천안동남 풍세 미죽",
       "startTime": "2026-04-13 15:50",
       "endTime": "2026-04-13 17:00",
@@ -78,7 +104,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "5",
       "location": "충북 단양 단성 북하",
       "startTime": "2026-04-13 13:56",
       "endTime": "2026-04-13 17:10",
@@ -87,7 +113,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "6",
       "location": "충남 태안 소원 송현",
       "startTime": "2026-04-13 12:43",
       "endTime": "2026-04-13 14:30",
@@ -96,7 +122,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "5",
+      "id": "7",
       "location": "경기 남양주 진건 진관",
       "startTime": "2026-04-12 16:29",
       "endTime": "2026-04-12 19:30",
@@ -105,7 +131,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "6",
+      "id": "8",
       "location": "강원 춘천 서 안보",
       "startTime": "2026-04-12 15:32",
       "endTime": "2026-04-12 17:39",
@@ -114,7 +140,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "7",
+      "id": "9",
       "location": "충남 공주 신풍 쌍대",
       "startTime": "2026-04-08 16:06",
       "endTime": "2026-04-08 17:02",
@@ -123,29 +149,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "8",
+      "id": "10",
       "location": "경남 진주 금곡 죽곡",
       "startTime": "2026-04-08 16:05",
       "endTime": "2026-04-08 17:23",
       "resources": "헬기  3대   인력  98명   장비  69대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "경기 연천 연천 고문",
-      "startTime": "2026-04-05 12:44",
-      "endTime": "2026-04-05 14:30",
-      "resources": "헬기  7대   인력  88명   장비  14대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "경북 안동 와룡 태",
-      "startTime": "2026-04-03 23:52",
-      "endTime": "2026-04-04 00:40",
-      "resources": "헬기  0대   인력  0명   장비  0대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
