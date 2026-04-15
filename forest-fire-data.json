@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-15T01:08:30.475Z",
+  "timestamp": "2026-04-15T04:17:12.197Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -42,19 +42,19 @@
   },
   "fireList": [
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2026-04-15 12:56",
+      "endTime": "-",
+      "location": "경기도 광주시 퇴촌면 무수리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     },
     {
-      "startTime": "산불 발생정보가 없습니다.",
-      "endTime": "",
-      "location": "",
-      "status": "",
-      "level": "",
+      "startTime": "2026-04-13 12:10",
+      "endTime": "2026-04-15 08:30",
+      "location": "강원특별자치도 철원군 철원읍 가단리",
+      "status": "진화중",
+      "level": "초기대응",
       "detailUrl": "-"
     }
   ],
@@ -98,9 +98,9 @@
     {
       "id": "5",
       "location": "경기 남양주 진건 진관",
-      "startTime": "2026-04-12 16:30",
-      "endTime": "2026-04-12 17:30",
-      "resources": "헬기  0대   인력  0명   장비  0대",
+      "startTime": "2026-04-12 16:29",
+      "endTime": "2026-04-12 19:30",
+      "resources": "헬기  4대   인력  70명   장비  36대",
       "level": "초기 대응",
       "detailUrl": "-"
     },
