@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-16T23:55:29.296Z",
+  "timestamp": "2026-04-17T03:37:28.620Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -61,6 +61,42 @@
   "resourceList": [
     {
       "id": "1",
+      "location": "충남 공주 이인 주봉",
+      "startTime": "2026-04-16 16:10",
+      "endTime": "2026-04-16 17:43",
+      "resources": "헬기  2대   인력  97명   장비  17대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경북 영천  문외",
+      "startTime": "2026-04-16 13:47",
+      "endTime": "2026-04-16 14:00",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "전남 광양 진상 황죽",
+      "startTime": "2026-04-16 12:30",
+      "endTime": "2026-04-16 13:40",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "강원 횡성 둔내 화동",
+      "startTime": "2026-04-16 11:39",
+      "endTime": "2026-04-16 12:16",
+      "resources": "헬기  3대   인력  54명   장비  50대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
       "location": "경기 남양주 화도 묵현",
       "startTime": "2026-04-15 14:11",
       "endTime": "2026-04-15 16:30",
@@ -69,7 +105,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "2",
+      "id": "6",
       "location": "경기 가평 설악 회곡",
       "startTime": "2026-04-15 13:06",
       "endTime": "2026-04-15 13:35",
@@ -78,7 +114,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "7",
       "location": "경기 광주 퇴촌 무수",
       "startTime": "2026-04-15 12:57",
       "endTime": "2026-04-15 14:30",
@@ -87,7 +123,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "8",
       "location": "경북 상주 화서 사산",
       "startTime": "2026-04-14 19:30",
       "endTime": "2026-04-14 22:00",
@@ -96,7 +132,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "5",
+      "id": "9",
       "location": "경기 파주 적성 가월",
       "startTime": "2026-04-14 15:01",
       "endTime": "2026-04-14 16:19",
@@ -105,47 +141,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "6",
+      "id": "10",
       "location": "전남 담양 창평 외동",
       "startTime": "2026-04-13 19:48",
       "endTime": "2026-04-13 20:55",
       "resources": "헬기  0대   인력  0명   장비  0대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "7",
-      "location": "충남 천안동남 풍세 미죽",
-      "startTime": "2026-04-13 15:50",
-      "endTime": "2026-04-13 17:00",
-      "resources": "헬기  3대   인력  58명   장비  16대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "8",
-      "location": "충북 단양 단성 북하",
-      "startTime": "2026-04-13 13:56",
-      "endTime": "2026-04-13 17:10",
-      "resources": "헬기  10대   인력  143명   장비  24대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "충남 태안 소원 송현",
-      "startTime": "2026-04-13 12:43",
-      "endTime": "2026-04-13 14:30",
-      "resources": "헬기  3대   인력  75명   장비  28대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "경기 남양주 진건 진관",
-      "startTime": "2026-04-12 16:29",
-      "endTime": "2026-04-12 19:30",
-      "resources": "헬기  4대   인력  70명   장비  36대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
