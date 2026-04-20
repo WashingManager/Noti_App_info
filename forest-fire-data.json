@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-20T06:34:12.066Z",
+  "timestamp": "2026-04-20T08:59:00.143Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -42,102 +42,110 @@
   },
   "fireList": [
     {
-      "startTime": "2026-04-19 15:08",
-      "endTime": "-",
-      "location": "강원특별자치도 양구군 방산면 천미리",
-      "status": "진화중",
-      "level": "초기대응",
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
       "detailUrl": "-"
     }
   ],
   "resourceList": [
     {
       "id": "1",
-      "location": "충남 공주 이인 주봉",
-      "startTime": "2026-04-16 16:10",
-      "endTime": "2026-04-16 17:43",
-      "resources": "헬기  2대   인력  97명   장비  17대",
+      "location": "경기 파주 월롱 덕은",
+      "startTime": "2026-04-19 17:11",
+      "endTime": "2026-04-19 17:50",
+      "resources": "헬기  0대   인력  0명   장비  0대",
       "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "2",
-      "location": "경북 영천  문외",
-      "startTime": "2026-04-16 13:47",
-      "endTime": "2026-04-16 14:00",
-      "resources": "헬기  0대   인력  0명   장비  0대",
+      "location": "경북 영양 석보 삼의",
+      "startTime": "2026-04-19 15:48",
+      "endTime": "2026-04-19 16:35",
+      "resources": "헬기  4대   인력  87명   장비  20대",
       "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "3",
-      "location": "전남 광양 진상 황죽",
-      "startTime": "2026-04-16 12:30",
-      "endTime": "2026-04-16 13:40",
-      "resources": "헬기  0대   인력  0명   장비  0대",
+      "location": "경북 문경 동로 수평",
+      "startTime": "2026-04-19 15:28",
+      "endTime": "2026-04-19 17:05",
+      "resources": "헬기  5대   인력  102명   장비  32대",
       "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "4",
-      "location": "강원 횡성 둔내 화동",
-      "startTime": "2026-04-16 11:39",
-      "endTime": "2026-04-16 12:16",
-      "resources": "헬기  3대   인력  54명   장비  50대",
+      "location": "경북 영양 수비 오기",
+      "startTime": "2026-04-19 10:35",
+      "endTime": "2026-04-19 11:45",
+      "resources": "헬기  10대   인력  88명   장비  31대",
       "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "5",
-      "location": "경기 남양주 화도 묵현",
-      "startTime": "2026-04-15 14:11",
-      "endTime": "2026-04-15 16:30",
-      "resources": "헬기  3대   인력  106명   장비  76대",
+      "location": "경기 남양주 진접 내곡",
+      "startTime": "2026-04-18 13:19",
+      "endTime": "2026-04-18 14:00",
+      "resources": "헬기  0대   인력  0명   장비  0대",
       "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "6",
-      "location": "경기 가평 설악 회곡",
-      "startTime": "2026-04-15 13:06",
-      "endTime": "2026-04-15 13:35",
-      "resources": "헬기  0대   인력  0명   장비  0대",
+      "location": "경북 안동 예안 동천",
+      "startTime": "2026-04-18 12:05",
+      "endTime": "2026-04-18 14:13",
+      "resources": "헬기  9대   인력  90명   장비  29대",
       "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "7",
-      "location": "경기 광주 퇴촌 무수",
-      "startTime": "2026-04-15 12:57",
-      "endTime": "2026-04-15 14:30",
-      "resources": "헬기  2대   인력  101명   장비  46대",
+      "location": "충북 제천 수산 수",
+      "startTime": "2026-04-18 04:52",
+      "endTime": "2026-04-18 06:30",
+      "resources": "헬기  0대   인력  104명   장비  26대",
       "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "8",
-      "location": "경북 상주 화서 사산",
-      "startTime": "2026-04-14 19:30",
-      "endTime": "2026-04-14 22:00",
-      "resources": "헬기  0대   인력  153명   장비  34대",
+      "location": "강원 평창 대관령 병내",
+      "startTime": "2026-04-17 16:42",
+      "endTime": "2026-04-17 19:03",
+      "resources": "헬기  6대   인력  148명   장비  75대",
       "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "9",
-      "location": "경기 파주 적성 가월",
-      "startTime": "2026-04-14 15:01",
-      "endTime": "2026-04-14 16:19",
-      "resources": "헬기  1대   인력  41명   장비  9대",
+      "location": "경기 용인처인 모현 왕산",
+      "startTime": "2026-04-17 14:12",
+      "endTime": "2026-04-17 16:25",
+      "resources": "헬기  2대   인력  47명   장비  16대",
       "level": "초기 대응",
       "detailUrl": "-"
     },
     {
       "id": "10",
-      "location": "전남 담양 창평 외동",
-      "startTime": "2026-04-13 19:48",
-      "endTime": "2026-04-13 20:55",
-      "resources": "헬기  0대   인력  0명   장비  0대",
+      "location": "충남 공주 이인 주봉",
+      "startTime": "2026-04-16 16:10",
+      "endTime": "2026-04-16 17:43",
+      "resources": "헬기  2대   인력  97명   장비  17대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
