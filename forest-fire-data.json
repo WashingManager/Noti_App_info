@@ -1,7 +1,146 @@
 {
-  "timestamp": "2026-04-22T09:54:29.041Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2026-04-22T11:18:02.131Z",
+  "main": {
+    "status": {
+      "extinguishing": "N/A",
+      "completed": "N/A",
+      "other": "N/A"
+    },
+    "currentFire": {
+      "grade": "--",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": ""
+        },
+        {
+          "label": "발생일시",
+          "value": ""
+        },
+        {
+          "label": "진화일시",
+          "value": ""
+        },
+        {
+          "label": "진행상태",
+          "value": ""
+        },
+        {
+          "label": "진화율",
+          "value": ""
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "2026-04-22 18:58",
+      "endTime": "-",
+      "location": "충청남도 서산시 대산읍 웅도리",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "1",
+      "location": "강원 영월 영월 영흥",
+      "startTime": "2026-04-21 18:51",
+      "endTime": "2026-04-21 22:23",
+      "resources": "헬기  0대   인력  174명   장비  106대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "강원 양양 서 논화",
+      "startTime": "2026-04-21 07:43",
+      "endTime": "2026-04-21 10:20",
+      "resources": "헬기  6대   인력  159명   장비  135대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "대구 군위 삼국유사 화북",
+      "startTime": "2026-04-20 22:09",
+      "endTime": "2026-04-20 23:43",
+      "resources": "헬기  0대   인력  121명   장비  31대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "경남 양산  명곡",
+      "startTime": "2026-04-20 15:34",
+      "endTime": "2026-04-20 16:20",
+      "resources": "헬기  2대   인력  71명   장비  45대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "경기 파주 월롱 덕은",
+      "startTime": "2026-04-19 17:10",
+      "endTime": "2026-04-19 18:20",
+      "resources": "헬기  2대   인력  54명   장비  18대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "경북 영양 석보 삼의",
+      "startTime": "2026-04-19 15:48",
+      "endTime": "2026-04-19 16:35",
+      "resources": "헬기  4대   인력  87명   장비  20대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "경북 문경 동로 수평",
+      "startTime": "2026-04-19 15:28",
+      "endTime": "2026-04-19 17:05",
+      "resources": "헬기  5대   인력  102명   장비  32대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "경북 영양 수비 오기",
+      "startTime": "2026-04-19 10:35",
+      "endTime": "2026-04-19 11:45",
+      "resources": "헬기  10대   인력  88명   장비  31대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "경기 남양주 진접 내곡",
+      "startTime": "2026-04-18 13:19",
+      "endTime": "2026-04-18 15:00",
+      "resources": "헬기  3대   인력  102명   장비  57대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "경북 안동 예안 동천",
+      "startTime": "2026-04-18 12:05",
+      "endTime": "2026-04-18 14:13",
+      "resources": "헬기  9대   인력  90명   장비  29대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
