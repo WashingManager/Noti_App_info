@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "24",
+      "time": "2026/04/30 03:36:03",
+      "magnitude": "2.6",
+      "depth": "8",
+      "maxIntensity": "Ⅰ",
+      "latitude": "38.95 N",
+      "longitude": "126.75 E",
+      "location": "북한 황해북도 신평 북쪽 6km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260430033603.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260430033603.html"
+    },
+    {
       "number": "23",
       "time": "2026/04/28 21:26:10",
       "magnitude": "2.5",
@@ -229,16 +241,16 @@
       "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260123014821.html"
     },
     {
-      "number": "4",
-      "time": "2026/01/21 02:08:40",
-      "magnitude": "2.1",
-      "depth": "20",
-      "maxIntensity": "Ⅱ",
-      "latitude": "35.57 N",
-      "longitude": "128.25 E",
-      "location": "경남 합천군 동쪽 8km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260121020840.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260121020840.html"
+      "number": "24",
+      "time": "2026/04/30 03:36:03",
+      "magnitude": "2.6",
+      "depth": "8",
+      "maxIntensity": "Ⅰ",
+      "latitude": "38.95 N",
+      "longitude": "126.75 E",
+      "location": "북한 황해북도 신평 북쪽 6km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260430033603.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260430033603.html"
     },
     {
       "number": "23",
@@ -467,18 +479,6 @@
       "location": "경북 영덕군 동쪽 77km 해역",
       "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260123014821.png",
       "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260123014821.html"
-    },
-    {
-      "number": "4",
-      "time": "2026/01/21 02:08:40",
-      "magnitude": "2.1",
-      "depth": "20",
-      "maxIntensity": "Ⅱ",
-      "latitude": "35.57 N",
-      "longitude": "128.25 E",
-      "location": "경남 합천군 동쪽 8km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260121020840.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260121020840.html"
     }
   ],
   "international": [
@@ -1444,12 +1444,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 04월 28일 21시 26분 10초",
-    "magnitude": "2.5",
+    "time": "2026년 04월 30일 03시 36분 03초",
+    "magnitude": "2.6",
     "location": "",
     "depth": "최대진도  Ⅰ",
-    "note": "북한 황해북도 평산 서북서쪽 26km 지역  (위도: 38.42 N, 경도: 126.12 E, ± 1.8km)10 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260428212610.png"
+    "note": "북한 황해북도 신평 북쪽 6km 지역  (위도: 38.95 N, 경도: 126.75 E, ± 2.2km)8 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260430033603.png"
   },
-  "lastUpdate": "2026-04-29T18:11:12.492Z"
+  "lastUpdate": "2026-04-29T19:53:24.901Z"
 }
