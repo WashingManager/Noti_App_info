@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-19T23:57:10.650Z",
+  "timestamp": "2026-05-20T04:22:03.051Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -61,6 +61,60 @@
   "resourceList": [
     {
       "id": "1",
+      "location": "강원 홍천 내촌 자운",
+      "startTime": "2026-05-19 22:13",
+      "endTime": "2026-05-20 01:00",
+      "resources": "헬기  0대   인력  56명   장비  32대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경북 문경 가은 갈전",
+      "startTime": "2026-05-19 15:57",
+      "endTime": "2026-05-19 17:30",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "경북 고령 성산 어곡",
+      "startTime": "2026-05-19 12:16",
+      "endTime": "2026-05-19 14:00",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "충북 음성 음성 동음",
+      "startTime": "2026-05-19 11:47",
+      "endTime": "2026-05-19 13:00",
+      "resources": "헬기  3대   인력  67명   장비  54대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "경기 이천 율 총곡",
+      "startTime": "2026-05-19 11:44",
+      "endTime": "2026-05-19 12:25",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "경기 여주 세종대왕 마래",
+      "startTime": "2026-05-19 10:23",
+      "endTime": "2026-05-19 11:26",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
       "location": "경기 시흥  능곡",
       "startTime": "2026-05-18 22:02",
       "endTime": "2026-05-18 22:46",
@@ -69,7 +123,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "2",
+      "id": "8",
       "location": "경기 양평 양서 증동",
       "startTime": "2026-05-18 13:11",
       "endTime": "2026-05-18 17:17",
@@ -78,7 +132,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "9",
       "location": "울산 울주 두서 전읍",
       "startTime": "2026-05-18 10:53",
       "endTime": "2026-05-18 13:00",
@@ -87,65 +141,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "10",
       "location": "전북 무주 설천 대불",
       "startTime": "2026-05-18 06:35",
       "endTime": "2026-05-18 08:50",
       "resources": "헬기  0대   인력  0명   장비  0대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "5",
-      "location": "경기 가평 설악 회곡",
-      "startTime": "2026-05-17 16:27",
-      "endTime": "2026-05-17 17:26",
-      "resources": "헬기  0대   인력  0명   장비  0대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "6",
-      "location": "경기 파주 월롱 도내",
-      "startTime": "2026-05-17 16:06",
-      "endTime": "2026-05-17 16:43",
-      "resources": "헬기  0대   인력  0명   장비  0대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "7",
-      "location": "경북 문경 가은 수예",
-      "startTime": "2026-05-17 12:48",
-      "endTime": "2026-05-17 14:10",
-      "resources": "헬기  0대   인력  0명   장비  0대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "8",
-      "location": "경기 연천 백학 백령",
-      "startTime": "2026-05-17 12:43",
-      "endTime": "2026-05-17 13:45",
-      "resources": "헬기  0대   인력  0명   장비  0대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "충북 청주상당 낭성 관정",
-      "startTime": "2026-05-16 13:52",
-      "endTime": "2026-05-16 16:00",
-      "resources": "헬기  4대   인력  112명   장비  88대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "경북 예천 효자 고항",
-      "startTime": "2026-05-16 10:04",
-      "endTime": "2026-05-16 17:30",
-      "resources": "헬기  7대   인력  98명   장비  37대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
