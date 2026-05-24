@@ -1,7 +1,154 @@
 {
-  "timestamp": "2026-05-24T15:48:33.984Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2026-05-24T16:51:11.672Z",
+  "main": {
+    "status": {
+      "extinguishing": "N/A",
+      "completed": "N/A",
+      "other": "N/A"
+    },
+    "currentFire": {
+      "grade": "--",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": ""
+        },
+        {
+          "label": "발생일시",
+          "value": ""
+        },
+        {
+          "label": "진화일시",
+          "value": ""
+        },
+        {
+          "label": "진행상태",
+          "value": ""
+        },
+        {
+          "label": "진화율",
+          "value": ""
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "산불 발생정보가 없습니다.",
+      "endTime": "",
+      "location": "",
+      "status": "",
+      "level": "",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "1",
+      "location": "강원 홍천 내촌 자운",
+      "startTime": "2026-05-19 22:13",
+      "endTime": "2026-05-20 01:00",
+      "resources": "헬기  0대   인력  56명   장비  32대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경북 문경 가은 갈전",
+      "startTime": "2026-05-19 15:57",
+      "endTime": "2026-05-19 21:00",
+      "resources": "헬기  9대   인력  101명   장비  31대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "경북 고령 성산 기족",
+      "startTime": "2026-05-19 12:16",
+      "endTime": "2026-05-19 20:00",
+      "resources": "헬기  13대   인력  100명   장비  42대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "충북 음성 음성 동음",
+      "startTime": "2026-05-19 11:47",
+      "endTime": "2026-05-19 13:00",
+      "resources": "헬기  3대   인력  67명   장비  54대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "경기 이천 율 총곡",
+      "startTime": "2026-05-19 11:44",
+      "endTime": "2026-05-19 12:25",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "경기 여주 세종대왕 마래",
+      "startTime": "2026-05-19 10:23",
+      "endTime": "2026-05-19 11:26",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "경기 시흥  능곡",
+      "startTime": "2026-05-18 22:02",
+      "endTime": "2026-05-18 22:46",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "경기 양평 양서 증동",
+      "startTime": "2026-05-18 13:11",
+      "endTime": "2026-05-18 17:17",
+      "resources": "헬기  2대   인력  49명   장비  15대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "울산 울주 두서 전읍",
+      "startTime": "2026-05-18 10:53",
+      "endTime": "2026-05-18 13:00",
+      "resources": "헬기  4대   인력  120명   장비  39대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "전북 무주 설천 대불",
+      "startTime": "2026-05-18 06:35",
+      "endTime": "2026-05-18 08:50",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
