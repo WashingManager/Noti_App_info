@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "29",
+      "time": "2026/06/05 13:05:18",
+      "magnitude": "2.0",
+      "depth": "6",
+      "maxIntensity": "Ⅰ",
+      "latitude": "38.21 N",
+      "longitude": "124.69 E",
+      "location": "북한 황해남도 용연 서북서쪽 21km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260605130518.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260605130518.html"
+    },
+    {
       "number": "28",
       "time": "2026/06/05 08:58:05",
       "magnitude": "2.1",
@@ -229,16 +241,16 @@
       "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260219202407.html"
     },
     {
-      "number": "9",
-      "time": "2026/02/19 08:25:43",
-      "magnitude": "2.5",
-      "depth": "-",
-      "maxIntensity": "Ⅲ",
-      "latitude": "37.19 N",
-      "longitude": "129.07 E",
-      "location": "강원 삼척시 남남서쪽 30km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260219082543.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260219082543.html"
+      "number": "29",
+      "time": "2026/06/05 13:05:18",
+      "magnitude": "2.0",
+      "depth": "6",
+      "maxIntensity": "Ⅰ",
+      "latitude": "38.21 N",
+      "longitude": "124.69 E",
+      "location": "북한 황해남도 용연 서북서쪽 21km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260605130518.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260605130518.html"
     },
     {
       "number": "28",
@@ -467,18 +479,6 @@
       "location": "제주 제주시 동쪽 32km 지역",
       "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260219202407.png",
       "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260219202407.html"
-    },
-    {
-      "number": "9",
-      "time": "2026/02/19 08:25:43",
-      "magnitude": "2.5",
-      "depth": "-",
-      "maxIntensity": "Ⅲ",
-      "latitude": "37.19 N",
-      "longitude": "129.07 E",
-      "location": "강원 삼척시 남남서쪽 30km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260219082543.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260219082543.html"
     }
   ],
   "international": [
@@ -1684,12 +1684,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 06월 05일 08시 58분 05초",
-    "magnitude": "2.1",
+    "time": "2026년 06월 05일 13시 05분 18초",
+    "magnitude": "2.0",
     "location": "",
     "depth": "최대진도  Ⅰ",
-    "note": "북한 황해북도 평산 서남서쪽 31km 지역  (위도: 38.26 N, 경도: 126.05 E, ± 2.2km)14 km",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260605085805.png;jsessionid=4uhLC3lD3uXvufNVqRKNPdSVoMuNUq3HMR87l5Iz.standalone"
+    "note": "북한 황해남도 용연 서북서쪽 21km 해역  (위도: 38.21 N, 경도: 124.69 E, ± 3.7km)6 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260605130518.png"
   },
-  "lastUpdate": "2026-06-05T00:18:55.374Z"
+  "lastUpdate": "2026-06-05T04:51:40.277Z"
 }
