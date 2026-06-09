@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "31",
+      "time": "2026/06/10 03:16:57",
+      "magnitude": "2.9",
+      "depth": "20",
+      "maxIntensity": "Ⅱ",
+      "latitude": "35.67 N",
+      "longitude": "129.60 E",
+      "location": "울산 북구 동북동쪽 24km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260610031657.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260610031657.html"
+    },
+    {
       "number": "30",
       "time": "2026/06/08 09:07:14",
       "magnitude": "2.9",
@@ -229,16 +241,16 @@
       "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260307183844.html"
     },
     {
-      "number": "11",
-      "time": "2026/03/07 10:06:59",
-      "magnitude": "3.0",
-      "depth": "22",
+      "number": "31",
+      "time": "2026/06/10 03:16:57",
+      "magnitude": "2.9",
+      "depth": "20",
       "maxIntensity": "Ⅱ",
-      "latitude": "35.46 N",
-      "longitude": "125.82 E",
-      "location": "전남 영광군 서북서쪽 66km 해역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260307100659.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260307100659.html"
+      "latitude": "35.67 N",
+      "longitude": "129.60 E",
+      "location": "울산 북구 동북동쪽 24km 해역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260610031657.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260610031657.html"
     },
     {
       "number": "30",
@@ -467,18 +479,6 @@
       "location": "경북 영양군 남쪽 12km 지역",
       "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260307183844.png",
       "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260307183844.html"
-    },
-    {
-      "number": "11",
-      "time": "2026/03/07 10:06:59",
-      "magnitude": "3.0",
-      "depth": "22",
-      "maxIntensity": "Ⅱ",
-      "latitude": "35.46 N",
-      "longitude": "125.82 E",
-      "location": "전남 영광군 서북서쪽 66km 해역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260307100659.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260307100659.html"
     }
   ],
   "international": [
@@ -1684,12 +1684,12 @@
     }
   ],
   "recent": {
-    "time": "",
-    "magnitude": "",
+    "time": "2026년 06월 10일 03시 16분 57초",
+    "magnitude": "2.9",
     "location": "",
-    "depth": "",
-    "note": "",
-    "mapImage": "https://www.weather.go.krundefined"
+    "depth": "최대진도  Ⅱ(경북, 부산, 울산)",
+    "note": "울산 북구 동북동쪽 24km 해역  (위도: 35.67 N, 경도: 129.60 E, ± 1.6km)20 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260610031657.png"
   },
-  "lastUpdate": "2026-06-09T16:18:41.928Z"
+  "lastUpdate": "2026-06-09T18:24:19.339Z"
 }
