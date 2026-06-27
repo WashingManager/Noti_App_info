@@ -1,7 +1,266 @@
 {
-  "timestamp": "2026-06-26T23:20:40.652Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2026-06-27T01:27:18.789Z",
+  "main": {
+    "status": {
+      "extinguishing": "N/A",
+      "completed": "N/A",
+      "other": "N/A"
+    },
+    "currentFire": {
+      "grade": "--",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": ""
+        },
+        {
+          "label": "발생일시",
+          "value": ""
+        },
+        {
+          "label": "진화일시",
+          "value": ""
+        },
+        {
+          "label": "진행상태",
+          "value": ""
+        },
+        {
+          "label": "진화율",
+          "value": ""
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "2026-06-18 16:52",
+      "endTime": "2026-06-18 17:25",
+      "location": "충청남도 서산시 음암면 신장리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-17 17:54",
+      "endTime": "2026-06-17 20:45",
+      "location": "경상북도 영양군 영양읍 상원리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-17 13:52",
+      "endTime": "2026-06-17 15:55",
+      "location": "강원특별자치도 삼척시 도계읍 발이리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-16 14:20",
+      "endTime": "2026-06-16 16:11",
+      "location": "충청남도 공주시 사곡면 고당리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-15 11:15",
+      "endTime": "2026-06-15 11:44",
+      "location": "경기도 가평군 가평읍 경반리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-14 17:53",
+      "endTime": "2026-06-14 19:05",
+      "location": "대전광역시 유성구 대동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-13 17:15",
+      "endTime": "2026-06-13 18:40",
+      "location": "전북특별자치도 완주군 고산면 소향리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-13 15:48",
+      "endTime": "2026-06-13 17:25",
+      "location": "경상남도 진주시 대곡면 와룡리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-13 15:14",
+      "endTime": "2026-06-13 16:02",
+      "location": "충청남도 보령시 내항동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-13 12:57",
+      "endTime": "2026-06-13 13:45",
+      "location": "전북특별자치도 임실군 덕치면 두지리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-13 10:31",
+      "endTime": "2026-06-13 11:15",
+      "location": "충청남도 천안시 동남구 북면 상동리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-12 13:05",
+      "endTime": "2026-06-12 14:58",
+      "location": "경상북도 상주시 모동면 이동리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-11 04:54",
+      "endTime": "2026-06-11 05:28",
+      "location": "경기도 양주시 유양동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-06 17:27",
+      "endTime": "2026-06-06 19:00",
+      "location": "충청북도 단양군 대강면 두음리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-03 12:27",
+      "endTime": "2026-06-03 12:40",
+      "location": "세종특별자치시 세종특별자치시 연서면 성제리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-06-02 12:16",
+      "endTime": "2026-06-02 13:50",
+      "location": "강원특별자치도 홍천군 두촌면 철정리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "1",
+      "location": "충남 서산 음암 신장",
+      "startTime": "2026-06-18 16:52",
+      "endTime": "2026-06-18 17:25",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경북 영양 영양 상원",
+      "startTime": "2026-06-17 17:54",
+      "endTime": "2026-06-17 20:45",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "강원 삼척 도계 발이",
+      "startTime": "2026-06-17 13:52",
+      "endTime": "2026-06-17 18:15",
+      "resources": "헬기  4대   인력  102명   장비  63대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "충남 공주 사곡 고당",
+      "startTime": "2026-06-16 14:20",
+      "endTime": "2026-06-16 17:46",
+      "resources": "헬기  5대   인력  79명   장비  26대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "경기 가평 가평 경반",
+      "startTime": "2026-06-15 11:15",
+      "endTime": "2026-06-15 12:39",
+      "resources": "헬기  0대   인력  79명   장비  50대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "대전 유성  대",
+      "startTime": "2026-06-14 17:53",
+      "endTime": "2026-06-14 19:05",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "전북 완주 고산 소향",
+      "startTime": "2026-06-13 17:15",
+      "endTime": "2026-06-13 19:30",
+      "resources": "헬기  2대   인력  67명   장비  14대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "경남 진주 대곡 와룡",
+      "startTime": "2026-06-13 15:48",
+      "endTime": "2026-06-13 17:25",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "충남 보령  내항",
+      "startTime": "2026-06-13 15:14",
+      "endTime": "2026-06-13 16:02",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "전북 임실 덕치 두지",
+      "startTime": "2026-06-13 12:57",
+      "endTime": "2026-06-13 14:01",
+      "resources": "헬기  2대   인력  28명   장비  9대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
