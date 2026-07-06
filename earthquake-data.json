@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "34",
+      "time": "2026/07/06 20:57:24",
+      "magnitude": "2.1",
+      "depth": "9",
+      "maxIntensity": "Ⅲ",
+      "latitude": "36.23 N",
+      "longitude": "128.20 E",
+      "location": "경북 김천시 북동쪽 13km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260706205724.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260706205724.html"
+    },
+    {
       "number": "33",
       "time": "2026/06/16 16:06:53",
       "magnitude": "2.4",
@@ -229,16 +241,16 @@
       "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260311204129.html"
     },
     {
-      "number": "14",
-      "time": "2026/03/11 18:05:49",
-      "magnitude": "3.1",
-      "depth": "16",
-      "maxIntensity": "Ⅱ",
-      "latitude": "37.44 N",
-      "longitude": "129.83 E",
-      "location": "강원 삼척시 동쪽 59km 해역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260311180549.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260311180549.html"
+      "number": "34",
+      "time": "2026/07/06 20:57:24",
+      "magnitude": "2.1",
+      "depth": "9",
+      "maxIntensity": "Ⅲ",
+      "latitude": "36.23 N",
+      "longitude": "128.20 E",
+      "location": "경북 김천시 북동쪽 13km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260706205724.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260706205724.html"
     },
     {
       "number": "33",
@@ -467,18 +479,6 @@
       "location": "북한 자강도 낭림 북서쪽 35km 지역",
       "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260311204129.png",
       "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260311204129.html"
-    },
-    {
-      "number": "14",
-      "time": "2026/03/11 18:05:49",
-      "magnitude": "3.1",
-      "depth": "16",
-      "maxIntensity": "Ⅱ",
-      "latitude": "37.44 N",
-      "longitude": "129.83 E",
-      "location": "강원 삼척시 동쪽 59km 해역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260311180549.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260311180549.html"
     }
   ],
   "international": [
@@ -1924,12 +1924,12 @@
     }
   ],
   "recent": {
-    "time": "에트나(Etna)",
-    "magnitude": "",
+    "time": "2026년 07월 06일 20시 57분 24초",
+    "magnitude": "2.1",
     "location": "",
-    "depth": "2026년 07월 05일 14시 45분",
-    "note": "9100 m",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_30_20260705144500.png;jsessionid=IWnIgfSWyuiqhDuaacmOjY_kKNxzgoyhxjf2ltNV.standalone"
+    "depth": "최대진도  Ⅲ(경북), Ⅱ(충북)",
+    "note": "경북 김천시 북동쪽 13km 지역  (위도: 36.23 N, 경도: 128.20 E, ± 0.4km)9 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260706205724.png"
   },
-  "lastUpdate": "2026-07-06T09:39:49.054Z"
+  "lastUpdate": "2026-07-06T13:27:34.983Z"
 }
