@@ -1,7 +1,178 @@
 {
-  "timestamp": "2026-07-19T04:35:54.613Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2026-07-19T07:15:47.139Z",
+  "main": {
+    "status": {
+      "extinguishing": "N/A",
+      "completed": "N/A",
+      "other": "N/A"
+    },
+    "currentFire": {
+      "grade": "--",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": ""
+        },
+        {
+          "label": "발생일시",
+          "value": ""
+        },
+        {
+          "label": "진화일시",
+          "value": ""
+        },
+        {
+          "label": "진행상태",
+          "value": ""
+        },
+        {
+          "label": "진화율",
+          "value": ""
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "2026-07-16 18:02",
+      "endTime": "2026-07-16 18:22",
+      "location": "경상북도 울진군 북면 고목리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-07-16 15:46",
+      "endTime": "2026-07-16 16:28",
+      "location": "경상남도 밀양시 부북면 제대리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-07-13 12:02",
+      "endTime": "2026-07-13 17:01",
+      "location": "경상남도 밀양시 상남면 연금리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-07-04 14:24",
+      "endTime": "2026-07-04 15:40",
+      "location": "경기도 용인시 처인구 남사읍 창리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-07-01 14:10",
+      "endTime": "2026-07-02 15:33",
+      "location": "경기도 여주시 점동면 청안리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "1",
+      "location": "경남 밀양 상남 연금",
+      "startTime": "2026-07-13 12:02",
+      "endTime": "2026-07-13 18:35",
+      "resources": "헬기  7대   인력  271명   장비  78대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경기 용인처인 남사 창",
+      "startTime": "2026-07-04 14:24",
+      "endTime": "2026-07-04 16:00",
+      "resources": "헬기  0대   인력  27명   장비  12대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "경기 여주 점동 청안",
+      "startTime": "2026-07-01 15:00",
+      "endTime": "2026-07-01 21:00",
+      "resources": "헬기  3대   인력  119명   장비  46대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "충남 천안동남 북 연춘",
+      "startTime": "2026-06-30 11:54",
+      "endTime": "2026-06-30 13:18",
+      "resources": "헬기  0대   인력  87명   장비  20대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "경남 합천 율곡 노양",
+      "startTime": "2026-06-28 12:02",
+      "endTime": "2026-06-28 14:47",
+      "resources": "헬기  1대   인력  60명   장비  3대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "충남 서산 음암 신장",
+      "startTime": "2026-06-18 16:52",
+      "endTime": "2026-06-18 18:00",
+      "resources": "헬기  1대   인력  57명   장비  18대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "경북 영양 영양 상원",
+      "startTime": "2026-06-17 17:54",
+      "endTime": "2026-06-17 21:15",
+      "resources": "헬기  0대   인력  135명   장비  38대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "강원 삼척 도계 발이",
+      "startTime": "2026-06-17 13:52",
+      "endTime": "2026-06-17 18:15",
+      "resources": "헬기  4대   인력  102명   장비  63대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "충남 공주 사곡 고당",
+      "startTime": "2026-06-16 14:20",
+      "endTime": "2026-06-16 17:46",
+      "resources": "헬기  5대   인력  79명   장비  26대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "경기 가평 가평 경반",
+      "startTime": "2026-06-15 11:15",
+      "endTime": "2026-06-15 12:39",
+      "resources": "헬기  0대   인력  79명   장비  50대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
