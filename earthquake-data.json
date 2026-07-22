@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "35",
+      "time": "2026/07/23 03:47:04",
+      "magnitude": "2.6",
+      "depth": "13",
+      "maxIntensity": "Ⅳ",
+      "latitude": "36.66 N",
+      "longitude": "128.44 E",
+      "location": "경북 예천군 북쪽 1km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260723034704.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260723034704.html"
+    },
+    {
       "number": "34",
       "time": "2026/07/06 20:57:24",
       "magnitude": "2.1",
@@ -229,16 +241,16 @@
       "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260311221104.html"
     },
     {
-      "number": "15",
-      "time": "2026/03/11 20:41:29",
-      "magnitude": "2.2",
-      "depth": "16",
-      "maxIntensity": "Ⅰ",
-      "latitude": "41.22 N",
-      "longitude": "126.87 E",
-      "location": "북한 자강도 낭림 북서쪽 35km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260311204129.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260311204129.html"
+      "number": "35",
+      "time": "2026/07/23 03:47:04",
+      "magnitude": "2.6",
+      "depth": "13",
+      "maxIntensity": "Ⅳ",
+      "latitude": "36.66 N",
+      "longitude": "128.44 E",
+      "location": "경북 예천군 북쪽 1km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260723034704.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260723034704.html"
     },
     {
       "number": "34",
@@ -467,18 +479,6 @@
       "location": "강원 삼척시 동쪽 59km 해역",
       "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260311221104.png",
       "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260311221104.html"
-    },
-    {
-      "number": "15",
-      "time": "2026/03/11 20:41:29",
-      "magnitude": "2.2",
-      "depth": "16",
-      "maxIntensity": "Ⅰ",
-      "latitude": "41.22 N",
-      "longitude": "126.87 E",
-      "location": "북한 자강도 낭림 북서쪽 35km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260311204129.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260311204129.html"
     }
   ],
   "international": [
@@ -1924,12 +1924,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 07월 17일 23시 48분 44초",
-    "magnitude": "7.4",
-    "location": "멕시코 타파출라 남서쪽 98km 해역  (위도: 14.40 N, 경도: 93.00 W)",
-    "depth": "10 km",
-    "note": "국내영향없음. 위 자료는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260717234844.png;jsessionid=QtgkOqwnrSWIswXP4PsQLkfHkOvA6XFQ7XdOmYWy.standalone"
+    "time": "2026년 07월 23일 03시 47분 04초",
+    "magnitude": "2.6",
+    "location": "",
+    "depth": "최대진도  Ⅳ(경북), Ⅱ(충북)",
+    "note": "경북 예천군 북쪽 1km 지역  (위도: 36.66 N, 경도: 128.44 E, ± 0.5km)13 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260723034704.png"
   },
-  "lastUpdate": "2026-07-22T17:53:16.638Z"
+  "lastUpdate": "2026-07-22T19:18:48.416Z"
 }
