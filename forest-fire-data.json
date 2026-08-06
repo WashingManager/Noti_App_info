@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-06T04:30:48.118Z",
+  "timestamp": "2026-08-06T07:21:33.849Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -42,6 +42,30 @@
   },
   "fireList": [
     {
+      "startTime": "2026-08-06 15:44",
+      "endTime": "2026-08-06 16:08",
+      "location": "경상북도 칠곡군 기산면 영리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-06 14:44",
+      "endTime": "-",
+      "location": "경상남도 함양군 함양읍 신관리",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-06 13:05",
+      "endTime": "2026-08-06 14:32",
+      "location": "전북특별자치도 무주군 설천면 청량리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
       "startTime": "2026-08-03 17:18",
       "endTime": "2026-08-03 17:50",
       "location": "대구광역시 달성군 하빈면 기곡리",
@@ -71,8 +95,8 @@
       "id": "1",
       "location": "대구 달성 하빈 기곡",
       "startTime": "2026-08-03 17:18",
-      "endTime": "2026-08-03 17:50",
-      "resources": "헬기  0대   인력  0명   장비  1대",
+      "endTime": "2026-08-03 18:04",
+      "resources": "헬기  0대   인력  119명   장비  38대",
       "level": "초기 대응",
       "detailUrl": "-"
     },
