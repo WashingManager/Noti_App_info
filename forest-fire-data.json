@@ -1,7 +1,170 @@
 {
-  "timestamp": "2026-08-14T07:45:55.810Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2026-08-14T08:56:46.815Z",
+  "main": {
+    "status": {
+      "extinguishing": "N/A",
+      "completed": "N/A",
+      "other": "N/A"
+    },
+    "currentFire": {
+      "grade": "--",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": ""
+        },
+        {
+          "label": "발생일시",
+          "value": ""
+        },
+        {
+          "label": "진화일시",
+          "value": ""
+        },
+        {
+          "label": "진행상태",
+          "value": ""
+        },
+        {
+          "label": "진화율",
+          "value": ""
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "2026-08-13 16:20",
+      "endTime": "2026-08-13 17:10",
+      "location": "전남광주통합특별시 광양시 봉강면 조령리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-12 07:49",
+      "endTime": "2026-08-12 08:40",
+      "location": "인천광역시 부평구 부평동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-10 17:55",
+      "endTime": "2026-08-10 18:37",
+      "location": "전남광주통합특별시 순천시 승주읍 두월리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-10 00:20",
+      "endTime": "2026-08-10 06:40",
+      "location": "부산광역시 서구 암남동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-09 13:30",
+      "endTime": "2026-08-09 14:30",
+      "location": "전남광주통합특별시 해남군 황산면 연당리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-07 14:36",
+      "endTime": "2026-08-07 16:07",
+      "location": "경상북도 안동시 송천동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-07 10:21",
+      "endTime": "2026-08-07 12:00",
+      "location": "경상북도 청도군 이서면 문수리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-07 09:58",
+      "endTime": "2026-08-07 11:02",
+      "location": "전남광주통합특별시 구례군 용방면 죽정리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-06 14:44",
+      "endTime": "2026-08-06 16:25",
+      "location": "경상남도 함양군 함양읍 신관리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-06 13:05",
+      "endTime": "2026-08-06 14:32",
+      "location": "전북특별자치도 무주군 설천면 청량리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-03 17:18",
+      "endTime": "2026-08-03 17:50",
+      "location": "대구광역시 달성군 하빈면 기곡리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-03 15:45",
+      "endTime": "2026-08-03 17:56",
+      "location": "경상북도 영천시 청통면 우천리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-02 15:38",
+      "endTime": "2026-08-02 16:14",
+      "location": "울산광역시 울주군 청량읍 중리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "진화자원이력 목록이 없습니다.",
+      "location": "",
+      "startTime": "",
+      "endTime": "",
+      "resources": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "id": "진화자원이력 목록이 없습니다.",
+      "location": "",
+      "startTime": "",
+      "endTime": "",
+      "resources": "",
+      "level": "",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
