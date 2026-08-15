@@ -1,6 +1,18 @@
 {
   "domestic": [
     {
+      "number": "37",
+      "time": "2026/08/15 08:31:34",
+      "magnitude": "2.5",
+      "depth": "22",
+      "maxIntensity": "Ⅱ",
+      "latitude": "34.66 N",
+      "longitude": "126.40 E",
+      "location": "전남광주 해남군 서북서쪽 21km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260815083134.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260815083134.html"
+    },
+    {
       "number": "36",
       "time": "2026/08/14 17:43:38",
       "magnitude": "2.1",
@@ -229,16 +241,16 @@
       "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260320005151.html"
     },
     {
-      "number": "17",
-      "time": "2026/03/14 09:00:20",
-      "magnitude": "2.6",
-      "depth": "11",
-      "maxIntensity": "Ⅲ",
-      "latitude": "35.82 N",
-      "longitude": "128.35 E",
-      "location": "경북 성주군 남남동쪽 13km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260314090020.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260314090020.html"
+      "number": "37",
+      "time": "2026/08/15 08:31:34",
+      "magnitude": "2.5",
+      "depth": "22",
+      "maxIntensity": "Ⅱ",
+      "latitude": "34.66 N",
+      "longitude": "126.40 E",
+      "location": "전남광주 해남군 서북서쪽 21km 지역",
+      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260815083134.png",
+      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260815083134.html"
     },
     {
       "number": "36",
@@ -467,18 +479,6 @@
       "location": "전남 장성군 북쪽 18km 지역",
       "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260320005151.png",
       "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260320005151.html"
-    },
-    {
-      "number": "17",
-      "time": "2026/03/14 09:00:20",
-      "magnitude": "2.6",
-      "depth": "11",
-      "maxIntensity": "Ⅲ",
-      "latitude": "35.82 N",
-      "longitude": "128.35 E",
-      "location": "경북 성주군 남남동쪽 13km 지역",
-      "mapLink": "https://www.weather.go.kr/w/XML/eqk/img/eqk_img_3_20260314090020.png",
-      "detailLink": "https://www.weather.go.kr/w/XML/INTENSITY/i_3_20260314090020.html"
     }
   ],
   "international": [
@@ -2164,12 +2164,12 @@
     }
   ],
   "recent": {
-    "time": "2026년 08월 15일 07시 28분 37초",
-    "magnitude": "6.1",
-    "location": "인도네시아 라부안 바조 동쪽 186km 해역  (위도: 8.32 S, 경도: 121.57 E)",
-    "depth": "10 km",
-    "note": "발생시각, 규모, 발생위치, 발생깊이는 미국지질조사소(USGS) 분석결과임.",
-    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_2_20260815072837.png"
+    "time": "2026년 08월 15일 08시 31분 34초",
+    "magnitude": "2.5",
+    "location": "",
+    "depth": "최대진도  Ⅱ(전남광주)",
+    "note": "전남광주 해남군 서북서쪽 21km 지역  (위도: 34.66 N, 경도: 126.40 E, ± 0.9km)22 km",
+    "mapImage": "https://www.weather.go.kr/w/repositary/xml/eqk/img/eqk_img_3_20260815083134.png;jsessionid=hzRrJdpeSqaneEMtmANPn-MYv5CuFwY31jabrpsH.standalone"
   },
-  "lastUpdate": "2026-08-14T23:33:22.724Z"
+  "lastUpdate": "2026-08-15T01:12:10.802Z"
 }
