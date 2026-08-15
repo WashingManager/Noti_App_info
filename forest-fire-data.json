@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-15T05:42:19.943Z",
+  "timestamp": "2026-08-15T06:01:50.004Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -42,6 +42,14 @@
   },
   "fireList": [
     {
+      "startTime": "2026-08-15 14:31",
+      "endTime": "-",
+      "location": "부산광역시 기장군 기장읍 만화리",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
       "startTime": "2026-08-15 13:03",
       "endTime": "2026-08-15 14:17",
       "location": "경상남도 사천시 서포면 구랑리",
@@ -53,14 +61,6 @@
       "startTime": "2026-08-13 16:20",
       "endTime": "2026-08-13 17:10",
       "location": "전남광주통합특별시 광양시 봉강면 조령리",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2026-08-13 10:31",
-      "endTime": "2026-08-15 14:36",
-      "location": "경상남도 사천시 곤양면 흥사리",
       "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
