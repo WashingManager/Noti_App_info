@@ -1,7 +1,250 @@
 {
-  "timestamp": "2026-08-17T20:38:35.107Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2026-08-17T21:03:14.215Z",
+  "main": {
+    "status": {
+      "extinguishing": "N/A",
+      "completed": "N/A",
+      "other": "N/A"
+    },
+    "currentFire": {
+      "grade": "--",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": ""
+        },
+        {
+          "label": "발생일시",
+          "value": ""
+        },
+        {
+          "label": "진화일시",
+          "value": ""
+        },
+        {
+          "label": "진행상태",
+          "value": ""
+        },
+        {
+          "label": "진화율",
+          "value": ""
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "2026-08-15 13:03",
+      "endTime": "2026-08-15 14:17",
+      "location": "경상남도 사천시 서포면 구랑리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-13 16:20",
+      "endTime": "2026-08-13 17:10",
+      "location": "전남광주통합특별시 광양시 봉강면 조령리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-12 07:49",
+      "endTime": "2026-08-12 08:40",
+      "location": "인천광역시 부평구 부평동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-10 17:55",
+      "endTime": "2026-08-10 18:37",
+      "location": "전남광주통합특별시 순천시 승주읍 두월리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-10 00:20",
+      "endTime": "2026-08-10 06:40",
+      "location": "부산광역시 서구 암남동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-09 13:30",
+      "endTime": "2026-08-09 14:30",
+      "location": "전남광주통합특별시 해남군 황산면 연당리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-07 14:36",
+      "endTime": "2026-08-07 16:07",
+      "location": "경상북도 안동시 송천동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-07 10:21",
+      "endTime": "2026-08-07 12:00",
+      "location": "경상북도 청도군 이서면 문수리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-07 09:58",
+      "endTime": "2026-08-07 11:02",
+      "location": "전남광주통합특별시 구례군 용방면 죽정리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-06 14:44",
+      "endTime": "2026-08-06 16:25",
+      "location": "경상남도 함양군 함양읍 신관리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-06 13:05",
+      "endTime": "2026-08-06 14:32",
+      "location": "전북특별자치도 무주군 설천면 청량리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-03 17:18",
+      "endTime": "2026-08-03 17:50",
+      "location": "대구광역시 달성군 하빈면 기곡리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-03 15:45",
+      "endTime": "2026-08-03 17:56",
+      "location": "경상북도 영천시 청통면 우천리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-08-02 15:38",
+      "endTime": "2026-08-02 16:14",
+      "location": "울산광역시 울주군 청량읍 중리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "1",
+      "location": "전남 광양 봉강 조령",
+      "startTime": "2026-08-13 16:20",
+      "endTime": "2026-08-13 16:58",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "인천 부평  부평",
+      "startTime": "2026-08-12 07:49",
+      "endTime": "2026-08-12 09:30",
+      "resources": "헬기  0대   인력  114명   장비  46대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "전남 순천 승주 두월",
+      "startTime": "2026-08-10 17:55",
+      "endTime": "2026-08-10 19:18",
+      "resources": "헬기  0대   인력  44명   장비  29대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "부산 서  암남",
+      "startTime": "2026-08-10 00:20",
+      "endTime": "2026-08-10 10:20",
+      "resources": "헬기  3대   인력  92명   장비  31대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "전남 해남 황산 연당",
+      "startTime": "2026-08-09 13:29",
+      "endTime": "2026-08-09 15:30",
+      "resources": "헬기  2대   인력  182명   장비  70대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "경북 안동  송천",
+      "startTime": "2026-08-07 14:36",
+      "endTime": "2026-08-07 19:00",
+      "resources": "헬기  4대   인력  75명   장비  26대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "경북 청도 이서 문수",
+      "startTime": "2026-08-07 10:21",
+      "endTime": "2026-08-07 18:00",
+      "resources": "헬기  4대   인력  97명   장비  25대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "전남 구례 용방 죽정",
+      "startTime": "2026-08-07 09:58",
+      "endTime": "2026-08-07 10:43",
+      "resources": "헬기  1대   인력  106명   장비  27대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "경남 함양 함양 신관",
+      "startTime": "2026-08-06 14:44",
+      "endTime": "2026-08-06 16:33",
+      "resources": "헬기  1대   인력  59명   장비  18대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "전북 무주 설천 청량",
+      "startTime": "2026-08-06 13:05",
+      "endTime": "2026-08-06 15:14",
+      "resources": "헬기  0대   인력  46명   장비  4대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
