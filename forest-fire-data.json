@@ -1,74 +1,7 @@
 {
-  "timestamp": "2026-09-07T01:09:14.468Z",
-  "main": {
-    "status": {
-      "extinguishing": "N/A",
-      "completed": "N/A",
-      "other": "N/A"
-    },
-    "currentFire": {
-      "grade": "--",
-      "details": [
-        {
-          "label": "발생지주소",
-          "value": ""
-        },
-        {
-          "label": "발생일시",
-          "value": ""
-        },
-        {
-          "label": "진화일시",
-          "value": ""
-        },
-        {
-          "label": "진행상태",
-          "value": ""
-        },
-        {
-          "label": "진화율",
-          "value": ""
-        },
-        {
-          "label": "풍향",
-          "value": ""
-        },
-        {
-          "label": "풍속",
-          "value": ""
-        }
-      ]
-    }
-  },
-  "fireList": [
-    {
-      "startTime": "2026-09-06 11:10",
-      "endTime": "2026-09-06 12:55",
-      "location": "전남광주통합특별시 무안군 해제면 창매리",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    }
-  ],
-  "resourceList": [
-    {
-      "id": "진화자원이력 목록이 없습니다.",
-      "location": "",
-      "startTime": "",
-      "endTime": "",
-      "resources": "",
-      "level": "",
-      "detailUrl": "-"
-    },
-    {
-      "id": "진화자원이력 목록이 없습니다.",
-      "location": "",
-      "startTime": "",
-      "endTime": "",
-      "resources": "",
-      "level": "",
-      "detailUrl": "-"
-    }
-  ],
+  "timestamp": "2026-09-07T06:07:41.191Z",
+  "main": {},
+  "fireList": [],
+  "resourceList": [],
   "maintenance": null
 }
