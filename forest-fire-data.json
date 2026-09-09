@@ -1,7 +1,90 @@
 {
-  "timestamp": "2026-09-09T11:53:56.753Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2026-09-09T16:06:02.907Z",
+  "main": {
+    "status": {
+      "extinguishing": "N/A",
+      "completed": "N/A",
+      "other": "N/A"
+    },
+    "currentFire": {
+      "grade": "--",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": ""
+        },
+        {
+          "label": "발생일시",
+          "value": ""
+        },
+        {
+          "label": "진화일시",
+          "value": ""
+        },
+        {
+          "label": "진행상태",
+          "value": ""
+        },
+        {
+          "label": "진화율",
+          "value": ""
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "2026-09-08 14:11",
+      "endTime": "2026-09-08 14:56",
+      "location": "대구광역시 달성군 논공읍 삼리리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-09-08 13:52",
+      "endTime": "2026-09-08 14:38",
+      "location": "경상남도 합천군 율곡면 와리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-09-06 11:10",
+      "endTime": "2026-09-06 12:55",
+      "location": "전남광주통합특별시 무안군 해제면 창매리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "진화자원이력 목록이 없습니다.",
+      "location": "",
+      "startTime": "",
+      "endTime": "",
+      "resources": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "id": "진화자원이력 목록이 없습니다.",
+      "location": "",
+      "startTime": "",
+      "endTime": "",
+      "resources": "",
+      "level": "",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
