@@ -1,7 +1,98 @@
 {
-  "timestamp": "2026-10-06T13:45:19.410Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2026-10-06T19:12:25.761Z",
+  "main": {
+    "status": {
+      "extinguishing": "N/A",
+      "completed": "N/A",
+      "other": "N/A"
+    },
+    "currentFire": {
+      "grade": "--",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": ""
+        },
+        {
+          "label": "발생일시",
+          "value": ""
+        },
+        {
+          "label": "진화일시",
+          "value": ""
+        },
+        {
+          "label": "진행상태",
+          "value": ""
+        },
+        {
+          "label": "진화율",
+          "value": ""
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "2026-10-06 16:39",
+      "endTime": "2026-10-06 17:30",
+      "location": "경상북도 봉화군 법전면 눌산리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-10-06 11:09",
+      "endTime": "2026-10-06 12:30",
+      "location": "경상남도 진주시 미천면 향양리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-10-04 00:51",
+      "endTime": "2026-10-04 01:09",
+      "location": "충청남도 당진시 석문면 교로리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-10-03 10:43",
+      "endTime": "2026-10-03 11:15",
+      "location": "충청남도 공주시 신풍면 입동리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "진화자원이력 목록이 없습니다.",
+      "location": "",
+      "startTime": "",
+      "endTime": "",
+      "resources": "",
+      "level": "",
+      "detailUrl": "-"
+    },
+    {
+      "id": "진화자원이력 목록이 없습니다.",
+      "location": "",
+      "startTime": "",
+      "endTime": "",
+      "resources": "",
+      "level": "",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
