@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-07T02:24:00.593Z",
+  "timestamp": "2026-10-07T09:05:23.064Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -42,10 +42,26 @@
   },
   "fireList": [
     {
+      "startTime": "2026-10-07 15:41",
+      "endTime": "2026-10-07 16:53",
+      "location": "충청남도 부여군 옥산면 상기리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-10-07 15:04",
+      "endTime": "2026-10-07 16:39",
+      "location": "전남광주통합특별시 장성군 북하면 덕재리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
       "startTime": "2026-10-07 10:10",
-      "endTime": "-",
+      "endTime": "2026-10-07 11:27",
       "location": "경상남도 진주시 명석면 남성리",
-      "status": "진화중",
+      "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
     },
@@ -85,6 +101,24 @@
   "resourceList": [
     {
       "id": "1",
+      "location": "경북 봉화 법전 눌산",
+      "startTime": "2026-10-06 16:39",
+      "endTime": "2026-10-06 18:50",
+      "resources": "헬기  7대   인력  142명   장비  59대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경남 진주 미천 향양",
+      "startTime": "2026-10-06 11:09",
+      "endTime": "2026-10-06 14:00",
+      "resources": "헬기  3대   인력  97명   장비  65대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
       "location": "충남 당진 석문 교로",
       "startTime": "2026-10-04 00:51",
       "endTime": "2026-10-04 01:09",
@@ -93,7 +127,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "2",
+      "id": "4",
       "location": "충남 공주 신풍 입동",
       "startTime": "2026-10-03 10:43",
       "endTime": "2026-10-03 11:15",
@@ -102,7 +136,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "5",
       "location": "울산 중  동",
       "startTime": "2026-09-23 10:51",
       "endTime": "2026-09-23 11:54",
@@ -111,7 +145,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "6",
       "location": "전남광주 순천 낙안 창녕",
       "startTime": "2026-09-20 16:19",
       "endTime": "2026-09-20 16:58",
@@ -120,7 +154,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "5",
+      "id": "7",
       "location": "경기 수원장안  이목",
       "startTime": "2026-09-20 11:56",
       "endTime": "2026-09-20 14:00",
@@ -129,7 +163,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "6",
+      "id": "8",
       "location": "충북 충주 중앙탑 탑평",
       "startTime": "2026-09-18 11:38",
       "endTime": "2026-09-18 14:58",
@@ -138,7 +172,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "7",
+      "id": "9",
       "location": "울산 울주 웅촌 대복",
       "startTime": "2026-09-17 08:45",
       "endTime": "2026-09-17 10:10",
@@ -147,29 +181,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "8",
+      "id": "10",
       "location": "경기 안산단원  화정",
       "startTime": "2026-09-16 14:32",
       "endTime": "2026-09-16 15:18",
       "resources": "헬기  0대   인력  102명   장비  16대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "경기 시흥  매화",
-      "startTime": "2026-09-16 13:08",
-      "endTime": "2026-09-16 14:00",
-      "resources": "헬기  0대   인력  50명   장비  16대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "경남 창원마산합포  예곡",
-      "startTime": "2026-09-16 08:48",
-      "endTime": "2026-09-16 09:49",
-      "resources": "헬기  0대   인력  5명   장비  0대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
