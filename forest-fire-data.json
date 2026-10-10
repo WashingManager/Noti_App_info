@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-10T02:40:26.382Z",
+  "timestamp": "2026-10-10T09:04:30.040Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -42,6 +42,14 @@
   },
   "fireList": [
     {
+      "startTime": "2026-10-10 13:47",
+      "endTime": "2026-10-10 14:19",
+      "location": "전북특별자치도 임실군 관촌면 병암리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
       "startTime": "2026-10-09 16:03",
       "endTime": "2026-10-09 18:20",
       "location": "울산광역시 북구 어물동",
@@ -75,9 +83,9 @@
     },
     {
       "startTime": "2026-10-09 01:55",
-      "endTime": "2026-10-09 06:55",
+      "endTime": "2026-10-10 11:41",
       "location": "전북특별자치도 무주군 무주읍 용포리",
-      "status": "진화중",
+      "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
     },
