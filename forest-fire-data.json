@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-15T05:49:13.668Z",
+  "timestamp": "2026-10-15T10:31:04.281Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -42,10 +42,18 @@
   },
   "fireList": [
     {
+      "startTime": "2026-10-15 16:58",
+      "endTime": "2026-10-15 18:07",
+      "location": "경상남도 밀양시 산내면 봉의리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
       "startTime": "2026-10-15 13:21",
-      "endTime": "2026-10-15 13:52",
+      "endTime": "2026-10-15 15:22",
       "location": "경상남도 하동군 양보면 지례리",
-      "status": "진화중",
+      "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
     },
@@ -109,14 +117,6 @@
       "startTime": "2026-10-09 16:03",
       "endTime": "2026-10-09 18:20",
       "location": "울산광역시 북구 어물동",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2026-10-09 15:53",
-      "endTime": "2026-10-09 16:49",
-      "location": "충청남도 서천군 기산면 월기리",
       "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
