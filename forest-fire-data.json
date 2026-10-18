@@ -1,7 +1,218 @@
 {
-  "timestamp": "2026-10-18T01:32:57.371Z",
-  "main": {},
-  "fireList": [],
-  "resourceList": [],
+  "timestamp": "2026-10-18T06:34:04.906Z",
+  "main": {
+    "status": {
+      "extinguishing": "N/A",
+      "completed": "N/A",
+      "other": "N/A"
+    },
+    "currentFire": {
+      "grade": "--",
+      "details": [
+        {
+          "label": "발생지주소",
+          "value": ""
+        },
+        {
+          "label": "발생일시",
+          "value": ""
+        },
+        {
+          "label": "진화일시",
+          "value": ""
+        },
+        {
+          "label": "진행상태",
+          "value": ""
+        },
+        {
+          "label": "진화율",
+          "value": ""
+        },
+        {
+          "label": "풍향",
+          "value": ""
+        },
+        {
+          "label": "풍속",
+          "value": ""
+        }
+      ]
+    }
+  },
+  "fireList": [
+    {
+      "startTime": "2026-10-15 16:58",
+      "endTime": "2026-10-15 18:07",
+      "location": "경상남도 밀양시 산내면 봉의리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-10-15 13:21",
+      "endTime": "2026-10-15 15:22",
+      "location": "경상남도 하동군 양보면 지례리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-10-15 12:29",
+      "endTime": "2026-10-15 13:52",
+      "location": "울산광역시 북구 어물동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-10-12 14:57",
+      "endTime": "2026-10-12 16:37",
+      "location": "경상북도 청도군 이서면 문수리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-10-12 12:15",
+      "endTime": "2026-10-12 13:13",
+      "location": "경상남도 밀양시 산내면 원서리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-10-11 16:21",
+      "endTime": "2026-10-11 16:48",
+      "location": "강원특별자치도 춘천시 남면 추곡리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-10-11 11:38",
+      "endTime": "2026-10-11 12:39",
+      "location": "경상남도 진주시 집현면 냉정리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-10-11 11:17",
+      "endTime": "2026-10-11 11:54",
+      "location": "경상북도 봉화군 물야면 개단리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-10-10 13:47",
+      "endTime": "2026-10-10 14:19",
+      "location": "전북특별자치도 임실군 관촌면 병암리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-10-09 16:03",
+      "endTime": "2026-10-09 18:20",
+      "location": "울산광역시 북구 어물동",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    }
+  ],
+  "resourceList": [
+    {
+      "id": "1",
+      "location": "경남 밀양 산내 봉의",
+      "startTime": "2026-10-15 16:58",
+      "endTime": "2026-10-15 18:07",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경남 하동 양보 지례",
+      "startTime": "2026-10-15 13:21",
+      "endTime": "2026-10-15 15:22",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "울산 북  어물",
+      "startTime": "2026-10-15 12:29",
+      "endTime": "2026-10-15 13:52",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
+      "location": "경북 청도 이서 문수",
+      "startTime": "2026-10-12 14:57",
+      "endTime": "2026-10-12 16:59",
+      "resources": "헬기  6대   인력  67명   장비  28대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "5",
+      "location": "경남 밀양 산내 원서",
+      "startTime": "2026-10-12 12:15",
+      "endTime": "2026-10-12 13:13",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "6",
+      "location": "강원 춘천 남사 추곡",
+      "startTime": "2026-10-11 16:21",
+      "endTime": "2026-10-11 17:48",
+      "resources": "헬기  0대   인력  61명   장비  58대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "7",
+      "location": "경남 진주 집현 냉정",
+      "startTime": "2026-10-11 11:38",
+      "endTime": "2026-10-11 13:52",
+      "resources": "헬기  2대   인력  68명   장비  66대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "8",
+      "location": "경북 봉화 물야 개단",
+      "startTime": "2026-10-11 11:17",
+      "endTime": "2026-10-11 12:30",
+      "resources": "헬기  4대   인력  85명   장비  24대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "9",
+      "location": "전북 임실 관촌 병암",
+      "startTime": "2026-10-10 13:47",
+      "endTime": "2026-10-10 18:00",
+      "resources": "헬기  2대   인력  33명   장비  12대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "10",
+      "location": "울산 북  어물",
+      "startTime": "2026-10-09 16:03",
+      "endTime": "2026-10-10 02:00",
+      "resources": "헬기  2대   인력  98명   장비  24대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    }
+  ],
   "maintenance": null
 }
