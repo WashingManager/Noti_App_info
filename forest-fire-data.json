@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-31T00:41:31.480Z",
+  "timestamp": "2026-10-31T06:20:49.009Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2026-10-31 13:15",
+      "endTime": "-",
+      "location": "강원특별자치도 정선군 임계면 덕암리",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2026-10-15 16:58",
       "endTime": "2026-10-15 18:07",
@@ -109,14 +117,6 @@
       "startTime": "2026-10-10 13:47",
       "endTime": "2026-10-10 14:19",
       "location": "전북특별자치도 임실군 관촌면 병암리",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2026-10-09 16:03",
-      "endTime": "2026-10-09 18:20",
-      "location": "울산광역시 북구 어물동",
       "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
