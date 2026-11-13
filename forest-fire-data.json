@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13T00:47:10.144Z",
+  "timestamp": "2026-11-13T07:27:33.732Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -42,10 +42,18 @@
   },
   "fireList": [
     {
+      "startTime": "2026-11-13 14:53",
+      "endTime": "2026-11-13 15:50",
+      "location": "전남광주통합특별시 구례군 토지면 문수리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
       "startTime": "2026-11-13 09:27",
-      "endTime": "-",
+      "endTime": "2026-11-13 10:40",
       "location": "경상북도 봉화군 재산면 갈산리",
-      "status": "진화중",
+      "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
     },
