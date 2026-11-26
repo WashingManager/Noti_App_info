@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-25T18:44:07.105Z",
+  "timestamp": "2026-11-26T01:57:50.302Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2026-11-26 03:48",
+      "endTime": "2026-11-26 04:48",
+      "location": "경기도 양평군 용문면 망능리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2026-11-22 14:06",
       "endTime": "2026-11-22 14:36",
@@ -109,14 +117,6 @@
       "startTime": "2026-11-13 09:27",
       "endTime": "2026-11-13 10:40",
       "location": "경상북도 봉화군 재산면 갈산리",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2026-11-06 16:37",
-      "endTime": "2026-11-06 17:19",
-      "location": "전북특별자치도 군산시 옥도면 야미도리",
       "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
