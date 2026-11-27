@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-26T19:54:46.933Z",
+  "timestamp": "2026-11-27T02:45:45.931Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -125,6 +125,33 @@
   "resourceList": [
     {
       "id": "1",
+      "location": "충남 태안 원북 방갈",
+      "startTime": "2026-11-26 17:04",
+      "endTime": "2026-11-26 17:50",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "2",
+      "location": "경기 안성 대덕 신령",
+      "startTime": "2026-11-26 15:41",
+      "endTime": "2026-11-26 16:11",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "3",
+      "location": "경기 양평 용문 망능",
+      "startTime": "2026-11-26 03:48",
+      "endTime": "2026-11-26 04:48",
+      "resources": "헬기  0대   인력  0명   장비  0대",
+      "level": "초기 대응",
+      "detailUrl": "-"
+    },
+    {
+      "id": "4",
       "location": "경기 포천 화현 지현",
       "startTime": "2026-11-22 14:06",
       "endTime": "2026-11-22 15:04",
@@ -133,7 +160,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "2",
+      "id": "5",
       "location": "강원 춘천  석사",
       "startTime": "2026-11-22 13:37",
       "endTime": "2026-11-22 15:00",
@@ -142,7 +169,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "3",
+      "id": "6",
       "location": "경기 양평 용수 연수",
       "startTime": "2026-11-22 10:14",
       "endTime": "2026-11-22 17:52",
@@ -151,7 +178,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "4",
+      "id": "7",
       "location": "경북 포항북 죽장 석계",
       "startTime": "2026-11-22 08:23",
       "endTime": "2026-11-22 15:00",
@@ -160,7 +187,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "5",
+      "id": "8",
       "location": "서울 은평  진관",
       "startTime": "2026-11-21 14:54",
       "endTime": "2026-11-21 15:26",
@@ -169,7 +196,7 @@
       "detailUrl": "-"
     },
     {
-      "id": "6",
+      "id": "9",
       "location": "경기 연천 전곡 양원",
       "startTime": "2026-11-20 15:28",
       "endTime": "2026-11-20 21:17",
@@ -178,38 +205,11 @@
       "detailUrl": "-"
     },
     {
-      "id": "7",
+      "id": "10",
       "location": "경기 파주 광탄 발랑",
       "startTime": "2026-11-15 18:38",
       "endTime": "2026-11-15 22:03",
       "resources": "헬기  0대   인력  62명   장비  23대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "8",
-      "location": "전남 구례 토지 문수",
-      "startTime": "2026-11-13 14:53",
-      "endTime": "2026-11-13 15:54",
-      "resources": "헬기  3대   인력  84명   장비  23대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "9",
-      "location": "경북 봉화 재산 갈산",
-      "startTime": "2026-11-13 09:27",
-      "endTime": "2026-11-13 17:00",
-      "resources": "헬기  8대   인력  125명   장비  35대",
-      "level": "초기 대응",
-      "detailUrl": "-"
-    },
-    {
-      "id": "10",
-      "location": "전북 군산 옥도 야미도",
-      "startTime": "2026-11-06 16:37",
-      "endTime": "2026-11-06 17:29",
-      "resources": "헬기  2대   인력  51명   장비  14대",
       "level": "초기 대응",
       "detailUrl": "-"
     }
