@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-28T11:10:55.593Z",
+  "timestamp": "2026-11-28T18:58:30.705Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -41,6 +41,14 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2026-11-28 22:50",
+      "endTime": "-",
+      "location": "인천광역시 옹진군 영흥면 내리",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2026-11-28 11:18",
       "endTime": "2026-11-28 12:14",
@@ -109,14 +117,6 @@
       "startTime": "2026-11-22 13:37",
       "endTime": "2026-11-22 14:13",
       "location": "강원특별자치도 춘천시 석사동",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2026-11-22 10:14",
-      "endTime": "2026-11-22 10:47",
-      "location": "경기도 양평군 용문면 연수리",
       "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
