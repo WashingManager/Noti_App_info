@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-27T20:16:34.860Z",
+  "timestamp": "2026-11-28T02:50:15.079Z",
   "main": {
     "status": {
       "extinguishing": "N/A",
@@ -41,6 +41,30 @@
     }
   },
   "fireList": [
+    {
+      "startTime": "2026-11-28 11:18",
+      "endTime": "-",
+      "location": "경기도 광주시 목현동",
+      "status": "진화중",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-11-28 09:10",
+      "endTime": "2026-11-28 09:41",
+      "location": "강원특별자치도 강릉시 성산면 위촌리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
+    {
+      "startTime": "2026-11-28 04:29",
+      "endTime": "2026-11-28 06:50",
+      "location": "경상북도 성주군 용암면 사곡리",
+      "status": "진화완료",
+      "level": "초기대응",
+      "detailUrl": "-"
+    },
     {
       "startTime": "2026-11-27 23:32",
       "endTime": "2026-11-28 01:30",
@@ -93,30 +117,6 @@
       "startTime": "2026-11-22 10:14",
       "endTime": "2026-11-22 10:47",
       "location": "경기도 양평군 용문면 연수리",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2026-11-22 08:23",
-      "endTime": "2026-11-22 10:05",
-      "location": "경상북도 포항시 북구 죽장면 석계리",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2026-11-21 14:54",
-      "endTime": "2026-11-21 15:26",
-      "location": "서울특별시 은평구 진관동",
-      "status": "진화완료",
-      "level": "초기대응",
-      "detailUrl": "-"
-    },
-    {
-      "startTime": "2026-11-20 15:28",
-      "endTime": "2026-11-20 19:20",
-      "location": "경기도 연천군 전곡읍 양원리",
       "status": "진화완료",
       "level": "초기대응",
       "detailUrl": "-"
